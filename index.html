@@ -1125,22 +1125,37 @@ jobs:
           autoSyncEnabled: state.autoSyncEnabled,
           lastSyncText: lastSyncText || document.getElementById("lastSyncTime")?.textContent || ""
         };
-        localStorage.setItem("milex_watch_2026_scheduler_v1", JSON.stringify(payload));
+        localStorage.setItem("milex_watch_2026_scheduler_v2", JSON.stringify(payload));
       } catch (e) {}
     }
 
+    function getNextGlobalCronTimestamp() {
+      const now = new Date();
+      const next = new Date(now.getTime());
+      next.setUTCMinutes(0, 0, 0);
+      const currentEvenHour = Math.floor(now.getUTCHours() / 2) * 2;
+      next.setUTCHours(currentEvenHour + 2);
+      return next.getTime();
+    }
+
     function restoreSchedulerFromStorage() {
+      // Default: align to real 2-hour UTC GitHub Actions cron (0 */2 * * *) so refreshing never resets
+      const globalNext = getNextGlobalCronTimestamp();
+      state.intervalSeconds = 7200;
+      state.remainingSeconds = Math.max(1, Math.round((globalNext - Date.now()) / 1000));
+      const selDefault = document.getElementById("intervalSelect");
+      if (selDefault) selDefault.value = "7200";
+
       try {
-        const raw = localStorage.getItem("milex_watch_2026_scheduler_v1");
+        const raw = localStorage.getItem("milex_watch_2026_scheduler_v2");
         if (!raw) {
-          saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000, "14/11/2026 09:58:00 GMT+7");
+          saveSchedulerToStorage(globalNext, "14/11/2026 09:58:00 GMT+7");
           return;
         }
         const saved = JSON.parse(raw);
         if (saved.intervalSeconds) {
           state.intervalSeconds = Number(saved.intervalSeconds);
-          const sel = document.getElementById("intervalSelect");
-          if (sel) sel.value = String(state.intervalSeconds);
+          if (selDefault) selDefault.value = String(state.intervalSeconds);
         }
         if (typeof saved.autoSyncEnabled === "boolean") {
           state.autoSyncEnabled = saved.autoSyncEnabled;
@@ -1154,7 +1169,6 @@ jobs:
           if (diffSec > 0) {
             state.remainingSeconds = diffSec;
           } else {
-            // Cycle elapsed while tab was closed -> reset to full cycle and sync
             state.remainingSeconds = state.intervalSeconds;
             saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000);
           }
