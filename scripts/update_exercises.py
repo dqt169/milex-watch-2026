@@ -1,4 +1,8 @@
 #!/usr/bin/env python3
+"""
+Script tự động tìm kiếm và cập nhật thông tin các cuộc diễn tập quân sự trên thế giới
+Chạy định kỳ 1-2 giờ/lần qua GitHub Actions hoặc Cronjob máy chủ.
+"""
 import json
 import os
 import re
@@ -9,7 +13,7 @@ from datetime import datetime, timezone
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "exercises.json")
 
 def fetch_gdelt_military_exercises():
-    query = '("military exercise" OR "joint exercise" OR "live-fire exercise" OR "naval drill")'
+    query = '("military exercise" OR "joint exercise" OR "live-fire exercise" OR "naval drill" OR "联合演习" OR "共同訓練" OR "연합훈련")'
     url = (
         "https://api.gdeltproject.org/api/v2/doc/doc?query="
         + urllib.parse.quote(query)
