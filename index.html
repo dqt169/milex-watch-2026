@@ -351,7 +351,7 @@
 
             <!-- Custom Search Query Input for Live Scan -->
             <div class="mt-3 flex flex-col sm:flex-row gap-2">
-              <input id="customCrawlerQuery" type="text" value="military exercise OR joint exercise OR live-fire drill 2026" class="flex-1 bg-slate-950 text-xs font-mono-code text-emerald-300 border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500" placeholder="Nhập từ khóa quét nguồn mở (VD: naval exercise 2026, air defense drill)..." />
+              <input id="customCrawlerQuery" type="text" value="military exercise OR joint exercise OR 联合演习 OR 共同訓練 OR 연합훈련" class="flex-1 bg-slate-950 text-xs font-mono-code text-emerald-300 border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500" placeholder="Nhập từ khóa quét nguồn mở (VD: naval exercise 2026, air defense drill)..." />
               <button id="runCustomCrawlBtn" type="button" class="px-3.5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white transition whitespace-nowrap">
                 Chạy Quét Nguồn Mở Ngay
               </button>
@@ -982,14 +982,23 @@ jobs:
     // 2. APPLICATION STATE
     // =========================================================================
     const INITIAL_SCAN_SOURCES = [
-      { id: "src-nato", name: "NATO Official Newsroom", url: "https://www.nato.int/en/news-and-events/articles/news/", region: "Châu Âu / NATO", enabled: true },
-      { id: "src-shape", name: "NATO SHAPE Exercises", url: "https://shape.nato.int/nato-exercises", region: "Châu Âu / NATO", enabled: true },
-      { id: "src-pacom", name: "U.S. Indo-Pacific Command", url: "https://www.pacom.mil/media/news/", region: "Ấn Độ Dương - TBD", enabled: true },
-      { id: "src-dow", name: "U.S. Department of War", url: "https://www.war.gov/News/", region: "Toàn cầu", enabled: true },
-      { id: "src-grosswald", name: "Großwald Defence Tracker", url: "https://www.grosswald.org/nato-exercises-2026/", region: "Châu Âu / NATO", enabled: true },
-      { id: "src-qdnd", name: "Báo Quân đội nhân dân", url: "https://www.qdnd.vn/quoc-phong-an-ninh/tin-tuc", region: "Việt Nam", enabled: true },
-      { id: "src-ani", name: "Australian Naval Institute", url: "https://navalinstitute.com.au/", region: "Ấn Độ Dương - TBD", enabled: true },
-      { id: "src-gdelt", name: "GDELT DOC 2.0 Live API", url: "https://api.gdeltproject.org/api/v2/doc/doc", region: "Toàn cầu", enabled: true }
+      { id: "src-nato", name: "NATO Official Newsroom", url: "https://www.nato.int/en/news-and-events/articles/news/", region: "Châu Âu • Tiếng Anh", enabled: true },
+      { id: "src-shape", name: "NATO SHAPE Exercises", url: "https://shape.nato.int/nato-exercises", region: "Châu Âu • Tiếng Anh", enabled: true },
+      { id: "src-pacom", name: "U.S. Indo-Pacific Command", url: "https://www.pacom.mil/media/news/", region: "Ấn Độ Dương - TBD • Anh", enabled: true },
+      { id: "src-dow", name: "U.S. Department of War", url: "https://www.war.gov/News/", region: "Toàn cầu • Tiếng Anh", enabled: true },
+      { id: "src-grosswald", name: "Großwald Defence Tracker", url: "https://www.grosswald.org/nato-exercises-2026/", region: "Châu Âu • Tiếng Anh", enabled: true },
+      { id: "src-qdnd", name: "Báo Quân đội nhân dân", url: "https://www.qdnd.vn/quoc-phong-an-ninh/tin-tuc", region: "Việt Nam • Tiếng Việt", enabled: true },
+      { id: "src-ani", name: "Australian Naval Institute", url: "https://navalinstitute.com.au/", region: "Ấn Độ Dương - TBD • Anh", enabled: true },
+      { id: "src-mod-cn", name: "Bộ Quốc phòng Trung Quốc (MND)", url: "http://eng.mod.gov.cn/2025xb/N/JE/index.html", region: "Trung Quốc • Trung/Anh", enabled: true },
+      { id: "src-81-cn", name: "中国军网 (81.cn Military)", url: "http://www.81.cn/ChinaMilitary/BILINGUAL/index.html", region: "Trung Quốc • Tiếng Trung", enabled: true },
+      { id: "src-focustw", name: "Focus Taiwan (CNA Defense)", url: "https://focustaiwan.tw/politics/202607130010", region: "Đài Loan • Trung/Anh", enabled: true },
+      { id: "src-mod-jp-js", name: "防衛省・統合幕僚監部 (BQP Nhật)", url: "https://www.mod.go.jp/js/activity/training.html", region: "Nhật Bản • Tiếng Nhật", enabled: true },
+      { id: "src-jmsdf-jp", name: "海上自衛隊 (JMSDF Training)", url: "https://www.mod.go.jp/msdf/operation/training/", region: "Nhật Bản • Tiếng Nhật", enabled: true },
+      { id: "src-japantimes", name: "The Japan Times (Defense)", url: "https://www.japantimes.co.jp/news/2026/10/30/japan/us-japan-joint-military-exercise/", region: "Nhật Bản • Nhật/Anh", enabled: true },
+      { id: "src-mnd-kr", name: "대한민국 국방부 (BQP Hàn Quốc)", url: "https://www.mnd.go.kr/", region: "Hàn Quốc • Tiếng Hàn", enabled: true },
+      { id: "src-yna-kr", name: "연합뉴스 (Yonhap Quốc phòng)", url: "https://www.yna.co.kr/view/AKR20261114005000079", region: "Hàn Quốc • Tiếng Hàn", enabled: true },
+      { id: "src-koreaherald", name: "The Korea Herald (Defense)", url: "https://www.koreaherald.com/article/10926698", region: "Hàn Quốc • Hàn/Anh", enabled: true },
+      { id: "src-gdelt", name: "GDELT DOC 2.0 Đa ngôn ngữ API", url: "https://api.gdeltproject.org/api/v2/doc/doc", region: "Toàn cầu • Đa ngôn ngữ", enabled: true }
     ];
 
     const state = {
@@ -1051,7 +1060,7 @@ jobs:
 
       // Load scan sources
       try {
-        const savedSources = localStorage.getItem("milex_watch_2026_sources_v1");
+        const savedSources = localStorage.getItem("milex_watch_2026_sources_v2");
         state.scanSources = savedSources ? JSON.parse(savedSources) : [...INITIAL_SCAN_SOURCES];
       } catch (e) {
         state.scanSources = [...INITIAL_SCAN_SOURCES];
@@ -1078,7 +1087,7 @@ jobs:
 
     function saveSourcesToStorage() {
       try {
-        localStorage.setItem("milex_watch_2026_sources_v1", JSON.stringify(state.scanSources));
+        localStorage.setItem("milex_watch_2026_sources_v2", JSON.stringify(state.scanSources));
       } catch (e) {}
     }
 
