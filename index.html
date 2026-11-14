@@ -1098,6 +1098,7 @@ jobs:
         state.isAdmin = sessionStorage.getItem("milex_watch_2026_is_admin") === "1";
       } catch (e) {}
 
+      restoreSchedulerFromStorage();
       applyAdminPermissionsUi();
       renderScanSources();
       addLog("INIT", `Khởi tạo hệ thống MilEx Watch 2026 thành công (${state.exercises.length} cuộc diễn tập${repoMergedCount > 0 ? `, gồm ${repoMergedCount} tin mới từ GitHub Actions` : ""}).`, "emerald");
@@ -1113,6 +1114,51 @@ jobs:
     function saveSourcesToStorage() {
       try {
         localStorage.setItem("milex_watch_2026_sources_v2", JSON.stringify(state.scanSources));
+      } catch (e) {}
+    }
+
+    function saveSchedulerToStorage(nextSyncTimestamp, lastSyncText) {
+      try {
+        const payload = {
+          intervalSeconds: state.intervalSeconds,
+          nextSyncAt: nextSyncTimestamp || (Date.now() + state.remainingSeconds * 1000),
+          autoSyncEnabled: state.autoSyncEnabled,
+          lastSyncText: lastSyncText || document.getElementById("lastSyncTime")?.textContent || ""
+        };
+        localStorage.setItem("milex_watch_2026_scheduler_v1", JSON.stringify(payload));
+      } catch (e) {}
+    }
+
+    function restoreSchedulerFromStorage() {
+      try {
+        const raw = localStorage.getItem("milex_watch_2026_scheduler_v1");
+        if (!raw) {
+          saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000, "14/11/2026 09:58:00 GMT+7");
+          return;
+        }
+        const saved = JSON.parse(raw);
+        if (saved.intervalSeconds) {
+          state.intervalSeconds = Number(saved.intervalSeconds);
+          const sel = document.getElementById("intervalSelect");
+          if (sel) sel.value = String(state.intervalSeconds);
+        }
+        if (typeof saved.autoSyncEnabled === "boolean") {
+          state.autoSyncEnabled = saved.autoSyncEnabled;
+        }
+        if (saved.lastSyncText) {
+          const lastEl = document.getElementById("lastSyncTime");
+          if (lastEl) lastEl.textContent = saved.lastSyncText;
+        }
+        if (saved.nextSyncAt) {
+          const diffSec = Math.round((Number(saved.nextSyncAt) - Date.now()) / 1000);
+          if (diffSec > 0) {
+            state.remainingSeconds = diffSec;
+          } else {
+            // Cycle elapsed while tab was closed -> reset to full cycle and sync
+            state.remainingSeconds = state.intervalSeconds;
+            saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000);
+          }
+        }
       } catch (e) {}
     }
 
@@ -1686,6 +1732,7 @@ jobs:
 
       state.scanCount += 1;
       state.remainingSeconds = state.intervalSeconds;
+      saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000, `${formatNowVi()} GMT+7`);
       updateCountdownUi();
 
       addLog(triggerSource, `Bắt đầu quét tự động với truy vấn: "${queryStr}"...`, "blue");
@@ -1754,7 +1801,9 @@ jobs:
         );
       }
 
-      document.getElementById("lastSyncTime").textContent = `${formatNowVi()} GMT+7`;
+      const newSyncText = `${formatNowVi()} GMT+7`;
+      document.getElementById("lastSyncTime").textContent = newSyncText;
+      saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000, newSyncText);
 
       if (syncBtn) syncBtn.disabled = false;
       if (syncText) syncText.textContent = "Quét & Cập nhật ngay";
@@ -2075,6 +2124,7 @@ jobs:
         const val = Number(e.target.value) || 5400;
         state.intervalSeconds = val;
         state.remainingSeconds = val;
+        saveSchedulerToStorage(Date.now() + val * 1000);
         updateCountdownUi();
         const labelText = e.target.options[e.target.selectedIndex].text;
         addLog("SCHEDULER", `Đã đổi chu kỳ tự động quét sang: ${labelText}.`, "blue");
@@ -2084,6 +2134,7 @@ jobs:
       // Toggle Auto-Sync button
       document.getElementById("toggleAutoBtn").addEventListener("click", (e) => {
         state.autoSyncEnabled = !state.autoSyncEnabled;
+        saveSchedulerToStorage(Date.now() + state.remainingSeconds * 1000);
         e.currentTarget.textContent = state.autoSyncEnabled ? "Tạm dừng" : "Tiếp tục";
         const badge = document.getElementById("liveBadge");
         if (state.autoSyncEnabled) {
