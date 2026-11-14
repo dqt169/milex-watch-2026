@@ -1028,7 +1028,20 @@ jobs:
     // =========================================================================
     // 3. STORAGE & INITIALIZATION
     // =========================================================================
-    function loadInitialState() {
+    async function fetchRepoExercisesJson() {
+      try {
+        const res = await fetch("./data/exercises.json?t=" + Date.now());
+        if (res.ok) {
+          const arr = await res.json();
+          if (Array.isArray(arr) && arr.length > 0) {
+            return arr;
+          }
+        }
+      } catch (e) {}
+      return [];
+    }
+
+    async function loadInitialState() {
       try {
         const saved = localStorage.getItem("milex_watch_2026_data_v1");
         if (saved) {
@@ -1043,6 +1056,18 @@ jobs:
         }
       } catch (e) {
         state.exercises = [...INITIAL_EXERCISES];
+      }
+
+      // Merge live auto-crawled exercises from GitHub Actions (./data/exercises.json)
+      const repoItems = await fetchRepoExercisesJson();
+      let repoMergedCount = 0;
+      if (repoItems.length > 0) {
+        repoItems.forEach((item) => {
+          if (item && item.id && !state.exercises.some((e) => e.id === item.id)) {
+            state.exercises.unshift(item);
+            repoMergedCount += 1;
+          }
+        });
       }
 
       // Ensure every exercise has an articles array for multiple original links
@@ -1075,7 +1100,7 @@ jobs:
 
       applyAdminPermissionsUi();
       renderScanSources();
-      addLog("INIT", "Khởi tạo hệ thống MilEx Watch 2026 thành công. Đã nạp 14 cuộc diễn tập quân sự xác thực.", "emerald");
+      addLog("INIT", `Khởi tạo hệ thống MilEx Watch 2026 thành công (${state.exercises.length} cuộc diễn tập${repoMergedCount > 0 ? `, gồm ${repoMergedCount} tin mới từ GitHub Actions` : ""}).`, "emerald");
       addLog("SCHEDULER", "Đã bật bộ lập lịch tự động tìm kiếm & cập nhật (Chu kỳ mặc định: 1.5 giờ / lần).", "blue");
     }
 
@@ -1665,6 +1690,23 @@ jobs:
 
       addLog(triggerSource, `Bắt đầu quét tự động với truy vấn: "${queryStr}"...`, "blue");
 
+      // 0. Sync latest auto-crawled feed from ./data/exercises.json (updated every 2h by GitHub Actions)
+      const latestRepoData = await fetchRepoExercisesJson();
+      let syncedFromRepo = 0;
+      latestRepoData.forEach((item) => {
+        if (item && item.id && !state.exercises.some((e) => e.id === item.id)) {
+          if (!Array.isArray(item.articles) || item.articles.length === 0) {
+            item.articles = [{ title: item.sourceTitle || "Bài viết nguồn", url: item.sourceUrl, publisher: item.sourceTitle || "OSINT" }];
+          }
+          state.exercises.unshift(item);
+          syncedFromRepo += 1;
+        }
+      });
+      if (syncedFromRepo > 0) {
+        saveExercisesToStorage();
+        addLog("GITHUB-SYNC", `Đã đồng bộ thêm ${syncedFromRepo} cuộc diễn tập mới từ máy chủ tự động quét 2 giờ/lần.`, "emerald");
+      }
+
       let externalFetchedCount = 0;
 
       // 1. Try querying Wikipedia Live CORS API for recent military exercises
@@ -2015,8 +2057,8 @@ jobs:
       }
     }
 
-    window.addEventListener("DOMContentLoaded", () => {
-      loadInitialState();
+    window.addEventListener("DOMContentLoaded", async () => {
+      await loadInitialState();
       renderAll();
       updateCountdownUi();
       startSchedulerLoop();
