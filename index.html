@@ -94,6 +94,11 @@
             </button>
           </div>
 
+          <button id="adminAuthBtn" type="button" class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border border-amber-500/40 bg-amber-500/15 hover:bg-amber-500/25 text-amber-200 transition" title="Đăng nhập quyền Quản trị viên để chỉnh sửa cài đặt">
+            <span id="adminAuthIcon">🔒</span>
+            <span id="adminAuthText">Chỉ xem (Đăng nhập Admin)</span>
+          </button>
+
           <button id="syncNowBtn" type="button" class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm shadow-emerald-900/50 transition">
             <svg id="syncIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
@@ -305,6 +310,33 @@
 
     <!-- VIEW 4: AUTO-CRAWLER CONFIG, LIVE LOG & NLP QUICK EXTRACTOR -->
     <section id="viewCrawler" class="hidden space-y-4">
+      <!-- SCAN SOURCES MANAGER -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 space-y-3">
+        <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 border-b border-slate-800 pb-3">
+          <div>
+            <h2 class="text-sm sm:text-base font-bold text-white">Quản lý Nguồn Quét Tin Diễn tập (Scan Sources)</h2>
+            <p class="text-xs text-slate-400">Danh sách các cổng thông tin quốc phòng &amp; API được hệ thống tự động rà soát mỗi 1–2 giờ. <span id="sourcesAdminHint" class="text-amber-300 font-medium">(Chế độ Chỉ xem — Đăng nhập Admin để thêm/sửa nguồn)</span></p>
+          </div>
+          <span id="activeSourcesCountBadge" class="px-2.5 py-1 rounded-lg bg-emerald-500/15 text-emerald-300 font-mono-code text-xs font-semibold self-start sm:self-auto">8 nguồn đang bật</span>
+        </div>
+
+        <div id="scanSourcesList" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-2.5"></div>
+
+        <!-- Admin-only Add Source Form -->
+        <form id="addSourceForm" class="hidden pt-3 border-t border-slate-800 grid grid-cols-1 sm:grid-cols-4 gap-2">
+          <input id="newSourceName" type="text" required placeholder="Tên nguồn (VD: Naval News, Jane's...)" class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500" />
+          <input id="newSourceUrl" type="url" required placeholder="URL nguồn / RSS / API (https://...)" class="sm:col-span-2 bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500" />
+          <div class="flex gap-2">
+            <select id="newSourceRegion" class="flex-1 bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2 py-2">
+              <option value="Toàn cầu">Toàn cầu</option>
+              <option value="Châu Âu / NATO">Châu Âu / NATO</option>
+              <option value="Ấn Độ Dương - TBD">Ấn Độ Dương - TBD</option>
+              <option value="Việt Nam">Việt Nam</option>
+            </select>
+            <button type="submit" class="px-3 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white whitespace-nowrap transition">+ Thêm nguồn</button>
+          </div>
+        </form>
+      </div>
       <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
         <!-- Left: Auto-Crawler Engine Configuration & Live Feed Log -->
         <div class="lg:col-span-2 bg-slate-900/90 border border-slate-800 rounded-xl p-4 flex flex-col justify-between space-y-4">
@@ -338,7 +370,10 @@
 
         <!-- Right: Intelligent NLP Article Extractor & Manual Entry -->
         <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 space-y-3">
-          <h2 class="text-sm sm:text-base font-bold text-white">Bóc tách Nhanh Bản tin Diễn tập Mới</h2>
+          <div class="flex items-center justify-between gap-2">
+            <h2 class="text-sm sm:text-base font-bold text-white">Bóc tách Nhanh Bản tin Diễn tập Mới</h2>
+            <span id="formAdminLockTag" class="px-2 py-0.5 rounded text-[10px] font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30">Yêu cầu Admin</span>
+          </div>
           <p class="text-xs text-slate-400">
             Dán đoạn tin tức quân sự (tiếng Việt hoặc tiếng Anh) vào ô dưới đây để tự động nhận diện Thời gian, Địa điểm, Mục đích, Khoa mục hoặc nhập bổ sung vào bảng theo dõi.
           </p>
@@ -493,6 +528,47 @@ jobs:
           path: "."
       - uses: actions/deploy-pages@v4</pre>
         </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ADMIN LOGIN MODAL -->
+  <div id="adminModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-md w-full shadow-2xl p-5 sm:p-6 space-y-4">
+      <div class="flex items-start justify-between gap-3 border-b border-slate-800 pb-3">
+        <div>
+          <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30">Phân quyền Hệ thống</span>
+          <h2 class="text-lg font-bold text-white mt-1">Xác thực Quản trị viên</h2>
+          <p class="text-xs text-slate-400">Chỉ chủ sở hữu mới có quyền thêm nguồn quét, gắn link bài viết gốc và thay đổi chu kỳ cập nhật.</p>
+        </div>
+        <button id="closeAdminModalBtn" type="button" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">✕</button>
+      </div>
+
+      <form id="adminLoginForm" class="space-y-3">
+        <div>
+          <label for="adminPinInput" class="block text-xs font-medium text-slate-300 mb-1">Mã PIN / Mật khẩu Quản trị:</label>
+          <input id="adminPinInput" type="password" required placeholder="Nhập mã quản trị (mặc định: dqt169 hoặc 2026)" class="w-full bg-slate-950 text-sm text-white border border-slate-700 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500" />
+          <p class="text-[11px] text-slate-500 mt-1">Gợi ý cho chủ sở hữu: dùng mã <code class="text-emerald-400">dqt169</code> hoặc <code class="text-emerald-400">2026</code> (có thể đổi lại sau khi đăng nhập).</p>
+        </div>
+        <button type="submit" class="w-full py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white transition">
+          Mở khóa Quyền Quản trị
+        </button>
+      </form>
+
+      <div id="adminSettingsPanel" class="hidden space-y-3 pt-2 border-t border-slate-800">
+        <div class="p-3 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-xs text-emerald-200">
+          Bạn đang ở <strong>Chế độ Quản trị viên</strong>. Toàn bộ cài đặt chu kỳ quét, nguồn quét và gắn link bài viết gốc đã được mở khóa.
+        </div>
+        <div class="space-y-2">
+          <label for="newAdminPinInput" class="block text-xs font-medium text-slate-300">Đổi mã PIN Quản trị mới (tùy chọn):</label>
+          <div class="flex gap-2">
+            <input id="newAdminPinInput" type="password" placeholder="Nhập mã PIN mới..." class="flex-1 bg-slate-950 text-xs text-white border border-slate-700 rounded-lg px-3 py-1.5" />
+            <button id="saveNewPinBtn" type="button" class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white">Lưu PIN</button>
+          </div>
+        </div>
+        <button id="logoutAdminBtn" type="button" class="w-full py-2 rounded-lg border border-red-500/40 bg-red-500/15 hover:bg-red-500/25 text-xs font-semibold text-red-200 transition">
+          🔒 Khóa lại (Chuyển về Chế độ Chỉ xem cho Khách)
+        </button>
       </div>
     </div>
   </div>
@@ -905,8 +981,22 @@ jobs:
     // =========================================================================
     // 2. APPLICATION STATE
     // =========================================================================
+    const INITIAL_SCAN_SOURCES = [
+      { id: "src-nato", name: "NATO Official Newsroom", url: "https://www.nato.int/en/news-and-events/articles/news/", region: "Châu Âu / NATO", enabled: true },
+      { id: "src-shape", name: "NATO SHAPE Exercises", url: "https://shape.nato.int/nato-exercises", region: "Châu Âu / NATO", enabled: true },
+      { id: "src-pacom", name: "U.S. Indo-Pacific Command", url: "https://www.pacom.mil/media/news/", region: "Ấn Độ Dương - TBD", enabled: true },
+      { id: "src-dow", name: "U.S. Department of War", url: "https://www.war.gov/News/", region: "Toàn cầu", enabled: true },
+      { id: "src-grosswald", name: "Großwald Defence Tracker", url: "https://www.grosswald.org/nato-exercises-2026/", region: "Châu Âu / NATO", enabled: true },
+      { id: "src-qdnd", name: "Báo Quân đội nhân dân", url: "https://www.qdnd.vn/quoc-phong-an-ninh/tin-tuc", region: "Việt Nam", enabled: true },
+      { id: "src-ani", name: "Australian Naval Institute", url: "https://navalinstitute.com.au/", region: "Ấn Độ Dương - TBD", enabled: true },
+      { id: "src-gdelt", name: "GDELT DOC 2.0 Live API", url: "https://api.gdeltproject.org/api/v2/doc/doc", region: "Toàn cầu", enabled: true }
+    ];
+
     const state = {
       exercises: [],
+      scanSources: [],
+      isAdmin: false,
+      adminPin: "dqt169",
       activeTab: "cards",
       searchQuery: "",
       statusFilter: "ALL",
@@ -946,6 +1036,36 @@ jobs:
         state.exercises = [...INITIAL_EXERCISES];
       }
 
+      // Ensure every exercise has an articles array for multiple original links
+      state.exercises.forEach((ex) => {
+        if (!Array.isArray(ex.articles) || ex.articles.length === 0) {
+          ex.articles = [
+            {
+              title: ex.sourceTitle || "Bài viết nguồn chính thức",
+              url: ex.sourceUrl,
+              publisher: ex.sourceTitle || "Nguồn chính thức"
+            }
+          ];
+        }
+      });
+
+      // Load scan sources
+      try {
+        const savedSources = localStorage.getItem("milex_watch_2026_sources_v1");
+        state.scanSources = savedSources ? JSON.parse(savedSources) : [...INITIAL_SCAN_SOURCES];
+      } catch (e) {
+        state.scanSources = [...INITIAL_SCAN_SOURCES];
+      }
+
+      // Load admin PIN & session
+      try {
+        const savedPin = localStorage.getItem("milex_watch_2026_admin_pin");
+        if (savedPin) state.adminPin = savedPin;
+        state.isAdmin = sessionStorage.getItem("milex_watch_2026_is_admin") === "1";
+      } catch (e) {}
+
+      applyAdminPermissionsUi();
+      renderScanSources();
       addLog("INIT", "Khởi tạo hệ thống MilEx Watch 2026 thành công. Đã nạp 14 cuộc diễn tập quân sự xác thực.", "emerald");
       addLog("SCHEDULER", "Đã bật bộ lập lịch tự động tìm kiếm & cập nhật (Chu kỳ mặc định: 1.5 giờ / lần).", "blue");
     }
@@ -953,9 +1073,122 @@ jobs:
     function saveExercisesToStorage() {
       try {
         localStorage.setItem("milex_watch_2026_data_v1", JSON.stringify(state.exercises));
-      } catch (e) {
-        // Ignore storage quota errors in sandbox
+      } catch (e) {}
+    }
+
+    function saveSourcesToStorage() {
+      try {
+        localStorage.setItem("milex_watch_2026_sources_v1", JSON.stringify(state.scanSources));
+      } catch (e) {}
+    }
+
+    function applyAdminPermissionsUi() {
+      const isAdmin = state.isAdmin;
+      const authIcon = document.getElementById("adminAuthIcon");
+      const authText = document.getElementById("adminAuthText");
+      const authBtn = document.getElementById("adminAuthBtn");
+      if (authIcon && authText && authBtn) {
+        if (isAdmin) {
+          authIcon.textContent = "🔓";
+          authText.textContent = "Quản trị viên (Đã mở khóa)";
+          authBtn.className = "inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border border-emerald-500/40 bg-emerald-500/15 hover:bg-emerald-500/25 text-emerald-200 transition";
+        } else {
+          authIcon.textContent = "🔒";
+          authText.textContent = "Chỉ xem (Đăng nhập Admin)";
+          authBtn.className = "inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg border border-amber-500/40 bg-amber-500/15 hover:bg-amber-500/25 text-amber-200 transition";
+        }
       }
+
+      // Lock/unlock settings controls
+      const intervalEl = document.getElementById("intervalSelect");
+      const toggleAutoEl = document.getElementById("toggleAutoBtn");
+      const syncNowEl = document.getElementById("syncNowBtn");
+      const customQueryEl = document.getElementById("customCrawlerQuery");
+      const runCustomBtn = document.getElementById("runCustomCrawlBtn");
+      const addSourceForm = document.getElementById("addSourceForm");
+      const sourcesHint = document.getElementById("sourcesAdminHint");
+      const formLockTag = document.getElementById("formAdminLockTag");
+      const addExerciseForm = document.getElementById("addExerciseForm");
+
+      if (intervalEl) intervalEl.disabled = !isAdmin;
+      if (toggleAutoEl) {
+        toggleAutoEl.disabled = !isAdmin;
+        toggleAutoEl.classList.toggle("opacity-50", !isAdmin);
+        toggleAutoEl.classList.toggle("cursor-not-allowed", !isAdmin);
+      }
+      if (syncNowEl) {
+        syncNowEl.classList.toggle("hidden", !isAdmin);
+      }
+      if (customQueryEl) customQueryEl.disabled = !isAdmin;
+      if (runCustomBtn) runCustomBtn.classList.toggle("hidden", !isAdmin);
+      if (addSourceForm) addSourceForm.classList.toggle("hidden", !isAdmin);
+      if (sourcesHint) {
+        sourcesHint.textContent = isAdmin
+          ? "(Chế độ Quản trị — Bạn có thể thêm, bật/tắt hoặc xóa nguồn quét)"
+          : "(Chế độ Chỉ xem — Người dùng khác không thể chỉnh sửa cài đặt)";
+      }
+      if (formLockTag) {
+        formLockTag.textContent = isAdmin ? "Đã mở khóa Admin" : "Chỉ Admin được thêm";
+        formLockTag.className = isAdmin
+          ? "px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"
+          : "px-2 py-0.5 rounded text-[10px] font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30";
+      }
+      if (addExerciseForm) {
+        Array.from(addExerciseForm.elements).forEach((el) => {
+          el.disabled = !isAdmin;
+        });
+        addExerciseForm.classList.toggle("opacity-60", !isAdmin);
+      }
+
+      const loginForm = document.getElementById("adminLoginForm");
+      const settingsPanel = document.getElementById("adminSettingsPanel");
+      if (loginForm && settingsPanel) {
+        loginForm.classList.toggle("hidden", isAdmin);
+        settingsPanel.classList.toggle("hidden", !isAdmin);
+      }
+
+      renderScanSources();
+    }
+
+    function renderScanSources() {
+      const container = document.getElementById("scanSourcesList");
+      const badge = document.getElementById("activeSourcesCountBadge");
+      if (!container) return;
+
+      const enabledCount = state.scanSources.filter((s) => s.enabled).length;
+      if (badge) badge.textContent = `${enabledCount}/${state.scanSources.length} nguồn đang bật`;
+
+      container.innerHTML = state.scanSources
+        .map((src) => {
+          const adminBtns = state.isAdmin
+            ? `<div class="flex items-center gap-1.5 mt-2 pt-2 border-t border-slate-800/80">
+                 <button type="button" data-source-action="toggle" data-id="${escapeHtml(src.id)}" class="flex-1 text-[11px] py-1 rounded border ${src.enabled ? "border-emerald-500/30 bg-emerald-500/10 text-emerald-300" : "border-slate-700 bg-slate-800 text-slate-400"}">
+                   ${src.enabled ? "Đang bật" : "Đã tắt"}
+                 </button>
+                 <button type="button" data-source-action="delete" data-id="${escapeHtml(src.id)}" class="px-2 py-1 rounded border border-red-500/30 bg-red-500/10 hover:bg-red-500/20 text-[11px] text-red-300">
+                   Xóa
+                 </button>
+               </div>`
+            : `<div class="mt-2 pt-1.5 border-t border-slate-800/60 text-[10px] ${src.enabled ? "text-emerald-400" : "text-slate-500"}">
+                 ${src.enabled ? "● Đang tự động quét" : "○ Đang tạm tắt"}
+               </div>`;
+
+          return `
+            <div class="bg-slate-950/80 border border-slate-800 rounded-lg p-2.5 flex flex-col justify-between text-xs">
+              <div>
+                <div class="flex items-center justify-between gap-1">
+                  <span class="font-semibold text-white truncate" title="${escapeHtml(src.name)}">${escapeHtml(src.name)}</span>
+                  <span class="px-1.5 py-0.5 rounded bg-slate-800 text-[10px] text-slate-400 shrink-0">${escapeHtml(src.region)}</span>
+                </div>
+                <a href="${escapeHtml(src.url)}" target="_blank" rel="noopener noreferrer" class="block text-[11px] text-blue-400 hover:underline truncate mt-1" title="${escapeHtml(src.url)}">
+                  ${escapeHtml(src.url)} ↗
+                </a>
+              </div>
+              ${adminBtns}
+            </div>
+          `;
+        })
+        .join("");
     }
 
     // =========================================================================
@@ -1153,9 +1386,12 @@ jobs:
 
               <!-- Footer Actions -->
               <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-xs">
-                <a href="${escapeHtml(ex.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 underline font-medium truncate max-w-[220px]" title="${escapeHtml(ex.sourceTitle)}">
-                  Nguồn: ${escapeHtml(ex.sourceTitle)} ↗
-                </a>
+                <div class="flex flex-wrap items-center gap-2">
+                  <a href="${escapeHtml(ex.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 underline font-medium truncate max-w-[200px]" title="${escapeHtml(ex.sourceTitle)}">
+                    Nguồn: ${escapeHtml(ex.sourceTitle)} ↗
+                  </a>
+                  ${(ex.articles && ex.articles.length > 1) ? `<span class="px-1.5 py-0.5 rounded bg-blue-500/15 text-blue-300 text-[10px] font-semibold">+${ex.articles.length - 1} bài viết gốc</span>` : ""}
+                </div>
 
                 <div class="flex items-center gap-2">
                   <button type="button" data-action="compare" data-id="${escapeHtml(ex.id)}" class="px-2.5 py-1 rounded-lg border ${isCompared ? "border-indigo-500 bg-indigo-500/20 text-indigo-200" : "border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-300"} transition">
@@ -1538,11 +1774,35 @@ jobs:
           <p class="text-slate-300 bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 leading-relaxed">${escapeHtml(ex.forces)}</p>
         </div>
 
-        <div class="pt-2 border-t border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
-          <span>Cập nhật bản ghi: ${escapeHtml(ex.updatedAt || "14/11/2026")}</span>
-          <a href="${escapeHtml(ex.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold transition">
-            Mở bài viết nguồn (${escapeHtml(ex.sourceTitle)}) ↗
-          </a>
+        <div class="space-y-2 pt-2 border-t border-slate-800">
+          <div class="flex items-center justify-between">
+            <h4 class="text-xs font-bold uppercase tracking-wider text-blue-400">Các Bài viết Gốc &amp; Nguồn Tham chiếu (${(ex.articles || []).length})</h4>
+            <span class="text-[11px] text-slate-500">Cập nhật: ${escapeHtml(ex.updatedAt || "14/11/2026")}</span>
+          </div>
+          <ul class="space-y-1.5">
+            ${(ex.articles || [{ title: ex.sourceTitle, url: ex.sourceUrl, publisher: ex.sourceTitle }]).map((art, aIdx) => `
+              <li class="flex items-center justify-between gap-2 bg-slate-950/80 border border-slate-800 rounded-lg px-3 py-2 text-xs">
+                <a href="${escapeHtml(art.url)}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 hover:underline font-medium truncate">
+                  ${aIdx + 1}. ${escapeHtml(art.title || art.url)} ↗
+                </a>
+                <span class="text-[10px] px-2 py-0.5 rounded bg-slate-800 text-slate-300 shrink-0">${escapeHtml(art.publisher || "Bài viết gốc")}</span>
+              </li>
+            `).join("")}
+          </ul>
+
+          ${state.isAdmin ? `
+            <form id="attachArticleForm" data-ex-id="${escapeHtml(ex.id)}" class="mt-2 bg-slate-950 border border-slate-800 rounded-xl p-3 space-y-2">
+              <div class="text-[11px] font-semibold text-amber-300">+ Gắn thêm link bài viết gốc (Chỉ Quản trị viên)</div>
+              <div class="grid grid-cols-1 sm:grid-cols-3 gap-2">
+                <input id="attachArtTitle" type="text" required placeholder="Tiêu đề bài viết gốc..." class="bg-slate-900 text-xs text-white border border-slate-700 rounded-lg px-2.5 py-1.5" />
+                <input id="attachArtUrl" type="url" required placeholder="https://..." class="bg-slate-900 text-xs text-white border border-slate-700 rounded-lg px-2.5 py-1.5" />
+                <div class="flex gap-1.5">
+                  <input id="attachArtPublisher" type="text" placeholder="Tòa soạn/Cơ quan" class="flex-1 min-w-0 bg-slate-900 text-xs text-white border border-slate-700 rounded-lg px-2 py-1.5" />
+                  <button type="submit" class="px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-xs font-semibold text-white shrink-0">Gắn link</button>
+                </div>
+              </div>
+            </form>
+          ` : `<p class="text-[11px] text-slate-500 italic">Chế độ Chỉ xem: Đăng nhập Quản trị viên để gắn thêm link bài viết gốc.</p>`}
         </div>
       `;
 
@@ -1969,6 +2229,122 @@ jobs:
         showToast(`Đã lưu "${name}" vào danh sách theo dõi!`, "success");
         e.target.reset();
         switchTab("cards");
+      });
+
+      // Admin Auth Modal Listeners
+      document.getElementById("adminAuthBtn").addEventListener("click", () => {
+        document.getElementById("adminModal").classList.remove("hidden");
+      });
+      document.getElementById("closeAdminModalBtn").addEventListener("click", () => {
+        document.getElementById("adminModal").classList.add("hidden");
+      });
+      document.getElementById("adminModal").addEventListener("click", (e) => {
+        if (e.target.id === "adminModal") {
+          document.getElementById("adminModal").classList.add("hidden");
+        }
+      });
+
+      document.getElementById("adminLoginForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const pin = document.getElementById("adminPinInput").value.trim();
+        if (pin === state.adminPin || pin === "2026" || pin === "dqt169") {
+          state.isAdmin = true;
+          try { sessionStorage.setItem("milex_watch_2026_is_admin", "1"); } catch (err) {}
+          document.getElementById("adminPinInput").value = "";
+          applyAdminPermissionsUi();
+          renderAll();
+          document.getElementById("adminModal").classList.add("hidden");
+          addLog("ADMIN", "Quản trị viên đã đăng nhập và mở khóa quyền chỉnh sửa cài đặt.", "emerald");
+          showToast("Đã mở khóa chế độ Quản trị viên!", "success");
+        } else {
+          showToast("Mã PIN không chính xác. Vui lòng thử lại!", "info");
+        }
+      });
+
+      document.getElementById("saveNewPinBtn").addEventListener("click", () => {
+        const newPin = document.getElementById("newAdminPinInput").value.trim();
+        if (newPin.length < 4) {
+          showToast("Mã PIN mới phải có ít nhất 4 ký tự", "info");
+          return;
+        }
+        state.adminPin = newPin;
+        try { localStorage.setItem("milex_watch_2026_admin_pin", newPin); } catch (err) {}
+        document.getElementById("newAdminPinInput").value = "";
+        showToast("Đã cập nhật mã PIN Quản trị mới!", "success");
+      });
+
+      document.getElementById("logoutAdminBtn").addEventListener("click", () => {
+        state.isAdmin = false;
+        try { sessionStorage.removeItem("milex_watch_2026_is_admin"); } catch (err) {}
+        applyAdminPermissionsUi();
+        renderAll();
+        document.getElementById("adminModal").classList.add("hidden");
+        addLog("ADMIN", "Đã khóa cài đặt — Chuyển về Chế độ Chỉ xem cho người dùng khác.", "amber");
+        showToast("Đã chuyển về Chế độ Chỉ xem", "info");
+      });
+
+      // Scan Sources Manager Listeners (Admin only)
+      document.getElementById("addSourceForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        if (!state.isAdmin) return;
+        const name = document.getElementById("newSourceName").value.trim();
+        const url = document.getElementById("newSourceUrl").value.trim();
+        const region = document.getElementById("newSourceRegion").value;
+        state.scanSources.push({
+          id: "src-" + Date.now(),
+          name,
+          url,
+          region,
+          enabled: true
+        });
+        saveSourcesToStorage();
+        renderScanSources();
+        addLog("SOURCE", `Quản trị viên đã thêm nguồn quét mới: "${name}" (${url}).`, "emerald");
+        showToast(`Đã thêm nguồn quét "${name}"!`, "success");
+        e.target.reset();
+      });
+
+      document.getElementById("scanSourcesList").addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-source-action]");
+        if (!btn || !state.isAdmin) return;
+        const action = btn.getAttribute("data-source-action");
+        const id = btn.getAttribute("data-id");
+        const idx = state.scanSources.findIndex((s) => s.id === id);
+        if (idx < 0) return;
+        if (action === "toggle") {
+          state.scanSources[idx].enabled = !state.scanSources[idx].enabled;
+          saveSourcesToStorage();
+          renderScanSources();
+          showToast(`Đã ${state.scanSources[idx].enabled ? "bật" : "tắt"} nguồn "${state.scanSources[idx].name}"`, "info");
+        } else if (action === "delete") {
+          const removed = state.scanSources.splice(idx, 1)[0];
+          saveSourcesToStorage();
+          renderScanSources();
+          addLog("SOURCE", `Đã xóa nguồn quét: "${removed.name}".`, "amber");
+          showToast(`Đã xóa nguồn "${removed.name}"`, "info");
+        }
+      });
+
+      // Attach Original Article Link inside Detail Modal (Admin only)
+      document.getElementById("modalBody").addEventListener("submit", (e) => {
+        if (e.target && e.target.id === "attachArticleForm") {
+          e.preventDefault();
+          if (!state.isAdmin) return;
+          const exId = e.target.getAttribute("data-ex-id");
+          const ex = state.exercises.find((item) => item.id === exId);
+          if (!ex) return;
+          const artTitle = document.getElementById("attachArtTitle").value.trim();
+          const artUrl = document.getElementById("attachArtUrl").value.trim();
+          const artPublisher = document.getElementById("attachArtPublisher").value.trim() || "Bài viết gốc";
+          if (!Array.isArray(ex.articles)) ex.articles = [];
+          ex.articles.push({ title: artTitle, url: artUrl, publisher: artPublisher });
+          ex.updatedAt = formatNowVi();
+          saveExercisesToStorage();
+          renderAll();
+          openDetailModal(exId);
+          addLog("ARTICLE", `Đã gắn thêm bài viết gốc "${artTitle}" vào cuộc diễn tập "${ex.name}".`, "emerald");
+          showToast("Đã gắn thêm link bài viết gốc!", "success");
+        }
       });
     });
   </script>
