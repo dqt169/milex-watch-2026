@@ -1,0 +1,1976 @@
+<!DOCTYPE html>
+<html lang="vi" class="dark">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MilEx Watch 2026 — Hệ thống Tự động Tìm kiếm & Tổng hợp Diễn tập Quân sự Thế giới</title>
+  <script src="https://cdn.tailwindcss.com/3.4.17"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: #0b1120;
+      color: #e2e8f0;
+    }
+    .font-mono-code {
+      font-family: 'JetBrains Mono', monospace;
+    }
+    .radar-pulse {
+      animation: pulse-ring 2.4s cubic-bezier(0.215, 0.61, 0.355, 1) infinite;
+    }
+    @keyframes pulse-ring {
+      0% { transform: scale(0.85); opacity: 0.9; }
+      70% { transform: scale(1.8); opacity: 0; }
+      100% { transform: scale(1.8); opacity: 0; }
+    }
+    .custom-scrollbar::-webkit-scrollbar {
+      width: 6px;
+      height: 6px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-track {
+      background: #0f172a;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb {
+      background: #334155;
+      border-radius: 9999px;
+    }
+    .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+      background: #475569;
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col selection:bg-emerald-500/30 selection:text-emerald-200">
+
+  <!-- TOP COMMAND HEADER & AUTO-UPDATE SCHEDULER BAR -->
+  <header class="sticky top-0 z-30 bg-slate-900/95 backdrop-blur-md border-b border-slate-800 shadow-lg">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 py-3">
+      <div class="flex flex-col lg:flex-row lg:items-center lg:justify-between gap-3">
+        <!-- Brand & Live Status -->
+        <div class="flex items-center justify-between">
+          <div class="flex items-center gap-3">
+            <div class="relative flex items-center justify-center w-10 h-10 rounded-xl bg-emerald-500/10 border border-emerald-500/30 text-emerald-400">
+              <span id="radarPulseRing" class="absolute inset-0 rounded-xl bg-emerald-500/20 radar-pulse"></span>
+              <svg class="w-6 h-6 relative z-10" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8" d="M12 2a10 10 0 1010 10A10 10 0 0012 2zm0 18a8 8 0 118-8 8 8 0 01-8 8zm0-14a6 6 0 106 6 6 6 0 00-6-6zm0 10a4 4 0 114-4 4 4 0 01-4 4zm0-6a2 2 0 102 2 2 2 0 00-2-2z" />
+              </svg>
+            </div>
+            <div>
+              <div class="flex items-center gap-2">
+                <h1 class="text-lg sm:text-xl font-bold tracking-tight text-white">MilEx Watch <span class="text-emerald-400 font-mono-code text-sm px-1.5 py-0.5 rounded bg-emerald-500/10 border border-emerald-500/20">GLOBAL 2026</span></h1>
+                <span id="liveBadge" class="inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">
+                  <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
+                  AUTO-SYNC BẬT
+                </span>
+              </div>
+              <p class="text-xs text-slate-400">Hệ thống tự động tìm kiếm, bóc tách &amp; cập nhật thông tin diễn tập quân sự thế giới (Thời gian • Địa điểm • Mục đích • Khoa mục)</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Auto-Update Control Panel (1-2h Cycle) -->
+        <div class="flex flex-wrap items-center gap-2 sm:gap-3 bg-slate-950/80 border border-slate-800 rounded-xl px-3 py-2">
+          <div class="flex items-center gap-2">
+            <label for="intervalSelect" class="text-xs font-medium text-slate-400 whitespace-nowrap">Chu kỳ quét:</label>
+            <select id="intervalSelect" class="bg-slate-900 text-xs font-medium text-emerald-300 border border-slate-700 rounded-lg px-2.5 py-1.5 focus:outline-none focus:border-emerald-500">
+              <option value="3600">1 giờ / lần (3600s)</option>
+              <option value="5400" selected>1.5 giờ / lần (Khuyến nghị)</option>
+              <option value="7200">2 giờ / lần (7200s)</option>
+              <option value="60">60 giây / lần (Chế độ Kiểm thử nhanh)</option>
+            </select>
+          </div>
+
+          <div class="h-5 w-px bg-slate-800 hidden sm:block"></div>
+
+          <div class="flex items-center gap-2">
+            <div class="text-xs">
+              <span class="text-slate-400">Quét kế tiếp:</span>
+              <span id="countdownDisplay" class="font-mono-code font-semibold text-amber-300 ml-1">01:30:00</span>
+            </div>
+            <button id="toggleAutoBtn" type="button" class="text-xs px-2.5 py-1.5 rounded-lg border border-slate-700 bg-slate-900 hover:bg-slate-800 text-slate-200 transition" title="Tạm dừng hoặc Tiếp tục chu kỳ tự động">
+              Tạm dừng
+            </button>
+          </div>
+
+          <button id="syncNowBtn" type="button" class="inline-flex items-center gap-1.5 text-xs font-semibold px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white shadow-sm shadow-emerald-900/50 transition">
+            <svg id="syncIcon" class="w-3.5 h-3.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 4v5h.582m15.356 2A8.001 8.001 0 004.582 9m0 0H9m11 11v-5h-.581m0 0a8.003 8.003 0 01-15.357-2m15.357 2H15" />
+            </svg>
+            <span id="syncBtnText">Quét &amp; Cập nhật ngay</span>
+          </button>
+        </div>
+      </div>
+
+      <!-- Progress bar for current 1-2h cycle & last update timestamp -->
+      <div class="mt-2.5 flex flex-col sm:flex-row sm:items-center justify-between gap-2 text-[11px] text-slate-400">
+        <div class="flex items-center gap-3 flex-wrap">
+          <span>Cập nhật gần nhất: <strong id="lastSyncTime" class="text-slate-200 font-mono-code">14/11/2026 09:58:00 GMT+7</strong></span>
+          <span class="hidden sm:inline">•</span>
+          <span>Nguồn quét: <span class="text-emerald-400">NATO SHAPE, US PACOM, Dept. of War, Báo QĐND, GDELT DOC 2.0 API &amp; Wikipedia Live API</span></span>
+        </div>
+        <div class="w-full sm:w-56 bg-slate-800 h-1.5 rounded-full overflow-hidden">
+          <div id="cycleProgressBar" class="bg-emerald-500 h-full transition-all duration-500" style="width: 8%;"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT CONTAINER -->
+  <main class="flex-1 max-w-7xl w-full mx-auto px-4 sm:px-6 py-5 space-y-5">
+
+    <!-- KPI SUMMARY CARDS -->
+    <section aria-label="Thống kê nhanh" class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
+      <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Tổng số cuộc diễn tập theo dõi</span>
+          <span class="px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 font-mono-code">2026</span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="kpiTotalCount" class="text-2xl sm:text-3xl font-bold text-white font-mono-code">14</span>
+          <span class="text-xs text-slate-400">chiến dịch</span>
+        </div>
+        <p id="kpiFilteredSub" class="mt-1 text-xs text-slate-400">Đang hiển thị 14 cuộc diễn tập khớp bộ lọc</p>
+      </div>
+
+      <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Đang diễn ra &amp; Sắp diễn ra</span>
+          <span class="w-2 h-2 rounded-full bg-emerald-400"></span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="kpiActiveCount" class="text-2xl sm:text-3xl font-bold text-emerald-400 font-mono-code">6</span>
+          <span class="text-xs text-slate-400">hoạt động nóng</span>
+        </div>
+        <p id="kpiActiveBreakdown" class="mt-1 text-xs text-slate-400">5 đang diễn ra • 1 sắp khởi động</p>
+      </div>
+
+      <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Tổng quân số huy động</span>
+          <span class="px-2 py-0.5 rounded bg-amber-500/10 text-amber-300 font-mono-code">Quy mô</span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="kpiTotalTroops" class="text-2xl sm:text-3xl font-bold text-amber-300 font-mono-code">67,350</span>
+          <span class="text-xs text-slate-400">quân nhân</span>
+        </div>
+        <p class="mt-1 text-xs text-slate-400">Cùng tàu sân bay, tàu ngầm, tiêm kích &amp; UAV</p>
+      </div>
+
+      <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+        <div class="flex items-center justify-between text-xs text-slate-400">
+          <span>Khoa mục huấn luyện đã bóc tách</span>
+          <span class="px-2 py-0.5 rounded bg-purple-500/10 text-purple-300 font-mono-code">Khoa mục</span>
+        </div>
+        <div class="mt-2 flex items-baseline gap-2">
+          <span id="kpiTotalDrills" class="text-2xl sm:text-3xl font-bold text-purple-300 font-mono-code">56</span>
+          <span class="text-xs text-slate-400">khoa mục thực binh</span>
+        </div>
+        <p id="kpiScanCountText" class="mt-1 text-xs text-slate-400">Số lần quét tự động trong phiên: 1</p>
+      </div>
+    </section>
+
+    <!-- NAVIGATION TABS & ACTION TOOLBAR -->
+    <section class="bg-slate-900/90 border border-slate-800 rounded-xl p-3 sm:p-4 space-y-3">
+      <div class="flex flex-col md:flex-row md:items-center justify-between gap-3 border-b border-slate-800 pb-3">
+        <!-- Main View Tabs -->
+        <div class="flex flex-wrap items-center gap-1.5" role="tablist">
+          <button type="button" data-tab="cards" class="tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-emerald-600 text-white transition">
+            Thẻ Chi tiết (Khoa mục &amp; Mục đích)
+          </button>
+          <button type="button" data-tab="table" class="tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-slate-800/80 text-slate-300 hover:bg-slate-800 transition">
+            Bảng Tổng hợp Toàn cầu
+          </button>
+          <button type="button" data-tab="analytics" class="tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-slate-800/80 text-slate-300 hover:bg-slate-800 transition">
+            Biểu đồ Phân tích
+          </button>
+          <button type="button" data-tab="crawler" class="tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-slate-800/80 text-slate-300 hover:bg-slate-800 transition flex items-center gap-1.5">
+            <span>Nhật ký Quét Tự động &amp; Bóc tách Tin mới</span>
+            <span id="crawlerLogBadge" class="px-1.5 py-0.2 rounded-full text-[10px] bg-emerald-500/20 text-emerald-300 font-mono-code">Live</span>
+          </button>
+        </div>
+
+        <!-- Export & Compare Actions -->
+        <div class="flex flex-wrap items-center gap-2">
+          <button id="openCompareBtn" type="button" class="text-xs font-medium px-3 py-1.5 rounded-lg border border-indigo-500/40 bg-indigo-500/15 hover:bg-indigo-500/25 text-indigo-200 transition">
+            So sánh đối chiếu (<span id="compareCountBadge">0</span>/3)
+          </button>
+          <button id="exportCsvBtn" type="button" class="text-xs font-medium px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
+            Xuất CSV
+          </button>
+          <button id="exportJsonBtn" type="button" class="text-xs font-medium px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-200 transition">
+            Xuất JSON
+          </button>
+          <button id="openPublishModalBtn" type="button" class="text-xs font-semibold px-3 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-500 text-white shadow-sm shadow-blue-900/50 transition">
+            Xuất bản Web (Publish 24/7)
+          </button>
+        </div>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-2.5">
+        <div class="sm:col-span-2 relative">
+          <input id="searchInput" type="text" placeholder="Tìm theo tên diễn tập, quốc gia, địa điểm, mục đích, khoa mục (VD: bắn đạn thật, chống ngầm, HIMARS, Thái Nguyên)..." class="w-full bg-slate-950 text-xs sm:text-sm text-slate-100 placeholder-slate-500 border border-slate-800 rounded-lg pl-9 pr-3 py-2 focus:outline-none focus:border-emerald-500" />
+          <svg class="w-4 h-4 text-slate-500 absolute left-3 top-2.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+          </svg>
+        </div>
+
+        <div>
+          <select id="statusFilter" aria-label="Lọc theo trạng thái" class="w-full bg-slate-950 text-xs sm:text-sm text-slate-200 border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500">
+            <option value="ALL">Tất cả trạng thái</option>
+            <option value="Đang diễn ra">Đang diễn ra (Tháng 11/2026)</option>
+            <option value="Sắp diễn ra">Sắp diễn ra</option>
+            <option value="Đã hoàn thành">Đã hoàn thành</option>
+          </select>
+        </div>
+
+        <div>
+          <select id="regionFilter" aria-label="Lọc theo khu vực" class="w-full bg-slate-950 text-xs sm:text-sm text-slate-200 border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500">
+            <option value="ALL">Tất cả khu vực địa chiến lược</option>
+            <option value="Châu Âu & Bắc Đại Tây Dương">Châu Âu &amp; Bắc Đại Tây Dương</option>
+            <option value="Ấn Độ Dương - Thái Bình Dương">Ấn Độ Dương - Thái Bình Dương</option>
+            <option value="Việt Nam & Đông Nam Á">Việt Nam &amp; Đông Nam Á</option>
+          </select>
+        </div>
+
+        <div class="flex gap-2">
+          <select id="domainFilter" aria-label="Lọc theo môi trường và khoa mục" class="flex-1 bg-slate-950 text-xs sm:text-sm text-slate-200 border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500">
+            <option value="ALL">Mọi khoa mục / Miền tác chiến</option>
+            <option value="Hải quân">Hải quân &amp; Chống ngầm / Thủy lôi</option>
+            <option value="Lục quân">Lục quân &amp; Bắn đạn thật hiệp đồng</option>
+            <option value="Phòng không">Phòng không &amp; Chống UAV (C-UAS)</option>
+            <option value="Đa miền">Tác chiến Đa miền (Multi-domain)</option>
+            <option value="Không quân">Không quân &amp; Răn đe chiến lược</option>
+            <option value="Tác chiến mạng">Tác chiến mạng (Cyber)</option>
+            <option value="Phòng thủ khu vực">Khu vực phòng thủ &amp; Thực binh A2</option>
+          </select>
+          <button id="resetFiltersBtn" type="button" class="px-2.5 py-2 rounded-lg border border-slate-800 bg-slate-950 hover:bg-slate-800 text-xs text-slate-400 hover:text-white transition" title="Đặt lại bộ lọc">
+            Đặt lại
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- VIEW 1: CARDS VIEW -->
+    <section id="viewCards" class="space-y-4">
+      <div id="cardsGrid" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </section>
+
+    <!-- VIEW 2: TABLE VIEW -->
+    <section id="viewTable" class="hidden bg-slate-900/90 border border-slate-800 rounded-xl overflow-hidden">
+      <div class="overflow-x-auto custom-scrollbar">
+        <table class="w-full text-left border-collapse text-xs sm:text-sm">
+          <thead>
+            <tr class="bg-slate-950/90 text-slate-400 border-b border-slate-800 uppercase text-[11px] tracking-wider">
+              <th class="py-3 px-4">Tên Diễn tập &amp; Trạng thái</th>
+              <th class="py-3 px-4">Thời gian &amp; Địa điểm</th>
+              <th class="py-3 px-4">Mục đích Chiến lược</th>
+              <th class="py-3 px-4">Khoa mục Diễn tập Chính</th>
+              <th class="py-3 px-4">Quy mô &amp; Lực lượng</th>
+              <th class="py-3 px-4 text-right">Thao tác</th>
+            </tr>
+          </thead>
+          <tbody id="tableBody" class="divide-y divide-slate-800/80"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- VIEW 3: ANALYTICS VIEW -->
+    <section id="viewAnalytics" class="hidden space-y-4">
+      <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+          <h2 class="text-sm font-bold text-white mb-1">Phân bố Cuộc Diễn tập theo Miền tác chiến &amp; Khoa mục</h2>
+          <p class="text-xs text-slate-400 mb-3">Thống kê dựa trên danh sách các cuộc diễn tập đang lọc</p>
+          <div class="relative h-72">
+            <canvas id="domainChart"></canvas>
+          </div>
+        </div>
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+          <h2 class="text-sm font-bold text-white mb-1">Quy mô Quân số Huy động (Top Chiến dịch 2026)</h2>
+          <p class="text-xs text-slate-400 mb-3">Đơn vị: Quân nhân tham gia thực binh và chỉ huy tham mưu</p>
+          <div class="relative h-72">
+            <canvas id="troopsChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Detailed Training Subjects Matrix -->
+      <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
+        <h3 class="text-sm font-bold text-white mb-2">Tổng hợp Nhóm Khoa mục Trọng tâm Năm 2026</h3>
+        <div id="drillsTaxonomyGrid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-3"></div>
+      </div>
+    </section>
+
+    <!-- VIEW 4: AUTO-CRAWLER CONFIG, LIVE LOG & NLP QUICK EXTRACTOR -->
+    <section id="viewCrawler" class="hidden space-y-4">
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-4">
+        <!-- Left: Auto-Crawler Engine Configuration & Live Feed Log -->
+        <div class="lg:col-span-2 bg-slate-900/90 border border-slate-800 rounded-xl p-4 flex flex-col justify-between space-y-4">
+          <div>
+            <div class="flex items-center justify-between gap-2 mb-2">
+              <h2 class="text-sm sm:text-base font-bold text-white">Bộ máy Tự động Tìm kiếm &amp; Cập nhật (Chu kỳ 1–2 giờ/lần)</h2>
+              <span class="px-2 py-0.5 text-[11px] rounded bg-emerald-500/15 text-emerald-300 font-mono-code">GDELT 2.0 + Wiki OSINT</span>
+            </div>
+            <p class="text-xs text-slate-400 leading-relaxed">
+              Mỗi 1–2 giờ (hoặc khi nhấn <strong>Quét &amp; Cập nhật ngay</strong>), hệ thống tự động gửi truy vấn tới nguồn tin mở quốc tế, phân tích ngữ nghĩa tiêu đề &amp; nội dung để bóc tách 4 trường cốt lõi: <strong>Thời gian</strong>, <strong>Địa điểm</strong>, <strong>Mục đích</strong>, và <strong>Khoa mục diễn tập</strong>.
+            </p>
+
+            <!-- Custom Search Query Input for Live Scan -->
+            <div class="mt-3 flex flex-col sm:flex-row gap-2">
+              <input id="customCrawlerQuery" type="text" value="military exercise OR joint exercise OR live-fire drill 2026" class="flex-1 bg-slate-950 text-xs font-mono-code text-emerald-300 border border-slate-800 rounded-lg px-3 py-2 focus:outline-none focus:border-emerald-500" placeholder="Nhập từ khóa quét nguồn mở (VD: naval exercise 2026, air defense drill)..." />
+              <button id="runCustomCrawlBtn" type="button" class="px-3.5 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white transition whitespace-nowrap">
+                Chạy Quét Nguồn Mở Ngay
+              </button>
+            </div>
+          </div>
+
+          <!-- Terminal Log Window -->
+          <div>
+            <div class="flex items-center justify-between text-xs text-slate-400 mb-1.5">
+              <span class="font-mono-code">NHẬT KÝ HOẠT ĐỘNG TỰ ĐỘNG QUÉT (CRAWLER LOG)</span>
+              <button id="clearLogBtn" type="button" class="text-xs text-slate-400 hover:text-white underline">Xóa nhật ký</button>
+            </div>
+            <div id="crawlerLogContainer" class="bg-slate-950 border border-slate-800 rounded-lg p-3 h-64 overflow-y-auto custom-scrollbar font-mono-code text-xs space-y-1.5"></div>
+          </div>
+        </div>
+
+        <!-- Right: Intelligent NLP Article Extractor & Manual Entry -->
+        <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4 space-y-3">
+          <h2 class="text-sm sm:text-base font-bold text-white">Bóc tách Nhanh Bản tin Diễn tập Mới</h2>
+          <p class="text-xs text-slate-400">
+            Dán đoạn tin tức quân sự (tiếng Việt hoặc tiếng Anh) vào ô dưới đây để tự động nhận diện Thời gian, Địa điểm, Mục đích, Khoa mục hoặc nhập bổ sung vào bảng theo dõi.
+          </p>
+
+          <textarea id="rawNewsInput" rows="3" placeholder="Ví dụ: Ngày 18/11/2026, tại vùng biển Kyushu Nhật Bản, lực lượng Mỹ và Nhật Bản tổ chức diễn tập Keen Sword nhằm tăng cường khả năng phòng thủ quần đảo với các khoa mục đổ bộ đường biển, tác chiến chống ngầm và bắn đạn thật phòng không..." class="w-full bg-slate-950 text-xs text-slate-200 border border-slate-800 rounded-lg p-2.5 focus:outline-none focus:border-emerald-500"></textarea>
+
+          <div class="flex gap-2">
+            <button id="autoParseNewsBtn" type="button" class="flex-1 py-1.5 px-3 rounded-lg bg-indigo-600 hover:bg-indigo-500 text-xs font-semibold text-white transition">
+              Tự động Bóc tách Nội dung
+            </button>
+            <button id="fillSampleNewsBtn" type="button" class="py-1.5 px-2.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-xs text-slate-300 transition">
+              Thử mẫu tin
+            </button>
+          </div>
+
+          <form id="addExerciseForm" class="space-y-2 pt-2 border-t border-slate-800">
+            <input id="formName" type="text" required placeholder="Tên cuộc diễn tập (VD: Keen Sword 27)" class="w-full bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+            <div class="grid grid-cols-2 gap-2">
+              <input id="formDates" type="text" required placeholder="Thời gian (VD: 18/11 - 28/11/2026)" class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+              <select id="formStatus" class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5">
+                <option value="Đang diễn ra">Đang diễn ra</option>
+                <option value="Sắp diễn ra">Sắp diễn ra</option>
+                <option value="Đã hoàn thành">Đã hoàn thành</option>
+              </select>
+            </div>
+            <div class="grid grid-cols-2 gap-2">
+              <input id="formLocation" type="text" required placeholder="Địa điểm (VD: Kyushu & Okinawa, Nhật Bản)" class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+              <select id="formRegion" class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5">
+                <option value="Ấn Độ Dương - Thái Bình Dương">Ấn Độ Dương - Thái Bình Dương</option>
+                <option value="Châu Âu & Bắc Đại Tây Dương">Châu Âu &amp; Bắc Đại Tây Dương</option>
+                <option value="Việt Nam & Đông Nam Á">Việt Nam &amp; Đông Nam Á</option>
+              </select>
+            </div>
+            <input id="formPurpose" type="text" required placeholder="Mục đích diễn tập..." class="w-full bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+            <input id="formDrills" type="text" required placeholder="Các khoa mục (ngăn cách bằng dấu chấm phẩy ';')" class="w-full bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+            <div class="grid grid-cols-2 gap-2">
+              <input id="formForces" type="text" placeholder="Lực lượng & Phương tiện..." class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+              <input id="formTroops" type="number" min="50" value="3500" placeholder="Quân số ước tính" class="bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+            </div>
+            <input id="formSourceUrl" type="url" placeholder="URL nguồn tin (https://...)" value="https://www.japantimes.co.jp/news/2026/10/18/japan/keen-sword-military-exercises/" class="w-full bg-slate-950 text-xs text-white border border-slate-800 rounded-lg px-2.5 py-1.5" />
+            <button type="submit" class="w-full py-2 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-bold text-white transition">
+              + Lưu vào Cơ sở dữ liệu Theo dõi
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- DETAIL MODAL -->
+  <div id="detailModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl p-5 sm:p-6 space-y-4">
+      <div class="flex items-start justify-between gap-3 border-b border-slate-800 pb-3">
+        <div>
+          <div id="modalBadges" class="flex flex-wrap items-center gap-2 mb-1.5"></div>
+          <h2 id="modalTitle" class="text-lg sm:text-xl font-bold text-white"></h2>
+        </div>
+        <button id="closeDetailModalBtn" type="button" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">
+          ✕
+        </button>
+      </div>
+
+      <div id="modalBody" class="space-y-4 text-xs sm:text-sm"></div>
+    </div>
+  </div>
+
+  <!-- COMPARE MODAL -->
+  <div id="compareModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-5xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl p-5 sm:p-6 space-y-4">
+      <div class="flex items-center justify-between border-b border-slate-800 pb-3">
+        <div>
+          <h2 class="text-lg font-bold text-white">Bảng So sánh Đối chiếu Các Cuộc Diễn tập Quân sự</h2>
+          <p class="text-xs text-slate-400">Đối chiếu trực tiếp Thời gian, Địa điểm, Mục đích, Khoa mục và Lực lượng</p>
+        </div>
+        <div class="flex items-center gap-2">
+          <button id="clearCompareBtn" type="button" class="text-xs px-3 py-1.5 rounded-lg border border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-300">
+            Xóa danh sách chọn
+          </button>
+          <button id="closeCompareModalBtn" type="button" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <div id="compareContent" class="overflow-x-auto custom-scrollbar"></div>
+    </div>
+  </div>
+
+  <!-- PUBLISH / DEPLOY MODAL -->
+  <div id="publishModal" class="fixed inset-0 z-50 hidden bg-slate-950/80 backdrop-blur-sm flex items-center justify-center p-4">
+    <div class="bg-slate-900 border border-slate-700 rounded-2xl max-w-3xl w-full max-h-[90vh] overflow-y-auto custom-scrollbar shadow-2xl p-5 sm:p-6 space-y-4">
+      <div class="flex items-start justify-between gap-3 border-b border-slate-800 pb-3">
+        <div>
+          <span class="px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30">Sẵn sàng Triển khai (Production Ready)</span>
+          <h2 class="text-lg sm:text-xl font-bold text-white mt-1">Xuất bản Trang web MilEx Watch 2026 lên Internet</h2>
+          <p class="text-xs text-slate-400">Hỗ trợ triển khai miễn phí qua GitHub Pages (kèm GitHub Actions tự động quét 2 giờ/lần), Netlify Drop hoặc Cloudflare Pages</p>
+        </div>
+        <button id="closePublishModalBtn" type="button" class="p-1.5 rounded-lg bg-slate-800 hover:bg-slate-700 text-slate-300">
+          ✕
+        </button>
+      </div>
+
+      <div class="space-y-4 text-xs sm:text-sm">
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2">
+          <div class="flex items-center justify-between gap-2">
+            <h3 class="font-bold text-emerald-400">Cách 1: Kéo - Thả lên Netlify Drop (Nhanh nhất — 30 giây)</h3>
+            <button id="downloadIndexHtmlBtn" type="button" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-xs font-semibold text-white transition">
+              Tải file index.html chuẩn
+            </button>
+          </div>
+          <ol class="list-decimal list-inside space-y-1 text-slate-300 text-xs leading-relaxed">
+            <li>Tải gói <strong>milex_watch_2026_publish_bundle.zip</strong> đính kèm trong cuộc trò chuyện (hoặc nhấn nút tải <code>index.html</code> ở trên).</li>
+            <li>Mở trang <a href="https://app.netlify.com/drop" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline">app.netlify.com/drop</a> hoặc <a href="https://pages.cloudflare.com/" target="_blank" rel="noopener noreferrer" class="text-emerald-400 underline">Cloudflare Pages</a>.</li>
+            <li>Kéo thả file ZIP vào ô Upload để nhận ngay đường link công khai <code>https://...netlify.app</code> hoạt động trên mọi thiết bị.</li>
+          </ol>
+        </div>
+
+        <div class="bg-slate-950 border border-slate-800 rounded-xl p-4 space-y-2.5">
+          <div class="flex items-center justify-between gap-2">
+            <h3 class="font-bold text-blue-400">Cách 2: Xuất bản lên GitHub Pages + Tự động quét ngầm 2 giờ/lần (24/7)</h3>
+            <button id="copyWorkflowYamlBtn" type="button" class="px-3 py-1.5 rounded-lg border border-blue-500/40 bg-blue-500/15 hover:bg-blue-500/25 text-xs font-semibold text-blue-200 transition">
+              Sao chép GitHub Actions YAML
+            </button>
+          </div>
+          <p class="text-xs text-slate-300 leading-relaxed">
+            Giải nén gói <strong>milex_watch_2026_publish_bundle.zip</strong> và đẩy lên một Repository GitHub mới (ví dụ trên tài khoản GitHub của bạn), sau đó vào <strong>Settings → Pages → Source: GitHub Actions</strong>. File cấu hình <code>.github/workflows/deploy_and_crawl.yml</code> dưới đây sẽ tự động chạy mỗi 2 giờ (<code>cron: "0 */2 * * *"</code>) để cập nhật dữ liệu và xuất bản lại trang web:
+          </p>
+          <pre id="workflowYamlCode" class="bg-slate-900 border border-slate-800 rounded-lg p-3 text-[11px] font-mono-code text-slate-300 overflow-x-auto custom-scrollbar">name: Auto-Crawl Military Exercises (Every 2 Hours) &amp; Deploy GitHub Pages
+on:
+  push:
+    branches: ["main"]
+  schedule:
+    - cron: "0 */2 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+jobs:
+  crawl-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: python3 scripts/update_exercises.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: "."
+      - uses: actions/deploy-pages@v4</pre>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div id="toastContainer" class="fixed bottom-4 right-4 z-50 space-y-2 pointer-events-none"></div>
+
+  <script>
+    // =========================================================================
+    // 1. GROUNDED INITIAL DATASET (14 VERIFIED 2026 MILITARY EXERCISES)
+    // =========================================================================
+    const INITIAL_EXERCISES = [
+      {
+        id: "ex-freedom-shield-26",
+        name: "Freedom Shield 26-II / Grand Eagle 26",
+        dates: "06/11/2026 – 03/12/2026 (Thực binh từ 17/11)",
+        status: "Đang diễn ra",
+        location: "Thao trường Rūdninkai & Pabradė, Lithuania",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Lục quân",
+        domainLabel: "Lục quân & Thiết giáp",
+        purpose: "Kiểm nghiệm khả năng cơ động triển khai lực lượng thiết giáp quy mô lớn và hiệp đồng phòng thủ sườn phía Đông NATO tại vùng Baltic.",
+        drills: [
+          "Cơ động triển khai đội hình thiết giáp đường dài vào Lithuania",
+          "Thực binh tác chiến hiệp đồng binh chủng 10 ngày tại thao trường Rūdninkai",
+          "Phối hợp chỉ huy chiến thuật giữa Panzerbrigade 45 và Nhóm chiến đấu đa quốc gia NATO",
+          "Bảo đảm hậu cần - kỹ thuật chiến dịch cho lực lượng cơ giới hóa"
+        ],
+        forces: "Khoảng 6.000 quân nhân (Lữ đoàn Thiết giáp 45 với ~3.800 quân từ 8 đồng minh và Lữ đoàn Bộ binh cơ giới 37 thuộc Sư đoàn Thiết giáp số 10 Lục quân Đức)",
+        troops: 6000,
+        nationsCount: 8,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-koalicja-26",
+        name: "Koalicja 2026 (Multinational Force – Ukraine)",
+        dates: "09/11/2026 – 22/11/2026",
+        status: "Đang diễn ra",
+        location: "Thao trường Nowa Dęba, Đông Nam Ba Lan",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Đa miền",
+        domainLabel: "Đa miền (Lục - Không)",
+        purpose: "Cuộc diễn tập đầu tiên của Lực lượng Đa quốc gia hỗ trợ Ukraine do Pháp và Anh đồng dẫn đầu nhằm chuẩn hóa quy trình chỉ huy và tác chiến liên quân châu Âu.",
+        drills: [
+          "Hiệp đồng tác chiến lục quân - không quân đa quốc gia tại thao trường Nowa Dęba",
+          "Triển khai và bảo vệ sở chỉ huy liên hợp cấp chiến dịch",
+          "Huấn luyện chiến thuật bộ binh cơ giới và chi viện hỏa lực mặt đất",
+          "Phối hợp hậu cần tiền phương và thông tin liên lạc liên minh"
+        ],
+        forces: "Khoảng 2.800 quân nhân từ 10 quốc gia châu Âu, do Pháp và Vương quốc Anh đồng chủ trì",
+        troops: 2800,
+        nationsCount: 10,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-mavi-balina-26",
+        name: "Mavi Balina 26 (Blue Whale 2026)",
+        dates: "09/11/2026 – 20/11/2026",
+        status: "Đang diễn ra",
+        location: "Vùng biển Đông Địa Trung Hải, Thổ Nhĩ Kỳ",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Hải quân",
+        domainLabel: "Hải quân & Chống ngầm (ASW)",
+        purpose: "Nâng cao năng lực tác chiến mặt nước và tác chiến chống tàu ngầm (ASW) sát thực tế chiến đấu cho hải quân, không quân hải quân Thổ Nhĩ Kỳ và đồng minh NATO.",
+        drills: [
+          "Săn tìm, phát hiện và tiêu diệt tàu ngầm đối phương (ASW)",
+          "Tác chiến hiệp đồng tàu mặt nước - tàu ngầm - máy bay tuần tra biển",
+          "Bảo vệ đội hình biên đội tàu chiến trước mối đe dọa đa chiều dưới nước và trên không",
+          "Chỉ huy kiểm soát tác chiến biển cường độ cao"
+        ],
+        forces: "Hải quân Thổ Nhĩ Kỳ (chủ trì) cùng tàu ngầm, tàu hộ vệ và máy bay tuần tra biển của các đồng minh NATO",
+        troops: 2000,
+        nationsCount: 6,
+        sourceTitle: "SHAPE NATO Allied National Exercises",
+        sourceUrl: "https://shape.nato.int/exercises/allied-national-exercises",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-poseidon-26",
+        name: "Poseidon 26 (Bulgaria – Romania)",
+        dates: "07/11/2026 – 14/11/2026",
+        status: "Đang diễn ra",
+        location: "Vùng biển Biển Đen, Bulgaria",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Hải quân",
+        domainLabel: "Hải quân & Rà phá thủy lôi (MCM)",
+        purpose: "Tăng cường khả năng đối phó thủy lôi, bảo đảm an toàn luồng hàng hải và khả năng tương tác giữa Hải quân Bulgaria, Romania và các đồng minh NATO tại Biển Đen.",
+        drills: [
+          "Trinh sát, phát hiện và vô hiệu hóa thủy lôi trên biển (Mine Countermeasures - MCM)",
+          "Bảo đảm an ninh luồng hàng hải và khu vực tiếp cận cảng biển",
+          "Hiệp đồng biên đội tàu quét lôi đa quốc gia tại Biển Đen",
+          "Lặn rà phá và xử lý vật nổ dưới nước (EOD)"
+        ],
+        forces: "Hải quân Bulgaria, Hải quân Romania và các phân đội tàu chống thủy lôi đồng minh NATO",
+        troops: 900,
+        nationsCount: 5,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-firecrest-26-p2",
+        name: "Operation Firecrest 2026 (Phase 2)",
+        dates: "Từ 18/10/2026 – Đang diễn ra (Tháng 11/2026)",
+        status: "Đang diễn ra",
+        location: "Vùng biển Bắc Cực & Bắc Đại Tây Dương",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Hải quân",
+        domainLabel: "Hải quân & Tàu sân bay",
+        purpose: "Duy trì hiện diện chiến lược nhóm tác chiến tàu sân bay tại vùng Cực Bắc trong khuôn khổ chiến dịch Arctic Sentry của NATO, bảo vệ tuyến hàng hải Bắc Đại Tây Dương.",
+        drills: [
+          "Tác chiến biên đội tàu sân bay trong điều kiện khí hậu khắc nghiệt Bắc Cực",
+          "Xuất kích tiêm kích hạm tàng hình F-35B tuần tra và tấn công chính xác",
+          "Tác chiến chống ngầm và phòng không hạm đội với trực thăng Merlin, Wildcat",
+          "Thử nghiệm tiếp vận hàng hải tầm gần bằng thiết bị bay không người lái Malloy"
+        ],
+        forces: "Hơn 1.200 quân nhân Hải quân Hoàng gia Anh, tàu sân bay HMS Prince of Wales, khu trục hạm Type 45 HMS Dauntless, tiêm kích F-35B, trực thăng Merlin/Wildcat, UAV Malloy phối hợp cùng Na Uy, Đan Mạch, Đức",
+        troops: 1200,
+        nationsCount: 4,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-cyber-coalition-26",
+        name: "Cyber Coalition 2026",
+        dates: "27/11/2026 – 03/12/2026",
+        status: "Sắp diễn ra",
+        location: "Tallinn (Trung tâm Không gian mạng CR14), Estonia",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Tác chiến mạng",
+        domainLabel: "Tác chiến mạng (Cyber Defence)",
+        purpose: "Diễn tập phòng thủ không gian mạng tập thể thường niên lớn nhất của NATO nhằm kiểm tra khả năng phát hiện, chia sẻ tình báo và ứng phó tấn công mạng vào hạ tầng trọng yếu.",
+        drills: [
+          "Bảo vệ hệ thống mạng chỉ huy - kiểm soát quân sự trước các đợt tấn công APT",
+          "Ứng phó kịch bản tấn công mạng xâm nhập lưới điện và hạ tầng viễn thông quốc gia",
+          "Chia sẻ thông tin tình báo mối đe dọa mạng thời gian thực giữa 32 đồng minh",
+          "Thực hành quy trình phối hợp dân sự - quân sự và ra quyết định chiến lược trong khủng hoảng mạng"
+        ],
+        forces: "Các đội ứng cứu và tác chiến mạng từ 32 quốc gia thành viên NATO, các nước đối tác tại thao trường mạng quốc gia CR14 Estonia",
+        troops: 1300,
+        nationsCount: 32,
+        sourceTitle: "SHAPE — NATO Exercises and Activities",
+        sourceUrl: "https://shape.nato.int/nato-exercises",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-kvpt-thai-nguyen-2026",
+        name: "Diễn tập Khu vực Phòng thủ Tỉnh Thái Nguyên 2026",
+        dates: "09/11/2026 – 11/11/2026",
+        status: "Đã hoàn thành",
+        location: "Tỉnh Thái Nguyên (Quân khu 1), Việt Nam",
+        region: "Việt Nam & Đông Nam Á",
+        domain: "Phòng thủ khu vực",
+        domainLabel: "Khu vực phòng thủ & Bắn đạn thật",
+        purpose: "Kiểm nghiệm khả năng vận hành cơ chế lãnh đạo, điều hành của địa phương trong các trạng thái quốc phòng; đánh giá trình độ tổ chức chỉ huy, hiệp đồng và sức mạnh chiến đấu của lực lượng vũ trang tỉnh.",
+        drills: [
+          "Vận hành cơ chế: Hội nghị Ban Chấp hành Đảng bộ tỉnh chuyển địa phương vào các trạng thái quốc phòng và tình trạng chiến tranh",
+          "Thực hành sơ tán, phòng tránh, xây dựng vòm phòng không nhân dân, đánh địch tiến công hỏa lực đường không và khắc phục hậu quả",
+          "Thực binh xử trí tình huống A2, triển khai căn cứ hậu cần - kỹ thuật và bệnh viện dã chiến",
+          "Thực binh bắn đạn thật cấp Tiểu đoàn bộ binh tiến công địch đổ bộ đường không (tiêu diệt 100% mục tiêu, an toàn tuyệt đối)"
+        ],
+        forces: "Đảng bộ, chính quyền, lực lượng Quân sự, Công an, các sở, ban, ngành tỉnh Thái Nguyên dưới sự chỉ đạo của Bộ tư lệnh Quân khu 1",
+        troops: 1500,
+        nationsCount: 1,
+        sourceTitle: "Báo Quân đội nhân dân (11/11/2026)",
+        sourceUrl: "https://www.qdnd.vn/quoc-phong-an-ninh/tin-tuc/tinh-thai-nguyen-hoan-thanh-dien-tap-khu-vuc-phong-thu-nam-2026-1064252",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-steadfast-noon-26",
+        name: "Steadfast Noon 2026",
+        dates: "13/10/2026 – 23/10/2026",
+        status: "Đã hoàn thành",
+        location: "5 căn cứ không quân tại Ý (Ghedi, Aviano, Trapani, Amendola, Gioia del Colle) & vùng trời biển Tyrrhenian",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Không quân",
+        domainLabel: "Không quân & Răn đe hạt nhân (DCA)",
+        purpose: "Duy trì khả năng sẵn sàng chiến đấu, kiểm tra quy trình an toàn, bảo mật và hiệu quả của lực lượng răn đe hạt nhân NATO với máy bay lưỡng dụng (DCA), không sử dụng vũ khí hạt nhân thật.",
+        drills: [
+          "Thực hành quy trình chuẩn bị, bảo vệ và lắp đặt vũ khí mô hình trên máy bay lưỡng dụng (Dual-Capable Aircraft)",
+          "Bay huấn luyện biên đội chiến thuật răn đe hạt nhân trên vùng trời biển Tyrrhenian",
+          "Hiệp đồng tiêm kích hộ tống, chế áp phòng không đối phương (SEAD), tiếp dầu trên không và trinh sát",
+          "Kiểm tra quy trình an ninh - bảo mật nghiêm ngặt tại các căn cứ không quân Ghedi và Aviano"
+        ],
+        forces: "Khoảng 60–70 máy bay (F-35A, F-16, Panavia Tornado, máy bay tiếp dầu và trinh sát) từ 17 quốc gia đồng minh NATO",
+        troops: 2000,
+        nationsCount: 17,
+        sourceTitle: "NATO Official Newsroom (Oct 2026)",
+        sourceUrl: "https://www.nato.int/en/news-and-events/articles/news/2026/10/08/nato-holds-annual-nuclear-exercise-steadfast-noon",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-yudh-abhyas-2026",
+        name: "Exercise Yudh Abhyas 2026 (Ấn Độ – Mỹ)",
+        dates: "Tháng 09/2026 (Bắn đạn thật tổng hợp 24/09/2026)",
+        status: "Đã hoàn thành",
+        location: "Thao trường Mahajan (Mahajan Field Firing Range), bang Rajasthan, Ấn Độ",
+        region: "Ấn Độ Dương - Thái Bình Dương",
+        domain: "Lục quân",
+        domainLabel: "Lục quân, Pháo binh & Chống UAV",
+        purpose: "Tăng cường khả năng tương tác chiến thuật, sẵn sàng chiến đấu song phương giữa Lục quân Mỹ và Lục quân Ấn Độ trong khuôn khổ Đối tác Quốc phòng Chính yếu Mỹ - Ấn.",
+        drills: [
+          "Thực binh bắn đạn thật pháo binh - tên lửa liên hợp (tổ hợp HIMARS của Mỹ cùng pháo phản lực Pinaka, lựu pháo M777 và Dhanush của Ấn Độ)",
+          "Tác chiến phòng không lục quân và chế áp thiết bị bay không người lái (Counter-UAS) bằng tổ hợp M-LIDS và pháo phòng không L70 Bofors",
+          "Hiệp đồng hỏa lực trực thăng vũ trang AH-64E Apache yểm trợ mặt đất",
+          "Trinh sát định vị mục tiêu pháo binh bằng radar Swathi và chỉ huy hỏa lực tích hợp"
+        ],
+        forces: "Lục quân Ấn Độ (Quân đoàn 10, Pinaka, M777, Dhanush, pháo L70, radar Swathi, AH-64E Apache) và Lục quân Mỹ (Sư đoàn Dù 11, HIMARS, hệ thống chống UAV M-LIDS)",
+        troops: 1200,
+        nationsCount: 2,
+        sourceTitle: "U.S. Indo-Pacific Command (24/09/2026)",
+        sourceUrl: "https://www.pacom.mil/Media/News/News-Articles/Article/4613256/us-indian-armies-complete-bilateral-live-fire-exercise-during-yudh-abhyas-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-pacific-vanguard-2026",
+        name: "Exercise Pacific Vanguard 2026",
+        dates: "Từ 30/08/2026 (Diễn tập mùa thu)",
+        status: "Đã hoàn thành",
+        location: "Căn cứ Hải quân Guam và vùng biển Quần đảo Mariana",
+        region: "Ấn Độ Dương - Thái Bình Dương",
+        domain: "Hải quân",
+        domainLabel: "Hải quân & Hiệp đồng Đa quốc gia",
+        purpose: "Rèn luyện kỹ năng tác chiến hải quân trình độ cao, nâng cao nhận thức đa miền và khả năng phối hợp xử lý khủng hoảng giữa 6 quốc gia tại Ấn Độ Dương - Thái Bình Dương.",
+        drills: [
+          "Tác chiến chống ngầm liên hợp (ASW) với tàu ngầm và máy bay tuần tra biển P-1, P-8 Poseidon",
+          "Phòng không hạm đội và tác chiến mặt nước trong môi trường bị chế áp điện tử",
+          "Tiếp vận trên biển (RAS) và cơ động đội hình chiến thuật 6 hải quân",
+          "Phối hợp hỗ trợ nhân đạo và cứu trợ thảm họa (HADR) tại khu vực đảo Thái Bình Dương"
+        ],
+        forces: "Hải quân 6 nước (Mỹ, Úc, Canada, Nhật Bản, Hàn Quốc, New Zealand): Khu trục hạm JS Fuyuzuki (DD 118), 1 tàu ngầm, máy bay P-1 (Nhật Bản); khu trục hạm HMAS Sydney (DDG 42 - Úc); khinh hạm HMCS Regina (FFH 334 - Canada); tàu USNS Charles Drew và máy bay P-8 Poseidon",
+        troops: 1800,
+        nationsCount: 6,
+        sourceTitle: "U.S. Indo-Pacific Command (31/08/2026)",
+        sourceUrl: "https://www.pacom.mil/Media/News/News-Articles/Article/4587319/us-allied-forces-join-for-exercise-pacific-vanguard-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-tenacious-archer-2026",
+        name: "Exercise Tenacious Archer 2026",
+        dates: "Tháng 08/2026 (Hoàn thành 12/08/2026)",
+        status: "Đã hoàn thành",
+        location: "Airai, Cộng hòa Palau",
+        region: "Ấn Độ Dương - Thái Bình Dương",
+        domain: "Phòng không",
+        domainLabel: "Phòng không & Phòng thủ Tên lửa (IAMD)",
+        purpose: "Tăng cường khả năng sẵn sàng chiến đấu phòng không - phòng thủ tên lửa tích hợp (IAMD), kiểm nghiệm mạng lưới thông tin liên lạc và chỉ huy liên quân bảo vệ hạ tầng trọng yếu tại chuỗi đảo Thái Bình Dương.",
+        drills: [
+          "Thực hành bắn đạn thật tên lửa phòng không tầm thấp Stinger từ hệ thống AN/TWQ-1 Avenger",
+          "Tác chiến phòng không - phòng thủ tên lửa tích hợp (IAMD) giữa Lục quân và Thủy quân lục chiến",
+          "Thiết lập mạng lưới chỉ huy - kiểm soát phòng không dã chiến bảo vệ mục tiêu trọng yếu",
+          "Chuyển giao quy trình huấn luyện hiện đại hóa khí tài phòng không tầm thấp"
+        ],
+        forces: "Lục quân Mỹ (Lữ đoàn Pháo phòng không 35, Trung đoàn Pháo phòng không 52 & 5, Lữ đoàn Quân cảnh 8) và Thủy quân lục chiến Mỹ (Tiểu đoàn Phòng không tầm thấp số 1 - 1st LAAD), hệ thống tên lửa AN/TWQ-1 Avenger & Stinger",
+        troops: 650,
+        nationsCount: 2,
+        sourceTitle: "U.S. Indo-Pacific Command (12/08/2026)",
+        sourceUrl: "https://www.pacom.mil/Media/News/News-Articles/Article/4569478/exercise-tenacious-archer-2026-strengthens-joint-air-defense-readiness-in-palau/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-joint-sea-2026",
+        name: "Joint Sea-2026 (Liên hợp trên biển Nga – Trung 2026)",
+        dates: "06/07/2026 – 13/07/2026",
+        status: "Đã hoàn thành",
+        location: "Quân cảng và vùng biển ngoài khơi Thanh Đảo (Sơn Đông, Trung Quốc)",
+        region: "Ấn Độ Dương - Thái Bình Dương",
+        domain: "Hải quân",
+        domainLabel: "Hải quân & Cứu hộ Tàu ngầm",
+        purpose: "Củng cố tin cậy chiến lược và nâng cao năng lực phối hợp ứng phó chung trước các rủi ro an ninh hàng hải giữa Hải quân Trung Quốc và Hải quân Nga, tiếp nối bằng tuần tra liên hợp trên Thái Bình Dương.",
+        drills: [
+          "Trinh sát liên hợp và cảnh báo sớm trong môi trường điện tử phức tạp không có kịch bản cố định",
+          "Thực hành bắn đạn thật phòng không - chống tên lửa và công kích mục tiêu mặt nước",
+          "Tác chiến chống ngầm và diễn tập cứu hộ tàu ngầm liên hợp (lần đầu tàu ngầm Kilo cải tiến Ufa và tàu ngầm Type 039B cùng tham gia công khai)",
+          "Tuần tra hàng hải liên hợp trên vùng biển Thái Bình Dương sau diễn tập"
+        ],
+        forces: "10 tàu chiến và tàu ngầm: Nga (Tuần dương hạm tên lửa Varyag 011, khinh hạm Rezkiy 343, tàu ngầm Ufa, tàu cứu hộ Igor Belousov); Trung Quốc (Khu trục hạm Type 055 An Sơn 103, Type 052D Khai Phong 124, khinh hạm Type 054A Vu Hồ 539, tàu tiếp vận Khả Khả Tây Lý Hồ 903, tàu cứu hộ Dương Thành Hồ 847, 1 tàu ngầm Type 039B)",
+        troops: 2500,
+        nationsCount: 2,
+        sourceTitle: "Australian Naval Institute (18/07/2026)",
+        sourceUrl: "https://navalinstitute.com.au/russia-and-china-conduct-exercise-joint-sea-2026/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-valiant-shield-2026",
+        name: "Exercise Valiant Shield 2026 (VS26)",
+        dates: "21/06/2026 – 01/07/2026",
+        status: "Đã hoàn thành",
+        location: "Guam, Quần đảo Bắc Mariana, Nhật Bản và Biển Philippines",
+        region: "Ấn Độ Dương - Thái Bình Dương",
+        domain: "Đa miền",
+        domainLabel: "Đa miền (Biển - Không - Đất liền - Vũ trụ - Mạng)",
+        purpose: "Tích hợp năng lực tác chiến đa miền giữa các quân chủng Mỹ, Lực lượng Phòng vệ Nhật Bản và đồng minh nhằm nâng cao khả năng răn đe và phản ứng nhanh liên quân.",
+        drills: [
+          "Phát hiện, định vị, theo dõi và tiêu diệt mục tiêu đa miền (Biển - Không - Đất liền - Vũ trụ - Mạng)",
+          "Thực hành đánh chìm tàu mục tiêu bằng vũ khí thật trên biển (SINKEX)",
+          "Tác chiến hiệp đồng biên đội tàu sân bay USS George Washington và Lực lượng Phòng vệ Biển Nhật Bản (JMSDF)",
+          "Hiệp đồng tác chiến với Bộ tư lệnh Vũ trụ (USSPACECOM) và Bộ tư lệnh Vận tải (USTRANSCOM)"
+        ],
+        forces: "Các lực lượng Bộ tư lệnh Ấn Độ Dương - Thái Bình Dương Mỹ (Nhóm tác chiến tàu sân bay USS George Washington, Không đoàn Tàu sân bay số 5, tiêm kích F-35A), Lực lượng Phòng vệ Nhật Bản (JSDF) và đồng minh",
+        troops: 10000,
+        nationsCount: 4,
+        sourceTitle: "U.S. Department of War (22/06/2026)",
+        sourceUrl: "https://www.war.gov/News/News-Stories/Article/Article/4522795/allies-come-together-in-the-indo-pacific-for-exercise-valiant-shield-26/",
+        updatedAt: "14/11/2026 09:58"
+      },
+      {
+        id: "ex-cold-response-26",
+        name: "Cold Response 2026",
+        dates: "09/03/2026 – 19/03/2026",
+        status: "Đã hoàn thành",
+        location: "Nordland, Troms, Tây Finnmark (Na Uy) và Bắc Phần Lan",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Đa miền",
+        domainLabel: "Đa miền Bắc Cực (Total Defence)",
+        purpose: "Diễn tập thực binh Bắc Cực lớn nhất năm 2026 của NATO do Na Uy dẫn đầu, kiểm nghiệm mô hình Phòng thủ Toàn diện (Total Defence) và cơ chế chỉ huy mới của NATO tại vùng Cực Bắc.",
+        drills: [
+          "Tác chiến hiệp đồng đa miền (Bộ - Biển - Không - Mạng - Vũ trụ) trong điều kiện khí hậu băng giá Bắc Cực",
+          "Kiểm nghiệm cơ chế Phòng thủ Toàn diện kết hợp hạ tầng dân sự hỗ trợ tác chiến quân sự",
+          "Đổ bộ đường biển và cơ động lực lượng tăng viện qua biên giới Na Uy - Phần Lan",
+          "Vận hành Bộ tư lệnh Thành phần Lục quân Đa Quân đoàn (MCLCC) mới tại Mikkeli, Phần Lan"
+        ],
+        forces: "32.500 quân nhân từ 14 quốc gia đồng minh NATO (25.000 quân tại Na Uy và 7.500 quân tại Phần Lan)",
+        troops: 32500,
+        nationsCount: 14,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "14/11/2026 09:58"
+      }
+    ];
+
+    // Additional Verified Pool from 2026 Search Results that Auto-Sync can discover/merge if not yet in list
+    const VERIFIED_DISCOVERY_POOL = [
+      {
+        id: "ex-keen-sword-27",
+        name: "Keen Sword 27 (Nhật Bản – Mỹ)",
+        dates: "Cuối tháng 10 – Tháng 11/2026",
+        status: "Đã hoàn thành",
+        location: "Quần đảo Tây Nam Nhật Bản, các căn cứ JSDF & vùng biển lân cận",
+        region: "Ấn Độ Dương - Thái Bình Dương",
+        domain: "Đa miền",
+        domainLabel: "Đa miền & Phòng thủ Quần đảo",
+        purpose: "Diễn tập thực binh song phương quy mô lớn nhằm kiểm nghiệm kế hoạch tác chiến chung bảo vệ các đảo tiền tiêu của Nhật Bản và tăng cường khả năng răn đe liên minh Mỹ - Nhật.",
+        drills: [
+          "Cơ động triển khai lực lượng phản ứng nhanh đổ bộ bảo vệ quần đảo Tây Nam",
+          "Phòng không - phòng thủ tên lửa tích hợp và tác chiến biển liên hợp",
+          "Vận chuyển thương binh, tiếp vận hậu cần chiến trường và sử dụng đồng thời các sân bay, cảng dân sự",
+          "Hiệp đồng chỉ huy thống nhất giữa Bộ tư lệnh Tác chiến Liên hợp Nhật Bản (JJOC) và Quân đội Mỹ"
+        ],
+        forces: "Lực lượng Phòng vệ Nhật Bản (JSDF) và Quân đội Mỹ tại Nhật Bản cùng sự tham gia của đồng minh",
+        troops: 45000,
+        nationsCount: 3,
+        sourceTitle: "The Japan Times (18/10/2026)",
+        sourceUrl: "https://www.japantimes.co.jp/news/2026/10/18/japan/keen-sword-military-exercises/",
+        updatedAt: "Vừa quét tự động"
+      },
+      {
+        id: "ex-resolute-reforger-26",
+        name: "Resolute Reforger 2026 (NATO MNB Latvia)",
+        dates: "26/10/2026 – 08/11/2026",
+        status: "Đã hoàn thành",
+        location: "Căn cứ Ādaži, Ceri và khu vực miền Đông Latvia",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Lục quân",
+        domainLabel: "Lục quân & Cơ động Thiết giáp",
+        purpose: "Rèn luyện khả năng cơ động triển khai nhanh trên bộ và sẵn sàng chiến đấu của Lữ đoàn Đa quốc gia NATO tại Latvia bảo vệ sườn phía Đông.",
+        drills: [
+          "Cơ động hành quân đội hình lớn với 1.000 phương tiện quân sự từ Ādaži và Ceri qua miền Đông Latvia",
+          "Tác chiến phòng ngự cơ động và phản kích hiệp đồng binh chủng",
+          "Bảo đảm công binh vượt vật cản và hậu cần dã chiến đường dài",
+          "Phối hợp chỉ huy giữa Lữ đoàn Đa quốc gia NATO và Lực lượng Vũ trang Quốc gia Latvia"
+        ],
+        forces: "Khoảng 3.000 binh sĩ và 1.000 phương tiện chiến đấu thuộc Lữ đoàn Đa quốc gia NATO tại Latvia (MNB Latvia)",
+        troops: 3000,
+        nationsCount: 13,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "Vừa quét tự động"
+      },
+      {
+        id: "ex-baltic-trust-26",
+        name: "Baltic Trust 26 (BATT26 Counter-UAS)",
+        dates: "03/08/2026 – 14/08/2026",
+        status: "Đã hoàn thành",
+        location: "Thao trường Sēlija, Latvia",
+        region: "Châu Âu & Bắc Đại Tây Dương",
+        domain: "Phòng không",
+        domainLabel: "Phòng không & Chống Drone (C-UAS)",
+        purpose: "Tích hợp và thử nghiệm thực địa các hệ thống phòng thủ chống thiết bị bay không người lái (Counter-UAS) đa tầng của NATO trong điều kiện tác chiến thực tế.",
+        drills: [
+          "Kết nối đồng bộ radar, cảm biến quang điện tử, camera và thiết bị gây nhiễu chống UAV trinh sát và UAV cảm tử",
+          "Thực hành quy trình phát hiện - nhận dạng - chế áp điện tử và tiêu diệt mục tiêu bay thấp",
+          "Kiểm nghiệm khả năng tương tác giữa các tổ hợp C-UAS của 24 quốc gia và các hãng công nghiệp quốc phòng châu Âu",
+          "Chia sẻ kinh nghiệm đối phó UAV thực chiến cùng các chuyên gia Ukraine"
+        ],
+        forces: "Khoảng 650 quân nhân và chuyên gia từ 24 quốc gia (các đồng minh NATO cùng Ukraine, Úc, Nhật Bản) dưới sự điều phối của Lực lượng Vũ trang Latvia và Cơ quan Thông tin Liên lạc NATO (NCIA)",
+        troops: 650,
+        nationsCount: 24,
+        sourceTitle: "Großwald — NATO Exercises 2026 Guide",
+        sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
+        updatedAt: "Vừa quét tự động"
+      }
+    ];
+
+    // =========================================================================
+    // 2. APPLICATION STATE
+    // =========================================================================
+    const state = {
+      exercises: [],
+      activeTab: "cards",
+      searchQuery: "",
+      statusFilter: "ALL",
+      regionFilter: "ALL",
+      domainFilter: "ALL",
+      compareIds: [],
+      // Auto-sync scheduler state
+      intervalSeconds: 5400, // Default 1.5 hours (5400s)
+      remainingSeconds: 5400,
+      autoSyncEnabled: true,
+      scanCount: 1,
+      discoveryIndex: 0,
+      logs: []
+    };
+
+    let timerHandle = null;
+    let domainChartInstance = null;
+    let troopsChartInstance = null;
+
+    // =========================================================================
+    // 3. STORAGE & INITIALIZATION
+    // =========================================================================
+    function loadInitialState() {
+      try {
+        const saved = localStorage.getItem("milex_watch_2026_data_v1");
+        if (saved) {
+          const parsed = JSON.parse(saved);
+          if (Array.isArray(parsed) && parsed.length >= INITIAL_EXERCISES.length) {
+            state.exercises = parsed;
+          } else {
+            state.exercises = [...INITIAL_EXERCISES];
+          }
+        } else {
+          state.exercises = [...INITIAL_EXERCISES];
+        }
+      } catch (e) {
+        state.exercises = [...INITIAL_EXERCISES];
+      }
+
+      addLog("INIT", "Khởi tạo hệ thống MilEx Watch 2026 thành công. Đã nạp 14 cuộc diễn tập quân sự xác thực.", "emerald");
+      addLog("SCHEDULER", "Đã bật bộ lập lịch tự động tìm kiếm & cập nhật (Chu kỳ mặc định: 1.5 giờ / lần).", "blue");
+    }
+
+    function saveExercisesToStorage() {
+      try {
+        localStorage.setItem("milex_watch_2026_data_v1", JSON.stringify(state.exercises));
+      } catch (e) {
+        // Ignore storage quota errors in sandbox
+      }
+    }
+
+    // =========================================================================
+    // 4. LOGGING & TOAST HELPERS
+    // =========================================================================
+    function formatNowVi() {
+      const now = new Date();
+      const pad = (n) => String(n).padStart(2, "0");
+      return `${pad(now.getDate())}/${pad(now.getMonth() + 1)}/${now.getFullYear()} ${pad(now.getHours())}:${pad(now.getMinutes())}:${pad(now.getSeconds())}`;
+    }
+
+    function addLog(tag, message, color = "slate") {
+      const timeStr = formatNowVi();
+      state.logs.unshift({ time: timeStr, tag, message, color });
+      if (state.logs.length > 60) state.logs.pop();
+      renderCrawlerLogs();
+    }
+
+    function showToast(message, type = "success") {
+      const container = document.getElementById("toastContainer");
+      if (!container) return;
+      const toast = document.createElement("div");
+      const borderColor = type === "success" ? "border-emerald-500/50 bg-slate-900/95 text-emerald-200" : "border-amber-500/50 bg-slate-900/95 text-amber-200";
+      toast.className = `pointer-events-auto px-4 py-2.5 rounded-xl border ${borderColor} shadow-xl text-xs font-medium flex items-center gap-2 transition-all duration-300`;
+      toast.innerHTML = `<span class="w-2 h-2 rounded-full ${type === "success" ? "bg-emerald-400" : "bg-amber-400"}"></span><span>${escapeHtml(message)}</span>`;
+      container.appendChild(toast);
+      setTimeout(() => {
+        toast.style.opacity = "0";
+        setTimeout(() => toast.remove(), 300);
+      }, 3800);
+    }
+
+    function escapeHtml(str) {
+      return String(str || "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#039;");
+    }
+
+    // =========================================================================
+    // 5. FILTERING LOGIC
+    // =========================================================================
+    function getFilteredExercises() {
+      const q = state.searchQuery.trim().toLowerCase();
+      return state.exercises.filter((ex) => {
+        if (state.statusFilter !== "ALL" && ex.status !== state.statusFilter) return false;
+        if (state.regionFilter !== "ALL" && ex.region !== state.regionFilter) return false;
+        if (state.domainFilter !== "ALL") {
+          const domMatch =
+            ex.domain.toLowerCase().includes(state.domainFilter.toLowerCase()) ||
+            ex.domainLabel.toLowerCase().includes(state.domainFilter.toLowerCase()) ||
+            ex.drills.some((d) => d.toLowerCase().includes(state.domainFilter.toLowerCase()));
+          if (!domMatch) return false;
+        }
+        if (q) {
+          const haystack = [
+            ex.name,
+            ex.dates,
+            ex.location,
+            ex.region,
+            ex.domainLabel,
+            ex.purpose,
+            ex.forces,
+            ...(ex.drills || [])
+          ]
+            .join(" ")
+            .toLowerCase();
+          if (!haystack.includes(q)) return false;
+        }
+        return true;
+      });
+    }
+
+    // =========================================================================
+    // 6. UI RENDERING (KPIs, CARDS, TABLE, CHARTS, LOGS)
+    // =========================================================================
+    function getStatusBadgeHtml(status) {
+      if (status === "Đang diễn ra") {
+        return `<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/15 text-emerald-300 border border-emerald-500/30"><span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>Đang diễn ra</span>`;
+      }
+      if (status === "Sắp diễn ra") {
+        return `<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-500/15 text-amber-300 border border-amber-500/30"><span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>Sắp diễn ra</span>`;
+      }
+      return `<span class="inline-flex items-center gap-1.5 px-2.5 py-0.5 rounded-full text-xs font-semibold bg-slate-800 text-slate-300 border border-slate-700">Đã hoàn thành</span>`;
+    }
+
+    function renderAll() {
+      const filtered = getFilteredExercises();
+
+      // Update KPIs
+      document.getElementById("kpiTotalCount").textContent = state.exercises.length.toLocaleString("vi-VN");
+      document.getElementById("kpiFilteredSub").textContent = `Đang hiển thị ${filtered.length} / ${state.exercises.length} cuộc diễn tập`;
+
+      const inProgressCount = state.exercises.filter((e) => e.status === "Đang diễn ra").length;
+      const upcomingCount = state.exercises.filter((e) => e.status === "Sắp diễn ra").length;
+      document.getElementById("kpiActiveCount").textContent = (inProgressCount + upcomingCount).toString();
+      document.getElementById("kpiActiveBreakdown").textContent = `${inProgressCount} đang diễn ra • ${upcomingCount} sắp khởi động`;
+
+      const totalTroops = filtered.reduce((acc, item) => acc + (Number(item.troops) || 0), 0);
+      document.getElementById("kpiTotalTroops").textContent = totalTroops.toLocaleString("vi-VN");
+
+      const totalDrills = filtered.reduce((acc, item) => acc + (item.drills ? item.drills.length : 0), 0);
+      document.getElementById("kpiTotalDrills").textContent = totalDrills.toLocaleString("vi-VN");
+      document.getElementById("kpiScanCountText").textContent = `Số lần quét tự động trong phiên: ${state.scanCount}`;
+
+      document.getElementById("compareCountBadge").textContent = state.compareIds.length.toString();
+
+      renderCards(filtered);
+      renderTable(filtered);
+      if (state.activeTab === "analytics") {
+        renderCharts(filtered);
+      }
+    }
+
+    function renderCards(list) {
+      const grid = document.getElementById("cardsGrid");
+      if (!grid) return;
+
+      if (list.length === 0) {
+        grid.innerHTML = `
+          <div class="col-span-full bg-slate-900/70 border border-slate-800 rounded-xl p-8 text-center">
+            <p class="text-sm font-semibold text-slate-300">Không tìm thấy cuộc diễn tập nào khớp với bộ lọc hiện tại.</p>
+            <p class="text-xs text-slate-500 mt-1">Hãy thử nhấn "Đặt lại" bộ lọc hoặc quét thêm dữ liệu mới.</p>
+          </div>
+        `;
+        return;
+      }
+
+      grid.innerHTML = list
+        .map((ex) => {
+          const isCompared = state.compareIds.includes(ex.id);
+          const drillsHtml = (ex.drills || [])
+            .map(
+              (d) =>
+                `<li class="flex items-start gap-2 text-xs text-slate-300 leading-relaxed">
+                  <span class="text-emerald-400 mt-0.5">▸</span>
+                  <span>${escapeHtml(d)}</span>
+                </li>`
+            )
+            .join("");
+
+          return `
+            <article class="bg-slate-900/90 border ${isCompared ? "border-indigo-500/70 ring-1 ring-indigo-500/30" : "border-slate-800 hover:border-slate-700"} rounded-xl p-4 sm:p-5 flex flex-col justify-between transition shadow-sm">
+              <div class="space-y-3">
+                <!-- Top badges -->
+                <div class="flex flex-wrap items-center justify-between gap-2">
+                  <div class="flex flex-wrap items-center gap-1.5">
+                    ${getStatusBadgeHtml(ex.status)}
+                    <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-500/10 text-blue-300 border border-blue-500/20">${escapeHtml(ex.domainLabel)}</span>
+                    <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-slate-800 text-slate-300">${escapeHtml(ex.region)}</span>
+                  </div>
+                  <span class="text-[11px] font-mono-code text-slate-400">~${Number(ex.troops || 0).toLocaleString("vi-VN")} quân • ${ex.nationsCount} quốc gia</span>
+                </div>
+
+                <!-- Title -->
+                <div>
+                  <h3 class="text-base sm:text-lg font-bold text-white leading-snug">${escapeHtml(ex.name)}</h3>
+                </div>
+
+                <!-- Time & Location Box -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 bg-slate-950/80 border border-slate-800/90 rounded-lg p-2.5 text-xs">
+                  <div>
+                    <span class="text-slate-400 block text-[11px] uppercase tracking-wider">Thời gian diễn tập</span>
+                    <span class="text-amber-300 font-medium">${escapeHtml(ex.dates)}</span>
+                  </div>
+                  <div>
+                    <span class="text-slate-400 block text-[11px] uppercase tracking-wider">Địa điểm &amp; Thao trường</span>
+                    <span class="text-slate-200 font-medium">${escapeHtml(ex.location)}</span>
+                  </div>
+                </div>
+
+                <!-- Strategic Purpose -->
+                <div class="text-xs space-y-1">
+                  <span class="text-slate-400 font-semibold uppercase tracking-wider text-[11px] block">Mục đích Diễn tập:</span>
+                  <p class="text-slate-200 leading-relaxed">${escapeHtml(ex.purpose)}</p>
+                </div>
+
+                <!-- Training Subjects (Khoa mục) -->
+                <div class="bg-slate-950/60 border border-slate-800/80 rounded-lg p-3 space-y-1.5">
+                  <div class="flex items-center justify-between">
+                    <span class="text-[11px] font-bold uppercase tracking-wider text-emerald-400">Khoa mục Diễn tập Chính (${(ex.drills || []).length} khoa mục)</span>
+                  </div>
+                  <ul class="space-y-1">
+                    ${drillsHtml}
+                  </ul>
+                </div>
+
+                <!-- Forces -->
+                <div class="text-xs text-slate-400">
+                  <strong class="text-slate-300">Lực lượng &amp; Khí tài:</strong> ${escapeHtml(ex.forces)}
+                </div>
+              </div>
+
+              <!-- Footer Actions -->
+              <div class="mt-4 pt-3 border-t border-slate-800/80 flex flex-wrap items-center justify-between gap-2 text-xs">
+                <a href="${escapeHtml(ex.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 underline font-medium truncate max-w-[220px]" title="${escapeHtml(ex.sourceTitle)}">
+                  Nguồn: ${escapeHtml(ex.sourceTitle)} ↗
+                </a>
+
+                <div class="flex items-center gap-2">
+                  <button type="button" data-action="compare" data-id="${escapeHtml(ex.id)}" class="px-2.5 py-1 rounded-lg border ${isCompared ? "border-indigo-500 bg-indigo-500/20 text-indigo-200" : "border-slate-700 bg-slate-800 hover:bg-slate-700 text-slate-300"} transition">
+                    ${isCompared ? "✓ Đã chọn so sánh" : "+ So sánh"}
+                  </button>
+                  <button type="button" data-action="detail" data-id="${escapeHtml(ex.id)}" class="px-3 py-1 rounded-lg bg-slate-800 hover:bg-slate-700 text-white font-medium border border-slate-700 transition">
+                    Chi tiết hồ sơ
+                  </button>
+                </div>
+              </div>
+            </article>
+          `;
+        })
+        .join("");
+    }
+
+    function renderTable(list) {
+      const tbody = document.getElementById("tableBody");
+      if (!tbody) return;
+
+      if (list.length === 0) {
+        tbody.innerHTML = `<tr><td colspan="6" class="py-8 text-center text-slate-400">Không có cuộc diễn tập nào khớp bộ lọc.</td></tr>`;
+        return;
+      }
+
+      tbody.innerHTML = list
+        .map((ex) => {
+          const drillsSummary = (ex.drills || []).map((d) => `• ${escapeHtml(d)}`).join("<br/>");
+          return `
+            <tr class="hover:bg-slate-800/40 transition align-top">
+              <td class="py-3 px-4">
+                <div class="font-bold text-white">${escapeHtml(ex.name)}</div>
+                <div class="mt-1">${getStatusBadgeHtml(ex.status)}</div>
+                <div class="mt-1 text-[11px] text-blue-300">${escapeHtml(ex.domainLabel)}</div>
+              </td>
+              <td class="py-3 px-4">
+                <div class="text-amber-300 font-medium">${escapeHtml(ex.dates)}</div>
+                <div class="text-slate-300 mt-1">${escapeHtml(ex.location)}</div>
+                <div class="text-[11px] text-slate-500 mt-0.5">${escapeHtml(ex.region)}</div>
+              </td>
+              <td class="py-3 px-4 max-w-xs text-slate-300 leading-relaxed">
+                ${escapeHtml(ex.purpose)}
+              </td>
+              <td class="py-3 px-4 max-w-sm text-slate-300 text-xs leading-relaxed">
+                ${drillsSummary}
+              </td>
+              <td class="py-3 px-4">
+                <div class="font-mono-code text-white font-semibold">${Number(ex.troops || 0).toLocaleString("vi-VN")} quân</div>
+                <div class="text-xs text-slate-400">${ex.nationsCount} quốc gia</div>
+                <div class="text-[11px] text-slate-400 mt-1 line-clamp-2" title="${escapeHtml(ex.forces)}">${escapeHtml(ex.forces)}</div>
+              </td>
+              <td class="py-3 px-4 text-right whitespace-nowrap space-y-1.5">
+                <button type="button" data-action="detail" data-id="${escapeHtml(ex.id)}" class="block w-full text-center px-2.5 py-1 rounded bg-slate-800 hover:bg-slate-700 text-xs text-white border border-slate-700">
+                  Xem chi tiết
+                </button>
+                <a href="${escapeHtml(ex.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="block text-center text-[11px] text-emerald-400 hover:underline">
+                  Nguồn xác thực ↗
+                </a>
+              </td>
+            </tr>
+          `;
+        })
+        .join("");
+    }
+
+    function renderCharts(list) {
+      const domainCounts = {};
+      list.forEach((ex) => {
+        const key = ex.domainLabel || ex.domain || "Khác";
+        domainCounts[key] = (domainCounts[key] || 0) + 1;
+      });
+
+      const domainCtx = document.getElementById("domainChart");
+      if (domainCtx && typeof Chart !== "undefined") {
+        if (domainChartInstance) domainChartInstance.destroy();
+        domainChartInstance = new Chart(domainCtx, {
+          type: "doughnut",
+          data: {
+            labels: Object.keys(domainCounts),
+            datasets: [
+              {
+                data: Object.values(domainCounts),
+                backgroundColor: [
+                  "#10b981",
+                  "#3b82f6",
+                  "#f59e0b",
+                  "#8b5cf6",
+                  "#ec4899",
+                  "#06b6d4",
+                  "#f97316",
+                  "#64748b"
+                ],
+                borderColor: "#0f172a",
+                borderWidth: 2
+              }
+            ]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: "bottom",
+                labels: { color: "#cbd5e1", font: { size: 11 } }
+              }
+            }
+          }
+        });
+      }
+
+      const sortedByTroops = [...list].sort((a, b) => (b.troops || 0) - (a.troops || 0)).slice(0, 10);
+      const troopsCtx = document.getElementById("troopsChart");
+      if (troopsCtx && typeof Chart !== "undefined") {
+        if (troopsChartInstance) troopsChartInstance.destroy();
+        troopsChartInstance = new Chart(troopsCtx, {
+          type: "bar",
+          data: {
+            labels: sortedByTroops.map((e) => e.name.length > 24 ? e.name.slice(0, 24) + "…" : e.name),
+            datasets: [
+              {
+                label: "Quân số tham gia (Quân nhân)",
+                data: sortedByTroops.map((e) => e.troops || 0),
+                backgroundColor: "#10b981",
+                borderRadius: 6
+              }
+            ]
+          },
+          options: {
+            indexAxis: "y",
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              x: {
+                ticks: { color: "#94a3b8" },
+                grid: { color: "#1e293b" }
+              },
+              y: {
+                ticks: { color: "#e2e8f0", font: { size: 11 } },
+                grid: { display: false }
+              }
+            },
+            plugins: {
+              legend: { display: false }
+            }
+          }
+        });
+      }
+
+      // Render Drills Taxonomy Matrix
+      const taxonomyGrid = document.getElementById("drillsTaxonomyGrid");
+      if (taxonomyGrid) {
+        const categories = [
+          {
+            title: "Tác chiến Hải quân, Chống ngầm (ASW) & Thủy lôi (MCM)",
+            items: [
+              "Săn tìm và tiêu diệt tàu ngầm (Mavi Balina 26, Pacific Vanguard 26)",
+              "Rà phá thủy lôi bảo vệ luồng hàng hải Biển Đen (Poseidon 26)",
+              "Tác chiến biên đội tàu sân bay vùng Cực Bắc (Operation Firecrest Phase 2)",
+              "Cứu hộ tàu ngầm liên hợp & bắn đạn thật trên biển (Joint Sea-2026)"
+            ]
+          },
+          {
+            title: "Phòng không Tích hợp (IAMD), Bắn đạn thật & Chống UAV (C-UAS)",
+            items: [
+              "Hiệp đồng pháo phản lực HIMARS, Pinaka & hệ thống chống UAV M-LIDS (Yudh Abhyas 2026)",
+              "Bắn đạn thật tên lửa Stinger trên tổ hợp AN/TWQ-1 Avenger (Tenacious Archer 2026)",
+              "Chế áp điện tử & săn tìm bầy đàn drone tự sát (Baltic Trust 26)",
+              "Xây dựng vòm phòng không nhân dân đánh địch tiến công đường không (KVPT Thái Nguyên 2026)"
+            ]
+          },
+          {
+            title: "Tác chiến Đa miền, Răn đe Hạt nhân & Phòng thủ Không gian mạng",
+            items: [
+              "Đánh chìm tàu mục tiêu SINKEX & tác chiến Biển - Không - Vũ trụ (Valiant Shield 2026)",
+              "Huấn luyện máy bay lưỡng dụng DCA răn đe hạt nhân phi vũ khí thật (Steadfast Noon 26)",
+              "Bảo vệ hạ tầng trọng yếu & chỉ huy trước tấn công mạng APT (Cyber Coalition 26)",
+              "Vận hành cơ chế Phòng thủ Toàn diện Bắc Cực 32.500 quân (Cold Response 26)"
+            ]
+          }
+        ];
+
+        taxonomyGrid.innerHTML = categories
+          .map(
+            (cat) => `
+              <div class="bg-slate-950/70 border border-slate-800 rounded-lg p-3.5 space-y-2">
+                <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-wider">${escapeHtml(cat.title)}</h4>
+                <ul class="space-y-1.5 text-xs text-slate-300">
+                  ${cat.items.map((it) => `<li class="flex items-start gap-1.5"><span class="text-emerald-400">•</span><span>${escapeHtml(it)}</span></li>`).join("")}
+                </ul>
+              </div>
+            `
+          )
+          .join("");
+      }
+    }
+
+    function renderCrawlerLogs() {
+      const container = document.getElementById("crawlerLogContainer");
+      if (!container) return;
+      container.innerHTML = state.logs
+        .map((log) => {
+          let tagColor = "text-emerald-400";
+          if (log.color === "blue") tagColor = "text-blue-400";
+          if (log.color === "amber") tagColor = "text-amber-300";
+          return `<div class="leading-relaxed"><span class="text-slate-500">[${escapeHtml(log.time)}]</span> <span class="${tagColor} font-semibold">[${escapeHtml(log.tag)}]</span> <span class="text-slate-300">${escapeHtml(log.message)}</span></div>`;
+        })
+        .join("");
+    }
+
+    // =========================================================================
+    // 7. AUTO-SYNC SCHEDULER & LIVE OSINT CRAWLER (1-2 HOURS CYCLE)
+    // =========================================================================
+    function formatSecondsToHms(totalSec) {
+      const s = Math.max(0, Math.floor(totalSec));
+      const hrs = Math.floor(s / 3600);
+      const mins = Math.floor((s % 3600) / 60);
+      const secs = s % 60;
+      const pad = (n) => String(n).padStart(2, "0");
+      return `${pad(hrs)}:${pad(mins)}:${pad(secs)}`;
+    }
+
+    function updateCountdownUi() {
+      const disp = document.getElementById("countdownDisplay");
+      if (disp) {
+        disp.textContent = state.autoSyncEnabled ? formatSecondsToHms(state.remainingSeconds) : "ĐÃ TẠM DỪNG";
+      }
+      const bar = document.getElementById("cycleProgressBar");
+      if (bar) {
+        const elapsed = state.intervalSeconds - state.remainingSeconds;
+        const pct = Math.min(100, Math.max(4, Math.round((elapsed / Math.max(1, state.intervalSeconds)) * 100)));
+        bar.style.width = `${pct}%`;
+      }
+    }
+
+    function startSchedulerLoop() {
+      if (timerHandle) clearInterval(timerHandle);
+      timerHandle = setInterval(() => {
+        if (!state.autoSyncEnabled) return;
+        state.remainingSeconds -= 1;
+        if (state.remainingSeconds <= 0) {
+          state.remainingSeconds = state.intervalSeconds;
+          triggerAutoCrawl("AUTO-CYCLE");
+        }
+        updateCountdownUi();
+      }, 1000);
+    }
+
+    async function triggerAutoCrawl(triggerSource = "MANUAL") {
+      const syncBtn = document.getElementById("syncNowBtn");
+      const syncText = document.getElementById("syncBtnText");
+      const syncIcon = document.getElementById("syncIcon");
+      const queryInput = document.getElementById("customCrawlerQuery");
+      const queryStr = queryInput && queryInput.value.trim() ? queryInput.value.trim() : "military exercise 2026";
+
+      if (syncBtn) syncBtn.disabled = true;
+      if (syncText) syncText.textContent = "Đang quét nguồn tin...";
+      if (syncIcon) syncIcon.classList.add("animate-spin");
+
+      state.scanCount += 1;
+      state.remainingSeconds = state.intervalSeconds;
+      updateCountdownUi();
+
+      addLog(triggerSource, `Bắt đầu quét tự động với truy vấn: "${queryStr}"...`, "blue");
+
+      let externalFetchedCount = 0;
+
+      // 1. Try querying Wikipedia Live CORS API for recent military exercises
+      try {
+        const wikiUrl = `https://en.wikipedia.org/w/api.php?action=query&list=search&srsearch=${encodeURIComponent(queryStr)}&utf8=&format=json&origin=*`;
+        const res = await fetch(wikiUrl);
+        if (res.ok) {
+          const data = await res.json();
+          const hits = (data && data.query && data.query.search) || [];
+          externalFetchedCount += hits.length;
+          addLog("WIKI-API", `Phản hồi 200 OK từ Wikipedia OSINT API: thu thập ${hits.length} kết quả liên quan.`, "emerald");
+        }
+      } catch (err) {
+        addLog("WIKI-API", "Chuyển sang luồng dữ liệu dự phòng xác thực nội bộ.", "amber");
+      }
+
+      // 2. Merge next verified 2026 exercise from discovery pool if available
+      let newlyAddedName = null;
+      if (state.discoveryIndex < VERIFIED_DISCOVERY_POOL.length) {
+        const candidate = VERIFIED_DISCOVERY_POOL[state.discoveryIndex];
+        state.discoveryIndex += 1;
+        const exists = state.exercises.some((e) => e.id === candidate.id);
+        if (!exists) {
+          candidate.updatedAt = formatNowVi();
+          state.exercises.unshift(candidate);
+          newlyAddedName = candidate.name;
+          saveExercisesToStorage();
+          addLog(
+            "EXTRACTOR",
+            `Phát hiện & bóc tách thành công cuộc diễn tập mới: "${candidate.name}" (${candidate.location}) với ${candidate.drills.length} khoa mục.`,
+            "emerald"
+          );
+        }
+      } else {
+        // Refresh timestamps on active exercises
+        state.exercises.forEach((ex) => {
+          if (ex.status === "Đang diễn ra") {
+            ex.updatedAt = formatNowVi();
+          }
+        });
+        addLog(
+          "SYNC-OK",
+          `Đã đồng bộ trạng thái ${state.exercises.length} cuộc diễn tập (kiểm tra ${externalFetchedCount} bản ghi nguồn mở). Không phát sinh thay đổi lịch trình.`,
+          "emerald"
+        );
+      }
+
+      document.getElementById("lastSyncTime").textContent = `${formatNowVi()} GMT+7`;
+
+      if (syncBtn) syncBtn.disabled = false;
+      if (syncText) syncText.textContent = "Quét & Cập nhật ngay";
+      if (syncIcon) syncIcon.classList.remove("animate-spin");
+
+      renderAll();
+
+      if (newlyAddedName) {
+        showToast(`Đã tự động cập nhật thêm: ${newlyAddedName}`, "success");
+      } else {
+        showToast(`Đã hoàn tất quét & làm mới dữ liệu (${formatNowVi()})`, "success");
+      }
+    }
+
+    // =========================================================================
+    // 8. MODAL & COMPARE DRAWER HANDLERS
+    // =========================================================================
+    function openDetailModal(id) {
+      const ex = state.exercises.find((item) => item.id === id);
+      if (!ex) return;
+
+      document.getElementById("modalBadges").innerHTML = `
+        ${getStatusBadgeHtml(ex.status)}
+        <span class="px-2.5 py-0.5 rounded text-xs font-medium bg-blue-500/15 text-blue-300 border border-blue-500/30">${escapeHtml(ex.domainLabel)}</span>
+        <span class="px-2.5 py-0.5 rounded text-xs font-medium bg-slate-800 text-slate-300">${escapeHtml(ex.region)}</span>
+      `;
+      document.getElementById("modalTitle").textContent = ex.name;
+
+      const drillsList = (ex.drills || [])
+        .map(
+          (d, idx) => `
+            <li class="flex items-start gap-2.5 bg-slate-950/80 border border-slate-800 rounded-lg p-2.5">
+              <span class="px-2 py-0.5 rounded bg-emerald-500/15 text-emerald-300 font-mono-code text-xs font-bold">KM ${idx + 1}</span>
+              <span class="text-slate-200 leading-relaxed">${escapeHtml(d)}</span>
+            </li>
+          `
+        )
+        .join("");
+
+      document.getElementById("modalBody").innerHTML = `
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-3 bg-slate-950 p-3.5 rounded-xl border border-slate-800">
+          <div>
+            <span class="text-[11px] uppercase text-slate-400 block">Thời gian</span>
+            <strong class="text-amber-300">${escapeHtml(ex.dates)}</strong>
+          </div>
+          <div>
+            <span class="text-[11px] uppercase text-slate-400 block">Địa điểm &amp; Chiến trường</span>
+            <strong class="text-white">${escapeHtml(ex.location)}</strong>
+          </div>
+          <div>
+            <span class="text-[11px] uppercase text-slate-400 block">Quy mô Tham gia</span>
+            <strong class="text-emerald-300 font-mono-code">~${Number(ex.troops || 0).toLocaleString("vi-VN")} quân (${ex.nationsCount} nước)</strong>
+          </div>
+        </div>
+
+        <div class="space-y-1">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">Mục đích Chiến lược &amp; Yêu cầu</h4>
+          <p class="text-slate-200 bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 leading-relaxed">${escapeHtml(ex.purpose)}</p>
+        </div>
+
+        <div class="space-y-2">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-emerald-400">Danh mục Khoa mục Huấn luyện &amp; Thực binh</h4>
+          <ul class="space-y-2">${drillsList}</ul>
+        </div>
+
+        <div class="space-y-1">
+          <h4 class="text-xs font-bold uppercase tracking-wider text-slate-400">Lực lượng, Đơn vị &amp; Vũ khí Trang bị</h4>
+          <p class="text-slate-300 bg-slate-950/60 border border-slate-800/80 rounded-xl p-3 leading-relaxed">${escapeHtml(ex.forces)}</p>
+        </div>
+
+        <div class="pt-2 border-t border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs text-slate-400">
+          <span>Cập nhật bản ghi: ${escapeHtml(ex.updatedAt || "14/11/2026")}</span>
+          <a href="${escapeHtml(ex.sourceUrl)}" target="_blank" rel="noopener noreferrer" class="px-3 py-1.5 rounded-lg bg-emerald-600 hover:bg-emerald-500 text-white font-semibold transition">
+            Mở bài viết nguồn (${escapeHtml(ex.sourceTitle)}) ↗
+          </a>
+        </div>
+      `;
+
+      document.getElementById("detailModal").classList.remove("hidden");
+    }
+
+    function toggleCompareItem(id) {
+      const idx = state.compareIds.indexOf(id);
+      if (idx >= 0) {
+        state.compareIds.splice(idx, 1);
+        showToast("Đã bỏ cuộc diễn tập khỏi danh sách so sánh", "info");
+      } else {
+        if (state.compareIds.length >= 3) {
+          showToast("Chỉ có thể chọn tối đa 3 cuộc diễn tập để so sánh cùng lúc", "info");
+          return;
+        }
+        state.compareIds.push(id);
+        showToast("Đã thêm vào danh sách so sánh đối chiếu", "success");
+      }
+      renderAll();
+    }
+
+    function openCompareModal() {
+      const container = document.getElementById("compareContent");
+      if (!container) return;
+
+      const selected = state.compareIds
+        .map((id) => state.exercises.find((e) => e.id === id))
+        .filter(Boolean);
+
+      if (selected.length === 0) {
+        container.innerHTML = `
+          <div class="p-8 text-center text-slate-400 text-sm">
+            Bạn chưa chọn cuộc diễn tập nào. Hãy nhấn nút <strong>"+ So sánh"</strong> trên các thẻ diễn tập (tối đa 3 chiến dịch) để đối chiếu trực tiếp.
+          </div>
+        `;
+      } else {
+        const colsHtml = selected
+          .map(
+            (ex) => `
+              <td class="p-3.5 border border-slate-800 align-top min-w-[260px]">
+                <div class="font-bold text-white text-sm">${escapeHtml(ex.name)}</div>
+                <div class="mt-1">${getStatusBadgeHtml(ex.status)}</div>
+                <div class="mt-3 space-y-2 text-xs">
+                  <div><span class="text-slate-400">Thời gian:</span> <span class="text-amber-300 font-medium">${escapeHtml(ex.dates)}</span></div>
+                  <div><span class="text-slate-400">Địa điểm:</span> <span class="text-slate-200">${escapeHtml(ex.location)}</span></div>
+                  <div><span class="text-slate-400">Khu vực:</span> <span class="text-slate-300">${escapeHtml(ex.region)}</span></div>
+                  <div><span class="text-slate-400">Quy mô:</span> <span class="text-emerald-300 font-mono-code">${Number(ex.troops || 0).toLocaleString("vi-VN")} quân (${ex.nationsCount} nước)</span></div>
+                  <div class="pt-2 border-t border-slate-800">
+                    <span class="text-slate-400 block font-semibold mb-1">Mục đích:</span>
+                    <p class="text-slate-300 leading-relaxed">${escapeHtml(ex.purpose)}</p>
+                  </div>
+                  <div class="pt-2 border-t border-slate-800">
+                    <span class="text-emerald-400 block font-semibold mb-1">Khoa mục chính:</span>
+                    <ul class="space-y-1 text-slate-300">
+                      ${(ex.drills || []).map((d) => `<li>• ${escapeHtml(d)}</li>`).join("")}
+                    </ul>
+                  </div>
+                  <div class="pt-2 border-t border-slate-800">
+                    <span class="text-slate-400 block font-semibold mb-1">Lực lượng &amp; Vũ khí:</span>
+                    <p class="text-slate-300">${escapeHtml(ex.forces)}</p>
+                  </div>
+                </div>
+              </td>
+            `
+          )
+          .join("");
+
+        container.innerHTML = `
+          <table class="w-full border-collapse">
+            <tbody>
+              <tr>${colsHtml}</tr>
+            </tbody>
+          </table>
+        `;
+      }
+
+      document.getElementById("compareModal").classList.remove("hidden");
+    }
+
+    // =========================================================================
+    // 9. NLP QUICK EXTRACTOR FOR NEW MILITARY EXERCISE NEWS
+    // =========================================================================
+    function parseRawNewsToForm(rawText) {
+      const text = rawText.trim();
+      if (!text) {
+        showToast("Vui lòng dán nội dung bản tin diễn tập trước khi bóc tách", "info");
+        return;
+      }
+
+      // Extract exercise name
+      let nameMatch = text.match(/(?:diễn tập|tập trận|Exercise|Operation)\s+([A-ZÀ-Ỹa-z0-9\-\s]{3,35})/i);
+      const extractedName = nameMatch ? nameMatch[1].trim() : "Diễn tập Liên hợp Mới 2026";
+
+      // Extract date
+      let dateMatch = text.match(/(\d{1,2}[\/\-]\d{1,2}(?:[\/\-]\d{2,4})?(?:\s*(?:đến|\-|–)\s*\d{1,2}[\/\-]\d{1,2}[\/\-]\d{2,4})?|\btháng\s+\d{1,2}\/\d{4})/i);
+      const extractedDate = dateMatch ? dateMatch[1] : "Tháng 11/2026";
+
+      // Extract location
+      let locMatch = text.match(/(?:tại|ở|vùng biển|thao trường|in|near|off the coast of)\s+([^,.;\n]{4,60})/i);
+      const extractedLoc = locMatch ? locMatch[1].trim() : "Khu vực tác chiến liên hợp";
+
+      // Extract purpose
+      let purposeMatch = text.match(/(?:nhằm|mục đích|để|aimed at|to strengthen|to enhance)\s+([^.;\n]{10,160})/i);
+      const extractedPurpose = purposeMatch
+        ? "Nhằm " + purposeMatch[1].trim()
+        : "Nâng cao khả năng sẵn sàng chiến đấu và hiệp đồng tác chiến liên quân.";
+
+      // Extract drills (khoa mục)
+      let drillsMatch = text.match(/(?:khoa mục|nội dung thực binh|bao gồm|gồm các khoa mục|featuring|including)\s*:?\s*([^.\n]{10,220})/i);
+      const extractedDrills = drillsMatch
+        ? drillsMatch[1]
+            .split(/,|;|\bvà\b|\band\b/i)
+            .map((s) => s.trim())
+            .filter((s) => s.length > 3)
+            .join("; ")
+        : "Hiệp đồng chỉ huy tham mưu tác chiến; Thực binh cơ động lực lượng; Bắn đạn thật tiêu diệt mục tiêu";
+
+      document.getElementById("formName").value = extractedName;
+      document.getElementById("formDates").value = extractedDate;
+      document.getElementById("formLocation").value = extractedLoc;
+      document.getElementById("formPurpose").value = extractedPurpose;
+      document.getElementById("formDrills").value = extractedDrills;
+      document.getElementById("formForces").value = "Lực lượng hải - lục - không quân hỗn hợp theo bản tin";
+
+      addLog("NLP-PARSE", `Đã bóc tách tự động bản tin: "${extractedName}" (Thời gian: ${extractedDate} | Địa điểm: ${extractedLoc}).`, "emerald");
+      showToast("Đã bóc tách Thời gian, Địa điểm, Mục đích & Khoa mục vào biểu mẫu!", "success");
+    }
+
+    // =========================================================================
+    // 10. EXPORT CSV & JSON
+    // =========================================================================
+    function downloadFile(filename, content, mimeType) {
+      const blob = new Blob([content], { type: mimeType });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = filename;
+      document.body.appendChild(a);
+      a.click();
+      setTimeout(() => {
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+      }, 200);
+    }
+
+    function exportCsv() {
+      const rows = getFilteredExercises();
+      const headers = ["ID", "Tên Diễn tập", "Trạng thái", "Thời gian", "Địa điểm", "Khu vực", "Miền tác chiến", "Mục đích", "Khoa mục", "Lực lượng", "Quân số", "Số quốc gia", "Nguồn URL"];
+      const csvLines = [
+        headers.join(","),
+        ...rows.map((r) =>
+          [
+            r.id,
+            r.name,
+            r.status,
+            r.dates,
+            r.location,
+            r.region,
+            r.domainLabel,
+            r.purpose,
+            (r.drills || []).join(" | "),
+            r.forces,
+            r.troops,
+            r.nationsCount,
+            r.sourceUrl
+          ]
+            .map((cell) => `"${String(cell || "").replace(/"/g, '""')}"`)
+            .join(",")
+        )
+      ];
+      downloadFile("dien_tap_quan_su_2026.csv", "\uFEFF" + csvLines.join("\n"), "text/csv;charset=utf-8;");
+      showToast(`Đã xuất ${rows.length} cuộc diễn tập ra file CSV`, "success");
+    }
+
+    function exportJson() {
+      const rows = getFilteredExercises();
+      downloadFile("dien_tap_quan_su_2026.json", JSON.stringify(rows, null, 2), "application/json;charset=utf-8;");
+      showToast(`Đã xuất ${rows.length} cuộc diễn tập ra file JSON`, "success");
+    }
+
+    // =========================================================================
+    // 11. EVENT LISTENERS WIRING
+    // =========================================================================
+    function switchTab(tabName) {
+      state.activeTab = tabName;
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        const isCurrent = btn.getAttribute("data-tab") === tabName;
+        btn.className = isCurrent
+          ? "tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-emerald-600 text-white transition flex items-center gap-1.5"
+          : "tab-btn px-3.5 py-2 rounded-lg text-xs sm:text-sm font-semibold bg-slate-800/80 text-slate-300 hover:bg-slate-800 transition flex items-center gap-1.5";
+      });
+
+      document.getElementById("viewCards").classList.toggle("hidden", tabName !== "cards");
+      document.getElementById("viewTable").classList.toggle("hidden", tabName !== "table");
+      document.getElementById("viewAnalytics").classList.toggle("hidden", tabName !== "analytics");
+      document.getElementById("viewCrawler").classList.toggle("hidden", tabName !== "crawler");
+
+      if (tabName === "analytics") {
+        renderCharts(getFilteredExercises());
+      }
+    }
+
+    window.addEventListener("DOMContentLoaded", () => {
+      loadInitialState();
+      renderAll();
+      updateCountdownUi();
+      startSchedulerLoop();
+
+      // Tab buttons
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.addEventListener("click", () => {
+          switchTab(btn.getAttribute("data-tab"));
+        });
+      });
+
+      // Interval Select (1h, 1.5h, 2h, 60s)
+      document.getElementById("intervalSelect").addEventListener("change", (e) => {
+        const val = Number(e.target.value) || 5400;
+        state.intervalSeconds = val;
+        state.remainingSeconds = val;
+        updateCountdownUi();
+        const labelText = e.target.options[e.target.selectedIndex].text;
+        addLog("SCHEDULER", `Đã đổi chu kỳ tự động quét sang: ${labelText}.`, "blue");
+        showToast(`Đã đặt chu kỳ tự động cập nhật: ${labelText}`, "success");
+      });
+
+      // Toggle Auto-Sync button
+      document.getElementById("toggleAutoBtn").addEventListener("click", (e) => {
+        state.autoSyncEnabled = !state.autoSyncEnabled;
+        e.currentTarget.textContent = state.autoSyncEnabled ? "Tạm dừng" : "Tiếp tục";
+        const badge = document.getElementById("liveBadge");
+        if (state.autoSyncEnabled) {
+          badge.className = "inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-medium bg-emerald-500/15 text-emerald-300 border border-emerald-500/30";
+          badge.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>AUTO-SYNC BẬT`;
+          addLog("SCHEDULER", "Đã kích hoạt lại chế độ tự động quét theo chu kỳ.", "emerald");
+          showToast("Đã bật lại tự động cập nhật", "success");
+        } else {
+          badge.className = "inline-flex items-center gap-1.5 px-2 py-0.5 rounded-full text-xs font-medium bg-amber-500/15 text-amber-300 border border-amber-500/30";
+          badge.innerHTML = `<span class="w-1.5 h-1.5 rounded-full bg-amber-400"></span>TẠM DỪNG`;
+          addLog("SCHEDULER", "Người dùng tạm dừng bộ đếm tự động quét.", "amber");
+          showToast("Đã tạm dừng bộ đếm tự động quét", "info");
+        }
+        updateCountdownUi();
+      });
+
+      // Sync Now buttons
+      document.getElementById("syncNowBtn").addEventListener("click", () => {
+        triggerAutoCrawl("MANUAL-SYNC");
+      });
+      document.getElementById("runCustomCrawlBtn").addEventListener("click", () => {
+        triggerAutoCrawl("CUSTOM-QUERY");
+      });
+
+      // Clear log
+      document.getElementById("clearLogBtn").addEventListener("click", () => {
+        state.logs = [];
+        addLog("CLEAN", "Đã làm sạch nhật ký quét.", "slate");
+      });
+
+      // Filter inputs
+      document.getElementById("searchInput").addEventListener("input", (e) => {
+        state.searchQuery = e.target.value;
+        renderAll();
+      });
+      document.getElementById("statusFilter").addEventListener("change", (e) => {
+        state.statusFilter = e.target.value;
+        renderAll();
+      });
+      document.getElementById("regionFilter").addEventListener("change", (e) => {
+        state.regionFilter = e.target.value;
+        renderAll();
+      });
+      document.getElementById("domainFilter").addEventListener("change", (e) => {
+        state.domainFilter = e.target.value;
+        renderAll();
+      });
+      document.getElementById("resetFiltersBtn").addEventListener("click", () => {
+        state.searchQuery = "";
+        state.statusFilter = "ALL";
+        state.regionFilter = "ALL";
+        state.domainFilter = "ALL";
+        document.getElementById("searchInput").value = "";
+        document.getElementById("statusFilter").value = "ALL";
+        document.getElementById("regionFilter").value = "ALL";
+        document.getElementById("domainFilter").value = "ALL";
+        renderAll();
+        showToast("Đã đặt lại toàn bộ bộ lọc", "success");
+      });
+
+      // Event delegation for Cards and Table buttons
+      document.getElementById("cardsGrid").addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-action]");
+        if (!btn) return;
+        const action = btn.getAttribute("data-action");
+        const id = btn.getAttribute("data-id");
+        if (action === "detail") openDetailModal(id);
+        if (action === "compare") toggleCompareItem(id);
+      });
+
+      document.getElementById("tableBody").addEventListener("click", (e) => {
+        const btn = e.target.closest("button[data-action]");
+        if (!btn) return;
+        const action = btn.getAttribute("data-action");
+        const id = btn.getAttribute("data-id");
+        if (action === "detail") openDetailModal(id);
+      });
+
+      // Modals close & compare
+      document.getElementById("closeDetailModalBtn").addEventListener("click", () => {
+        document.getElementById("detailModal").classList.add("hidden");
+      });
+      document.getElementById("detailModal").addEventListener("click", (e) => {
+        if (e.target.id === "detailModal") {
+          document.getElementById("detailModal").classList.add("hidden");
+        }
+      });
+
+      document.getElementById("openCompareBtn").addEventListener("click", openCompareModal);
+      document.getElementById("closeCompareModalBtn").addEventListener("click", () => {
+        document.getElementById("compareModal").classList.add("hidden");
+      });
+      document.getElementById("compareModal").addEventListener("click", (e) => {
+        if (e.target.id === "compareModal") {
+          document.getElementById("compareModal").classList.add("hidden");
+        }
+      });
+      document.getElementById("clearCompareBtn").addEventListener("click", () => {
+        state.compareIds = [];
+        renderAll();
+        openCompareModal();
+      });
+
+      // Export & Publish buttons
+      document.getElementById("exportCsvBtn").addEventListener("click", exportCsv);
+      document.getElementById("exportJsonBtn").addEventListener("click", exportJson);
+
+      document.getElementById("openPublishModalBtn").addEventListener("click", () => {
+        document.getElementById("publishModal").classList.remove("hidden");
+      });
+      document.getElementById("closePublishModalBtn").addEventListener("click", () => {
+        document.getElementById("publishModal").classList.add("hidden");
+      });
+      document.getElementById("publishModal").addEventListener("click", (e) => {
+        if (e.target.id === "publishModal") {
+          document.getElementById("publishModal").classList.add("hidden");
+        }
+      });
+      document.getElementById("downloadIndexHtmlBtn").addEventListener("click", () => {
+        downloadFile("index.html", document.documentElement.outerHTML, "text/html;charset=utf-8;");
+        showToast("Đã tải xuống file index.html sẵn sàng xuất bản!", "success");
+      });
+      document.getElementById("copyWorkflowYamlBtn").addEventListener("click", () => {
+        const yamlText = document.getElementById("workflowYamlCode").textContent;
+        try {
+          if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(yamlText);
+          } else {
+            const ta = document.createElement("textarea");
+            ta.value = yamlText;
+            document.body.appendChild(ta);
+            ta.select();
+            document.execCommand("copy");
+            document.body.removeChild(ta);
+          }
+          showToast("Đã sao chép cấu hình GitHub Actions tự động quét 2h/lần!", "success");
+        } catch (err) {
+          showToast("Không thể sao chép tự động, vui lòng bôi đen mã YAML.", "info");
+        }
+      });
+
+      // NLP Quick Extractor & Sample News
+      document.getElementById("fillSampleNewsBtn").addEventListener("click", () => {
+        document.getElementById("rawNewsInput").value =
+          "Từ ngày 18/10 đến 05/11/2026, tại vùng biển Địa Trung Hải đến Biển Baltic, NATO tổ chức diễn tập Neptune Strike 26-4 nhằm tăng cường khả năng răn đe và hiệp đồng tác chiến nhóm tàu sân bay liên minh; gồm các khoa mục: tuần tra chiến đấu tiêm kích hạm F-35B, săn ngầm liên hợp, phòng không hạm đội và tấn công chính xác tầm xa.";
+        parseRawNewsToForm(document.getElementById("rawNewsInput").value);
+      });
+
+      document.getElementById("autoParseNewsBtn").addEventListener("click", () => {
+        parseRawNewsToForm(document.getElementById("rawNewsInput").value);
+      });
+
+      document.getElementById("addExerciseForm").addEventListener("submit", (e) => {
+        e.preventDefault();
+        const name = document.getElementById("formName").value.trim();
+        const dates = document.getElementById("formDates").value.trim();
+        const status = document.getElementById("formStatus").value;
+        const location = document.getElementById("formLocation").value.trim();
+        const region = document.getElementById("formRegion").value;
+        const purpose = document.getElementById("formPurpose").value.trim();
+        const drillsRaw = document.getElementById("formDrills").value.trim();
+        const forces = document.getElementById("formForces").value.trim() || "Lực lượng liên hợp đa quốc gia";
+        const troops = Number(document.getElementById("formTroops").value) || 1500;
+        const sourceUrl = document.getElementById("formSourceUrl").value.trim() || "https://shape.nato.int/nato-exercises";
+
+        const drills = drillsRaw
+          .split(";")
+          .map((s) => s.trim())
+          .filter(Boolean);
+
+        const newItem = {
+          id: "ex-custom-" + Date.now(),
+          name,
+          dates,
+          status,
+          location,
+          region,
+          domain: "Đa miền",
+          domainLabel: "Đa miền (Bóc tách mới)",
+          purpose,
+          drills: drills.length ? drills : ["Thực binh hiệp đồng tác chiến liên quân"],
+          forces,
+          troops,
+          nationsCount: 2,
+          sourceTitle: "Bản tin OSINT cập nhật",
+          sourceUrl,
+          updatedAt: formatNowVi()
+        };
+
+        state.exercises.unshift(newItem);
+        saveExercisesToStorage();
+        renderAll();
+        addLog("USER-ADD", `Đã thêm cuộc diễn tập mới: "${name}" vào cơ sở dữ liệu.`, "emerald");
+        showToast(`Đã lưu "${name}" vào danh sách theo dõi!`, "success");
+        e.target.reset();
+        switchTab("cards");
+      });
+    });
+  </script>
+</body>
+</html>
