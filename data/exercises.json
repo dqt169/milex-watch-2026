@@ -1,5 +1,61 @@
 [
   {
+    "id": "osint-2026111523-1",
+    "name": "Lực lượng Phòng vệ Hàng hải tiến hành huấn luyện chung với Hải quân New Zealand (26/9) - J Defense News",
+    "dates": "Ghi nhận: 30/09/2026",
+    "status": "Đang diễn ra",
+    "location": "J ディフェンス ニュース",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (J ディフェンス ニュース): Lực lượng Phòng vệ Hàng hải tiến hành huấn luyện chung với Hải quân New Zealand (26/9) - J Defense News",
+    "drills": [
+      "Tác chiến hiệp đồng biên đội tàu mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật trên biển"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "J ディフェンス ニュース",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90OWVqU2N1Z0VQNGxUMmFubnNNMG1SZ3ozcEVUNmVYaFg3NktTUkdFRC1nb0w2eXNCejVXTTM0aGdERDVyVTlPd2J0eF9ocGgwME41aXhRV1hDN3lY?oc=5",
+    "articles": [
+      {
+        "title": "Lực lượng Phòng vệ Hàng hải tiến hành huấn luyện chung với Hải quân New Zealand (26/9) - J Defense News",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE90OWVqU2N1Z0VQNGxUMmFubnNNMG1SZ3ozcEVUNmVYaFg3NktTUkdFRC1nb0w2eXNCejVXTTM0aGdERDVyVTlPd2J0eF9ocGgwME41aXhRV1hDN3lY?oc=5",
+        "publisher": "J ディフェンス ニュース"
+      }
+    ],
+    "updatedAt": "15/11/2026 23:49 UTC"
+  },
+  {
+    "id": "osint-2026111523-0",
+    "name": "Cuộc tập trận chung Nhật-Mỹ lớn nhất từ ​​trước đến nay bắt đầu; ``tín hiệu khủng hoảng'' trước tình trạng khẩ",
+    "dates": "Ghi nhận: 19/10/2026",
+    "status": "Đang diễn ra",
+    "location": "朝日新聞",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (朝日新聞): Cuộc tập trận chung Nhật-Mỹ lớn nhất từ ​​trước đến nay bắt đầu; ``tín hiệu khủng hoảng'' trước tình trạng khẩn cấp ở Đài Loan - Asahi Shimbun",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "朝日新聞",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sb3RPQ3o3QUw4b24xX2hINFJGMTRpcnRKTnpITlViSUtORTJJWHppcGJ2SWtyUmVGVWVzQzZFRGpwVWFILWhWN2lsa3ZYSUdFU05jbVJ0TVhkcTBkN1lmeEE5NkNqc0k?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc tập trận chung Nhật-Mỹ lớn nhất từ ​​trước đến nay bắt đầu; ``tín hiệu khủng hoảng'' trước tình trạng khẩn cấp ở Đài Loan - Asahi Shimbun",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9sb3RPQ3o3QUw4b24xX2hINFJGMTRpcnRKTnpITlViSUtORTJJWHppcGJ2SWtyUmVGVWVzQzZFRGpwVWFILWhWN2lsa3ZYSUdFU05jbVJ0TVhkcTBkN1lmeEE5NkNqc0k?oc=5",
+        "publisher": "朝日新聞"
+      }
+    ],
+    "updatedAt": "15/11/2026 23:49 UTC"
+  },
+  {
     "id": "osint-2026111519-4",
     "name": "Bộ Quốc phòng \"Các báo cáo rằng 'chính phủ của chúng tôi từ chối huấn luyện không quân chung giữa Hàn Quốc, Ho",
     "dates": "Ghi nhận: 23/02/2026",
