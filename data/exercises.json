@@ -1,5 +1,145 @@
 [
   {
+    "id": "osint-2026111513-4",
+    "name": "Bộ Quốc phòng Hoa Kỳ “Giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Hoa Kỳ…duy trì sự sẵn sàng thiế",
+    "dates": "Ghi nhận: 19/08/2026",
+    "status": "Đang diễn ra",
+    "location": "경기일보",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (경기일보): Bộ Quốc phòng Hoa Kỳ “Giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Hoa Kỳ…duy trì sự sẵn sàng thiết yếu” - Kyunggi Ilbo",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "경기일보",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lTzJ4OTQtTXhCNlZ5MEdxZTlRUS1CdldFajNubVRCcEZjZkwxdE9VQzR6eV8tem5BdG1UME9YX081aWZ5Skt1REladXlkczdRRXBwNUZuc0Nzekk?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Quốc phòng Hoa Kỳ “Giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Hoa Kỳ…duy trì sự sẵn sàng thiết yếu” - Kyunggi Ilbo",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lTzJ4OTQtTXhCNlZ5MEdxZTlRUS1CdldFajNubVRCcEZjZkwxdE9VQzR6eV8tem5BdG1UME9YX081aWZ5Skt1REladXlkczdRRXBwNUZuc0Nzekk?oc=5",
+        "publisher": "경기일보"
+      }
+    ],
+    "updatedAt": "15/11/2026 13:36 UTC"
+  },
+  {
+    "id": "osint-2026111513-3",
+    "name": "Bộ Quốc phòng Hoa Kỳ: \"Giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Hoa Kỳ. Sẽ không có sự gián đo",
+    "dates": "Ghi nhận: 19/08/2026",
+    "status": "Đang diễn ra",
+    "location": "MBC 뉴스",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (MBC 뉴스): Bộ Quốc phòng Hoa Kỳ: \"Giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Hoa Kỳ. Sẽ không có sự gián đoạn\" - MBC News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "MBC 뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMWTBhMGFPYWRaRFp2ZFpmMklPcGxNU2NkZTQyYnl5bzZIaFhiYU9kRVVWTm5ZZjFBSVdqYjJUODNzTTQ1QWw2UEp4T1ZHVUJwRW1ZVklsU1JUYzJaZ1RmLXI3SXVfbkFXSll4S09ES1lXaEcy0gF0QVVfeXFMTWN6cXlXVFI3UldBYWZDUURQeFQwTFE3a0d0RGFDRFljb3l5aVR1N1BNY2hISmU2WE9LTjFIakZfTFVhSHlOMmNKX3QtZ2x5bEh0M0haYjhvVkc5TG5WZVRsY3c1bWVpYlg1QlNZSkctOXFzeE4?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Quốc phòng Hoa Kỳ: \"Giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Hoa Kỳ. Sẽ không có sự gián đoạn\" - MBC News",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFBMWTBhMGFPYWRaRFp2ZFpmMklPcGxNU2NkZTQyYnl5bzZIaFhiYU9kRVVWTm5ZZjFBSVdqYjJUODNzTTQ1QWw2UEp4T1ZHVUJwRW1ZVklsU1JUYzJaZ1RmLXI3SXVfbkFXSll4S09ES1lXaEcy0gF0QVVfeXFMTWN6cXlXVFI3UldBYWZDUURQeFQwTFE3a0d0RGFDRFljb3l5aVR1N1BNY2hISmU2WE9LTjFIakZfTFVhSHlOMmNKX3QtZ2x5bEh0M0haYjhvVkc5TG5WZVRsY3c1bWVpYlg1QlNZSkctOXFzeE4?oc=5",
+        "publisher": "MBC 뉴스"
+      }
+    ],
+    "updatedAt": "15/11/2026 13:36 UTC"
+  },
+  {
+    "id": "osint-2026111513-2",
+    "name": "Australia-Philippines, thỏa thuận hợp tác quốc phòng... Đơn giản hóa các thủ tục như điều động quân và huấn lu",
+    "dates": "Ghi nhận: 15/11/2026",
+    "status": "Đang diễn ra",
+    "location": "연합뉴스",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Australia-Philippines, thỏa thuận hợp tác quốc phòng... Đơn giản hóa các thủ tục như điều động quân và huấn luyện - Yonhap News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "연합뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lcDlWV2ktZUtzODY1cmcyWGFKeVdWT0pNbnJDZGF6OUFPTkwzN29BQmhWd3lhRzFLMmg5cm90UlV3Wmd0dzI3V0FOdDJwcFVwOHoycmIyVXROWnPSAWBBVV95cUxPRVBDWGJzZlUwRng1WWVuc3JZZ2NoQmZOM2N4ekdkMEI2LWFxaElId0xMRlRLdmxKYTZ3OTY1OVNEYWt2anJfeWpibVVlZEtHaHBsT3RTOWdSb21BbVUyNnc?oc=5",
+    "articles": [
+      {
+        "title": "Australia-Philippines, thỏa thuận hợp tác quốc phòng... Đơn giản hóa các thủ tục như điều động quân và huấn luyện - Yonhap News",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1lcDlWV2ktZUtzODY1cmcyWGFKeVdWT0pNbnJDZGF6OUFPTkwzN29BQmhWd3lhRzFLMmg5cm90UlV3Wmd0dzI3V0FOdDJwcFVwOHoycmIyVXROWnPSAWBBVV95cUxPRVBDWGJzZlUwRng1WWVuc3JZZ2NoQmZOM2N4ekdkMEI2LWFxaElId0xMRlRLdmxKYTZ3OTY1OVNEYWt2anJfeWpibVVlZEtHaHBsT3RTOWdSb21BbVUyNnc?oc=5",
+        "publisher": "연합뉴스"
+      }
+    ],
+    "updatedAt": "15/11/2026 13:36 UTC"
+  },
+  {
+    "id": "osint-2026111513-1",
+    "name": "Australia và Philippines hợp tác... Đơn giản hóa đáng kể thủ tục điều động quân và huấn luyện chung - một bước",
+    "dates": "Ghi nhận: 15/11/2026",
+    "status": "Đang diễn ra",
+    "location": "진일보 | 전남일보",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (진일보 | 전남일보): Australia và Philippines hợp tác... Đơn giản hóa đáng kể thủ tục điều động quân và huấn luyện chung - một bước tiến | Jeonnam Ilbo",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "진일보 | 전남일보",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SbUNrSExHUzBfZlhYc25WWTBIMF9ra1h2WVEyOHh4TGtGWnZfZGYzeV9FQkxrbXpnSzB6R2NicHJxS19jdzJvSk9BN0ZUcHZHY2YxVjlrUElubWxicEJVRVpuWXhjcDZlUlZHN1A1UQ?oc=5",
+    "articles": [
+      {
+        "title": "Australia và Philippines hợp tác... Đơn giản hóa đáng kể thủ tục điều động quân và huấn luyện chung - một bước tiến | Jeonnam Ilbo",
+        "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1SbUNrSExHUzBfZlhYc25WWTBIMF9ra1h2WVEyOHh4TGtGWnZfZGYzeV9FQkxrbXpnSzB6R2NicHJxS19jdzJvSk9BN0ZUcHZHY2YxVjlrUElubWxicEJVRVpuWXhjcDZlUlZHN1A1UQ?oc=5",
+        "publisher": "진일보 | 전남일보"
+      }
+    ],
+    "updatedAt": "15/11/2026 13:36 UTC"
+  },
+  {
+    "id": "osint-2026111513-bchhuyqunst",
+    "name": "Bộ Chỉ huy Quân sự tỉnh Đồng Tháp: Nâng cao năng lực tác chiến “Vòm phòng không bền vững” - Báo Đồng Tháp",
+    "dates": "Ghi nhận: 13/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Báo Đồng Tháp",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Đồng Tháp): Bộ Chỉ huy Quân sự tỉnh Đồng Tháp: Nâng cao năng lực tác chiến “Vòm phòng không bền vững” - Báo Đồng Tháp",
+    "drills": [
+      "Tác chiến phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện, chế áp thiết bị bay không người lái (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Báo Đồng Tháp",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbE9IZ2k5M1dlcS1sek9feHIzbUMyNkVlOTdQNC00LUFiOUtHRG0tQ0s3LWt3Q1JYT3dybkRMV1VZTHJ0X1lBcGxMY2xSOVN3Z29yZy05S2JLM0NLbERlTXBMemhJejMwOEpFVnRYOUZ6RTNiN0Y0NkVzN180RGVoTzJ5VkpZNHpEQXlBUGxQMzdzR09FaXhvRjZscllLUG5EMEZxX0c4ODY4N3hjUGs1cjQ1OGVkOFhaS0hDZXZ1M1M?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Chỉ huy Quân sự tỉnh Đồng Tháp: Nâng cao năng lực tác chiến “Vòm phòng không bền vững” - Báo Đồng Tháp",
+        "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQbE9IZ2k5M1dlcS1sek9feHIzbUMyNkVlOTdQNC00LUFiOUtHRG0tQ0s3LWt3Q1JYT3dybkRMV1VZTHJ0X1lBcGxMY2xSOVN3Z29yZy05S2JLM0NLbERlTXBMemhJejMwOEpFVnRYOUZ6RTNiN0Y0NkVzN180RGVoTzJ5VkpZNHpEQXlBUGxQMzdzR09FaXhvRjZscllLUG5EMEZxX0c4ODY4N3hjUGs1cjQ1OGVkOFhaS0hDZXZ1M1M?oc=5",
+        "publisher": "Báo Đồng Tháp"
+      }
+    ],
+    "updatedAt": "15/11/2026 13:36 UTC"
+  },
+  {
     "id": "osint-2026111512-7",
     "name": "Huấn luyện đặc biệt về rà phá bom mìn và rà phá bom mìn chung giữa Nhật Bản và Mỹ dự kiến ​​​​sẽ được tổ chức ",
     "dates": "Ghi nhận: 10/11/2026",
