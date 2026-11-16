@@ -1,5 +1,89 @@
 [
   {
+    "id": "osint-2026111605-2",
+    "name": "【お知らせ】米軍再編に係る岩国飛行場から三沢基地への訓練移転について - 防衛省",
+    "dates": "Ghi nhận: 11/11/2026",
+    "status": "Đang diễn ra",
+    "location": "防衛省",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (防衛省): 【お知らせ】米軍再編に係る岩国飛行場から三沢基地への訓練移転について - 防衛省",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "防衛省",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vbEFIUGlpbm5SdFRFQklqaHJhSXExWFhRMXllSldfUUU2aWdYckNwdThDLTZ1NGxWRWpUMG4yVUlxODBoYjJtZkNnMnUtTzdMWUhNMlhsWFRGZ2I0c3JzOQ?oc=5",
+    "articles": [
+      {
+        "title": "【お知らせ】米軍再編に係る岩国飛行場から三沢基地への訓練移転について - 防衛省",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9vbEFIUGlpbm5SdFRFQklqaHJhSXExWFhRMXllSldfUUU2aWdYckNwdThDLTZ1NGxWRWpUMG4yVUlxODBoYjJtZkNnMnUtTzdMWUhNMlhsWFRGZ2I0c3JzOQ?oc=5",
+        "publisher": "防衛省"
+      }
+    ],
+    "updatedAt": "16/11/2026 05:16 UTC"
+  },
+  {
+    "id": "osint-2026111605-1",
+    "name": "日美将举行大规模联合军演 暴露危险“转型” - 中国网",
+    "dates": "Ghi nhận: 19/10/2026",
+    "status": "Đang diễn ra",
+    "location": "中国网",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (中国网): 日美将举行大规模联合军演 暴露危险“转型” - 中国网",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "中国网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lXzhDQ3hSOEY4MUt3ZFNxR0ttdjFvX0FGd3V1Y3lHQzdsazZSM2x3YzRHREZDTklpRnc0RkFwZGsyTzlXTnNGV2JUclgyRE96bHlzYzJxcUczRGJHY05WTU1GeWVPVElLNUI2cVZUaXFpZGRNVHVCUGt3?oc=5",
+    "articles": [
+      {
+        "title": "日美将举行大规模联合军演 暴露危险“转型” - 中国网",
+        "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9lXzhDQ3hSOEY4MUt3ZFNxR0ttdjFvX0FGd3V1Y3lHQzdsazZSM2x3YzRHREZDTklpRnc0RkFwZGsyTzlXTnNGV2JUclgyRE96bHlzYzJxcUczRGJHY05WTU1GeWVPVElLNUI2cVZUaXFpZGRNVHVCUGt3?oc=5",
+        "publisher": "中国网"
+      }
+    ],
+    "updatedAt": "16/11/2026 05:16 UTC"
+  },
+  {
+    "id": "osint-2026111605-qunkhu4khaimc",
+    "name": "Quân khu 4 khai mạc diễn tập tác chiến phòng thủ năm 2026 - Quân Khu 7 Online",
+    "dates": "Ghi nhận: 27/10/2026",
+    "status": "Đang diễn ra",
+    "location": "Quân Khu 7 Online",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Quân Khu 7 Online): Quân khu 4 khai mạc diễn tập tác chiến phòng thủ năm 2026 - Quân Khu 7 Online",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Quân Khu 7 Online",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZktOZVVoQ201aE1XWXZJMV9ZTmloNmVYb2tmT212SzlfSGxqV2dZdTd5WnpRLUQzMEhNZVMyM3EzSHUyUUd1amFPYlEyUkI5YTUxMkNXZDFZT2lWSEQzQjlORkRrLWNBZGdrQ0x3Ml9rbXFBN2xLOW1mUUF3c0UxQ0JKU1NMSDJXODBZLVJvS3BoazN3dWQ5MzhGcjVGWjV2OFZCNnZUVUJvZw?oc=5",
+    "articles": [
+      {
+        "title": "Quân khu 4 khai mạc diễn tập tác chiến phòng thủ năm 2026 - Quân Khu 7 Online",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZktOZVVoQ201aE1XWXZJMV9ZTmloNmVYb2tmT212SzlfSGxqV2dZdTd5WnpRLUQzMEhNZVMyM3EzSHUyUUd1amFPYlEyUkI5YTUxMkNXZDFZT2lWSEQzQjlORkRrLWNBZGdrQ0x3Ml9rbXFBN2xLOW1mUUF3c0UxQ0JKU1NMSDJXODBZLVJvS3BoazN3dWQ5MzhGcjVGWjV2OFZCNnZUVUJvZw?oc=5",
+        "publisher": "Quân Khu 7 Online"
+      }
+    ],
+    "updatedAt": "16/11/2026 05:16 UTC"
+  },
+  {
     "id": "osint-2026111523-1",
     "name": "Lực lượng Phòng vệ Hàng hải tiến hành huấn luyện chung với Hải quân New Zealand (26/9) - J Defense News",
     "dates": "Ghi nhận: 30/09/2026",
