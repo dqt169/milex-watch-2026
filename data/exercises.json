@@ -1,5 +1,61 @@
 [
   {
+    "id": "osint-2026111700-nghansnsngcho",
+    "name": "Nghệ An sẵn sàng cho Diễn tập khu vực phòng thủ - Cổng thông tin điện tử Nghệ An",
+    "dates": "Ghi nhận: 23/10/2026",
+    "status": "Đang diễn ra",
+    "location": "Cổng thông tin điện tử Nghệ An",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Cổng thông tin điện tử Nghệ An): Nghệ An sẵn sàng cho Diễn tập khu vực phòng thủ - Cổng thông tin điện tử Nghệ An",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Cổng thông tin điện tử Nghệ An",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR3pIMWExR2FwREVLaDc0ZmVkMFI2WVJPUzZwbURGdmhPVXMycW5Zdl9EdHlCbmxlNFB1NVROajFrbEhLVm13UTA0VmtjeWI0NTFOWjVJZHJVQkhlMTdmRUpfX3dkQnlFVnE2Zl9GUWFvTDBPZ3RYaE55QzZIdTNRdjR1cWg5czFBbks0Wk85Ry1MOVpEd0VhX2dSbDZJQWdCaElKUEZ1eGE4SWd6cFE?oc=5",
+    "articles": [
+      {
+        "title": "Nghệ An sẵn sàng cho Diễn tập khu vực phòng thủ - Cổng thông tin điện tử Nghệ An",
+        "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOR3pIMWExR2FwREVLaDc0ZmVkMFI2WVJPUzZwbURGdmhPVXMycW5Zdl9EdHlCbmxlNFB1NVROajFrbEhLVm13UTA0VmtjeWI0NTFOWjVJZHJVQkhlMTdmRUpfX3dkQnlFVnE2Zl9GUWFvTDBPZ3RYaE55QzZIdTNRdjR1cWg5czFBbks0Wk85Ry1MOVpEd0VhX2dSbDZJQWdCaElKUEZ1eGE4SWd6cFE?oc=5",
+        "publisher": "Cổng thông tin điện tử Nghệ An"
+      }
+    ],
+    "updatedAt": "17/11/2026 00:00 UTC"
+  },
+  {
+    "id": "osint-2026111700-trungon568bc",
+    "name": "Trung đoàn 568, Bộ CHQS tỉnh Hưng Yên: Tổng kết nhiệm vụ quân sự, quốc phòng năm 2026 - BỘ CHỈ HUY QUÂN SỰ TỈN",
+    "dates": "Ghi nhận: 16/11/2026",
+    "status": "Đang diễn ra",
+    "location": "BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN): Trung đoàn 568, Bộ CHQS tỉnh Hưng Yên: Tổng kết nhiệm vụ quân sự, quốc phòng năm 2026 - BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONWM4b0VKYXU4RzFFTjNZbG0zV2ZxeFB3NVFSREU1TjEzWFlCUkR4M3NYcWlHLXhKaklranc2SmFGc3JNVmk5ckVwc1NfUnJjNHhlb0FQWElvREdreUZNVVl5ODF0OW5LSU9URThVSDR5bGktajZMalF1S0FZbkR0LXkxY20zTlBDMEZGdzMtaVY1dlFZejFRN2NabHRoekp6cThUM283dUdTOUc5Vm95Y3ViQVZxUnRRS19KSTBLb1g1dw?oc=5",
+    "articles": [
+      {
+        "title": "Trung đoàn 568, Bộ CHQS tỉnh Hưng Yên: Tổng kết nhiệm vụ quân sự, quốc phòng năm 2026 - BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxONWM4b0VKYXU4RzFFTjNZbG0zV2ZxeFB3NVFSREU1TjEzWFlCUkR4M3NYcWlHLXhKaklranc2SmFGc3JNVmk5ckVwc1NfUnJjNHhlb0FQWElvREdreUZNVVl5ODF0OW5LSU9URThVSDR5bGktajZMalF1S0FZbkR0LXkxY20zTlBDMEZGdzMtaVY1dlFZejFRN2NabHRoekp6cThUM283dUdTOUc5Vm95Y3ViQVZxUnRRS19KSTBLb1g1dw?oc=5",
+        "publisher": "BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN"
+      }
+    ],
+    "updatedAt": "17/11/2026 00:00 UTC"
+  },
+  {
     "id": "osint-2026111605-2",
     "name": "【お知らせ】米軍再編に係る岩国飛行場から三沢基地への訓練移転について - 防衛省",
     "dates": "Ghi nhận: 11/11/2026",
