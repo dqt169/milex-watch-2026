@@ -1043,7 +1043,7 @@ jobs:
 
     async function loadInitialState() {
       try {
-        const saved = localStorage.getItem("milex_watch_2026_data_v1");
+        const saved = localStorage.getItem("milex_watch_2026_data_v2");
         if (saved) {
           const parsed = JSON.parse(saved);
           if (Array.isArray(parsed) && parsed.length >= INITIAL_EXERCISES.length) {
@@ -1058,16 +1058,26 @@ jobs:
         state.exercises = [...INITIAL_EXERCISES];
       }
 
-      // Merge live auto-crawled exercises from GitHub Actions (./data/exercises.json)
+      // Merge live auto-crawled exercises from GitHub Actions (./data/exercises.json) strictly newest-first at the top
       const repoItems = await fetchRepoExercisesJson();
       let repoMergedCount = 0;
       if (repoItems.length > 0) {
-        repoItems.forEach((item) => {
-          if (item && item.id && !state.exercises.some((e) => e.id === item.id)) {
-            state.exercises.unshift(item);
-            repoMergedCount += 1;
-          }
-        });
+        const repoIds = new Set(repoItems.map((i) => i && i.id).filter(Boolean));
+        const keptExisting = state.exercises.filter((e) => !repoIds.has(e.id));
+        const normalizedRepo = repoItems
+          .filter((item) => item && item.id)
+          .map((item) => ({ ...item, isNewFromBot: true }));
+        repoMergedCount = normalizedRepo.length;
+        state.exercises = [...normalizedRepo, ...keptExisting];
+        saveExercisesToStorage();
+
+        // Update #lastSyncTime with the real newest updatedAt from data/exercises.json
+        const newestUpdated = normalizedRepo[0] && normalizedRepo[0].updatedAt;
+        if (newestUpdated) {
+          const lastEl = document.getElementById("lastSyncTime");
+          if (lastEl) lastEl.textContent = newestUpdated;
+          saveSchedulerToStorage(getNextGlobalCronTimestamp(), newestUpdated);
+        }
       }
 
       // Ensure every exercise has an articles array for multiple original links
@@ -1107,7 +1117,7 @@ jobs:
 
     function saveExercisesToStorage() {
       try {
-        localStorage.setItem("milex_watch_2026_data_v1", JSON.stringify(state.exercises));
+        localStorage.setItem("milex_watch_2026_data_v2", JSON.stringify(state.exercises));
       } catch (e) {}
     }
 
@@ -1125,7 +1135,7 @@ jobs:
           autoSyncEnabled: state.autoSyncEnabled,
           lastSyncText: lastSyncText || document.getElementById("lastSyncTime")?.textContent || ""
         };
-        localStorage.setItem("milex_watch_2026_scheduler_v2", JSON.stringify(payload));
+        localStorage.setItem("milex_watch_2026_scheduler_v3", JSON.stringify(payload));
       } catch (e) {}
     }
 
@@ -1139,7 +1149,6 @@ jobs:
     }
 
     function restoreSchedulerFromStorage() {
-      // Default: align to real 2-hour UTC GitHub Actions cron (0 */2 * * *) so refreshing never resets
       const globalNext = getNextGlobalCronTimestamp();
       state.intervalSeconds = 7200;
       state.remainingSeconds = Math.max(1, Math.round((globalNext - Date.now()) / 1000));
@@ -1147,9 +1156,9 @@ jobs:
       if (selDefault) selDefault.value = "7200";
 
       try {
-        const raw = localStorage.getItem("milex_watch_2026_scheduler_v2");
+        const raw = localStorage.getItem("milex_watch_2026_scheduler_v3");
         if (!raw) {
-          saveSchedulerToStorage(globalNext, "14/11/2026 09:58:00 GMT+7");
+          saveSchedulerToStorage(globalNext, "15/11/2026 16:26:00 GMT+7");
           return;
         }
         const saved = JSON.parse(raw);
@@ -1164,13 +1173,18 @@ jobs:
           const lastEl = document.getElementById("lastSyncTime");
           if (lastEl) lastEl.textContent = saved.lastSyncText;
         }
-        if (saved.nextSyncAt) {
+        if (state.intervalSeconds === 7200) {
+          // Always lock 2h cycle to real UTC cron schedule so refresh NEVER resets to 02:00:00
+          state.remainingSeconds = Math.max(1, Math.round((globalNext - Date.now()) / 1000));
+          saveSchedulerToStorage(globalNext);
+        } else if (saved.nextSyncAt) {
           const diffSec = Math.round((Number(saved.nextSyncAt) - Date.now()) / 1000);
           if (diffSec > 0) {
             state.remainingSeconds = diffSec;
           } else {
-            state.remainingSeconds = state.intervalSeconds;
-            saveSchedulerToStorage(Date.now() + state.intervalSeconds * 1000);
+            const missed = Math.abs(diffSec) % state.intervalSeconds;
+            state.remainingSeconds = Math.max(1, state.intervalSeconds - missed);
+            saveSchedulerToStorage(Date.now() + state.remainingSeconds * 1000);
           }
         }
       } catch (e) {}
@@ -1432,6 +1446,7 @@ jobs:
                 <!-- Top badges -->
                 <div class="flex flex-wrap items-center justify-between gap-2">
                   <div class="flex flex-wrap items-center gap-1.5">
+                    ${(ex.isNewFromBot || String(ex.id || "").startsWith("osint-")) ? `<span class="px-2 py-0.5 rounded-full text-[10px] font-bold bg-rose-500/20 text-rose-300 border border-rose-500/40">MỚI CẬP NHẬT</span>` : ""}
                     ${getStatusBadgeHtml(ex.status)}
                     <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-blue-500/10 text-blue-300 border border-blue-500/20">${escapeHtml(ex.domainLabel)}</span>
                     <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-slate-800 text-slate-300">${escapeHtml(ex.region)}</span>
@@ -1724,10 +1739,19 @@ jobs:
       if (timerHandle) clearInterval(timerHandle);
       timerHandle = setInterval(() => {
         if (!state.autoSyncEnabled) return;
-        state.remainingSeconds -= 1;
-        if (state.remainingSeconds <= 0) {
-          state.remainingSeconds = state.intervalSeconds;
-          triggerAutoCrawl("AUTO-CYCLE");
+        if (state.intervalSeconds === 7200) {
+          const nextCron = getNextGlobalCronTimestamp();
+          const diff = Math.round((nextCron - Date.now()) / 1000);
+          if (diff <= 1) {
+            triggerAutoCrawl("AUTO-CYCLE");
+          }
+          state.remainingSeconds = Math.max(1, diff);
+        } else {
+          state.remainingSeconds -= 1;
+          if (state.remainingSeconds <= 0) {
+            state.remainingSeconds = state.intervalSeconds;
+            triggerAutoCrawl("AUTO-CYCLE");
+          }
         }
         updateCountdownUi();
       }, 1000);
