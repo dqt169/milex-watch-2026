@@ -1,5 +1,61 @@
 [
   {
+    "id": "osint-2026111706-1",
+    "name": "미 국방부 \"한미연합훈련 대폭 축소…차질 없을 것\" - 연합뉴스TV",
+    "dates": "Ghi nhận: 19/08/2026",
+    "status": "Đang diễn ra",
+    "location": "연합뉴스TV",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스TV): 미 국방부 \"한미연합훈련 대폭 축소…차질 없을 것\" - 연합뉴스TV",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "연합뉴스TV",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBadWh6Y0RtNVpyUlcycUNEeXI3MWJ0SkFHVEIwaXctVVMyczdpMUtfTFM4djhfTmlKN09WalhfeHo2M2s4OUh3VGh4amJVWUZ6dmpIeEtObjRqY1JVczR6R2hGRDEzMGM?oc=5",
+    "articles": [
+      {
+        "title": "미 국방부 \"한미연합훈련 대폭 축소…차질 없을 것\" - 연합뉴스TV",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBadWh6Y0RtNVpyUlcycUNEeXI3MWJ0SkFHVEIwaXctVVMyczdpMUtfTFM4djhfTmlKN09WalhfeHo2M2s4OUh3VGh4amJVWUZ6dmpIeEtObjRqY1JVczR6R2hGRDEzMGM?oc=5",
+        "publisher": "연합뉴스TV"
+      }
+    ],
+    "updatedAt": "17/11/2026 06:24 UTC"
+  },
+  {
+    "id": "osint-2026111706-0",
+    "name": "護衛艦「いせ」、本州南方海域でインド海軍フリゲート「サヒヤードリ」と共同訓練「JAIMEX26」を実施 クロスデッキも - Funeco",
+    "dates": "Ghi nhận: 16/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Funeco",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Funeco): 護衛艦「いせ」、本州南方海域でインド海軍フリゲート「サヒヤードリ」と共同訓練「JAIMEX26」を実施 クロスデッキも - Funeco",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Funeco",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5jeTNTSFMya0NNVjd1M2JwbFB1enZzY3RNeVRXdkVnQVdCREdNTjFEWEJsdWxIVVRVd2hUWTZZMzRraVpDWnZfWWNB?oc=5",
+    "articles": [
+      {
+        "title": "護衛艦「いせ」、本州南方海域でインド海軍フリゲート「サヒヤードリ」と共同訓練「JAIMEX26」を実施 クロスデッキも - Funeco",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5jeTNTSFMya0NNVjd1M2JwbFB1enZzY3RNeVRXdkVnQVdCREdNTjFEWEJsdWxIVVRVd2hUWTZZMzRraVpDWnZfWWNB?oc=5",
+        "publisher": "Funeco"
+      }
+    ],
+    "updatedAt": "17/11/2026 06:24 UTC"
+  },
+  {
     "id": "osint-2026111700-nghansnsngcho",
     "name": "Nghệ An sẵn sàng cho Diễn tập khu vực phòng thủ - Cổng thông tin điện tử Nghệ An",
     "dates": "Ghi nhận: 23/10/2026",
