@@ -1,5 +1,89 @@
 [
   {
+    "id": "osint-2026111710-2",
+    "name": "海上自衛隊、インド海軍との共同訓練を実施（11月13日・14日） - J ディフェンス ニュース",
+    "dates": "Ghi nhận: 17/11/2026",
+    "status": "Đang diễn ra",
+    "location": "J ディフェンス ニュース",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (J ディフェンス ニュース): 海上自衛隊、インド海軍との共同訓練を実施（11月13日・14日） - J ディフェンス ニュース",
+    "drills": [
+      "Tác chiến hiệp đồng biên đội tàu mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật trên biển"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "J ディフェンス ニュース",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRYVlUQ1B4YTZJLVpoTW1QQlJNOVYwaHRvTy1obTlJRmpFdDRqZzBZck55M1h6RHhNTDZ0LU1LUG5xN2VBVjJiTm5vOFRTNzJUaTlRNW5sdEllRlo2?oc=5",
+    "articles": [
+      {
+        "title": "海上自衛隊、インド海軍との共同訓練を実施（11月13日・14日） - J ディフェンス ニュース",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTFBRYVlUQ1B4YTZJLVpoTW1QQlJNOVYwaHRvTy1obTlJRmpFdDRqZzBZck55M1h6RHhNTDZ0LU1LUG5xN2VBVjJiTm5vOFRTNzJUaTlRNW5sdEllRlo2?oc=5",
+        "publisher": "J ディフェンス ニュース"
+      }
+    ],
+    "updatedAt": "17/11/2026 10:19 UTC"
+  },
+  {
+    "id": "osint-2026111710-1",
+    "name": "美韩联合军演日程减半 特朗普被曝想今秋会金正恩 - 新华网客户端",
+    "dates": "Ghi nhận: 19/08/2026",
+    "status": "Đang diễn ra",
+    "location": "新华网客户端",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (新华网客户端): 美韩联合军演日程减半 特朗普被曝想今秋会金正恩 - 新华网客户端",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "新华网客户端",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcmJQT2l4M1NCcG1vLUxGcElOZjBtNC00Y243eEdJNkJaa050WUlRcEdOSkNQR0lCTjVZOUxHZGxRVGxQU1U5N0Q4R25aajc4Y1BTOEJXLXM3Zm9jcnpMQnhweTBqV1dJOE05M0FjbU9qWnZiN2pTa3NlVUhFWGF0dS1uMlFvbGJtb2F0RTM1V2ZYQjBGaGZaUllR?oc=5",
+    "articles": [
+      {
+        "title": "美韩联合军演日程减半 特朗普被曝想今秋会金正恩 - 新华网客户端",
+        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPcmJQT2l4M1NCcG1vLUxGcElOZjBtNC00Y243eEdJNkJaa050WUlRcEdOSkNQR0lCTjVZOUxHZGxRVGxQU1U5N0Q4R25aajc4Y1BTOEJXLXM3Zm9jcnpMQnhweTBqV1dJOE05M0FjbU9qWnZiN2pTa3NlVUhFWGF0dS1uMlFvbGJtb2F0RTM1V2ZYQjBGaGZaUllR?oc=5",
+        "publisher": "新华网客户端"
+      }
+    ],
+    "updatedAt": "17/11/2026 10:19 UTC"
+  },
+  {
+    "id": "osint-2026111710-chineseindonesian",
+    "name": "Chinese, Indonesian Warships Drill East of Taiwan - USNI News",
+    "dates": "Ghi nhận: 13/08/2026",
+    "status": "Đang diễn ra",
+    "location": "USNI News",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (USNI News): Chinese, Indonesian Warships Drill East of Taiwan - USNI News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "USNI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR3Q1RTBZeTBqM0VxZm9IRVNpZWE0UDduQjlUS0NYRGdGQzFSWTNLbm95TkxNbHl1UVV5b21pQnVKcEFMaWxQa0JRMFlYeXlKZkVwRlJ1MnoyV1BiRk93NUtGZHpYallzNkt6OEhISTJEZkRqYUlvS05PNkhaeXRuQVhjZ2hQQVRo?oc=5",
+    "articles": [
+      {
+        "title": "Chinese, Indonesian Warships Drill East of Taiwan - USNI News",
+        "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOR3Q1RTBZeTBqM0VxZm9IRVNpZWE0UDduQjlUS0NYRGdGQzFSWTNLbm95TkxNbHl1UVV5b21pQnVKcEFMaWxQa0JRMFlYeXlKZkVwRlJ1MnoyV1BiRk93NUtGZHpYallzNkt6OEhISTJEZkRqYUlvS05PNkhaeXRuQVhjZ2hQQVRo?oc=5",
+        "publisher": "USNI News"
+      }
+    ],
+    "updatedAt": "17/11/2026 10:19 UTC"
+  },
+  {
     "id": "osint-2026111706-1",
     "name": "미 국방부 \"한미연합훈련 대폭 축소…차질 없을 것\" - 연합뉴스TV",
     "dates": "Ghi nhận: 19/08/2026",
