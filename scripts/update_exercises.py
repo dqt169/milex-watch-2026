@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
-Script tự động tìm kiếm, DỊCH SANG TIẾNG VIỆT và cập nhật thông tin diễn tập quân sự.
+Script tự động tìm kiếm, DỊCH SANG TIẾNG VIỆT và chỉ giữ lại tin diễn tập quân sự
+thu thập được trong 3 NGÀY GẦN NHẤT (72 giờ).
 Kết hợp đa nguồn: Google News RSS (Anh, Việt, Trung, Nhật, Hàn) + GDELT DOC 2.0 API.
 Chạy định kỳ 2 giờ/lần qua GitHub Actions.
 """
@@ -10,24 +11,25 @@ import re
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "exercises.json")
+MAX_AGE_DAYS = 3
 
 RSS_QUERIES = [
-    ("en", "US", "military exercise OR joint naval drill 2026"),
-    ("vi", "VN", "diễn tập quân sự 2026"),
-    ("zh-CN", "CN", "联合军演 OR 军事演习"),
-    ("ja", "JP", "共同訓練 自衛隊"),
-    ("ko", "KR", "연합훈련 국방부"),
+    ("en", "US", "military exercise OR joint naval drill when:3d"),
+    ("vi", "VN", "diễn tập quân sự when:3d"),
+    ("zh-CN", "CN", "联合军演 OR 军事演习 when:3d"),
+    ("ja", "JP", "共同訓練 自衛隊 when:3d"),
+    ("ko", "KR", "연합훈련 국방부 when:3d"),
 ]
 
 def http_get(url: str, timeout: int = 15) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; MilExWatchBot/2.1; +https://github.com/dqt169/milex-watch-2026)"
+            "User-Agent": "Mozilla/5.0 (compatible; MilExWatchBot/2.2; +https://github.com/dqt169/milex-watch-2026)"
         },
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
@@ -36,7 +38,6 @@ def http_get(url: str, timeout: int = 15) -> str:
 def translate_to_vietnamese(text: str, lang: str = "auto") -> str:
     if not text or lang == "vi":
         return text
-    # Skip if already contains Vietnamese diacritics
     if re.search(r"[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]", text.lower()):
         return text
     try:
@@ -53,6 +54,31 @@ def translate_to_vietnamese(text: str, lang: str = "auto") -> str:
         print(f"[WARN] Translate fallback: {e}")
         return text
 
+def parse_item_datetime_utc(item: dict):
+    iso_val = item.get("collectedAtIso")
+    if iso_val:
+        try:
+            dt = datetime.fromisoformat(iso_val.replace("Z", "+00:00"))
+            return dt.astimezone(timezone.utc)
+        except Exception:
+            pass
+    for field in (item.get("updatedAt", ""), item.get("dates", "")):
+        m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})(?:\s+(\d{1,2}):(\d{2}))?", str(field))
+        if m:
+            day, month, year = int(m.group(1)), int(m.group(2)), int(m.group(3))
+            hour = int(m.group(4)) if m.group(4) else 12
+            minute = int(m.group(5)) if m.group(5) else 0
+            try:
+                return datetime(year, month, day, hour, minute, tzinfo=timezone.utc)
+            except Exception:
+                pass
+    return None
+
+def is_within_max_age(dt_utc, now_utc) -> bool:
+    if dt_utc is None:
+        return False
+    return (now_utc - dt_utc) <= timedelta(days=MAX_AGE_DAYS)
+
 def fetch_google_news_rss():
     results = []
     for hl, gl, query in RSS_QUERIES:
@@ -64,7 +90,7 @@ def fetch_google_news_rss():
         try:
             xml_text = http_get(rss_url, timeout=12)
             root = ET.fromstring(xml_text)
-            for item in root.findall(".//item")[:4]:
+            for item in root.findall(".//item")[:5]:
                 title = (item.findtext("title") or "").strip()
                 link = (item.findtext("link") or "").strip()
                 pub_date = (item.findtext("pubDate") or "").strip()
@@ -87,7 +113,7 @@ def fetch_gdelt_articles():
     url = (
         "https://api.gdeltproject.org/api/v2/doc/doc?query="
         + urllib.parse.quote(query)
-        + "&mode=artlist&maxrecords=10&timespan=1d&format=json"
+        + "&mode=artlist&maxrecords=10&timespan=3d&format=json"
     )
     try:
         raw = http_get(url, timeout=15)
@@ -142,58 +168,71 @@ def infer_metadata(title: str, lang: str):
 
     return domain, domain_label, drills, region
 
-def format_pub_date(raw_date: str, fallback: str) -> str:
+def parse_article_pub_dt(raw_date: str, fallback_dt: datetime) -> datetime:
     if not raw_date:
-        return fallback
+        return fallback_dt
     try:
         dt = parsedate_to_datetime(raw_date)
-        return dt.strftime("%d/%m/%Y")
+        return dt.astimezone(timezone.utc) if dt.tzinfo else dt.replace(tzinfo=timezone.utc)
     except Exception:
         if len(raw_date) >= 8 and raw_date[:8].isdigit():
-            return f"{raw_date[6:8]}/{raw_date[4:6]}/{raw_date[0:4]}"
-    return fallback
+            try:
+                return datetime(int(raw_date[0:4]), int(raw_date[4:6]), int(raw_date[6:8]), 12, 0, tzinfo=timezone.utc)
+            except Exception:
+                pass
+    return fallback_dt
 
 def main():
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
+    now_utc = datetime.now(timezone.utc)
+    now_str = now_utc.strftime("%d/%m/%Y %H:%M UTC")
+    now_iso = now_utc.isoformat()
+
     existing = []
     if os.path.exists(DATA_FILE):
         try:
             with open(DATA_FILE, "r", encoding="utf-8") as f:
-                existing = json.load(f)
-                if not isinstance(existing, list):
-                    existing = []
+                loaded = json.load(f)
+                if isinstance(loaded, list):
+                    existing = loaded
         except Exception:
             existing = []
 
-    # Translate any existing non-Vietnamese records already in data/exercises.json
+    # Prune old records (> 3 days) from existing data
+    fresh_existing = []
     for item in existing:
-        if isinstance(item, dict) and item.get("name"):
-            vi_name = translate_to_vietnamese(item["name"], "auto")
-            if vi_name != item["name"]:
-                item["name"] = vi_name[:110]
-                item["purpose"] = f"Tin tức tự động dịch & cập nhật ({item.get('sourceTitle', 'OSINT')}): {vi_name}"
+        if not isinstance(item, dict):
+            continue
+        dt_utc = parse_item_datetime_utc(item)
+        if is_within_max_age(dt_utc, now_utc):
+            if item.get("name"):
+                vi_name = translate_to_vietnamese(item["name"], "auto")
+                if vi_name != item["name"]:
+                    item["name"] = vi_name[:110]
+                    item["purpose"] = f"Tin tức tự động dịch & cập nhật ({item.get('sourceTitle', 'OSINT')}): {vi_name}"
+            fresh_existing.append(item)
 
-    known_urls = {item.get("sourceUrl") for item in existing if isinstance(item, dict)}
-    known_titles = {item.get("name", "").lower() for item in existing if isinstance(item, dict)}
+    known_urls = {item.get("sourceUrl") for item in fresh_existing}
+    known_titles = {item.get("name", "").lower() for item in fresh_existing}
 
     candidates = fetch_google_news_rss() + fetch_gdelt_articles()
-    now_str = datetime.now(timezone.utc).strftime("%d/%m/%Y %H:%M UTC")
-    today_str = datetime.now(timezone.utc).strftime("%d/%m/%Y")
-
     added = 0
     for art in candidates:
         url = art["url"]
         raw_title = art["title"]
         if url in known_urls:
             continue
+        pub_dt = parse_article_pub_dt(art.get("pubDate", ""), now_utc)
+        if not is_within_max_age(pub_dt, now_utc):
+            continue
         vi_title = translate_to_vietnamese(raw_title, art["lang"])
         if vi_title.lower() in known_titles:
             continue
         domain, domain_label, drills, region = infer_metadata(raw_title + " " + vi_title, art["lang"])
-        pub_str = format_pub_date(art.get("pubDate", ""), today_str)
+        pub_str = pub_dt.strftime("%d/%m/%Y")
         slug = re.sub(r"[^a-zA-Z0-9]", "", raw_title[:20]).lower() or str(added)
         record = {
-            "id": f"osint-{datetime.now(timezone.utc).strftime('%Y%m%d%H')}-{slug}",
+            "id": f"osint-{now_utc.strftime('%Y%m%d%H')}-{slug}",
             "name": vi_title[:110],
             "dates": f"Ghi nhận: {pub_str}",
             "status": "Đang diễn ra",
@@ -210,17 +249,18 @@ def main():
             "sourceUrl": url,
             "articles": [{"title": vi_title, "url": url, "publisher": art["source"]}],
             "updatedAt": now_str,
+            "collectedAtIso": now_iso,
         }
-        existing.insert(0, record)
+        fresh_existing.insert(0, record)
         known_urls.add(url)
         known_titles.add(vi_title.lower())
         added += 1
-        if added >= 8:
+        if added >= 10:
             break
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
-        json.dump(existing[:60], f, ensure_ascii=False, indent=2)
-    print(f"[OK] Updated {DATA_FILE} with {added} new Vietnamese-translated records (total: {len(existing[:60])}).")
+        json.dump(fresh_existing[:60], f, ensure_ascii=False, indent=2)
+    print(f"[OK] Updated {DATA_FILE}: added {added}, kept {len(fresh_existing[:60])} records within last {MAX_AGE_DAYS} days.")
 
 if __name__ == "__main__":
     main()
