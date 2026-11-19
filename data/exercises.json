@@ -1,5 +1,33 @@
 [
   {
+    "id": "osint-2026111914-xthtanghonth",
+    "name": "Xã Thổ Tang hoàn thành xuất sắc nhiệm vụ diễn tập chiến đấu phòng thủ năm 2026 - Báo Phú Thọ",
+    "dates": "Ghi nhận: 19/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Báo Phú Thọ",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Phú Thọ): Xã Thổ Tang hoàn thành xuất sắc nhiệm vụ diễn tập chiến đấu phòng thủ năm 2026 - Báo Phú Thọ",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Báo Phú Thọ",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQXZjTlE4QVpFTGk3QnN0YnFVTWsxZTA5bDNpRHhGbW9KaUV3ZWJfcWY2SEpMcGd6Z2xOSko2V3hkNXJ2LWd2MGRpZGpzOTFyQ2kwaWZ5M1cwdjVxajFsYkVKLXp1S3pYdGF4cEZfNjFyb0N2Ump0YVF6SWgtU3lXOEV1ZHdZSEF1Uzd1OGd3NVFyWEVadmFGdHdSXzduVmRLTU9UcUJwdUtxSlB5S01Z?oc=5",
+    "articles": [
+      {
+        "title": "Xã Thổ Tang hoàn thành xuất sắc nhiệm vụ diễn tập chiến đấu phòng thủ năm 2026 - Báo Phú Thọ",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQQXZjTlE4QVpFTGk3QnN0YnFVTWsxZTA5bDNpRHhGbW9KaUV3ZWJfcWY2SEpMcGd6Z2xOSko2V3hkNXJ2LWd2MGRpZGpzOTFyQ2kwaWZ5M1cwdjVxajFsYkVKLXp1S3pYdGF4cEZfNjFyb0N2Ump0YVF6SWgtU3lXOEV1ZHdZSEF1Uzd1OGd3NVFyWEVadmFGdHdSXzduVmRLTU9UcUJwdUtxSlB5S01Z?oc=5",
+        "publisher": "Báo Phú Thọ"
+      }
+    ],
+    "updatedAt": "19/11/2026 14:26 UTC"
+  },
+  {
     "id": "osint-2026111912-bchhuyquns",
     "name": "Bộ Chỉ huy Quân sự Đồng Nai hoàn thành tốt các nhiệm vụ làm điểm, bảo đảm an toàn trong huấn luyện, diễn tập -",
     "dates": "Ghi nhận: 19/11/2026",
@@ -1646,34 +1674,6 @@
         "title": "What we know about China's military exercises around Taiwan - France 24",
         "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOVVh5VFVIQ3JkQ3FDR0Y5OFdieHZCY3BpbnhQd2dzWjhNLVJiTHhqSnp0Um1LdGlQeWlQMWZSYzNrMVZUZEdjcWRleWd4a3hsMUdXaU1FU1pNU1VXUE5UMF83RnhESkQ4d0wtdTFVLTB2ZjlYT3B3WTV4VzFfSWV4S2x2cmVuMG5LUEVyRFFySWRjQQ?oc=5",
         "publisher": "France 24"
-      }
-    ],
-    "updatedAt": "15/11/2026 09:26 UTC"
-  },
-  {
-    "id": "osint-2026111509-chinastagesunannou",
-    "name": "Quan chức Trung Quốc tiến hành tập trận không báo trước ở Thái Bình Dương nhằm 'đe dọa thầm lặng' Đài Loan - R",
-    "dates": "Ghi nhận: 13/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Reuters",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Reuters): Quan chức Trung Quốc tiến hành tập trận không báo trước ở Thái Bình Dương nhằm 'đe dọa thầm lặng' Đài Loan - Reu",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Reuters",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcEx2eTdicmVJdWI5Y2JyUVhiN1psV0dacm9RNzFvU29MVWZ0UGxwUWtrMzNNaDFUNWRCMGFyd2F5TUtabzFEdnRjNDFpd2pIbkFlbUFPb3RXTjNIU01iN0RCOVpOV3VyZmY4Uml1anpPYjdwSVFGR3hpemx2WVl6Zms5M3FSOXdBS3pSeVA1eWlLcEJRank5c0lxeGRSR0NUeThJWUc5Nlk0Smw5VWpWczdBRkZXZGNEc3I1ZkxPdWxSQU1mVENN?oc=5",
-    "articles": [
-      {
-        "title": "China stages unannounced Pacific drills in 'silent intimidation' of Taiwan, officials say - Reuters",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQcEx2eTdicmVJdWI5Y2JyUVhiN1psV0dacm9RNzFvU29MVWZ0UGxwUWtrMzNNaDFUNWRCMGFyd2F5TUtabzFEdnRjNDFpd2pIbkFlbUFPb3RXTjNIU01iN0RCOVpOV3VyZmY4Uml1anpPYjdwSVFGR3hpemx2WVl6Zms5M3FSOXdBS3pSeVA1eWlLcEJRank5c0lxeGRSR0NUeThJWUc5Nlk0Smw5VWpWczdBRkZXZGNEc3I1ZkxPdWxSQU1mVENN?oc=5",
-        "publisher": "Reuters"
       }
     ],
     "updatedAt": "15/11/2026 09:26 UTC"
