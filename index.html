@@ -64,6 +64,9 @@
                   <span class="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-ping"></span>
                   AUTO-SYNC BẬT
                 </span>
+                <span class="inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold bg-sky-500/15 text-sky-300 border border-sky-500/30">
+                  Lọc 3 ngày gần nhất
+                </span>
               </div>
               <p class="text-xs text-slate-400">Hệ thống tự động tìm kiếm, bóc tách &amp; cập nhật thông tin diễn tập quân sự thế giới (Thời gian • Địa điểm • Mục đích • Khoa mục)</p>
             </div>
@@ -129,7 +132,7 @@
     <section aria-label="Thống kê nhanh" class="grid grid-cols-2 lg:grid-cols-4 gap-3 sm:gap-4">
       <div class="bg-slate-900/90 border border-slate-800 rounded-xl p-4">
         <div class="flex items-center justify-between text-xs text-slate-400">
-          <span>Tổng số cuộc diễn tập theo dõi</span>
+          <span>Diễn tập thu thập (3 ngày gần nhất)</span>
           <span class="px-2 py-0.5 rounded bg-blue-500/10 text-blue-400 font-mono-code">2026</span>
         </div>
         <div class="mt-2 flex items-baseline gap-2">
@@ -602,7 +605,7 @@ jobs:
         nationsCount: 8,
         sourceTitle: "Großwald — NATO Exercises 2026 Guide",
         sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
-        updatedAt: "14/11/2026 09:58"
+        updatedAt: "19/11/2026 14:00 UTC"
       },
       {
         id: "ex-koalicja-26",
@@ -625,7 +628,7 @@ jobs:
         nationsCount: 10,
         sourceTitle: "Großwald — NATO Exercises 2026 Guide",
         sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
-        updatedAt: "14/11/2026 09:58"
+        updatedAt: "19/11/2026 14:00 UTC"
       },
       {
         id: "ex-mavi-balina-26",
@@ -648,7 +651,7 @@ jobs:
         nationsCount: 6,
         sourceTitle: "SHAPE NATO Allied National Exercises",
         sourceUrl: "https://shape.nato.int/exercises/allied-national-exercises",
-        updatedAt: "14/11/2026 09:58"
+        updatedAt: "19/11/2026 14:00 UTC"
       },
       {
         id: "ex-poseidon-26",
@@ -694,7 +697,7 @@ jobs:
         nationsCount: 4,
         sourceTitle: "Großwald — NATO Exercises 2026 Guide",
         sourceUrl: "https://www.grosswald.org/nato-exercises-2026/",
-        updatedAt: "14/11/2026 09:58"
+        updatedAt: "19/11/2026 14:00 UTC"
       },
       {
         id: "ex-cyber-coalition-26",
@@ -1043,7 +1046,7 @@ jobs:
 
     async function loadInitialState() {
       try {
-        const saved = localStorage.getItem("milex_watch_2026_data_v2");
+        const saved = localStorage.getItem("milex_watch_2026_data_v3");
         if (saved) {
           const parsed = JSON.parse(saved);
           if (Array.isArray(parsed) && parsed.length >= INITIAL_EXERCISES.length) {
@@ -1058,26 +1061,31 @@ jobs:
         state.exercises = [...INITIAL_EXERCISES];
       }
 
-      // Merge live auto-crawled exercises from GitHub Actions (./data/exercises.json) strictly newest-first at the top
+      // Merge live auto-crawled exercises from GitHub Actions (./data/exercises.json) strictly within the last 3 days
       const repoItems = await fetchRepoExercisesJson();
       let repoMergedCount = 0;
       if (repoItems.length > 0) {
-        const repoIds = new Set(repoItems.map((i) => i && i.id).filter(Boolean));
-        const keptExisting = state.exercises.filter((e) => !repoIds.has(e.id));
         const normalizedRepo = repoItems
-          .filter((item) => item && item.id)
+          .filter((item) => item && item.id && isWithinLast3Days(item))
           .map((item) => ({ ...item, isNewFromBot: true }));
+        const repoIds = new Set(normalizedRepo.map((i) => i.id));
+        const keptCustomRecent = state.exercises.filter(
+          (e) => e && String(e.id || "").startsWith("ex-custom-") && !repoIds.has(e.id) && isWithinLast3Days(e)
+        );
         repoMergedCount = normalizedRepo.length;
-        state.exercises = [...normalizedRepo, ...keptExisting];
+        state.exercises = pruneToLast3Days([...normalizedRepo, ...keptCustomRecent]);
         saveExercisesToStorage();
 
         // Update #lastSyncTime with the real newest updatedAt from data/exercises.json
-        const newestUpdated = normalizedRepo[0] && normalizedRepo[0].updatedAt;
+        const newestUpdated = state.exercises[0] && state.exercises[0].updatedAt;
         if (newestUpdated) {
           const lastEl = document.getElementById("lastSyncTime");
           if (lastEl) lastEl.textContent = newestUpdated;
           saveSchedulerToStorage(getNextGlobalCronTimestamp(), newestUpdated);
         }
+      } else {
+        // Offline / preview fallback: strictly prune to items within last 3 days
+        state.exercises = pruneToLast3Days(state.exercises);
       }
 
       // Ensure every exercise has an articles array for multiple original links
@@ -1117,7 +1125,7 @@ jobs:
 
     function saveExercisesToStorage() {
       try {
-        localStorage.setItem("milex_watch_2026_data_v2", JSON.stringify(state.exercises));
+        localStorage.setItem("milex_watch_2026_data_v3", JSON.stringify(state.exercises));
       } catch (e) {}
     }
 
@@ -1339,11 +1347,55 @@ jobs:
     }
 
     // =========================================================================
-    // 5. FILTERING LOGIC
+    // 5. FILTERING LOGIC (STRICT 3-DAY WINDOW)
     // =========================================================================
+    const THREE_DAYS_MS = 3 * 24 * 60 * 60 * 1000;
+
+    function parseRecordTimestampMs(ex) {
+      if (!ex) return 0;
+      // 1. Prefer explicit ISO timestamp if present
+      if (ex.collectedAtIso) {
+        const isoMs = Date.parse(ex.collectedAtIso);
+        if (!Number.isNaN(isoMs)) return isoMs;
+      }
+      // 2. Parse DD/MM/YYYY HH:mm(:ss)? (UTC) from updatedAt
+      const sources = [ex.updatedAt, ex.dates];
+      for (const raw of sources) {
+        if (!raw || typeof raw !== "string") continue;
+        const m = raw.match(/(\d{1,2})\/(\d{1,2})\/(\d{4})(?:\s+(\d{1,2}):(\d{2})(?::(\d{2}))?)?/);
+        if (m) {
+          const day = Number(m[1]);
+          const month = Number(m[2]) - 1;
+          const year = Number(m[3]);
+          const hour = m[4] ? Number(m[4]) : 12;
+          const minute = m[5] ? Number(m[5]) : 0;
+          const second = m[6] ? Number(m[6]) : 0;
+          if (raw.toUpperCase().includes("UTC")) {
+            return Date.UTC(year, month, day, hour, minute, second);
+          }
+          return new Date(year, month, day, hour, minute, second).getTime();
+        }
+      }
+      return 0;
+    }
+
+    function isWithinLast3Days(ex) {
+      const ts = parseRecordTimestampMs(ex);
+      if (!ts) return false;
+      const now = Date.now();
+      return (now - ts) <= THREE_DAYS_MS && (ts - now) <= 24 * 60 * 60 * 1000;
+    }
+
+    function pruneToLast3Days(list) {
+      return (Array.isArray(list) ? list : [])
+        .filter(isWithinLast3Days)
+        .sort((a, b) => parseRecordTimestampMs(b) - parseRecordTimestampMs(a));
+    }
+
     function getFilteredExercises() {
       const q = state.searchQuery.trim().toLowerCase();
       return state.exercises.filter((ex) => {
+        if (!isWithinLast3Days(ex)) return false;
         if (state.statusFilter !== "ALL" && ex.status !== state.statusFilter) return false;
         if (state.regionFilter !== "ALL" && ex.region !== state.regionFilter) return false;
         if (state.domainFilter !== "ALL") {
@@ -1420,7 +1472,7 @@ jobs:
       if (list.length === 0) {
         grid.innerHTML = `
           <div class="col-span-full bg-slate-900/70 border border-slate-800 rounded-xl p-8 text-center">
-            <p class="text-sm font-semibold text-slate-300">Không tìm thấy cuộc diễn tập nào khớp với bộ lọc hiện tại.</p>
+            <p class="text-sm font-semibold text-slate-300">Không có tin diễn tập nào trong 3 ngày gần nhất khớp với bộ lọc hiện tại.</p>
             <p class="text-xs text-slate-500 mt-1">Hãy thử nhấn "Đặt lại" bộ lọc hoặc quét thêm dữ liệu mới.</p>
           </div>
         `;
@@ -1787,9 +1839,10 @@ jobs:
           syncedFromRepo += 1;
         }
       });
+      state.exercises = pruneToLast3Days(state.exercises);
       if (syncedFromRepo > 0) {
         saveExercisesToStorage();
-        addLog("GITHUB-SYNC", `Đã đồng bộ thêm ${syncedFromRepo} cuộc diễn tập mới từ máy chủ tự động quét 2 giờ/lần.`, "emerald");
+        addLog("GITHUB-SYNC", `Đã đồng bộ thêm ${syncedFromRepo} cuộc diễn tập mới trong 3 ngày gần nhất từ máy chủ quét tự động.`, "emerald");
       }
 
       let externalFetchedCount = 0;
