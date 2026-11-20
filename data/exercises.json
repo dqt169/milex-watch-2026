@@ -1,5 +1,65 @@
 [
   {
+    "id": "osint-2026112012-qunkhu1nngcao",
+    "name": "Quân khu 1 nâng cao chất lượng huấn luyện, diễn tập gắn với bảo đảm an toàn - Báo Quân đội nhân dân",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Báo Quân đội nhân dân",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Quân đội nhân dân): Quân khu 1 nâng cao chất lượng huấn luyện, diễn tập gắn với bảo đảm an toàn - Báo Quân đội nhân dân",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Báo Quân đội nhân dân",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcEYyYU8xTmlzTmhiMXkxV1VJOXRnRzQxZWJnbjAzUzRsd19xZVlyMnRuMS1LUG1YMUdlYTdvV2ZJRV9aOTNOWmJzSHU1TEp5VXVNeDVVbnF3emFheE1INmM3ZFBEQm04ZFVLdWpidzkybVNISGVzZUVldjY2QnJFbXBLUUM2Zm9tbTAyNDc3d2dncG1BemFOOWdPd09WX3Z3alJwZDdGRlg2VEZyenJieDVEblJ4MFRhXzREUmk2ajAwbWt5ODdZXw?oc=5",
+    "articles": [
+      {
+        "title": "Quân khu 1 nâng cao chất lượng huấn luyện, diễn tập gắn với bảo đảm an toàn - Báo Quân đội nhân dân",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQcEYyYU8xTmlzTmhiMXkxV1VJOXRnRzQxZWJnbjAzUzRsd19xZVlyMnRuMS1LUG1YMUdlYTdvV2ZJRV9aOTNOWmJzSHU1TEp5VXVNeDVVbnF3emFheE1INmM3ZFBEQm04ZFVLdWpidzkybVNISGVzZUVldjY2QnJFbXBLUUM2Zm9tbTAyNDc3d2dncG1BemFOOWdPd09WX3Z3alJwZDdGRlg2VEZyenJieDVEblJ4MFRhXzREUmk2ajAwbWt5ODdZXw?oc=5",
+        "publisher": "Báo Quân đội nhân dân"
+      }
+    ],
+    "updatedAt": "20/11/2026 12:34 UTC",
+    "collectedAtIso": "2026-11-20T12:34:52.631157+00:00",
+    "publishedAtIso": "2026-11-20T12:06:45+00:00"
+  },
+  {
+    "id": "osint-2026112012-2",
+    "name": "Quân đội phía Bắc GSDF và Thủy quân lục chiến Hoa Kỳ dự kiến ​​tiến hành huấn luyện thực địa tại Trường huấn luyện Yausu",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "J ディフェンス ニュース",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (J ディフェンス ニュース): Quân đội phía Bắc GSDF và Thủy quân lục chiến Hoa Kỳ dự kiến ​​tiến hành huấn luyện thực địa tại Trường huấn luyện Yausubetsu từ ngày 6 (6 đến 12 tháng 12) - J Defense News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "J ディフェンス ニュース",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XY1hESkJxSFhPbHZyUE5FR3ZaSUIwRWVTY1gyenhWUzNwTjB4TjZRcEktZEIxTkNsa3FWSVVQQW9fTFI5cVRPM1QxaENnbGRTUzhNMDh5am9wUFVq?oc=5",
+    "articles": [
+      {
+        "title": "Quân đội phía Bắc GSDF và Thủy quân lục chiến Hoa Kỳ dự kiến ​​tiến hành huấn luyện thực địa tại Trường huấn luyện Yausubetsu từ ngày 6 (6 đến 12 tháng 12) - J Defense News",
+        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1XY1hESkJxSFhPbHZyUE5FR3ZaSUIwRWVTY1gyenhWUzNwTjB4TjZRcEktZEIxTkNsa3FWSVVQQW9fTFI5cVRPM1QxaENnbGRTUzhNMDh5am9wUFVq?oc=5",
+        "publisher": "J ディフェンス ニュース"
+      }
+    ],
+    "updatedAt": "20/11/2026 12:34 UTC",
+    "collectedAtIso": "2026-11-20T12:34:52.631157+00:00",
+    "publishedAtIso": "2026-11-20T11:40:00+00:00"
+  },
+  {
     "id": "osint-2026112010-bchhuyqunst",
     "name": "Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
     "dates": "Ghi nhận: 20/11/2026",
@@ -320,6 +380,36 @@
     ],
     "updatedAt": "20/11/2026 08:40 UTC",
     "collectedAtIso": "2026-11-20T08:40:55.970691+00:00"
+  },
+  {
+    "id": "osint-2026112012-qunchngphngkh",
+    "name": "Quân chủng Phòng không-Không quân rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - www.phongkhongkh",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "www.phongkhongkhongquan.vn",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (www.phongkhongkhongquan.vn): Quân chủng Phòng không-Không quân rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - www.phongkhongkhongquan.vn",
+    "drills": [
+      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện và chế áp UAV (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "www.phongkhongkhongquan.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRzFGaTVvQUluSzdIQnN6Rnp3UzdNczMzd0tIUGNYUkZHdjR3czR0ZWhRSUVMYkRJNEJNSEVQOEZVUzZRa082c3RNS1I3a2dfcGZCeUh5VERVSXRpR3BsOTFTOTVtUXpPemotXzhpaWkyclphSWphblpzZW8zMHhyYldZRDhJbGxNREJZWlh4emkzX0xNVXlSZ29KQnFVXy16UTJtdUROVDl4dzJVSHhkanFpc3V6QmZNZllGMFNXeUkxWlNWMWdIUE9lX3BqbXFnRkdYNkZRVVB4Q290dXZmbw?oc=5",
+    "articles": [
+      {
+        "title": "Quân chủng Phòng không-Không quân rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - www.phongkhongkhongquan.vn",
+        "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQRzFGaTVvQUluSzdIQnN6Rnp3UzdNczMzd0tIUGNYUkZHdjR3czR0ZWhRSUVMYkRJNEJNSEVQOEZVUzZRa082c3RNS1I3a2dfcGZCeUh5VERVSXRpR3BsOTFTOTVtUXpPemotXzhpaWkyclphSWphblpzZW8zMHhyYldZRDhJbGxNREJZWlh4emkzX0xNVXlSZ29KQnFVXy16UTJtdUROVDl4dzJVSHhkanFpc3V6QmZNZllGMFNXeUkxWlNWMWdIUE9lX3BqbXFnRkdYNkZRVVB4Q290dXZmbw?oc=5",
+        "publisher": "www.phongkhongkhongquan.vn"
+      }
+    ],
+    "updatedAt": "20/11/2026 12:34 UTC",
+    "collectedAtIso": "2026-11-20T12:34:52.631157+00:00",
+    "publishedAtIso": "2026-11-20T06:55:04+00:00"
   },
   {
     "id": "osint-2026112008-qunkhu7rtkinh",
@@ -1644,89 +1734,5 @@
       }
     ],
     "updatedAt": "18/11/2026 21:44 UTC"
-  },
-  {
-    "id": "osint-2026111812-300",
-    "name": "Các tổ chức cố vấn của Mỹ đã bị sốc! Hình ảnh vệ tinh cho thấy hơn 300 phi đội siêu máy bay của Không quân Tru",
-    "dates": "Ghi nhận: 16/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Sohu",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Phòng không",
-    "domainLabel": "Phòng không & Chống UAV",
-    "purpose": "Tin tức tự động dịch & cập nhật (Sohu): Các tổ chức cố vấn của Mỹ đã bị sốc! Hình ảnh vệ tinh cho thấy hơn 300 phi đội siêu máy bay của Không quân Trung Quốc sẽ tham gia tập trận, bắt đầu cuộc tập trận lớn nhất lịch sử? - Sohu",
-    "drills": [
-      "Tác chiến phòng không - phòng thủ tên lửa tích hợp (IAMD)",
-      "Phát hiện, chế áp thiết bị bay không người lái (Counter-UAS)"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Sohu",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeVlrc3hZaDZEMzVWOEo0elJBSUlENWQyMjQ4akhRdkp0VTVCQkZBMUpCbHVvWUVxU0Z6OWFzM1YxamltSFd4alR5QWNPVExtUjd4OE52LTZudEtqVnpiSEktVnhjSjdIYUFWVnJJQlBIQlVNSkRoQ3hlT254dlNlU0FrY1oyekgxZFBNYw?oc=5",
-    "articles": [
-      {
-        "title": "Các tổ chức cố vấn của Mỹ đã bị sốc! Hình ảnh vệ tinh cho thấy hơn 300 phi đội siêu máy bay của Không quân Trung Quốc sẽ tham gia tập trận, bắt đầu cuộc tập trận lớn nhất lịch sử? - Sohu",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxNeVlrc3hZaDZEMzVWOEo0elJBSUlENWQyMjQ4akhRdkp0VTVCQkZBMUpCbHVvWUVxU0Z6OWFzM1YxamltSFd4alR5QWNPVExtUjd4OE52LTZudEtqVnpiSEktVnhjSjdIYUFWVnJJQlBIQlVNSkRoQ3hlT254dlNlU0FrY1oyekgxZFBNYw?oc=5",
-        "publisher": "Sohu"
-      }
-    ],
-    "updatedAt": "18/11/2026 12:43 UTC"
-  },
-  {
-    "id": "osint-2026111812-bchhuyqunst",
-    "name": "Bộ Chỉ huy Quân sự tỉnh Đồng Tháp: Cụm thi đua số 1 lan tỏa mạnh mẽ phong trào thi đua Quyết thắng - Báo Đồng ",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Đồng Tháp",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Đồng Tháp): Bộ Chỉ huy Quân sự tỉnh Đồng Tháp: Cụm thi đua số 1 lan tỏa mạnh mẽ phong trào thi đua Quyết thắng - Báo Đồng Tháp",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Đồng Tháp",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdXNBUGtYa3hwOE5jVFM4U3lIRHhIaWFpTVZpMkhvVEp6dFdjUFVPR1NUeV9uTGJmcWo5Z1phQVdtVDBvLWJ4WWpHNGhGNTJRXzZYOEZMMDJHd1cxZFpJOUh6THR4Y0x3MkowZzJ2QW9LdkY2MTQ5RFlsdVhLNXVZeWtZeU5xWlQ0eEFrSUZ5SV8xbXZ2dUtKWWwyRVQzdlExVkoyYjAxQ0NnY0U3Zy1ONEI4Wi0wVm5tbGViakd4OUJrWnlULTkyUm9LRW9CUQ?oc=5",
-    "articles": [
-      {
-        "title": "Bộ Chỉ huy Quân sự tỉnh Đồng Tháp: Cụm thi đua số 1 lan tỏa mạnh mẽ phong trào thi đua Quyết thắng - Báo Đồng Tháp",
-        "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOdXNBUGtYa3hwOE5jVFM4U3lIRHhIaWFpTVZpMkhvVEp6dFdjUFVPR1NUeV9uTGJmcWo5Z1phQVdtVDBvLWJ4WWpHNGhGNTJRXzZYOEZMMDJHd1cxZFpJOUh6THR4Y0x3MkowZzJ2QW9LdkY2MTQ5RFlsdVhLNXVZeWtZeU5xWlQ0eEFrSUZ5SV8xbXZ2dUtKWWwyRVQzdlExVkoyYjAxQ0NnY0U3Zy1ONEI4Wi0wVm5tbGViakd4OUJrWnlULTkyUm9LRW9CUQ?oc=5",
-        "publisher": "Báo Đồng Tháp"
-      }
-    ],
-    "updatedAt": "18/11/2026 12:43 UTC"
-  },
-  {
-    "id": "osint-2026111812-lon167rtkinh",
-    "name": "Lữ đoàn 167 rút kinh nghiệm huấn luyện, diễn tập năm 2026 - Báo Tin tức và Dân tộc - TTXVN",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Tin tức và Dân tộc - TTXVN",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Tin tức và Dân tộc - TTXVN): Lữ đoàn 167 rút kinh nghiệm huấn luyện, diễn tập năm 2026 - Báo Tin tức và Dân tộc - TTXVN",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Tin tức và Dân tộc - TTXVN",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3hGY0ozTW5rRy1obzhiS0xKdkszNFExeWxJYW84STluX0ZOWTN6MnZsdFg4Qm16MmdUdmJNOXJfUGd0ejBOeTl5UkJQaWRKQ1VHbndqd3FvWDh6VUM3dmVPSjZSZnlESzF3ekpkNGZSMlB0WmMwai1Tc2pCNlFoR09ZeWJoSE1jZ1F4WUllYWx6R2UtVkxxZ1p3?oc=5",
-    "articles": [
-      {
-        "title": "Lữ đoàn 167 rút kinh nghiệm huấn luyện, diễn tập năm 2026 - Báo Tin tức và Dân tộc - TTXVN",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3hGY0ozTW5rRy1obzhiS0xKdkszNFExeWxJYW84STluX0ZOWTN6MnZsdFg4Qm16MmdUdmJNOXJfUGd0ejBOeTl5UkJQaWRKQ1VHbndqd3FvWDh6VUM3dmVPSjZSZnlESzF3ekpkNGZSMlB0WmMwai1Tc2pCNlFoR09ZeWJoSE1jZ1F4WUllYWx6R2UtVkxxZ1p3?oc=5",
-        "publisher": "Báo Tin tức và Dân tộc - TTXVN"
-      }
-    ],
-    "updatedAt": "18/11/2026 12:43 UTC"
   }
 ]
