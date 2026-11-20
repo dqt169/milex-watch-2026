@@ -1031,6 +1031,65 @@ jobs:
     // =========================================================================
     // 3. STORAGE & INITIALIZATION
     // =========================================================================
+    const VI_UNIQUE_CHARS = /[ăđơưạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỷỹ]/i;
+    const CJK_CHARS = /[぀-ヿ㐀-䶿一-鿿가-힯]/;
+
+    function needsVietnameseTranslation(text) {
+      if (!text || typeof text !== "string") return false;
+      if (CJK_CHARS.test(text)) return true;
+      return !VI_UNIQUE_CHARS.test(text);
+    }
+
+    async function translateTextClientSide(text) {
+      if (!needsVietnameseTranslation(text)) return text;
+      // 1. Google Translate gtx (CORS-enabled on browsers)
+      try {
+        const res = await fetch(
+          `https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=vi&dt=t&q=${encodeURIComponent(text)}`
+        );
+        if (res.ok) {
+          const data = await res.json();
+          const out = (data && data[0] ? data[0].map((p) => (p && p[0]) || "").join("") : "").trim();
+          if (out && out.toLowerCase() !== text.toLowerCase()) return out;
+        }
+      } catch (e) {}
+      // 2. MyMemory fallback
+      try {
+        const sl = /[぀-ヿ]/.test(text) ? "ja" : (/[가-힯]/.test(text) ? "ko" : (/[一-鿿]/.test(text) ? "zh-CN" : "en"));
+        const res = await fetch(
+          `https://api.mymemory.translated.net/get?q=${encodeURIComponent(text.slice(0, 450))}&langpair=${encodeURIComponent(sl + "|vi")}`
+        );
+        if (res.ok) {
+          const data = await res.json();
+          const out = (data && data.responseData && data.responseData.translatedText || "").trim();
+          if (out && out.toLowerCase() !== text.toLowerCase() && !out.toUpperCase().includes("MYMEMORY WARNING")) return out;
+        }
+      } catch (e) {}
+      return text;
+    }
+
+    async function autoTranslateUntranslatedRecords() {
+      const pending = state.exercises.filter((ex) => ex && String(ex.id || "").startsWith("osint-") && needsVietnameseTranslation(ex.name));
+      if (pending.length === 0) return;
+      let translatedCount = 0;
+      for (const item of pending.slice(0, 15)) {
+        const viTitle = await translateTextClientSide(item.name);
+        if (viTitle && viTitle !== item.name) {
+          item.name = viTitle;
+          item.purpose = `Tin tức tự động dịch & cập nhật (${item.sourceTitle || "OSINT"}): ${viTitle}`;
+          if (Array.isArray(item.articles) && item.articles[0]) {
+            item.articles[0].title = viTitle;
+          }
+          translatedCount += 1;
+        }
+      }
+      if (translatedCount > 0) {
+        saveExercisesToStorage();
+        renderAll();
+        addLog("TRANSLATE", `Đã tự động dịch thêm ${translatedCount} bản tin ngoại ngữ sang tiếng Việt trên trình duyệt.`, "emerald");
+      }
+    }
+
     async function fetchRepoExercisesJson() {
       try {
         const res = await fetch("./data/exercises.json?t=" + Date.now());
@@ -2216,6 +2275,7 @@ jobs:
     window.addEventListener("DOMContentLoaded", async () => {
       await loadInitialState();
       renderAll();
+      autoTranslateUntranslatedRecords();
       updateCountdownUi();
       startSchedulerLoop();
 
