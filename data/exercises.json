@@ -1137,14 +1137,14 @@
   },
   {
     "id": "osint-2026111914-coalitionofthewil",
-    "name": "Ukraine - Chosun Ilbo",
+    "name": "Ukraina - Chosun Ilbo",
     "dates": "Ghi nhận: 19/11/2026",
     "status": "Đang diễn ra",
     "location": "조선일보",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (조선일보): Ukraine - Chosun Ilbo",
+    "purpose": "Tin tức tự động dịch & cập nhật (조선일보): Ukraina - Chosun Ilbo",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -1156,7 +1156,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ085cW1TS2Y4ME02OGwtOXRJVWhPdVhzOWlTNnNzYkk3M3RsVS0wY3p6Ni1jMi11cktrcVJMOTNSYzE2amhMZy1qSkNEdmtRSVFCVF9nbjY1VEtOY1dzNTViMEFtXzFSekdqa3d6X3FrQXhldUdMc0gtcEJiYkxOblhIbGM?oc=5",
     "articles": [
       {
-        "title": "Ukraine - Chosun Ilbo",
+        "title": "Ukraina - Chosun Ilbo",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ085cW1TS2Y4ME02OGwtOXRJVWhPdVhzOWlTNnNzYkk3M3RsVS0wY3p6Ni1jMi11cktrcVJMOTNSYzE2amhMZy1qSkNEdmtRSVFCVF9nbjY1VEtOY1dzNTViMEFtXzFSekdqa3d6X3FrQXhldUdMc0gtcEJiYkxOblhIbGM?oc=5",
         "publisher": "조선일보"
       }
