@@ -232,6 +232,36 @@
     "collectedAtIso": "2026-11-20T08:40:55.970691+00:00"
   },
   {
+    "id": "osint-2026112008-qunkhu7rtkinh",
+    "name": "Quân khu 7 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Quân Khu 7 Online",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Quân Khu 7 Online",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Quân Khu 7 Online): Quân khu 7 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Quân Khu 7 Online",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Quân Khu 7 Online",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUtPR0lkWWw5Y2FOcUJ6ZW53bkc5LTlVVllscjI2di1tcTJQYkhiY3RHTTRnWnZ6cndsY2tQV1FGTWJGUXBDaU5HTl9vUkd0T3lSd1RVVkdhQWVVZk5tajBzZUhGSUhXM1lrd2s4YUd6NXhDRmF3OEJzakVRaUEzRWZMb0I5emx4TlRhc0k3aTdqQ2dSNjhlc0ItQUdmUTJsbjh1YmpuNW1EWTRJYTEtYjJUVktWS2FGSlE3ME0waEh1Rnct?oc=5",
+    "articles": [
+      {
+        "title": "Quân khu 7 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Quân Khu 7 Online",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxOTUtPR0lkWWw5Y2FOcUJ6ZW53bkc5LTlVVllscjI2di1tcTJQYkhiY3RHTTRnWnZ6cndsY2tQV1FGTWJGUXBDaU5HTl9vUkd0T3lSd1RVVkdhQWVVZk5tajBzZUhGSUhXM1lrd2s4YUd6NXhDRmF3OEJzakVRaUEzRWZMb0I5emx4TlRhc0k3aTdqQ2dSNjhlc0ItQUdmUTJsbjh1YmpuNW1EWTRJYTEtYjJUVktWS2FGSlE3ME0waEh1Rnct?oc=5",
+        "publisher": "Quân Khu 7 Online"
+      }
+    ],
+    "updatedAt": "20/11/2026 08:41 UTC",
+    "collectedAtIso": "2026-11-20T08:41:33.691112+00:00",
+    "publishedAtIso": "2026-11-20T04:58:00+00:00"
+  },
+  {
     "id": "osint-2026112002-9",
     "name": "“Ngay cả phúc lợi của binh sĩ cũng bị giữ làm con tin”… Không: \"Tôi không có ý định giảm chi phí đi lại cho bi",
     "dates": "Ghi nhận: 19/11/2026",
@@ -520,6 +550,36 @@
     ],
     "updatedAt": "20/11/2026 02:59 UTC",
     "collectedAtIso": "2026-11-20T02:59:17.612886+00:00"
+  },
+  {
+    "id": "osint-2026112008-qunkhu4rtkinh",
+    "name": "Quân khu 4: rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập. - baoquankhu4.com.vn",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "baoquankhu4.com.vn",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (baoquankhu4.com.vn): Quân khu 4: rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập. - baoquankhu4.com.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "baoquankhu4.com.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZkFXOVFUVzdsM0o3M256ZW5KV216VzBnMUU5UkNUUUJQRWhwaW5qOGVqR21MckYtTlJKd0tPYUY5SlZzUVZkX0NjQkxqamlyQ0hUUkdBcFRsRmowd1FYX0syVThDcWhCTWRqV0xyMmR4SXFnVnZoU1lleUE2cjUwYTQyMVFYcmlPTWNzd0x2U3lDOXVHSEYxaVFGUUdnX0lKUVo1ZDNnb2VFeHNlempnRWJPN09Bbms1R1Etcg?oc=5",
+    "articles": [
+      {
+        "title": "Quân khu 4: rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập. - baoquankhu4.com.vn",
+        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZkFXOVFUVzdsM0o3M256ZW5KV216VzBnMUU5UkNUUUJQRWhwaW5qOGVqR21MckYtTlJKd0tPYUY5SlZzUVZkX0NjQkxqamlyQ0hUUkdBcFRsRmowd1FYX0syVThDcWhCTWRqV0xyMmR4SXFnVnZoU1lleUE2cjUwYTQyMVFYcmlPTWNzd0x2U3lDOXVHSEYxaVFGUUdnX0lKUVo1ZDNnb2VFeHNlempnRWJPN09Bbms1R1Etcg?oc=5",
+        "publisher": "baoquankhu4.com.vn"
+      }
+    ],
+    "updatedAt": "20/11/2026 08:41 UTC",
+    "collectedAtIso": "2026-11-20T08:41:33.691112+00:00",
+    "publishedAtIso": "2026-11-20T02:11:01+00:00"
   },
   {
     "id": "osint-2026111921-4",
@@ -1242,6 +1302,36 @@
     "updatedAt": "19/11/2026 12:35 UTC"
   },
   {
+    "id": "osint-2026112008-21",
+    "name": "美·베네수 21년 만에 군사관계 복원… 남미 안보 교두보 포석 - 세계일보",
+    "dates": "Ghi nhận: 19/11/2026",
+    "status": "Đang diễn ra",
+    "location": "세계일보",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (세계일보): 美·베네수 21년 만에 군사관계 복원… 남미 안보 교두보 포석 - 세계일보",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "세계일보",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12OVFyOWthb0UwSXQ2bnY5VjNrUy10WVVOeEJaR2dyX3Q1NXVHR1g3N0xPWElPNGF0Q1ZzeF9pRnB3UjhOY2lWOEpzMjdMRWZJMGcyQVVVOFLSAVRBVV95cUxPSWxVUmpHa0V1STFQSVE3MXByWUF4Sktpd0FIMnU1elFHX0NzbTVKcG5zeExGM3NlVjY3RDFlVHJCQlNWSGNhdFdFcTB3b25MU0pQTXA?oc=5",
+    "articles": [
+      {
+        "title": "美·베네수 21년 만에 군사관계 복원… 남미 안보 교두보 포석 - 세계일보",
+        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12OVFyOWthb0UwSXQ2bnY5VjNrUy10WVVOeEJaR2dyX3Q1NXVHR1g3N0xPWElPNGF0Q1ZzeF9pRnB3UjhOY2lWOEpzMjdMRWZJMGcyQVVVOFLSAVRBVV95cUxPSWxVUmpHa0V1STFQSVE3MXByWUF4Sktpd0FIMnU1elFHX0NzbTVKcG5zeExGM3NlVjY3RDFlVHJCQlNWSGNhdFdFcTB3b25MU0pQTXA?oc=5",
+        "publisher": "세계일보"
+      }
+    ],
+    "updatedAt": "20/11/2026 08:41 UTC",
+    "collectedAtIso": "2026-11-20T08:41:33.691112+00:00",
+    "publishedAtIso": "2026-11-19T12:00:00+00:00"
+  },
+  {
     "id": "osint-2026111902-1",
     "name": "Về cuộc tập trận chung đa phương do Hoa Kỳ tài trợ (Valiant Shield 2026) và huấn luyện thực địa năm 2020 với T",
     "dates": "Ghi nhận: 14/09/2026",
@@ -1632,89 +1722,5 @@
       }
     ],
     "updatedAt": "18/11/2026 12:43 UTC"
-  },
-  {
-    "id": "osint-2026111803-1",
-    "name": "Bộ Quốc phòng Hoa Kỳ \"Việc giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Mỹ...sẽ không có bất kỳ tr",
-    "dates": "Ghi nhận: 19/08/2026",
-    "status": "Đang diễn ra",
-    "location": "연합뉴스",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Bộ Quốc phòng Hoa Kỳ \"Việc giảm đáng kể hoạt động huấn luyện chung giữa Hàn Quốc và Mỹ...sẽ không có bất kỳ trở ngại nào\" - Yonhap News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "연합뉴스",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJY01KaV9UdDlCRDBJZDV3azQ5MmhqUmtneTN6YkRjNnpjYUNUX215MXdXQ0pkLWRzRjRBWEpjZ0hhQUZhRDBBeU9tU2QyNzB6TVZ6Ylc3VHEtcWPSAWBBVV95cUxQUFpYeGdFTWRqRmVBajhFa1NwRzdNQklNQ3dSVGt0R01IQ091ZVF1TVhBNlhOdUpSaUptUFpfTmw1WFR0Z1BlanlvWDJLTzlMeU5hVDRmNXcwdVRyVlJBdHM?oc=5",
-    "articles": [
-      {
-        "title": "美국방부 \"한미연합훈련 대폭 축소…어떤 차질도 없을 것\" - 연합뉴스",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBJY01KaV9UdDlCRDBJZDV3azQ5MmhqUmtneTN6YkRjNnpjYUNUX215MXdXQ0pkLWRzRjRBWEpjZ0hhQUZhRDBBeU9tU2QyNzB6TVZ6Ylc3VHEtcWPSAWBBVV95cUxQUFpYeGdFTWRqRmVBajhFa1NwRzdNQklNQ3dSVGt0R01IQ091ZVF1TVhBNlhOdUpSaUptUFpfTmw1WFR0Z1BlanlvWDJLTzlMeU5hVDRmNXcwdVRyVlJBdHM?oc=5",
-        "publisher": "연합뉴스"
-      }
-    ],
-    "updatedAt": "18/11/2026 03:22 UTC"
-  },
-  {
-    "id": "osint-2026111803-xnhhatchc",
-    "name": "Xã Định Hóa tổ chức thành công diễn tập chiến đấu phòng thủ - Báo và Phát thanh, truyền hình Thái Nguyên",
-    "dates": "Ghi nhận: 17/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo và Phát thanh, truyền hình Thái Nguyên",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo và Phát thanh, truyền hình Thái Nguyên): Xã Định Hóa tổ chức thành công diễn tập chiến đấu phòng thủ - Báo và Phát thanh, truyền hình Thái Nguyên",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo và Phát thanh, truyền hình Thái Nguyên",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQXNPLThmaWh6ZUZhVXR6eldIV05fd3RXZWJVMlE2X2RkRlZVNm1KZ21tMXNmT2RBTlJhVWIwbC1vdWFteDQwb0g2RjVubDI0SXNCNVYyWm9pcmdWOXJiZi1VSHRoem9lUklwempUdTMxbmx6ZnE0NUxjYnVXVVpBZXhSUEZtbEMwTlVkaw?oc=5",
-    "articles": [
-      {
-        "title": "Xã Định Hóa tổ chức thành công diễn tập chiến đấu phòng thủ - Báo và Phát thanh, truyền hình Thái Nguyên",
-        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPQXNPLThmaWh6ZUZhVXR6eldIV05fd3RXZWJVMlE2X2RkRlZVNm1KZ21tMXNmT2RBTlJhVWIwbC1vdWFteDQwb0g2RjVubDI0SXNCNVYyWm9pcmdWOXJiZi1VSHRoem9lUklwempUdTMxbmx6ZnE0NUxjYnVXVVpBZXhSUEZtbEMwTlVkaw?oc=5",
-        "publisher": "Báo và Phát thanh, truyền hình Thái Nguyên"
-      }
-    ],
-    "updatedAt": "18/11/2026 03:22 UTC"
-  },
-  {
-    "id": "osint-2026111720-khaimcdintpt",
-    "name": "Khai mạc diễn tập tác chiến phòng thủ Quân khu 4 và diễn tập khu vực phòng thủ tỉnh Nghệ An năm 2026 - Đảng bộ",
-    "dates": "Ghi nhận: 26/10/2026",
-    "status": "Đang diễn ra",
-    "location": "Đảng bộ tỉnh Nghệ An",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Đảng bộ tỉnh Nghệ An): Khai mạc diễn tập tác chiến phòng thủ Quân khu 4 và diễn tập khu vực phòng thủ tỉnh Nghệ An năm 2026 - Đảng bộ tỉnh Nghệ An",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Đảng bộ tỉnh Nghệ An",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTU9US2FyM0pELXNoX2FnOFRnbWhRZ1JJaFc1X3VnVTFXWGxIVGltNzBfYWZTRnZaRng3WDVicTNiQkNFbWNaQ0ExQVFQVnFLOWdYNnN2WENwQ2oxRFJLTVBZRkgxQkdHU3p5c2pKWjNWRzRzdFg4d1V4RENnZkF4TmpTaDBWbW9kY2h2ZFBjbGRHLVVWZ2NCMHFQanVoUXQ1cUgzUEVCM3JuSGlXNC1HRE9aUzBfUVRqVzVVMEVabi1FYktadVNQSTZscndMT21BWTNLV1VJUXY1eGdwbVZQUHhETS1IU1hW?oc=5",
-    "articles": [
-      {
-        "title": "Khai mạc diễn tập tác chiến phòng thủ Quân khu 4 và diễn tập khu vực phòng thủ tỉnh Nghệ An năm 2026 - Đảng bộ tỉnh Nghệ An",
-        "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTU9US2FyM0pELXNoX2FnOFRnbWhRZ1JJaFc1X3VnVTFXWGxIVGltNzBfYWZTRnZaRng3WDVicTNiQkNFbWNaQ0ExQVFQVnFLOWdYNnN2WENwQ2oxRFJLTVBZRkgxQkdHU3p5c2pKWjNWRzRzdFg4d1V4RENnZkF4TmpTaDBWbW9kY2h2ZFBjbGRHLVVWZ2NCMHFQanVoUXQ1cUgzUEVCM3JuSGlXNC1HRE9aUzBfUVRqVzVVMEVabi1FYktadVNQSTZscndMT21BWTNLV1VJUXY1eGdwbVZQUHhETS1IU1hW?oc=5",
-        "publisher": "Đảng bộ tỉnh Nghệ An"
-      }
-    ],
-    "updatedAt": "17/11/2026 20:33 UTC"
   }
 ]
