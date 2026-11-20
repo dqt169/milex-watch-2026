@@ -1,13 +1,13 @@
 #!/usr/bin/env python3
 """
-Script tự động tìm kiếm, DỊCH SANG TIẾNG VIỆT và chỉ giữ lại tin diễn tập quân sự
-thu thập được trong 3 NGÀY GẦN NHẤT (72 giờ).
-Kết hợp đa nguồn: Google News RSS (Anh, Việt, Trung, Nhật, Hàn) + GDELT DOC 2.0 API.
+Script tự động tìm kiếm, DỊCH SANG TIẾNG VIỆT (đa lớp dự phòng: Google + MyMemory + Lingva)
+và chỉ giữ lại tin diễn tập quân sự thu thập trong 3 NGÀY GẦN NHẤT, sắp xếp mới nhất trước.
 Chạy định kỳ 2 giờ/lần qua GitHub Actions.
 """
 import json
 import os
 import re
+import time
 import urllib.parse
 import urllib.request
 import xml.etree.ElementTree as ET
@@ -25,43 +25,93 @@ RSS_QUERIES = [
     ("ko", "KR", "연합훈련 국방부 when:3d"),
 ]
 
+VI_UNIQUE_RE = re.compile(r"[ăđơưạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỷỹ]", re.I)
+CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
+
 def http_get(url: str, timeout: int = 15) -> str:
     req = urllib.request.Request(
         url,
         headers={
-            "User-Agent": "Mozilla/5.0 (compatible; MilExWatchBot/2.2; +https://github.com/dqt169/milex-watch-2026)"
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"
         },
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         return resp.read().decode("utf-8", errors="ignore")
 
+def is_vietnamese_text(text: str) -> bool:
+    if not text or CJK_RE.search(text):
+        return False
+    return bool(VI_UNIQUE_RE.search(text))
+
+def detect_source_lang(text: str, hint: str = "auto") -> str:
+    if hint and hint not in ("auto", "global"):
+        return "zh-CN" if hint.startswith("zh") else hint
+    if re.search(r"[\u3040-\u30ff]", text):
+        return "ja"
+    if re.search(r"[\uac00-\ud7af]", text):
+        return "ko"
+    if re.search(r"[\u4e00-\u9fff]", text):
+        return "zh-CN"
+    return "en"
+
 def translate_to_vietnamese(text: str, lang: str = "auto") -> str:
-    if not text or lang == "vi":
+    if not text or lang == "vi" or is_vietnamese_text(text):
         return text
-    if re.search(r"[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹđ]", text.lower()):
-        return text
+
+    sl = detect_source_lang(text, lang)
+    time.sleep(0.35)
+
+    # Tier 1: Google Translate gtx endpoint
     try:
-        sl = "zh-CN" if lang.startswith("zh") else ("ja" if lang == "ja" else ("ko" if lang == "ko" else "auto"))
         url = (
             "https://translate.googleapis.com/translate_a/single?client=gtx"
             f"&sl={urllib.parse.quote(sl)}&tl=vi&dt=t&q={urllib.parse.quote(text)}"
         )
-        raw = http_get(url, timeout=10)
-        data = json.loads(raw)
-        translated = "".join(part[0] for part in data[0] if part and part[0])
-        return translated.strip() or text
+        data = json.loads(http_get(url, timeout=10))
+        translated = "".join(part[0] for part in data[0] if part and part[0]).strip()
+        if translated and translated.lower() != text.lower():
+            return translated
     except Exception as e:
-        print(f"[WARN] Translate fallback: {e}")
-        return text
+        print(f"[WARN] Google Translate failed ({sl}): {e}")
+
+    # Tier 2: MyMemory Free Public API (very reliable on GitHub Actions IPs)
+    try:
+        mm_sl = "zh-CN" if sl.startswith("zh") else sl
+        mm_url = (
+            "https://api.mymemory.translated.net/get?q="
+            + urllib.parse.quote(text[:450])
+            + "&langpair="
+            + urllib.parse.quote(f"{mm_sl}|vi")
+        )
+        data = json.loads(http_get(mm_url, timeout=12))
+        translated = ((data.get("responseData") or {}).get("translatedText") or "").strip()
+        if translated and translated.lower() != text.lower() and "MYMEMORY WARNING" not in translated.upper():
+            return translated
+    except Exception as e:
+        print(f"[WARN] MyMemory Translate failed ({sl}): {e}")
+
+    # Tier 3: Lingva public mirror
+    try:
+        lg_sl = "zh" if sl.startswith("zh") else sl
+        lg_url = f"https://lingva.ml/api/v1/{urllib.parse.quote(lg_sl)}/vi/{urllib.parse.quote(text[:400])}"
+        data = json.loads(http_get(lg_url, timeout=10))
+        translated = (data.get("translation") or "").strip()
+        if translated and translated.lower() != text.lower():
+            return translated
+    except Exception as e:
+        print(f"[WARN] Lingva Translate failed ({sl}): {e}")
+
+    return text
 
 def parse_item_datetime_utc(item: dict):
-    iso_val = item.get("collectedAtIso")
-    if iso_val:
-        try:
-            dt = datetime.fromisoformat(iso_val.replace("Z", "+00:00"))
-            return dt.astimezone(timezone.utc)
-        except Exception:
-            pass
+    for iso_key in ("publishedAtIso", "collectedAtIso"):
+        iso_val = item.get(iso_key)
+        if iso_val:
+            try:
+                dt = datetime.fromisoformat(iso_val.replace("Z", "+00:00"))
+                return dt.astimezone(timezone.utc)
+            except Exception:
+                pass
     for field in (item.get("updatedAt", ""), item.get("dates", "")):
         m = re.search(r"(\d{1,2})/(\d{1,2})/(\d{4})(?:\s+(\d{1,2}):(\d{2}))?", str(field))
         if m:
@@ -198,18 +248,20 @@ def main():
         except Exception:
             existing = []
 
-    # Prune old records (> 3 days) from existing data
+    # Prune old records (> 3 days) and re-translate any untranslated records
     fresh_existing = []
     for item in existing:
         if not isinstance(item, dict):
             continue
         dt_utc = parse_item_datetime_utc(item)
         if is_within_max_age(dt_utc, now_utc):
-            if item.get("name"):
+            if item.get("name") and not is_vietnamese_text(item["name"]):
                 vi_name = translate_to_vietnamese(item["name"], "auto")
                 if vi_name != item["name"]:
-                    item["name"] = vi_name[:110]
+                    item["name"] = vi_name[:120]
                     item["purpose"] = f"Tin tức tự động dịch & cập nhật ({item.get('sourceTitle', 'OSINT')}): {vi_name}"
+                    if isinstance(item.get("articles"), list) and item["articles"]:
+                        item["articles"][0]["title"] = vi_name
             fresh_existing.append(item)
 
     known_urls = {item.get("sourceUrl") for item in fresh_existing}
@@ -233,7 +285,7 @@ def main():
         slug = re.sub(r"[^a-zA-Z0-9]", "", raw_title[:20]).lower() or str(added)
         record = {
             "id": f"osint-{now_utc.strftime('%Y%m%d%H')}-{slug}",
-            "name": vi_title[:110],
+            "name": vi_title[:120],
             "dates": f"Ghi nhận: {pub_str}",
             "status": "Đang diễn ra",
             "location": art["source"],
@@ -260,17 +312,13 @@ def main():
             break
 
     fresh_existing.sort(
-        key=lambda item: (
-            parse_item_datetime_utc({"collectedAtIso": item.get("publishedAtIso")})
-            or parse_item_datetime_utc(item)
-            or datetime(1970, 1, 1, tzinfo=timezone.utc)
-        ),
+        key=lambda item: parse_item_datetime_utc(item) or datetime(1970, 1, 1, tzinfo=timezone.utc),
         reverse=True,
     )
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(fresh_existing[:60], f, ensure_ascii=False, indent=2)
-    print(f"[OK] Updated {DATA_FILE}: added {added}, kept {len(fresh_existing[:60])} records within last {MAX_AGE_DAYS} days.")
+    print(f"[OK] Updated {DATA_FILE}: added {added}, kept {len(fresh_existing[:60])} Vietnamese records within last {MAX_AGE_DAYS} days.")
 
 if __name__ == "__main__":
     main()
