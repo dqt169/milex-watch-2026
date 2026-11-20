@@ -1,14 +1,104 @@
 [
   {
+    "id": "osint-2026112010-bchhuyqunst",
+    "name": "Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Baolangson.vn",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Baolangson.vn): Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Baolangson.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXhsdWJVenBlQ01QNDRpZzBzYlFERmVCXzE3TVltaFhoYmhkWDFJaldzWmdndjB6WVQwSzZJX0g2ZVl5ZFowR2ZsU29qQnVvdGNLUER1dFF4MC16bnpSRnJkYlUxLUFEYmtObmFBU0ctZTVMSHI1ZHN2YkpBMW9jTmptbDJYc19FWG9fQVhiYWVOYWlkb2M3RDg0THdmaGo2RkppLXFBbEpTWklQMUxKSjhvRl8?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
+        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXhsdWJVenBlQ01QNDRpZzBzYlFERmVCXzE3TVltaFhoYmhkWDFJaldzWmdndjB6WVQwSzZJX0g2ZVl5ZFowR2ZsU29qQnVvdGNLUER1dFF4MC16bnpSRnJkYlUxLUFEYmtObmFBU0ctZTVMSHI1ZHN2YkpBMW9jTmptbDJYc19FWG9fQVhiYWVOYWlkb2M3RDg0THdmaGo2RkppLXFBbEpTWklQMUxKSjhvRl8?oc=5",
+        "publisher": "Baolangson.vn"
+      }
+    ],
+    "updatedAt": "20/11/2026 10:02 UTC",
+    "collectedAtIso": "2026-11-20T10:02:50.906627+00:00",
+    "publishedAtIso": "2026-11-20T09:50:18+00:00"
+  },
+  {
+    "id": "osint-2026112010-ndintpqun",
+    "name": "Ấn Độ diễn tập quân sự chung cùng một quốc gia Đông Nam Á - Vietnam.vn",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Vietnam.vn",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Vietnam.vn): Ấn Độ diễn tập quân sự chung cùng một quốc gia Đông Nam Á - Vietnam.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Vietnam.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQemJseHRnalQ1RjlaSl9MZnIzQWUxb1k3ZjZUQzduZzlZYVRUMXVRZGgxNmtSSGI2eEQxM0FrSzZNX29BX0NRMFlUekFVZjRObF9ic1R6RFBtLU15QjVDT3l6Nnk5dzlwR1BkaGM1V2lqT29vRzBCQnpoZmRiWUxGc0x3SnVNOWs?oc=5",
+    "articles": [
+      {
+        "title": "Ấn Độ diễn tập quân sự chung cùng một quốc gia Đông Nam Á - Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQemJseHRnalQ1RjlaSl9MZnIzQWUxb1k3ZjZUQzduZzlZYVRUMXVRZGgxNmtSSGI2eEQxM0FrSzZNX29BX0NRMFlUekFVZjRObF9ic1R6RFBtLU15QjVDT3l6Nnk5dzlwR1BkaGM1V2lqT29vRzBCQnpoZmRiWUxGc0x3SnVNOWs?oc=5",
+        "publisher": "Vietnam.vn"
+      }
+    ],
+    "updatedAt": "20/11/2026 10:02 UTC",
+    "collectedAtIso": "2026-11-20T10:02:50.906627+00:00",
+    "publishedAtIso": "2026-11-20T08:59:16+00:00"
+  },
+  {
+    "id": "osint-2026112010-11",
+    "name": "11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trườn",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "金十数据",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (金十数据): 11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trường - Dữ liệu Golden Ten",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "金十数据",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
+    "articles": [
+      {
+        "title": "11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trường - Dữ liệu Golden Ten",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
+        "publisher": "金十数据"
+      }
+    ],
+    "updatedAt": "20/11/2026 10:02 UTC",
+    "collectedAtIso": "2026-11-20T10:02:50.906627+00:00",
+    "publishedAtIso": "2026-11-20T08:50:46+00:00"
+  },
+  {
     "id": "osint-2026112008-7",
-    "name": "해양 안보·재난 대응을 중심으로 강화되는 호주·인도네시아·파푸아뉴기니 협력 - Indo-Pacific Defense FORUM",
+    "name": "Hợp tác giữa Australia, Indonesia và Papua New Guinea được tăng cường với trọng tâm là an ninh hàng hải và ứng phó thảm ",
     "dates": "Ghi nhận: 18/11/2026",
     "status": "Đang diễn ra",
     "location": "Indo-Pacific Defense FORUM",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Indo-Pacific Defense FORUM): 해양 안보·재난 대응을 중심으로 강화되는 호주·인도네시아·파푸아뉴기니 협력 - Indo-Pacific Defense FORUM",
+    "purpose": "Tin tức tự động dịch & cập nhật (Indo-Pacific Defense FORUM): Hợp tác giữa Australia, Indonesia và Papua New Guinea được tăng cường với trọng tâm là an ninh hàng hải và ứng phó thảm họa - FORUM Quốc phòng Ấn Độ-Thái Bình Dương",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -20,7 +110,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOeXNOQTY3b3F2UHk2TF9vWUZ6RUk5QWI2VDI1OXN6YVU2ZVFRcE9oSlRNSmZPNzA5ZGNPd3owZnpXeW1VY1pTWHdBcWFTVFNZem5EUG5SMmtZMXVsZUpjeHEtZFpNWnppSDJUY2lzbjNlbEpFNndRa0JLSmFsa2VOalFwMm5ta1FVa0doWjRkRkhkOWF3Z01leEpKRDFBZS14ZFVzcnhtQzE4QTIyOU5TOEp1bEk3YUhsMVVacTlFS0c5bWw4TkVaVzd1RFVKWEZKMlItdHM0RFBrZFMxc0x2RzVraWJ2UWxJM25pZXZLMlRURzkxMUJkdkhja1hmV3JJSGhjWnNxWURKWjl4RU5PZlZLS0dCb3AyTkNEWThNOFBqUlVzRTFyZVUycm9hMHNmN0gwcHpUdy04eHc4NmZkalVocWZKaEQ3aEhsTWE1SUJjZkNDVXRj?oc=5",
     "articles": [
       {
-        "title": "해양 안보·재난 대응을 중심으로 강화되는 호주·인도네시아·파푸아뉴기니 협력 - Indo-Pacific Defense FORUM",
+        "title": "Hợp tác giữa Australia, Indonesia và Papua New Guinea được tăng cường với trọng tâm là an ninh hàng hải và ứng phó thảm họa - FORUM Quốc phòng Ấn Độ-Thái Bình Dương",
         "url": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxOeXNOQTY3b3F2UHk2TF9vWUZ6RUk5QWI2VDI1OXN6YVU2ZVFRcE9oSlRNSmZPNzA5ZGNPd3owZnpXeW1VY1pTWHdBcWFTVFNZem5EUG5SMmtZMXVsZUpjeHEtZFpNWnppSDJUY2lzbjNlbEpFNndRa0JLSmFsa2VOalFwMm5ta1FVa0doWjRkRkhkOWF3Z01leEpKRDFBZS14ZFVzcnhtQzE4QTIyOU5TOEp1bEk3YUhsMVVacTlFS0c5bWw4TkVaVzd1RFVKWEZKMlItdHM0RFBrZFMxc0x2RzVraWJ2UWxJM25pZXZLMlRURzkxMUJkdkhja1hmV3JJSGhjWnNxWURKWjl4RU5PZlZLS0dCb3AyTkNEWThNOFBqUlVzRTFyZVUycm9hMHNmN0gwcHpUdy04eHc4NmZkalVocWZKaEQ3aEhsTWE1SUJjZkNDVXRj?oc=5",
         "publisher": "Indo-Pacific Defense FORUM"
       }
@@ -30,14 +120,14 @@
   },
   {
     "id": "osint-2026112008-21",
-    "name": "국방부, 특별성과 포상금 시상식…21명에 7800만원 수여 - 뉴스1",
+    "name": "Bộ Quốc phòng, lễ trao giải tiết mục đặc sắc... 78 triệu won trao cho 21 người - Tin tức 1",
     "dates": "Ghi nhận: 19/11/2026",
     "status": "Đang diễn ra",
     "location": "뉴스1",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (뉴스1): 국방부, 특별성과 포상금 시상식…21명에 7800만원 수여 - 뉴스1",
+    "purpose": "Tin tức tự động dịch & cập nhật (뉴스1): Bộ Quốc phòng, lễ trao giải tiết mục đặc sắc... 78 triệu won trao cho 21 người - Tin tức 1",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -49,7 +139,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04bHAyVkF4endMaW1BQ1BZdERyM1Q3SHhnODJkdnRKVVZQemZieWxXYWZLUy05S285RndlXzBXcWpUTVBUZWFxaDBlRDBtMGNZYlZZaTRBaE44X2xDazNqNFYwME13STQ?oc=5",
     "articles": [
       {
-        "title": "국방부, 특별성과 포상금 시상식…21명에 7800만원 수여 - 뉴스1",
+        "title": "Bộ Quốc phòng, lễ trao giải tiết mục đặc sắc... 78 triệu won trao cho 21 người - Tin tức 1",
         "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE04bHAyVkF4endMaW1BQ1BZdERyM1Q3SHhnODJkdnRKVVZQemZieWxXYWZLUy05S285RndlXzBXcWpUTVBUZWFxaDBlRDBtMGNZYlZZaTRBaE44X2xDazNqNFYwME13STQ?oc=5",
         "publisher": "뉴스1"
       }
@@ -59,14 +149,14 @@
   },
   {
     "id": "osint-2026112008-5",
-    "name": "국산 잠수함 첫 태평양 횡단…도산안창호함 승조원 5000만원 포상 - 신아일보",
+    "name": "Tàu ngầm sản xuất trong nước đầu tiên vượt Thái Bình Dương… Thủy thủ đoàn Dosan Ahn Chang-ho được thưởng 50 triệu won - ",
     "dates": "Ghi nhận: 20/11/2026",
     "status": "Đang diễn ra",
     "location": "신아일보",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (신아일보): 국산 잠수함 첫 태평양 횡단…도산안창호함 승조원 5000만원 포상 - 신아일보",
+    "purpose": "Tin tức tự động dịch & cập nhật (신아일보): Tàu ngầm sản xuất trong nước đầu tiên vượt Thái Bình Dương… Thủy thủ đoàn Dosan Ahn Chang-ho được thưởng 50 triệu won - Shina Ilbo",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -78,7 +168,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DcXZtOUgtc3pJQS1UNkRBb1ZxM2FEZ29OMU1abkhYVndHdUVQbW9nQzJHTkliOE0zajhNNzBBOWpEbm40cndMeHpCLUJpakRrdkZhS3JpZkdJRnRKZWd4a0FzUUxBbDBtZk1wZXpFR04?oc=5",
     "articles": [
       {
-        "title": "국산 잠수함 첫 태평양 횡단…도산안창호함 승조원 5000만원 포상 - 신아일보",
+        "title": "Tàu ngầm sản xuất trong nước đầu tiên vượt Thái Bình Dương… Thủy thủ đoàn Dosan Ahn Chang-ho được thưởng 50 triệu won - Shina Ilbo",
         "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1DcXZtOUgtc3pJQS1UNkRBb1ZxM2FEZ29OMU1abkhYVndHdUVQbW9nQzJHTkliOE0zajhNNzBBOWpEbm40cndMeHpCLUJpakRrdkZhS3JpZkdJRnRKZWd4a0FzUUxBbDBtZk1wZXpFR04?oc=5",
         "publisher": "신아일보"
       }
@@ -88,14 +178,14 @@
   },
   {
     "id": "osint-2026112008-4",
-    "name": "先护卫舰，再导弹…日本放开杀伤性武器管制，考虑对菲出口 - 朝鮮日報中文版",
+    "name": "Đầu tiên là tàu khu trục, sau đó là tên lửa... Nhật Bản nới lỏng kiểm soát vũ khí sát thương và xem xét xuất khẩu sang P",
     "dates": "Ghi nhận: 19/11/2026",
     "status": "Đang diễn ra",
     "location": "朝鮮日報中文版",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (朝鮮日報中文版): 先护卫舰，再导弹…日本放开杀伤性武器管制，考虑对菲出口 - 朝鮮日報中文版",
+    "purpose": "Tin tức tự động dịch & cập nhật (朝鮮日報中文版): Đầu tiên là tàu khu trục, sau đó là tên lửa... Nhật Bản nới lỏng kiểm soát vũ khí sát thương và xem xét xuất khẩu sang Philippines - Chosun Ilbo phiên bản Trung Quốc",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -107,7 +197,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOHFma3hfVnp3SE9ISWtjVU4wczZIS2hTbUpQZmcxY0tTMVUtbEthbmpSYnpRM2lUbmpsQ3h2YjdGUkZJSW9pY3J1UzlMejlUZjY4RFh3NkR3RWx1WUsxNVUyclctNTlZS1BodFdtREpGVlBvanJkZldrOHpHc291QTBnMnZ1VkxLclZiS3hn?oc=5",
     "articles": [
       {
-        "title": "先护卫舰，再导弹…日本放开杀伤性武器管制，考虑对菲出口 - 朝鮮日報中文版",
+        "title": "Đầu tiên là tàu khu trục, sau đó là tên lửa... Nhật Bản nới lỏng kiểm soát vũ khí sát thương và xem xét xuất khẩu sang Philippines - Chosun Ilbo phiên bản Trung Quốc",
         "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQOHFma3hfVnp3SE9ISWtjVU4wczZIS2hTbUpQZmcxY0tTMVUtbEthbmpSYnpRM2lUbmpsQ3h2YjdGUkZJSW9pY3J1UzlMejlUZjY4RFh3NkR3RWx1WUsxNVUyclctNTlZS1BodFdtREpGVlBvanJkZldrOHpHc291QTBnMnZ1VkxLclZiS3hn?oc=5",
         "publisher": "朝鮮日報中文版"
       }
@@ -175,14 +265,14 @@
   },
   {
     "id": "osint-2026112008-indiamalaysiabegi",
-    "name": "India, Malaysia begin Harimau Shakti military drill with focus on counter-terror ops - The Times of India",
+    "name": "Ấn Độ, Malaysia bắt đầu cuộc tập trận quân sự Harimau Shakti, tập trung vào các hoạt động chống khủng bố - The Times of ",
     "dates": "Ghi nhận: 20/11/2026",
     "status": "Đang diễn ra",
     "location": "The Times of India",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (The Times of India): India, Malaysia begin Harimau Shakti military drill with focus on counter-terror ops - The Times of India",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Times of India): Ấn Độ, Malaysia bắt đầu cuộc tập trận quân sự Harimau Shakti, tập trung vào các hoạt động chống khủng bố - The Times of India",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -194,7 +284,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNb2J4M2JNeTE1Z28wN2dOM1lrRlV4a0FlQzVNOHB4N3JOMzFBSFR5VWF1ZFNTY2FGYTV5Vk40Uk1zaGVDUnRMWklmTTdMQVYwQ3RsV2VVSHVIQllPUXFOWW1sMVF0cFNyNjNkeFgzbkRyTE5Dc042OTNQTVR1WDk1dWdYclhtal8yV0NZMG5scjRoTzBXQ0tZdzBVLVZULUNCTjdYTHE0VkZLOTA3MWNaUzd2aWF2Y0dyWVI2dGt2TmRLZ1Q3MlVJMVFpa0pEVG1TaFNDakZvc203cXA0YzhPX3d4d1VoY01OaW5RczJBNNIB9AFBVV95cUxNanZzQmlmNWw1SF9rTVVGbV94dXVybjE3RVhORnJlVEVQdXJCNU5JdEdXOFFXbVYzNWJUUnNDcDROc1JER09IcG1rYnUzQmNfX21MSlpyc2NGVTUwd1VDZnpjNWNRSGxlSDY1UVZBVW90emhESDE4bWZ2VmRVbm5mbHRpbEZZd0UzdXFSVjN3OGt5V0twV3FJMktudUo2VHVZNHpLWnZOWUF5ZGtIcDJoYWtTTlFXblZfd3FBSDJVSGN3dWlpSGU0eEhMRndXNXNjLThvbWVFZkpDNEZqR09yZWFkX2xWbFY2cUVZSklWX2cwNHJY?oc=5",
     "articles": [
       {
-        "title": "India, Malaysia begin Harimau Shakti military drill with focus on counter-terror ops - The Times of India",
+        "title": "Ấn Độ, Malaysia bắt đầu cuộc tập trận quân sự Harimau Shakti, tập trung vào các hoạt động chống khủng bố - The Times of India",
         "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxNb2J4M2JNeTE1Z28wN2dOM1lrRlV4a0FlQzVNOHB4N3JOMzFBSFR5VWF1ZFNTY2FGYTV5Vk40Uk1zaGVDUnRMWklmTTdMQVYwQ3RsV2VVSHVIQllPUXFOWW1sMVF0cFNyNjNkeFgzbkRyTE5Dc042OTNQTVR1WDk1dWdYclhtal8yV0NZMG5scjRoTzBXQ0tZdzBVLVZULUNCTjdYTHE0VkZLOTA3MWNaUzd2aWF2Y0dyWVI2dGt2TmRLZ1Q3MlVJMVFpa0pEVG1TaFNDakZvc203cXA0YzhPX3d4d1VoY01OaW5RczJBNNIB9AFBVV95cUxNanZzQmlmNWw1SF9rTVVGbV94dXVybjE3RVhORnJlVEVQdXJCNU5JdEdXOFFXbVYzNWJUUnNDcDROc1JER09IcG1rYnUzQmNfX21MSlpyc2NGVTUwd1VDZnpjNWNRSGxlSDY1UVZBVW90emhESDE4bWZ2VmRVbm5mbHRpbEZZd0UzdXFSVjN3OGt5V0twV3FJMktudUo2VHVZNHpLWnZOWUF5ZGtIcDJoYWtTTlFXblZfd3FBSDJVSGN3dWlpSGU0eEhMRndXNXNjLThvbWVFZkpDNEZqR09yZWFkX2xWbFY2cUVZSklWX2cwNHJY?oc=5",
         "publisher": "The Times of India"
       }
@@ -204,14 +294,14 @@
   },
   {
     "id": "osint-2026112008-dagitpadrillsfocu",
-    "name": "DAGIT-PA drills focus on resupply, convoy ops to sustain troops By Priam F. Nepomuceno MANILA – This year's “D",
+    "name": "Cuộc tập trận DAGIT-PA tập trung vào tiếp tế, đoàn xe hỗ trợ quân đội Bởi Priam F. Nepomuceno MANILA – Năm nay “D",
     "dates": "Ghi nhận: 20/11/2026",
     "status": "Đang diễn ra",
     "location": "Facebook",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Facebook): DAGIT-PA drills focus on resupply, convoy ops to sustain troops By Priam F. Nepomuceno MANILA – This year's “DAGIT-PA” exercise is focusing on drills involving the escort and convoy of supply ships, replenishment of fuel and munitions, and other sustainm - Facebook",
+    "purpose": "Tin tức tự động dịch & cập nhật (Facebook): Cuộc tập trận DAGIT-PA tập trung vào tiếp tế, đoàn xe hỗ trợ quân đội Bởi Priam F. Nepomuceno MANILA – Năm nay “D",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -223,7 +313,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZDQ3VzVfZjVnUGQyS0lKdnlUZU45S0d0Si1CMzhIaFZXY2FiVDBtMVpZTUUxWXM4eHQ1SVBvM1JybUQ3SkZIanAxOHVfSzVGci1rUmNrdTNSa21veXFvRmdITnNCOVJXY0oySVRkdGttU3VaaEkwOFM3TThNWWc3QjluYnRsaHEyRWdfQmUzZS1jLTVWVjRKUjMyMHVWUmlZY1Btby1JRlMyZEhMcHVnbVVfalluMFZwNzltSkM2ZnBpUmdDMUpFZ214aVFWQjRpdGlvQw?oc=5",
     "articles": [
       {
-        "title": "DAGIT-PA drills focus on resupply, convoy ops to sustain troops By Priam F. Nepomuceno MANILA – This year's “DAGIT-PA” exercise is focusing on drills involving the escort and convoy of supply ships, replenishment of fuel and munitions, and other sustainm - Facebook",
+        "title": "Cuộc tập trận DAGIT-PA tập trung vào tiếp tế, đoàn xe hỗ trợ quân đội Bởi Priam F. Nepomuceno MANILA – Năm nay “D",
         "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPZDQ3VzVfZjVnUGQyS0lKdnlUZU45S0d0Si1CMzhIaFZXY2FiVDBtMVpZTUUxWXM4eHQ1SVBvM1JybUQ3SkZIanAxOHVfSzVGci1rUmNrdTNSa21veXFvRmdITnNCOVJXY0oySVRkdGttU3VaaEkwOFM3TThNWWc3QjluYnRsaHEyRWdfQmUzZS1jLTVWVjRKUjMyMHVWUmlZY1Btby1JRlMyZEhMcHVnbVVfalluMFZwNzltSkM2ZnBpUmdDMUpFZ214aVFWQjRpdGlvQw?oc=5",
         "publisher": "Facebook"
       }
@@ -699,14 +789,14 @@
   },
   {
     "id": "osint-2026111921-5",
-    "name": "Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập trận nhằm kiềm chế Triều Tiên: International : Financial Daily - 재경일보",
+    "name": "Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập chiến kiềm chế Triều Tiên: International : Financial Daily - Financial Daily",
     "dates": "Ghi nhận: 17/11/2026",
     "status": "Đang diễn ra",
     "location": "재경일보",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (재경일보): Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập trận nhằm kiềm chế Triều Tiên: International : Financial Daily - 재경일보",
+    "purpose": "Tin tức tự động dịch & cập nhật (재경일보): Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập chiến kiềm chế Triều Tiên: International : Financial Daily - Financial Daily",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -718,7 +808,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xcVNxUjFfVmVYU1BueTB3NjZta2owbmMtaUhUbno0NEJIOVpZX3NfbmtGclZkVjVIUktKRTVwZWVNSHIyT3hMeGVLM0s2SVlweFlvWUZNSDZTaFdOWEdZb01n?oc=5",
     "articles": [
       {
-        "title": "Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập trận nhằm kiềm chế Triều Tiên: International : Financial Daily - 재경일보",
+        "title": "Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập chiến kiềm chế Triều Tiên: International : Financial Daily - Financial Daily",
         "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xcVNxUjFfVmVYU1BueTB3NjZta2owbmMtaUhUbno0NEJIOVpZX3NfbmtGclZkVjVIUktKRTVwZWVNSHIyT3hMeGVLM0s2SVlweFlvWUZNSDZTaFdOWEdZb01n?oc=5",
         "publisher": "재경일보"
       }
@@ -1047,14 +1137,14 @@
   },
   {
     "id": "osint-2026111914-coalitionofthewil",
-    "name": "Liên minh sẵn sàng tiến hành huấn luyện chung đầu tiên gần Ukraine - 조선일보",
+    "name": "Ukraine - Chosun Ilbo",
     "dates": "Ghi nhận: 19/11/2026",
     "status": "Đang diễn ra",
     "location": "조선일보",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (조선일보): Liên minh sẵn sàng tiến hành huấn luyện chung đầu tiên gần Ukraine - 조선일보",
+    "purpose": "Tin tức tự động dịch & cập nhật (조선일보): Ukraine - Chosun Ilbo",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -1066,7 +1156,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ085cW1TS2Y4ME02OGwtOXRJVWhPdVhzOWlTNnNzYkk3M3RsVS0wY3p6Ni1jMi11cktrcVJMOTNSYzE2amhMZy1qSkNEdmtRSVFCVF9nbjY1VEtOY1dzNTViMEFtXzFSekdqa3d6X3FrQXhldUdMc0gtcEJiYkxOblhIbGM?oc=5",
     "articles": [
       {
-        "title": "Liên minh sẵn sàng tiến hành huấn luyện chung đầu tiên gần Ukraine - 조선일보",
+        "title": "Ukraine - Chosun Ilbo",
         "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ085cW1TS2Y4ME02OGwtOXRJVWhPdVhzOWlTNnNzYkk3M3RsVS0wY3p6Ni1jMi11cktrcVJMOTNSYzE2amhMZy1qSkNEdmtRSVFCVF9nbjY1VEtOY1dzNTViMEFtXzFSekdqa3d6X3FrQXhldUdMc0gtcEJiYkxOblhIbGM?oc=5",
         "publisher": "조선일보"
       }
@@ -1303,14 +1393,14 @@
   },
   {
     "id": "osint-2026112008-21",
-    "name": "美·베네수 21년 만에 군사관계 복원… 남미 안보 교두보 포석 - 세계일보",
+    "name": "Mỹ-Venice khôi phục quan hệ quân sự sau 21 năm... Đặt nền móng cho an ninh ở Nam Mỹ - Segye Ilbo",
     "dates": "Ghi nhận: 19/11/2026",
     "status": "Đang diễn ra",
     "location": "세계일보",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (세계일보): 美·베네수 21년 만에 군사관계 복원… 남미 안보 교두보 포석 - 세계일보",
+    "purpose": "Tin tức tự động dịch & cập nhật (세계일보): Mỹ-Venice khôi phục quan hệ quân sự sau 21 năm... Đặt nền móng cho an ninh ở Nam Mỹ - Segye Ilbo",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
@@ -1322,7 +1412,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12OVFyOWthb0UwSXQ2bnY5VjNrUy10WVVOeEJaR2dyX3Q1NXVHR1g3N0xPWElPNGF0Q1ZzeF9pRnB3UjhOY2lWOEpzMjdMRWZJMGcyQVVVOFLSAVRBVV95cUxPSWxVUmpHa0V1STFQSVE3MXByWUF4Sktpd0FIMnU1elFHX0NzbTVKcG5zeExGM3NlVjY3RDFlVHJCQlNWSGNhdFdFcTB3b25MU0pQTXA?oc=5",
     "articles": [
       {
-        "title": "美·베네수 21년 만에 군사관계 복원… 남미 안보 교두보 포석 - 세계일보",
+        "title": "Mỹ-Venice khôi phục quan hệ quân sự sau 21 năm... Đặt nền móng cho an ninh ở Nam Mỹ - Segye Ilbo",
         "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12OVFyOWthb0UwSXQ2bnY5VjNrUy10WVVOeEJaR2dyX3Q1NXVHR1g3N0xPWElPNGF0Q1ZzeF9pRnB3UjhOY2lWOEpzMjdMRWZJMGcyQVVVOFLSAVRBVV95cUxPSWxVUmpHa0V1STFQSVE3MXByWUF4Sktpd0FIMnU1elFHX0NzbTVKcG5zeExGM3NlVjY3RDFlVHJCQlNWSGNhdFdFcTB3b25MU0pQTXA?oc=5",
         "publisher": "세계일보"
       }
@@ -1635,90 +1725,6 @@
         "title": "Lữ đoàn 167 rút kinh nghiệm huấn luyện, diễn tập năm 2026 - Báo Tin tức và Dân tộc - TTXVN",
         "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQQ3hGY0ozTW5rRy1obzhiS0xKdkszNFExeWxJYW84STluX0ZOWTN6MnZsdFg4Qm16MmdUdmJNOXJfUGd0ejBOeTl5UkJQaWRKQ1VHbndqd3FvWDh6VUM3dmVPSjZSZnlESzF3ekpkNGZSMlB0WmMwai1Tc2pCNlFoR09ZeWJoSE1jZ1F4WUllYWx6R2UtVkxxZ1p3?oc=5",
         "publisher": "Báo Tin tức và Dân tộc - TTXVN"
-      }
-    ],
-    "updatedAt": "18/11/2026 12:43 UTC"
-  },
-  {
-    "id": "osint-2026111812-qunkhu7trinkha",
-    "name": "Quân khu 7 triển khai công tác chuẩn bị diễn tập năm 2026 - Quân Khu 7 Online",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Quân Khu 7 Online",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Quân Khu 7 Online): Quân khu 7 triển khai công tác chuẩn bị diễn tập năm 2026 - Quân Khu 7 Online",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Quân Khu 7 Online",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc0R6QzRuNWxyVjVMbzRaVWhsZUEyMk9wd1lUU2g2LUswQ1k0Y0dvVVFCc08ta01PX3ZDQzBzb1A5RUljVTY4eWUyRkhCVndPUWFNVWFiTGVIYWY5dFQ5TnZqT0N0U1dBWHR6UU1aSzJqNU1SVFM2dV92U2lIUkctbVhzWUZhbm1hZ3dJcFdWUE94VDBqQjhKWVhlSjZPMGxQVE91WHVrSjhEUQ?oc=5",
-    "articles": [
-      {
-        "title": "Quân khu 7 triển khai công tác chuẩn bị diễn tập năm 2026 - Quân Khu 7 Online",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPc0R6QzRuNWxyVjVMbzRaVWhsZUEyMk9wd1lUU2g2LUswQ1k0Y0dvVVFCc08ta01PX3ZDQzBzb1A5RUljVTY4eWUyRkhCVndPUWFNVWFiTGVIYWY5dFQ5TnZqT0N0U1dBWHR6UU1aSzJqNU1SVFM2dV92U2lIUkctbVhzWUZhbm1hZ3dJcFdWUE94VDBqQjhKWVhlSjZPMGxQVE91WHVrSjhEUQ?oc=5",
-        "publisher": "Quân Khu 7 Online"
-      }
-    ],
-    "updatedAt": "18/11/2026 12:43 UTC"
-  },
-  {
-    "id": "osint-2026111812-trungontnla2",
-    "name": "Trung đoàn Tên lửa 282 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Báo Nhân",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Nhân Dân điện tử",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Nhân Dân điện tử): Trung đoàn Tên lửa 282 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Báo Nhân Dân điện tử",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Nhân Dân điện tử",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR1VVWUFBdWowMUdqM3phbTRsdU5aMzRGR3N4UVpJZHVQMG84VVpySlBWNDhMNGFvS2F1amV2bkFIZzJrbDlnR1FrbFFkU2h1RHJQeTMzbU5kOVVPUGlyLV9YX1lsMDdrVFlJVmlsd3BVZzhEUEV2SXNQdVdwNllrRWJEbWVnYmJOUjJNXy1IWnV6LU5CU0gyUGd3YkhZeWczZ3RSVnpCekNnaDRLam80b2xEd0YxbVpKRVJBVDhES1RfZ2tRaXp2bjBxODh3c1k?oc=5",
-    "articles": [
-      {
-        "title": "Trung đoàn Tên lửa 282 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Báo Nhân Dân điện tử",
-        "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQR1VVWUFBdWowMUdqM3phbTRsdU5aMzRGR3N4UVpJZHVQMG84VVpySlBWNDhMNGFvS2F1amV2bkFIZzJrbDlnR1FrbFFkU2h1RHJQeTMzbU5kOVVPUGlyLV9YX1lsMDdrVFlJVmlsd3BVZzhEUEV2SXNQdVdwNllrRWJEbWVnYmJOUjJNXy1IWnV6LU5CU0gyUGd3YkhZeWczZ3RSVnpCekNnaDRLam80b2xEd0YxbVpKRVJBVDhES1RfZ2tRaXp2bjBxODh3c1k?oc=5",
-        "publisher": "Báo Nhân Dân điện tử"
-      }
-    ],
-    "updatedAt": "18/11/2026 12:43 UTC"
-  },
-  {
-    "id": "osint-2026111812-chinaandrussiato",
-    "name": "Trung Quốc và Nga tổ chức tập trận hải quân chung thường niên - Al Jazeera",
-    "dates": "Ghi nhận: 05/07/2026",
-    "status": "Đang diễn ra",
-    "location": "Al Jazeera",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Al Jazeera): Trung Quốc và Nga tổ chức tập trận hải quân chung thường niên - Al Jazeera",
-    "drills": [
-      "Tác chiến hiệp đồng biên đội tàu mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật trên biển"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Al Jazeera",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVW1TZFR1SU1iLWIzSjRkeW1KbWVYY2l1dHgwakt3d19oTzlwWlYyOWV6X1Rfb05ITmZWRUxFZ3ljVHRFUHdYT01MMXhhdGdwelF2TERrSm9ReDlGV0RpbzkwWDFtLVhfVGkzVF9sVk5KYWtnaUNnR3h2Z2VZZ1Z5UXB2Y05INUNOMUxPYWNGczY3emo50gGaAUFVX3lxTFA3TzA0ZFBrOWZ3OFRqanBBeG5DV1NqNzREc201akJiY291WXNhZkF2LUFLUndFWnRUQU5pUWpCVDd2MEtvbks3MnV1RkpsRVJ1bXJkUnRoczZDNnY2TlluQnBBZEhqTXJ3MHFCM0tLbUFrQ1RxUEdydTQzY0lXaGRvVTkta29MRGVheTdHYnNzUWFhOFJoOUlHQ1E?oc=5",
-    "articles": [
-      {
-        "title": "Trung Quốc và Nga tổ chức tập trận hải quân chung thường niên - Al Jazeera",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVW1TZFR1SU1iLWIzSjRkeW1KbWVYY2l1dHgwakt3d19oTzlwWlYyOWV6X1Rfb05ITmZWRUxFZ3ljVHRFUHdYT01MMXhhdGdwelF2TERrSm9ReDlGV0RpbzkwWDFtLVhfVGkzVF9sVk5KYWtnaUNnR3h2Z2VZZ1Z5UXB2Y05INUNOMUxPYWNGczY3emo50gGaAUFVX3lxTFA3TzA0ZFBrOWZ3OFRqanBBeG5DV1NqNzREc201akJiY291WXNhZkF2LUFLUndFWnRUQU5pUWpCVDd2MEtvbks3MnV1RkpsRVJ1bXJkUnRoczZDNnY2TlluQnBBZEhqTXJ3MHFCM0tLbUFrQ1RxUEdydTQzY0lXaGRvVTkta29MRGVheTdHYnNzUWFhOFJoOUlHQ1E?oc=5",
-        "publisher": "Al Jazeera"
       }
     ],
     "updatedAt": "18/11/2026 12:43 UTC"
