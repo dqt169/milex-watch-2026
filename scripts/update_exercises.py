@@ -250,6 +250,7 @@ def main():
             "articles": [{"title": vi_title, "url": url, "publisher": art["source"]}],
             "updatedAt": now_str,
             "collectedAtIso": now_iso,
+            "publishedAtIso": pub_dt.isoformat(),
         }
         fresh_existing.insert(0, record)
         known_urls.add(url)
@@ -257,6 +258,15 @@ def main():
         added += 1
         if added >= 10:
             break
+
+    fresh_existing.sort(
+        key=lambda item: (
+            parse_item_datetime_utc({"collectedAtIso": item.get("publishedAtIso")})
+            or parse_item_datetime_utc(item)
+            or datetime(1970, 1, 1, tzinfo=timezone.utc)
+        ),
+        reverse=True,
+    )
 
     with open(DATA_FILE, "w", encoding="utf-8") as f:
         json.dump(fresh_existing[:60], f, ensure_ascii=False, indent=2)
