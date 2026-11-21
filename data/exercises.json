@@ -1,5 +1,95 @@
 [
   {
+    "id": "osint-2026112102-balaniutimkc",
+    "name": "Ba Lan điều tiêm kích sau vụ xâm phạm không phận, Châu Âu tập trận quân sự sát biên giới Ukraine - Báo Thanh Hóa",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Báo Thanh Hóa",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Thanh Hóa): Ba Lan điều tiêm kích sau vụ xâm phạm không phận, Châu Âu tập trận quân sự sát biên giới Ukraine - Báo Thanh Hóa",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Báo Thanh Hóa",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYnZQRHl6TTNCckdmb3ZIdEJjWVpxTDZNU21LbVhaYW9ncGJXeGtGWFd2RXBTT0RxeGRVMHg3ZDhSVnRiX25sd2tRTk83cTJXZGJIa3dnYnhEamc2VXFjN2wxOXFuRUZwZVphYkRfcGlaUkcyME9rbmhfTEdwdzdkZjFUeHlYV1VzV0hEWkhDUmd5c1MzUm1wYllTSEx2cExfNnFCTFZkQ2dfQkFkalpucHYwcndoMFNuWlcxYU5ta2FFTHBTcXl2Rw?oc=5",
+    "articles": [
+      {
+        "title": "Ba Lan điều tiêm kích sau vụ xâm phạm không phận, Châu Âu tập trận quân sự sát biên giới Ukraine - Báo Thanh Hóa",
+        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQYnZQRHl6TTNCckdmb3ZIdEJjWVpxTDZNU21LbVhaYW9ncGJXeGtGWFd2RXBTT0RxeGRVMHg3ZDhSVnRiX25sd2tRTk83cTJXZGJIa3dnYnhEamc2VXFjN2wxOXFuRUZwZVphYkRfcGlaUkcyME9rbmhfTEdwdzdkZjFUeHlYV1VzV0hEWkhDUmd5c1MzUm1wYllTSEx2cExfNnFCTFZkQ2dfQkFkalpucHYwcndoMFNuWlcxYU5ta2FFTHBTcXl2Rw?oc=5",
+        "publisher": "Báo Thanh Hóa"
+      }
+    ],
+    "updatedAt": "21/11/2026 02:59 UTC",
+    "collectedAtIso": "2026-11-21T02:59:50.152188+00:00",
+    "publishedAtIso": "2026-11-21T01:55:00+00:00"
+  },
+  {
+    "id": "osint-2026112102-4",
+    "name": "Ba Lan: 'Tên lửa Nga xâm phạm không phận'... Khoảnh khắc vụ nổ được CCTV ghi lại - BBC",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "BBC",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (BBC): Ba Lan: 'Tên lửa Nga xâm phạm không phận'... Khoảnh khắc vụ nổ được CCTV ghi lại - BBC",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "BBC",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BX19VSEJ5d0k1S0VpUWlJME5uRnhfZUFLUEMwdDEzUnQ5WTdVTGptbF9FektyNkVQNERqY2k0TkNsd1VSbS1SMVhvSTcwak1VSV9LVTR5NUhEN3JIcFlRRC0tY9IBY0FVX3lxTE1BX19VSEJ5d0k1S0VpUWlJME5uRnhfZUFLUEMwdDEzUnQ5WTdVTGptbF9FektyNkVQNERqY2k0TkNsd1VSbS1SMVhvSTcwak1VSV9LVTR5NUhEN3JIcFlRRC0tYw?oc=5",
+    "articles": [
+      {
+        "title": "Ba Lan: 'Tên lửa Nga xâm phạm không phận'... Khoảnh khắc vụ nổ được CCTV ghi lại - BBC",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE1BX19VSEJ5d0k1S0VpUWlJME5uRnhfZUFLUEMwdDEzUnQ5WTdVTGptbF9FektyNkVQNERqY2k0TkNsd1VSbS1SMVhvSTcwak1VSV9LVTR5NUhEN3JIcFlRRC0tY9IBY0FVX3lxTE1BX19VSEJ5d0k1S0VpUWlJME5uRnhfZUFLUEMwdDEzUnQ5WTdVTGptbF9FektyNkVQNERqY2k0TkNsd1VSbS1SMVhvSTcwak1VSV9LVTR5NUhEN3JIcFlRRC0tYw?oc=5",
+        "publisher": "BBC"
+      }
+    ],
+    "updatedAt": "21/11/2026 02:59 UTC",
+    "collectedAtIso": "2026-11-21T02:59:50.152188+00:00",
+    "publishedAtIso": "2026-11-21T01:22:05+00:00"
+  },
+  {
+    "id": "osint-2026112102-3",
+    "name": "[Công nghiệp quốc phòng toàn cầu] Ngày Quốc khánh Ô-man: Trung tâm An ninh Hàng hải Ô-man ngày càng tiến gần hơn với việ",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "디펜스투데이",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (디펜스투데이): [Công nghiệp quốc phòng toàn cầu] Ngày Quốc khánh Ô-man: Trung tâm An ninh Hàng hải Ô-man ngày càng tiến gần hơn với việc mở rộng địa bàn hoạt động của Đơn vị Cheonghae - Defense Today",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "디펜스투데이",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yOTNXMU9CT3JSTnEzazJXS3Q1b0pROG9VUVRkWTIzRmYyUkgxeFBzUDhPMW9tQUoyX0J6SmFPYkN3dDg5cDdBbml0RUJnTzdDclJBaDFfQ1NiVExqZ0hlOWQzbE5EOHctTmU3SXNn?oc=5",
+    "articles": [
+      {
+        "title": "[Công nghiệp quốc phòng toàn cầu] Ngày Quốc khánh Ô-man: Trung tâm An ninh Hàng hải Ô-man ngày càng tiến gần hơn với việc mở rộng địa bàn hoạt động của Đơn vị Cheonghae - Defense Today",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4yOTNXMU9CT3JSTnEzazJXS3Q1b0pROG9VUVRkWTIzRmYyUkgxeFBzUDhPMW9tQUoyX0J6SmFPYkN3dDg5cDdBbml0RUJnTzdDclJBaDFfQ1NiVExqZ0hlOWQzbE5EOHctTmU3SXNn?oc=5",
+        "publisher": "디펜스투데이"
+      }
+    ],
+    "updatedAt": "21/11/2026 02:59 UTC",
+    "collectedAtIso": "2026-11-21T02:59:50.152188+00:00",
+    "publishedAtIso": "2026-11-21T00:50:01+00:00"
+  },
+  {
     "id": "osint-2026112021-australianewzeala",
     "name": "Hải quân Úc, New Zealand, Mỹ tăng cường khả năng chống mìn trong cuộc tập trận Dugong - FORUM Quốc phòng Ấn Độ-Thái Bình",
     "dates": "Ghi nhận: 20/11/2026",
@@ -1520,6 +1610,65 @@
     "updatedAt": "19/11/2026 14:26 UTC"
   },
   {
+    "id": "osint-2026112102-1",
+    "name": "Cư dân mạng chết lặng! Triển lãm hàng không Triều Tiên \"nổ lớn\" máy bay không người lái, thậm chí còn có máy bay không n",
+    "dates": "Ghi nhận: 19/11/2026",
+    "status": "Đang diễn ra",
+    "location": "风闻",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Tác chiến mạng",
+    "domainLabel": "Tác chiến mạng (Cyber)",
+    "purpose": "Tin tức tự động dịch & cập nhật (风闻): Cư dân mạng chết lặng! Triển lãm hàng không Triều Tiên \"nổ lớn\" máy bay không người lái, thậm chí còn có máy bay không người lái cỡ lớn? Kim Jong Un đang hạnh phúc - tin đồn",
+    "drills": [
+      "Bảo vệ hạ tầng chỉ huy và ứng phó tấn công mạng"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "风闻",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Wa01mdjJHYmZKNERnanQybGdiNDRuWTczNjhUckFZOWN3ZWFkUlM2SkJjWG5QTzJpUEJ1LWZaeHVjRDQ0QllzUFNpN0JzLXFfdFhtWXlhS2JBc3c?oc=5",
+    "articles": [
+      {
+        "title": "Cư dân mạng chết lặng! Triển lãm hàng không Triều Tiên \"nổ lớn\" máy bay không người lái, thậm chí còn có máy bay không người lái cỡ lớn? Kim Jong Un đang hạnh phúc - tin đồn",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1Wa01mdjJHYmZKNERnanQybGdiNDRuWTczNjhUckFZOWN3ZWFkUlM2SkJjWG5QTzJpUEJ1LWZaeHVjRDQ0QllzUFNpN0JzLXFfdFhtWXlhS2JBc3c?oc=5",
+        "publisher": "风闻"
+      }
+    ],
+    "updatedAt": "21/11/2026 02:59 UTC",
+    "collectedAtIso": "2026-11-21T02:59:50.152188+00:00",
+    "publishedAtIso": "2026-11-19T13:26:15+00:00"
+  },
+  {
+    "id": "osint-2026112102-3",
+    "name": "Cheng Lai-wen từng nói: Một khi hai bên gây chiến, kinh tế đại lục sẽ quay trở lại như 30 năm trước, sao sau này lại tha",
+    "dates": "Ghi nhận: 19/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Sohu",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Sohu): Cheng Lai-wen từng nói: Một khi hai bên gây chiến, kinh tế đại lục sẽ quay trở lại như 30 năm trước, sao sau này lại thay đổi thái độ - Sohu",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Sohu",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGU2TkpQZGdNanpGYWZacWpINVpkcDlQdk1vWDBiSmtuSUhhSGcxRWFPTklmSDlxaXZZRW14V21wMTAyeTJDc3luaC1idVlmTnQ3clFuaUVVbnZIWW9OVl9wdjNGSnNHZEFGWjFlS1hEZXlmWGczWUNGVFdCVVVYdUVfS0xHV3FhTTljTg?oc=5",
+    "articles": [
+      {
+        "title": "Cheng Lai-wen từng nói: Một khi hai bên gây chiến, kinh tế đại lục sẽ quay trở lại như 30 năm trước, sao sau này lại thay đổi thái độ - Sohu",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPVGU2TkpQZGdNanpGYWZacWpINVpkcDlQdk1vWDBiSmtuSUhhSGcxRWFPTklmSDlxaXZZRW14V21wMTAyeTJDc3luaC1idVlmTnQ3clFuaUVVbnZIWW9OVl9wdjNGSnNHZEFGWjFlS1hEZXlmWGczWUNGVFdCVVVYdUVfS0xHV3FhTTljTg?oc=5",
+        "publisher": "Sohu"
+      }
+    ],
+    "updatedAt": "21/11/2026 02:59 UTC",
+    "collectedAtIso": "2026-11-21T02:59:50.152188+00:00",
+    "publishedAtIso": "2026-11-19T13:08:00+00:00"
+  },
+  {
     "id": "osint-2026111912-bchhuyquns",
     "name": "Bộ Chỉ huy Quân sự Đồng Nai hoàn thành tốt các nhiệm vụ làm điểm, bảo đảm an toàn trong huấn luyện, diễn tập -",
     "dates": "Ghi nhận: 19/11/2026",
@@ -1602,147 +1751,5 @@
       }
     ],
     "updatedAt": "19/11/2026 12:35 UTC"
-  },
-  {
-    "id": "osint-2026111912-tngktdintpch",
-    "name": "Tổng kết diễn tập chiến đấu xã, phường năm 2026 - Báo Thanh Hóa",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Thanh Hóa",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Thanh Hóa): Tổng kết diễn tập chiến đấu xã, phường năm 2026 - Báo Thanh Hóa",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Thanh Hóa",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeGxUNnd1a0NHYkpHZEhjeUFXbEpEb0w0Qm02MGQ1Mm12Y2ZGU3pYd3EwVEdndU95eVVLaUdJTjhDT0Y5ZXZKREpIbHRodWRPd1A3R19UVUptd3JsRmpYRzYwbXdMd3FlN2hFNG1QbThSSi1rVVllM3ZrV0xIaWRfRmM1bTVKWGM?oc=5",
-    "articles": [
-      {
-        "title": "Tổng kết diễn tập chiến đấu xã, phường năm 2026 - Báo Thanh Hóa",
-        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQeGxUNnd1a0NHYkpHZEhjeUFXbEpEb0w0Qm02MGQ1Mm12Y2ZGU3pYd3EwVEdndU95eVVLaUdJTjhDT0Y5ZXZKREpIbHRodWRPd1A3R19UVUptd3JsRmpYRzYwbXdMd3FlN2hFNG1QbThSSi1rVVllM3ZrV0xIaWRfRmM1bTVKWGM?oc=5",
-        "publisher": "Báo Thanh Hóa"
-      }
-    ],
-    "updatedAt": "19/11/2026 12:35 UTC"
-  },
-  {
-    "id": "osint-2026112008-21",
-    "name": "Mỹ-Venice khôi phục quan hệ quân sự sau 21 năm... Đặt nền móng cho an ninh ở Nam Mỹ - Segye Ilbo",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "세계일보",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (세계일보): Mỹ-Venice khôi phục quan hệ quân sự sau 21 năm... Đặt nền móng cho an ninh ở Nam Mỹ - Segye Ilbo",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "세계일보",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12OVFyOWthb0UwSXQ2bnY5VjNrUy10WVVOeEJaR2dyX3Q1NXVHR1g3N0xPWElPNGF0Q1ZzeF9pRnB3UjhOY2lWOEpzMjdMRWZJMGcyQVVVOFLSAVRBVV95cUxPSWxVUmpHa0V1STFQSVE3MXByWUF4Sktpd0FIMnU1elFHX0NzbTVKcG5zeExGM3NlVjY3RDFlVHJCQlNWSGNhdFdFcTB3b25MU0pQTXA?oc=5",
-    "articles": [
-      {
-        "title": "Mỹ-Venice khôi phục quan hệ quân sự sau 21 năm... Đặt nền móng cho an ninh ở Nam Mỹ - Segye Ilbo",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE12OVFyOWthb0UwSXQ2bnY5VjNrUy10WVVOeEJaR2dyX3Q1NXVHR1g3N0xPWElPNGF0Q1ZzeF9pRnB3UjhOY2lWOEpzMjdMRWZJMGcyQVVVOFLSAVRBVV95cUxPSWxVUmpHa0V1STFQSVE3MXByWUF4Sktpd0FIMnU1elFHX0NzbTVKcG5zeExGM3NlVjY3RDFlVHJCQlNWSGNhdFdFcTB3b25MU0pQTXA?oc=5",
-        "publisher": "세계일보"
-      }
-    ],
-    "updatedAt": "20/11/2026 08:41 UTC",
-    "collectedAtIso": "2026-11-20T08:41:33.691112+00:00",
-    "publishedAtIso": "2026-11-19T12:00:00+00:00"
-  },
-  {
-    "id": "osint-2026111902-1",
-    "name": "Về cuộc tập trận chung đa phương do Hoa Kỳ tài trợ (Valiant Shield 2026) và huấn luyện thực địa năm 2020 với T",
-    "dates": "Ghi nhận: 14/09/2026",
-    "status": "Đang diễn ra",
-    "location": "鹿児島県公式ホームページ",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (鹿児島県公式ホームページ): Về cuộc tập trận chung đa phương do Hoa Kỳ tài trợ (Valiant Shield 2026) và huấn luyện thực địa năm 2020 với Thủy quân lục chiến Hoa Kỳ (Resolute Dragon 26) - Trang chủ chính thức của tỉnh Kagoshima",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "鹿児島県公式ホームページ",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa1B6T1QyWHVMOXM4R3VES2gzMnppZG84aE9UY3NHMklMSzBfSloySVhDcnFjNFN2Z2lRYy0tejBZcG9GZUpQVkV6c0N3bFN4b2dJd2VQNDdhWF9seFJoWGY1Vk51WExwOE4ySFEyX3R5ZnU3UGdWdUdmYUhoY2YwTEJEaTlldlpkdEhlaU5VMEJ1UTMxYzk4?oc=5",
-    "articles": [
-      {
-        "title": "Về cuộc tập trận chung đa phương do Hoa Kỳ tài trợ (Valiant Shield 2026) và huấn luyện thực địa năm 2020 với Thủy quân lục chiến Hoa Kỳ (Resolute Dragon 26) - Trang chủ chính thức của tỉnh Kagoshima",
-        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOa1B6T1QyWHVMOXM4R3VES2gzMnppZG84aE9UY3NHMklMSzBfSloySVhDcnFjNFN2Z2lRYy0tejBZcG9GZUpQVkV6c0N3bFN4b2dJd2VQNDdhWF9seFJoWGY1Vk51WExwOE4ySFEyX3R5ZnU3UGdWdUdmYUhoY2YwTEJEaTlldlpkdEhlaU5VMEJ1UTMxYzk4?oc=5",
-        "publisher": "鹿児島県公式ホームページ"
-      }
-    ],
-    "updatedAt": "19/11/2026 02:57 UTC"
-  },
-  {
-    "id": "osint-2026111902-0",
-    "name": "Về cuộc tập trận chung Mỹ-Nhật (RD26) - Bộ Quốc phòng",
-    "dates": "Ghi nhận: 26/06/2026",
-    "status": "Đang diễn ra",
-    "location": "防衛省",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (防衛省): Về cuộc tập trận chung Mỹ-Nhật (RD26) - Bộ Quốc phòng",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "防衛省",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwNXJzdFF6MjI4V203NTZWQi15QTlJODcxTkdiWUw1Yk9UUnM1bDUzQnl3a241Z2ppcXo3R1dWREhRT2o4dGpsckpGT3hXMjlYZFJxODFBNS16ZFp6UzliNkJ0QVlMNnIwMUJrV2xEcTVIeFBTOXRj?oc=5",
-    "articles": [
-      {
-        "title": "Về cuộc tập trận chung Mỹ-Nhật (RD26) - Bộ Quốc phòng",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTFAwNXJzdFF6MjI4V203NTZWQi15QTlJODcxTkdiWUw1Yk9UUnM1bDUzQnl3a241Z2ppcXo3R1dWREhRT2o4dGpsckpGT3hXMjlYZFJxODFBNS16ZFp6UzliNkJ0QVlMNnIwMUJrV2xEcTVIeFBTOXRj?oc=5",
-        "publisher": "防衛省"
-      }
-    ],
-    "updatedAt": "19/11/2026 02:57 UTC"
-  },
-  {
-    "id": "osint-2026111821-cmthiuas2ho",
-    "name": "Cụm thi đua số 2: Hoàn thành tốt Phong trào thi đua Quyết thắng năm 2026 - Báo Đồng Tháp",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Đồng Tháp",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Đồng Tháp): Cụm thi đua số 2: Hoàn thành tốt Phong trào thi đua Quyết thắng năm 2026 - Báo Đồng Tháp",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Đồng Tháp",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMVdMd2JaWTJjVWx0Tm9mTjRhVXNZNTlWSF92dzhmVnNray1tQU5QazktdUE5ZGl2cktSV1k1aE9HLTA5MDVGNnFycmR3MmU2c2xGUjU0YWZoaUpTRXdFaGY2ZGF6RWxqQU1GRVpzSmJDVDBKLUVhOXk5NGstbDRMcURwcWgtaTRzZ0VsR3FLbjJXNndfZ3I3TVZsdUdZeTFrWlI0c3JwMjhZd2c?oc=5",
-    "articles": [
-      {
-        "title": "Cụm thi đua số 2: Hoàn thành tốt Phong trào thi đua Quyết thắng năm 2026 - Báo Đồng Tháp",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOMVdMd2JaWTJjVWx0Tm9mTjRhVXNZNTlWSF92dzhmVnNray1tQU5QazktdUE5ZGl2cktSV1k1aE9HLTA5MDVGNnFycmR3MmU2c2xGUjU0YWZoaUpTRXdFaGY2ZGF6RWxqQU1GRVpzSmJDVDBKLUVhOXk5NGstbDRMcURwcWgtaTRzZ0VsR3FLbjJXNndfZ3I3TVZsdUdZeTFrWlI0c3JwMjhZd2c?oc=5",
-        "publisher": "Báo Đồng Tháp"
-      }
-    ],
-    "updatedAt": "18/11/2026 21:44 UTC"
   }
 ]
