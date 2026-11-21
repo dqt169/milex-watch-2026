@@ -1,5 +1,95 @@
 [
   {
+    "id": "osint-2026112120-3",
+    "name": "Tổng thư ký NATO: NATO sẽ bảo vệ từng tấc đất của Ba Lan - Đài Tiếng nói Mỹ",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "美国之音",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (美国之音): Tổng thư ký NATO: NATO sẽ bảo vệ từng tấc đất của Ba Lan - Đài Tiếng nói Mỹ",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "美国之音",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbjFKVUdUbVptY3FwVGFDZjRoTFdvSmoyUzRsX1pSakZISi1VVDh2WTVRRmotZFlBc2dYUDQ2ZndGM0RYN1NwOVZRNnd5SWlTdldMMHZ0ZjU0bTVZbkp0LVA5bEtPeXhoZTRiSk5sby1LTUM2X2ZIQlA1NzRuTS1sZV82XzJCYmJTMG1pWVZhbkgtbDdubmQ3Q0dlTkhQTjlQN2FuNDhKeXFpR1NReEtFbdIBsAFBVV95cUxQbjFKVUdUbVptY3FwVGFDZjRoTFdvSmoyUzRsX1pSakZISi1VVDh2WTVRRmotZFlBc2dYUDQ2ZndGM0RYN1NwOVZRNnd5SWlTdldMMHZ0ZjU0bTVZbkp0LVA5bEtPeXhoZTRiSk5sby1LTUM2X2ZIQlA1NzRuTS1sZV82XzJCYmJTMG1pWVZhbkgtbDdubmQ3Q0dlTkhQTjlQN2FuNDhKeXFpR1NReEtFbQ?oc=5",
+    "articles": [
+      {
+        "title": "Tổng thư ký NATO: NATO sẽ bảo vệ từng tấc đất của Ba Lan - Đài Tiếng nói Mỹ",
+        "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbjFKVUdUbVptY3FwVGFDZjRoTFdvSmoyUzRsX1pSakZISi1VVDh2WTVRRmotZFlBc2dYUDQ2ZndGM0RYN1NwOVZRNnd5SWlTdldMMHZ0ZjU0bTVZbkp0LVA5bEtPeXhoZTRiSk5sby1LTUM2X2ZIQlA1NzRuTS1sZV82XzJCYmJTMG1pWVZhbkgtbDdubmQ3Q0dlTkhQTjlQN2FuNDhKeXFpR1NReEtFbdIBsAFBVV95cUxQbjFKVUdUbVptY3FwVGFDZjRoTFdvSmoyUzRsX1pSakZISi1VVDh2WTVRRmotZFlBc2dYUDQ2ZndGM0RYN1NwOVZRNnd5SWlTdldMMHZ0ZjU0bTVZbkp0LVA5bEtPeXhoZTRiSk5sby1LTUM2X2ZIQlA1NzRuTS1sZV82XzJCYmJTMG1pWVZhbkgtbDdubmQ3Q0dlTkhQTjlQN2FuNDhKeXFpR1NReEtFbQ?oc=5",
+        "publisher": "美国之音"
+      }
+    ],
+    "updatedAt": "21/11/2026 20:23 UTC",
+    "collectedAtIso": "2026-11-21T20:23:50.963648+00:00",
+    "publishedAtIso": "2026-11-21T15:49:18+00:00"
+  },
+  {
+    "id": "osint-2026112120-20",
+    "name": "Chúng ta đã nói chuyện hơn 20 năm nhưng vẫn không có kết quả! Tại sao Trung Quốc và ASEAN khó đạt được thỏa thuận về Bộ ",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "DW.com",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (DW.com): Chúng ta đã nói chuyện hơn 20 năm nhưng vẫn không có kết quả! Tại sao Trung Quốc và ASEAN khó đạt được thỏa thuận về Bộ quy tắc ứng xử ở Biển Đông? - DW.com",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "DW.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQWWo5SkxDOW9lVjRUc3hjMTZobko5ZUFtQWxsM04xSGVaSzBibFV1cGI1b19DQ2FrN0JON202TW5ycEpsMk9uLWMzZjljdVNveEY0M0p0aDVYc0NvTWdlMGV2QS1zNWJVcXNqbVdYT1NENE5YSUdYOWJhQjVJcU1VYTdfZ1FGN3dVMkZ2MUJBWS1ITlNCV1F2OGhVWkZnY3puSlN2R3dhZjM5SWhYc1Q3a3gwWmZmRU9leXlmRjZKdHdaZzBCZ1VlZ25MdllZeW1XME1lei1QelU2ZDlnT05rdlNJQ0tIV0FWR3VKRkxqczlPX21nVnV0WV9fZ0JVOWdxR2VNLXdBMXAtMk94S2dEYXdVX1hyQ2I5dW8wTHdabEXSAaACQVVfeXFMUDR4UEtxeTdfN1lCWGNyS3NkRnBDUVJUeXlxZlU5ekF5TTl0dTVMZUt1OENjazZJckRFNUFGbXowVFRXYnFaMExtMkZOTmJpT0thbDJ3ejhjRVh1V2Nfbl9iVm9Kb0FnNG5qTHh2bkJFWjBhMmxYWkV4ZDhkRlM0clJRWUlxMG5ick5ZTGtxaHowaDZaV3FRc19OUjJRdHZQakJ6VDFzNGdaWXpzMzg0dXMzNnBTcVFNTjhrWWZxWnJBRl9PeTZpazF4cGpzelVHblNscU9WMVZjSWRyM3VuRVN4N3ljbGdtNGVxdkhWTE9BT29XNlRBeEd1SXRidjVmNU5NVDNWWkdPcUxjWTNPUnNfU1dMZ1lVVkNVdzJ2RDct?oc=5",
+    "articles": [
+      {
+        "title": "Chúng ta đã nói chuyện hơn 20 năm nhưng vẫn không có kết quả! Tại sao Trung Quốc và ASEAN khó đạt được thỏa thuận về Bộ quy tắc ứng xử ở Biển Đông? - DW.com",
+        "url": "https://news.google.com/rss/articles/CBMioAJBVV95cUxQWWo5SkxDOW9lVjRUc3hjMTZobko5ZUFtQWxsM04xSGVaSzBibFV1cGI1b19DQ2FrN0JON202TW5ycEpsMk9uLWMzZjljdVNveEY0M0p0aDVYc0NvTWdlMGV2QS1zNWJVcXNqbVdYT1NENE5YSUdYOWJhQjVJcU1VYTdfZ1FGN3dVMkZ2MUJBWS1ITlNCV1F2OGhVWkZnY3puSlN2R3dhZjM5SWhYc1Q3a3gwWmZmRU9leXlmRjZKdHdaZzBCZ1VlZ25MdllZeW1XME1lei1QelU2ZDlnT05rdlNJQ0tIV0FWR3VKRkxqczlPX21nVnV0WV9fZ0JVOWdxR2VNLXdBMXAtMk94S2dEYXdVX1hyQ2I5dW8wTHdabEXSAaACQVVfeXFMUDR4UEtxeTdfN1lCWGNyS3NkRnBDUVJUeXlxZlU5ekF5TTl0dTVMZUt1OENjazZJckRFNUFGbXowVFRXYnFaMExtMkZOTmJpT0thbDJ3ejhjRVh1V2Nfbl9iVm9Kb0FnNG5qTHh2bkJFWjBhMmxYWkV4ZDhkRlM0clJRWUlxMG5ick5ZTGtxaHowaDZaV3FRc19OUjJRdHZQakJ6VDFzNGdaWXpzMzg0dXMzNnBTcVFNTjhrWWZxWnJBRl9PeTZpazF4cGpzelVHblNscU9WMVZjSWRyM3VuRVN4N3ljbGdtNGVxdkhWTE9BT29XNlRBeEd1SXRidjVmNU5NVDNWWkdPcUxjWTNPUnNfU1dMZ1lVVkNVdzJ2RDct?oc=5",
+        "publisher": "DW.com"
+      }
+    ],
+    "updatedAt": "21/11/2026 20:23 UTC",
+    "collectedAtIso": "2026-11-21T20:23:50.963648+00:00",
+    "publishedAtIso": "2026-11-21T15:23:13+00:00"
+  },
+  {
+    "id": "osint-2026112120-2",
+    "name": "[Tin Trung Quốc] Cuộc tập trận chung của lực lượng đa quốc gia \"Liên minh thiện chí\" hỗ trợ Ukraine tiếp tục được tổ chứ",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "央视网",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (央视网): [Tin Trung Quốc] Cuộc tập trận chung của lực lượng đa quốc gia \"Liên minh thiện chí\" hỗ trợ Ukraine tiếp tục được tổ chức tại Ba Lan - CCTV.com",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "央视网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Rc3JhU3hHampuNzIyUW14MEtKTmJOSENWd2U5SnRab0lLaVRJRElqSi1RY3BxS0l2aUZ5S3RSMzZvbkY4Q2xWOGpaSElkQ1k4NXJDaEk4cmhXN0xuaWlHakZvZjVyQ2R0WktzVE5pajBtYWJaZnc?oc=5",
+    "articles": [
+      {
+        "title": "[Tin Trung Quốc] Cuộc tập trận chung của lực lượng đa quốc gia \"Liên minh thiện chí\" hỗ trợ Ukraine tiếp tục được tổ chức tại Ba Lan - CCTV.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5Rc3JhU3hHampuNzIyUW14MEtKTmJOSENWd2U5SnRab0lLaVRJRElqSi1RY3BxS0l2aUZ5S3RSMzZvbkY4Q2xWOGpaSElkQ1k4NXJDaEk4cmhXN0xuaWlHakZvZjVyQ2R0WktzVE5pajBtYWJaZnc?oc=5",
+        "publisher": "央视网"
+      }
+    ],
+    "updatedAt": "21/11/2026 20:23 UTC",
+    "collectedAtIso": "2026-11-21T20:23:50.963648+00:00",
+    "publishedAtIso": "2026-11-21T11:22:00+00:00"
+  },
+  {
     "id": "osint-2026112112-2",
     "name": "Tên lửa Nga rơi xuống Ba Lan khi nhiều quốc gia đang tiến hành các cuộc tập trận quy mô lớn ở Ba Lan. Liệu điều này có k",
     "dates": "Ghi nhận: 21/11/2026",
@@ -58,6 +148,36 @@
     "updatedAt": "21/11/2026 12:14 UTC",
     "collectedAtIso": "2026-11-21T12:14:00.303941+00:00",
     "publishedAtIso": "2026-11-21T08:24:00+00:00"
+  },
+  {
+    "id": "osint-2026112120-4",
+    "name": "Cảnh sát tỉnh Okama và Lực lượng phòng vệ tiến hành huấn luyện chung trong trường hợp xảy ra tấn công khủng bố - Sanyo S",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "山陽新聞",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (山陽新聞): Cảnh sát tỉnh Okama và Lực lượng phòng vệ tiến hành huấn luyện chung trong trường hợp xảy ra tấn công khủng bố - Sanyo Shimbun",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "山陽新聞",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zUWswWVFFaWZqUzVPdDdVeHdwTUYzLUVNeGVrZVdMVjg0UHlFdmViM2hkNWo5NU1GUk9UM0s0cHhvZWEwVEEtV0hTSzhyb05UazVpMUs3ZHU5dTc2U2U2RzdQQnRlT1U?oc=5",
+    "articles": [
+      {
+        "title": "Cảnh sát tỉnh Okama và Lực lượng phòng vệ tiến hành huấn luyện chung trong trường hợp xảy ra tấn công khủng bố - Sanyo Shimbun",
+        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5zUWswWVFFaWZqUzVPdDdVeHdwTUYzLUVNeGVrZVdMVjg0UHlFdmViM2hkNWo5NU1GUk9UM0s0cHhvZWEwVEEtV0hTSzhyb05UazVpMUs3ZHU5dTc2U2U2RzdQQnRlT1U?oc=5",
+        "publisher": "山陽新聞"
+      }
+    ],
+    "updatedAt": "21/11/2026 20:23 UTC",
+    "collectedAtIso": "2026-11-21T20:23:50.963648+00:00",
+    "publishedAtIso": "2026-11-21T08:22:55+00:00"
   },
   {
     "id": "osint-2026112112-qunichuusn",
@@ -1182,6 +1302,36 @@
     "publishedAtIso": "2026-11-20T02:11:01+00:00"
   },
   {
+    "id": "osint-2026112120-btlnhbibi",
+    "name": "Bộ Tư lệnh Bộ đội Biên phòng rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Báo Biên phòng",
+    "dates": "Ghi nhận: 19/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Báo Biên phòng",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Biên phòng): Bộ Tư lệnh Bộ đội Biên phòng rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Báo Biên phòng",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Báo Biên phòng",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXAxVXBpUTVHWHNnTUVBMGFhRU1VOXZVdHJTUWUzSnZTMEU1MHhHbnhMMUFzQnlkeUJTc19mOXRmZEhKel9tdUNHZEwxWFNoTFRHUVRqS3NDM0lqSnhORHNhcG5qeHZ1ZTM0eHBJbU9sUHFia20xaWg3d2xOeGNJYklVT0NFdUQtV0xzeTJ1dzI5SlhuNTF3LVNPV0hMY1pJc1pIR2phYWRBMEtuWFpkQWhUVEIyXzdaRDhpTG9ib19pck81SkkzUUVKaS14dmh0ZTRUWEs4NA?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Tư lệnh Bộ đội Biên phòng rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Báo Biên phòng",
+        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXAxVXBpUTVHWHNnTUVBMGFhRU1VOXZVdHJTUWUzSnZTMEU1MHhHbnhMMUFzQnlkeUJTc19mOXRmZEhKel9tdUNHZEwxWFNoTFRHUVRqS3NDM0lqSnhORHNhcG5qeHZ1ZTM0eHBJbU9sUHFia20xaWg3d2xOeGNJYklVT0NFdUQtV0xzeTJ1dzI5SlhuNTF3LVNPV0hMY1pJc1pIR2phYWRBMEtuWFpkQWhUVEIyXzdaRDhpTG9ib19pck81SkkzUUVKaS14dmh0ZTRUWEs4NA?oc=5",
+        "publisher": "Báo Biên phòng"
+      }
+    ],
+    "updatedAt": "21/11/2026 20:23 UTC",
+    "collectedAtIso": "2026-11-21T20:23:50.963648+00:00",
+    "publishedAtIso": "2026-11-19T23:43:05+00:00"
+  },
+  {
     "id": "osint-2026111921-4",
     "name": "Lực lượng Phòng vệ Mặt đất Nhật Bản công bố kết quả điều tra và xác định nguyên nhân vụ tai nạn xe tăng khiến ",
     "dates": "Ghi nhận: 19/11/2026",
@@ -1611,151 +1761,6 @@
         "title": "Các đơn vị chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Báo Quân đội nhân dân",
         "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVF9PeHJvZ2lFdGQ0NUJaQ2VjSVFpZW5iUVpCVnhMbjVmcGl5cldHSlZibzhaX3FXNTgwRTdGVjBFazNZeHlSYkIwczlLYnhhY2RwZjBsQUd1MC1YR3hNUExwTWRGT2NxVkhnbXZydkFZZjV5RXlkaG9VUjBvbVpldjloZS1rQXhaUXlrNGlnRWFGU0xKZjBBNF90U2JXSGhkUFBFOVBDX2M0TkZCcFkyTzlkTDgzcHpF?oc=5",
         "publisher": "Báo Quân đội nhân dân"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-tngktdintpch",
-    "name": "Tổng kết diễn tập chiến đấu xã, phường năm 2026 - dangcongsan.vn",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "dangcongsan.vn",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (dangcongsan.vn): Tổng kết diễn tập chiến đấu xã, phường năm 2026 - dangcongsan.vn",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "dangcongsan.vn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ2FmREFlNk5WN2QzeWxzU0xEejV6UFhyWll4Q1gtR1BLel9DYlJTck9nTlhfU2FrSkFFMS1STE9wLUkwTXd6R2c2eEhxcU1qdVBjaG16Uk5maFlIeWw4UlFXeTV3T0NMRXBldUo3cGpNRGlxVlY2X1dVc2dCUkVobDBqem5XTUtqRHRKRW1WeldOY0kxSVZvNEZRTVppS3ZBTV9OTlJESVY?oc=5",
-    "articles": [
-      {
-        "title": "Tổng kết diễn tập chiến đấu xã, phường năm 2026 - dangcongsan.vn",
-        "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNZ2FmREFlNk5WN2QzeWxzU0xEejV6UFhyWll4Q1gtR1BLel9DYlJTck9nTlhfU2FrSkFFMS1STE9wLUkwTXd6R2c2eEhxcU1qdVBjaG16Uk5maFlIeWw4UlFXeTV3T0NMRXBldUo3cGpNRGlxVlY2X1dVc2dCUkVobDBqem5XTUtqRHRKRW1WeldOY0kxSVZvNEZRTVppS3ZBTV9OTlJESVY?oc=5",
-        "publisher": "dangcongsan.vn"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-coalitionofthewil",
-    "name": "Ukraina - Chosun Ilbo",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "조선일보",
-    "region": "Châu Âu & Bắc Đại Tây Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (조선일보): Ukraina - Chosun Ilbo",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "조선일보",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ085cW1TS2Y4ME02OGwtOXRJVWhPdVhzOWlTNnNzYkk3M3RsVS0wY3p6Ni1jMi11cktrcVJMOTNSYzE2amhMZy1qSkNEdmtRSVFCVF9nbjY1VEtOY1dzNTViMEFtXzFSekdqa3d6X3FrQXhldUdMc0gtcEJiYkxOblhIbGM?oc=5",
-    "articles": [
-      {
-        "title": "Ukraina - Chosun Ilbo",
-        "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxQQ085cW1TS2Y4ME02OGwtOXRJVWhPdVhzOWlTNnNzYkk3M3RsVS0wY3p6Ni1jMi11cktrcVJMOTNSYzE2amhMZy1qSkNEdmtRSVFCVF9nbjY1VEtOY1dzNTViMEFtXzFSekdqa3d6X3FrQXhldUdMc0gtcEJiYkxOblhIbGM?oc=5",
-        "publisher": "조선일보"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-rokjointtrainingt",
-    "name": "Nhóm đặc nhiệm huấn luyện chung ROK đưa 300 học viên đến NBG [Hình 7 trên 7] - DVIDS",
-    "dates": "Ghi nhận: 17/11/2026",
-    "status": "Đang diễn ra",
-    "location": "DVIDS",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (DVIDS): Nhóm đặc nhiệm huấn luyện chung ROK đưa 300 học viên đến NBG [Hình 7 trên 7] - DVIDS",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "DVIDS",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNblJQbk8yM2R6RXdJU0tJdzVTbnN0OVh5RmNSY0Vsc29TVEtrUTRYMXlKRTZFWU55T0FiYmFpSlBPa0xaQk5GWVUxRldTN2N4ZjVUN2w5NnBTeXNYUXZKOXdZSS1UNU83QTBXYU1qTUFQbng3NTg2dUxuZzFISmlYVzRtZ1dCbFI3NWpjdGVLOVJ1OUZiVVE?oc=5",
-    "articles": [
-      {
-        "title": "ROK Joint Training Task Group Brings 300 Cadets to NBG [Image 7 of 7] - DVIDS",
-        "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNblJQbk8yM2R6RXdJU0tJdzVTbnN0OVh5RmNSY0Vsc29TVEtrUTRYMXlKRTZFWU55T0FiYmFpSlBPa0xaQk5GWVUxRldTN2N4ZjVUN2w5NnBTeXNYUXZKOXdZSS1UNU83QTBXYU1qTUFQbng3NTg2dUxuZzFISmlYVzRtZ1dCbFI3NWpjdGVLOVJ1OUZiVVE?oc=5",
-        "publisher": "DVIDS"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-theeuthegccand",
-    "name": "EU, GCC và An ninh hàng hải: Vượt qua cuộc khủng hoảng Hormuz - ORF Trung Đông",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "ORF Middle East",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (ORF Middle East): EU, GCC và An ninh hàng hải: Vượt qua cuộc khủng hoảng Hormuz - ORF Trung Đông",
-    "drills": [
-      "Tác chiến hiệp đồng biên đội tàu mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật trên biển"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "ORF Middle East",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSUdjTEdNZUpNbng5T0N1UW5uY3FmaGdzTmhvTDlJaWpjT1R6RWNsd29oRkljdnBHYWZubGo0NGxsNHF5TDFlaVhTU1NXQ0YyWHI5MEVSbHk4NnBtVDZ5WDZXUkhiWkFmeTZWanl1RVFEaHFZWWRuMzY4c1ZFVmZzdDhucjhWb0N5VjB5YzZ1aEpGQ2VfR3VNYQ?oc=5",
-    "articles": [
-      {
-        "title": "EU, GCC và An ninh hàng hải: Vượt qua cuộc khủng hoảng Hormuz - ORF Trung Đông",
-        "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQSUdjTEdNZUpNbng5T0N1UW5uY3FmaGdzTmhvTDlJaWpjT1R6RWNsd29oRkljdnBHYWZubGo0NGxsNHF5TDFlaVhTU1NXQ0YyWHI5MEVSbHk4NnBtVDZ5WDZXUkhiWkFmeTZWanl1RVFEaHFZWWRuMzY4c1ZFVmZzdDhucjhWb0N5VjB5YzZ1aEpGQ2VfR3VNYQ?oc=5",
-        "publisher": "ORF Middle East"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-indiajapanstepup",
-    "name": "Ấn Độ, Nhật Bản tăng cường quan hệ quân sự với các cuộc tập trận mở rộng, diễn tập bất ngờ - Deccan Chronicle",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Deccan Chronicle",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Deccan Chronicle): Ấn Độ, Nhật Bản tăng cường quan hệ quân sự với các cuộc tập trận mở rộng, diễn tập bất ngờ - Deccan Chronicle",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Deccan Chronicle",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGZaTG1mZW9wbEtCMG1MeHQtUFJocVMyb3RpR2FQQktYNHgyWlg1YmJyM0prdFZNNlJtcEtfWE1ockI1ZG4yOWVlOWQ4aEo0U1JwOU5DemtHRWlVTmdDUVhLS2tOUTZxRnAtUG92UG1FRElUbGlQLUtlanFROUNMcDdLdFAwM0kycDhMRFV4dTVvbVpQZU9fQlV0SzZDLUo5VHU0ZHhLc2V0enQzZ1NyQlotS3dNVC04STlz0gHAAUFVX3lxTE9QQ0xPaDVnTkNJNklSZkx6NEJrWUNwMGR2b2w1RXVucng4d2U0Y0Q0QlI5WU9aY2d4bjdla2h5aTRMaWZWWEF5bG13UnEwYkI3U250QXBlQUpnRG91X3lXVVNGQnVzUkdrZ2ZFYmVvbXZDYkhCWXgyRGUyYURlRUhsNEdoU0ZBUVFLRjlfOEtNMFhfRUNHV19WZTNlMU1OUUkwS2FVdTAwdk43aXpNMDdIaWRWRXExclU5WXhVWC1pNw?oc=5",
-    "articles": [
-      {
-        "title": "India, Japan Step Up Military Ties With Expanded Exercises, Surprise Drills - Deccan Chronicle",
-        "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPeGZaTG1mZW9wbEtCMG1MeHQtUFJocVMyb3RpR2FQQktYNHgyWlg1YmJyM0prdFZNNlJtcEtfWE1ockI1ZG4yOWVlOWQ4aEo0U1JwOU5DemtHRWlVTmdDUVhLS2tOUTZxRnAtUG92UG1FRElUbGlQLUtlanFROUNMcDdLdFAwM0kycDhMRFV4dTVvbVpQZU9fQlV0SzZDLUo5VHU0ZHhLc2V0enQzZ1NyQlotS3dNVC04STlz0gHAAUFVX3lxTE9QQ0xPaDVnTkNJNklSZkx6NEJrWUNwMGR2b2w1RXVucng4d2U0Y0Q0QlI5WU9aY2d4bjdla2h5aTRMaWZWWEF5bG13UnEwYkI3U250QXBlQUpnRG91X3lXVVNGQnVzUkdrZ2ZFYmVvbXZDYkhCWXgyRGUyYURlRUhsNEdoU0ZBUVFLRjlfOEtNMFhfRUNHV19WZTNlMU1OUUkwS2FVdTAwdk43aXpNMDdIaWRWRXExclU5WXhVWC1pNw?oc=5",
-        "publisher": "Deccan Chronicle"
       }
     ],
     "updatedAt": "19/11/2026 14:27 UTC",
