@@ -1,5 +1,185 @@
 [
   {
+    "id": "osint-2026112217-bchqstnhlaich",
+    "name": "Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Vietnam.vn",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Vietnam.vn): Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Vietnam.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzAwbHdqb0JHNFRyRmE3TFRuQnE5WElSMHZaYnFQUDlSSUZVMlgya1dTYkF0aDZmbDUxWnl1VV9vck1TRXI1bDNLVlQxdkRiZzA5NWRpTzVlaDJYbUwtTjRBREY1cTRWcTByVFFNZGI1R0NRRV9PcGZ6RzB5SzR3S0NpSVZEYkRadWUwdURPVzI1c3NiaF83Y2owbDM?oc=5",
+    "articles": [
+      {
+        "title": "Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzAwbHdqb0JHNFRyRmE3TFRuQnE5WElSMHZaYnFQUDlSSUZVMlgya1dTYkF0aDZmbDUxWnl1VV9vck1TRXI1bDNLVlQxdkRiZzA5NWRpTzVlaDJYbUwtTjRBREY1cTRWcTByVFFNZGI1R0NRRV9PcGZ6RzB5SzR3S0NpSVZEYkRadWUwdURPVzI1c3NiaF83Y2owbDM?oc=5",
+        "publisher": "Vietnam.vn"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T14:31:46+00:00"
+  },
+  {
+    "id": "osint-2026112217-howdoesanavalblo",
+    "name": "Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "WANA News Agency",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (WANA News Agency): Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "WANA News Agency",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzlXenJFTE9pY29lSExkREdsR3ZIQjg3ZHdVS2ZOM01CNmFXZkZwNVNoSkJ2X0YzUFJ6TDNuTEYtbjVSNmNCVE5OSE5MemNjR2Jkb0liZ3NOV3ozUXM1R3REdG5oLWRVendES1ZERU4xbndvdEpKT0VKLXF0elpoVg?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
+        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzlXenJFTE9pY29lSExkREdsR3ZIQjg3ZHdVS2ZOM01CNmFXZkZwNVNoSkJ2X0YzUFJ6TDNuTEYtbjVSNmNCVE5OSE5MemNjR2Jkb0liZ3NOV3ozUXM1R3REdG5oLWRVendES1ZERU4xbndvdEpKT0VKLXF0elpoVg?oc=5",
+        "publisher": "WANA News Agency"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T13:01:41+00:00"
+  },
+  {
+    "id": "osint-2026112217-chinesevietnamese",
+    "name": "Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin h",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Global Times",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (Global Times): Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin hàng hải và kiểm soát rủi ro: chuyên gia - Global Times",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Global Times",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03VG5TdWYyYTNUSEFjaEg4NkpTckMteWFSMjlZbGl2WFZ3UXNFWE9iYk5MWmlTM2NNQXd4VzhoSjNBd1p6NkUzaDBvVkU3ZGVUWEpOQm1RSEJmOHBfVVlfd1NB?oc=5",
+    "articles": [
+      {
+        "title": "Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin hàng hải và kiểm soát rủi ro: chuyên gia - Global Times",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03VG5TdWYyYTNUSEFjaEg4NkpTckMteWFSMjlZbGl2WFZ3UXNFWE9iYk5MWmlTM2NNQXd4VzhoSjNBd1p6NkUzaDBvVkU3ZGVUWEpOQm1RSEJmOHBfVVlfd1NB?oc=5",
+        "publisher": "Global Times"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T12:47:00+00:00"
+  },
+  {
+    "id": "osint-2026112217-6",
+    "name": "Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "연합뉴스",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "연합뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQtIBYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQg?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQtIBYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQg?oc=5",
+        "publisher": "연합뉴스"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T11:12:28+00:00"
+  },
+  {
+    "id": "osint-2026112217-avideoreleasedby",
+    "name": "Một đoạn video do Bộ chỉ huy Hải quân Tây Mindanao (NCWM) của Hải quân Philippines (PN) công bố cho thấy tàu khu trục gi",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Facebook",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (Facebook): Một đoạn video do Bộ chỉ huy Hải quân Tây Mindanao (NCWM) của Hải quân Philippines (PN) công bố cho thấy tàu khu trục giám sát FS Vendémiaire (F-734) của Hải quân Pháp đi cùng với tàu khu trục mang tên lửa dẫn đường BRP Diego Silang (FFG-7) của Hải quân Philippines - Facebook",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Facebook",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYWpaSndyRDFrR0g0T0RBSk05WEFjcFZIRXdBNGV5M2ljaGlsNzlwaFFVeUl3d1NmQ2FkT01uUE1Ld0JFaXk2d3VwVFFEbXFEMnFDRWh3MkVKNTNhdTBULVh5Mk5veE96aVhXT3FsNWZqdGNhVWdlYVFDY2RQenNIQmlYWXFBQnBvcnVZQWtzSjNxNWxHdHlwa1lpNW1DU0NxMS1la0JHUk5RTHJpckN5UEdjcVkyV2FOUGdVald0Y1VDdldTWEFfNUx3Ym50QU5tY0NjRnZDVl81T3RY?oc=5",
+    "articles": [
+      {
+        "title": "Một đoạn video do Bộ chỉ huy Hải quân Tây Mindanao (NCWM) của Hải quân Philippines (PN) công bố cho thấy tàu khu trục giám sát FS Vendémiaire (F-734) của Hải quân Pháp đi cùng với tàu khu trục mang tên lửa dẫn đường BRP Diego Silang (FFG-7) của Hải quân Philippines - Facebook",
+        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYWpaSndyRDFrR0g0T0RBSk05WEFjcFZIRXdBNGV5M2ljaGlsNzlwaFFVeUl3d1NmQ2FkT01uUE1Ld0JFaXk2d3VwVFFEbXFEMnFDRWh3MkVKNTNhdTBULVh5Mk5veE96aVhXT3FsNWZqdGNhVWdlYVFDY2RQenNIQmlYWXFBQnBvcnVZQWtzSjNxNWxHdHlwa1lpNW1DU0NxMS1la0JHUk5RTHJpckN5UEdjcVkyV2FOUGdVald0Y1VDdldTWEFfNUx3Ym50QU5tY0NjRnZDVl81T3RY?oc=5",
+        "publisher": "Facebook"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T10:00:31+00:00"
+  },
+  {
+    "id": "osint-2026112217-5",
+    "name": "Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "朝鮮日報中文版",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (朝鮮日報中文版): Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "朝鮮日報中文版",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTQzNTZTR25nTGFUd2NOYkRYRVNTcjdJVzd5aTNQN1NPUEpYSkJBR1pSRi1fSktEOGZfdGU1TkF5c3JaYkNlNlRSR1JQV1pfejM5NUdBaVMtMXdpUzh5MmFrbTZfMTdTY092WjEtZGtqREF5VXN3dDdVTkVfOVB3bzZkYm5pN1hWRjl3UWh3WkhnRl9sSURCQXFZb0djT09u?oc=5",
+    "articles": [
+      {
+        "title": "Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
+        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTQzNTZTR25nTGFUd2NOYkRYRVNTcjdJVzd5aTNQN1NPUEpYSkJBR1pSRi1fSktEOGZfdGU1TkF5c3JaYkNlNlRSR1JQV1pfejM5NUdBaVMtMXdpUzh5MmFrbTZfMTdTY092WjEtZGtqREF5VXN3dDdVTkVfOVB3bzZkYm5pN1hWRjl3UWh3WkhnRl9sSURCQXFZb0djT09u?oc=5",
+        "publisher": "朝鮮日報中文版"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T08:28:51+00:00"
+  },
+  {
     "id": "osint-2026112209-6",
     "name": "Bất ổn giữa Hàn Quốc và Mỹ?... “Chính phủ Hàn Quốc phải ngay lập tức thiết lập mối quan hệ mới với Quốc hội Hoa Kỳ” - Da",
     "dates": "Ghi nhận: 22/11/2026",
@@ -58,6 +238,36 @@
     "updatedAt": "22/11/2026 09:30 UTC",
     "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
     "publishedAtIso": "2026-11-22T08:09:00+00:00"
+  },
+  {
+    "id": "osint-2026112217-bbinh8ncnato",
+    "name": "Bộ binh 8 nước NATO diễn tập vượt sông ở Litva, tiêm kích Đức yểm trợ - Báo Tin tức và Dân tộc - TTXVN",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Báo Tin tức và Dân tộc - TTXVN",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Tin tức và Dân tộc - TTXVN): Bộ binh 8 nước NATO diễn tập vượt sông ở Litva, tiêm kích Đức yểm trợ - Báo Tin tức và Dân tộc - TTXVN",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Báo Tin tức và Dân tộc - TTXVN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM3VTSFZwT0tkaXlMZTlJMU5ha0ptckxkbldVMHBnZlF0N0lfazdxUHNSMlV2MWVUVGhULWhvU05uWU5la2RTSUZzS21sVG9zWEhVS25Hb3hKNlhLd3p4SG41TXQxNTRUOHNHbmtSdjBwR28zRzhEcXNVdzVKWWhBT3hPbC1iY0lxVDdjMnVrY0RjWVFTZVpuRnhkQUlkbWEyRmwtMkxRWnRqdw?oc=5",
+    "articles": [
+      {
+        "title": "Bộ binh 8 nước NATO diễn tập vượt sông ở Litva, tiêm kích Đức yểm trợ - Báo Tin tức và Dân tộc - TTXVN",
+        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM3VTSFZwT0tkaXlMZTlJMU5ha0ptckxkbldVMHBnZlF0N0lfazdxUHNSMlV2MWVUVGhULWhvU05uWU5la2RTSUZzS21sVG9zWEhVS25Hb3hKNlhLd3p4SG41TXQxNTRUOHNHbmtSdjBwR28zRzhEcXNVdzVKWWhBT3hPbC1iY0lxVDdjMnVrY0RjWVFTZVpuRnhkQUlkbWEyRmwtMkxRWnRqdw?oc=5",
+        "publisher": "Báo Tin tức và Dân tộc - TTXVN"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-22T07:28:48+00:00"
   },
   {
     "id": "osint-2026112209-chinasdrillsexpos",
@@ -238,6 +448,35 @@
     "updatedAt": "22/11/2026 01:55 UTC",
     "collectedAtIso": "2026-11-22T01:55:59.752404+00:00",
     "publishedAtIso": "2026-11-22T00:03:00+00:00"
+  },
+  {
+    "id": "osint-2026112217-7",
+    "name": "Học viện Quân sự Hàn Quốc chuyển sang ‘kiểu mạng’… Nhiệm vụ thuyết phục trước Học viện Quân sự Hàn Quốc - Yonhap News",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "연합뉴스",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Tác chiến mạng",
+    "domainLabel": "Tác chiến mạng (Cyber)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Học viện Quân sự Hàn Quốc chuyển sang ‘kiểu mạng’… Nhiệm vụ thuyết phục trước Học viện Quân sự Hàn Quốc - Yonhap News",
+    "drills": [
+      "Bảo vệ hạ tầng chỉ huy và ứng phó tấn công mạng"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "연합뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4V29Rb3d5YkJubHJrd01lbm9MRjV3bWJTamo1c3NxZkhNbEp2bm9wX3pvelhuVkRqQURSblktNWQzWHd1UHBXUXhQNW1US3BERnlnYVRQZFZSbGRaZEFXaNIBYEFVX3lxTFA4V29Rb3d5YkJubHJrd01lbm9MRjV3bWJTamo1c3NxZkhNbEp2bm9wX3pvelhuVkRqQURSblktNWQzWHd1UHBXUXhQNW1US3BERnlnYVRQZFZSbGRaZEFXaA?oc=5",
+    "articles": [
+      {
+        "title": "Học viện Quân sự Hàn Quốc chuyển sang ‘kiểu mạng’… Nhiệm vụ thuyết phục trước Học viện Quân sự Hàn Quốc - Yonhap News",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFA4V29Rb3d5YkJubHJrd01lbm9MRjV3bWJTamo1c3NxZkhNbEp2bm9wX3pvelhuVkRqQURSblktNWQzWHd1UHBXUXhQNW1US3BERnlnYVRQZFZSbGRaZEFXaNIBYEFVX3lxTFA4V29Rb3d5YkJubHJrd01lbm9MRjV3bWJTamo1c3NxZkhNbEp2bm9wX3pvelhuVkRqQURSblktNWQzWHd1UHBXUXhQNW1US3BERnlnYVRQZFZSbGRaZEFXaA?oc=5",
+        "publisher": "연합뉴스"
+      }
+    ],
+    "updatedAt": "22/11/2026 17:39 UTC",
+    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
+    "publishedAtIso": "2026-11-21T23:41:56+00:00"
   },
   {
     "id": "osint-2026112120-3",
@@ -1541,239 +1780,5 @@
     ],
     "updatedAt": "20/11/2026 02:59 UTC",
     "collectedAtIso": "2026-11-20T02:59:17.612886+00:00"
-  },
-  {
-    "id": "osint-2026112002-bomantontron",
-    "name": "Bảo đảm an toàn trong huấn luyện, diễn tập là nhiệm vụ xuyên suốt - Báo Tuyên Quang",
-    "dates": "Ghi nhận: 20/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Tuyên Quang",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Tuyên Quang): Bảo đảm an toàn trong huấn luyện, diễn tập là nhiệm vụ xuyên suốt - Báo Tuyên Quang",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Tuyên Quang",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGRReTgtaFlwTnBXaHVyTTNNRjBmT0xKMHliOVBpQkdNRmQzZUoxc1pFM0ZrcFVXOHQ3Nm0yS3dRZ2g2Z2F3M1B6RU40MDRwNkZ4Ri1lZzRITVhaYW1XMWhMUVB6ZWFRSHQzRjEwVlhPS2VFbWtxazZ6azZLWmNaUnRnWHVlNFlLTG92YjlsbC1yMUMyZHNmVzdPcE9Qb21lNm5hM3RMRkpnZGpMbjg3OGVMTThHRjA2dkI5X1ljNEJYUXBxc1hv?oc=5",
-    "articles": [
-      {
-        "title": "Bảo đảm an toàn trong huấn luyện, diễn tập là nhiệm vụ xuyên suốt - Báo Tuyên Quang",
-        "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOaGRReTgtaFlwTnBXaHVyTTNNRjBmT0xKMHliOVBpQkdNRmQzZUoxc1pFM0ZrcFVXOHQ3Nm0yS3dRZ2g2Z2F3M1B6RU40MDRwNkZ4Ri1lZzRITVhaYW1XMWhMUVB6ZWFRSHQzRjEwVlhPS2VFbWtxazZ6azZLWmNaUnRnWHVlNFlLTG92YjlsbC1yMUMyZHNmVzdPcE9Qb21lNm5hM3RMRkpnZGpMbjg3OGVMTThHRjA2dkI5X1ljNEJYUXBxc1hv?oc=5",
-        "publisher": "Báo Tuyên Quang"
-      }
-    ],
-    "updatedAt": "20/11/2026 02:59 UTC",
-    "collectedAtIso": "2026-11-20T02:59:17.612886+00:00"
-  },
-  {
-    "id": "osint-2026112008-qunkhu4rtkinh",
-    "name": "Quân khu 4: rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập. - baoquankhu4.com.vn",
-    "dates": "Ghi nhận: 20/11/2026",
-    "status": "Đang diễn ra",
-    "location": "baoquankhu4.com.vn",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (baoquankhu4.com.vn): Quân khu 4: rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập. - baoquankhu4.com.vn",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "baoquankhu4.com.vn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZkFXOVFUVzdsM0o3M256ZW5KV216VzBnMUU5UkNUUUJQRWhwaW5qOGVqR21MckYtTlJKd0tPYUY5SlZzUVZkX0NjQkxqamlyQ0hUUkdBcFRsRmowd1FYX0syVThDcWhCTWRqV0xyMmR4SXFnVnZoU1lleUE2cjUwYTQyMVFYcmlPTWNzd0x2U3lDOXVHSEYxaVFGUUdnX0lKUVo1ZDNnb2VFeHNlempnRWJPN09Bbms1R1Etcg?oc=5",
-    "articles": [
-      {
-        "title": "Quân khu 4: rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập. - baoquankhu4.com.vn",
-        "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOZkFXOVFUVzdsM0o3M256ZW5KV216VzBnMUU5UkNUUUJQRWhwaW5qOGVqR21MckYtTlJKd0tPYUY5SlZzUVZkX0NjQkxqamlyQ0hUUkdBcFRsRmowd1FYX0syVThDcWhCTWRqV0xyMmR4SXFnVnZoU1lleUE2cjUwYTQyMVFYcmlPTWNzd0x2U3lDOXVHSEYxaVFGUUdnX0lKUVo1ZDNnb2VFeHNlempnRWJPN09Bbms1R1Etcg?oc=5",
-        "publisher": "baoquankhu4.com.vn"
-      }
-    ],
-    "updatedAt": "20/11/2026 08:41 UTC",
-    "collectedAtIso": "2026-11-20T08:41:33.691112+00:00",
-    "publishedAtIso": "2026-11-20T02:11:01+00:00"
-  },
-  {
-    "id": "osint-2026112120-btlnhbibi",
-    "name": "Bộ Tư lệnh Bộ đội Biên phòng rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Báo Biên phòng",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Biên phòng",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Biên phòng): Bộ Tư lệnh Bộ đội Biên phòng rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Báo Biên phòng",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Biên phòng",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXAxVXBpUTVHWHNnTUVBMGFhRU1VOXZVdHJTUWUzSnZTMEU1MHhHbnhMMUFzQnlkeUJTc19mOXRmZEhKel9tdUNHZEwxWFNoTFRHUVRqS3NDM0lqSnhORHNhcG5qeHZ1ZTM0eHBJbU9sUHFia20xaWg3d2xOeGNJYklVT0NFdUQtV0xzeTJ1dzI5SlhuNTF3LVNPV0hMY1pJc1pIR2phYWRBMEtuWFpkQWhUVEIyXzdaRDhpTG9ib19pck81SkkzUUVKaS14dmh0ZTRUWEs4NA?oc=5",
-    "articles": [
-      {
-        "title": "Bộ Tư lệnh Bộ đội Biên phòng rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Báo Biên phòng",
-        "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXAxVXBpUTVHWHNnTUVBMGFhRU1VOXZVdHJTUWUzSnZTMEU1MHhHbnhMMUFzQnlkeUJTc19mOXRmZEhKel9tdUNHZEwxWFNoTFRHUVRqS3NDM0lqSnhORHNhcG5qeHZ1ZTM0eHBJbU9sUHFia20xaWg3d2xOeGNJYklVT0NFdUQtV0xzeTJ1dzI5SlhuNTF3LVNPV0hMY1pJc1pIR2phYWRBMEtuWFpkQWhUVEIyXzdaRDhpTG9ib19pck81SkkzUUVKaS14dmh0ZTRUWEs4NA?oc=5",
-        "publisher": "Báo Biên phòng"
-      }
-    ],
-    "updatedAt": "21/11/2026 20:23 UTC",
-    "collectedAtIso": "2026-11-21T20:23:50.963648+00:00",
-    "publishedAtIso": "2026-11-19T23:43:05+00:00"
-  },
-  {
-    "id": "osint-2026111921-4",
-    "name": "Lực lượng Phòng vệ Mặt đất Nhật Bản công bố kết quả điều tra và xác định nguyên nhân vụ tai nạn xe tăng khiến ",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "QAB 琉球朝日放送",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (QAB 琉球朝日放送): Lực lượng Phòng vệ Mặt đất Nhật Bản công bố kết quả điều tra và xác định nguyên nhân vụ tai nạn xe tăng khiến 4 người thương vong – Quebee - QAB Ryukyu Asahi Broadcasting",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "QAB 琉球朝日放送",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ObEsyTk5MMnFyT0lSc0pmemRYbkJXbklLNHFKZXNVMXhzS0lkaEhzdnlUYi1xZWQ4TDQ4RXVlOWdrbmRqYTY4NHdPMkp2UnFXNi1ybWFnZ3E?oc=5",
-    "articles": [
-      {
-        "title": "Lực lượng Phòng vệ Mặt đất Nhật Bản công bố kết quả điều tra và xác định nguyên nhân vụ tai nạn xe tăng khiến 4 người thương vong – Quebee - QAB Ryukyu Asahi Broadcasting",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1ObEsyTk5MMnFyT0lSc0pmemRYbkJXbklLNHFKZXNVMXhzS0lkaEhzdnlUYi1xZWQ4TDQ4RXVlOWdrbmRqYTY4NHdPMkp2UnFXNi1ybWFnZ3E?oc=5",
-        "publisher": "QAB 琉球朝日放送"
-      }
-    ],
-    "updatedAt": "19/11/2026 21:59 UTC",
-    "collectedAtIso": "2026-11-19T21:59:20.923075+00:00"
-  },
-  {
-    "id": "osint-2026111921-8",
-    "name": "Thiết bị tên lửa của Mỹ cũng tham gia các cuộc tập trận chung, được cất giữ ở Kadena; phản ứng quốc gia - Okin",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "沖縄タイムス社",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (沖縄タイムス社): Thiết bị tên lửa của Mỹ cũng tham gia các cuộc tập trận chung, được cất giữ ở Kadena; phản ứng quốc gia - Okinawa Times",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "沖縄タイムス社",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YTXdtVmxsS1hNOHN3b0h1X0s3bjVaZDhiclJ3dnVZSWlsekdwcFNTVUlXY3o5WWJhbi0wb3NQTDc2LXdhdmQ3WnhGY1JCaUVSX2tGT045bGdnOHl3dmc?oc=5",
-    "articles": [
-      {
-        "title": "Thiết bị tên lửa của Mỹ cũng tham gia các cuộc tập trận chung, được cất giữ ở Kadena; phản ứng quốc gia - Okinawa Times",
-        "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1YTXdtVmxsS1hNOHN3b0h1X0s3bjVaZDhiclJ3dnVZSWlsekdwcFNTVUlXY3o5WWJhbi0wb3NQTDc2LXdhdmQ3WnhGY1JCaUVSX2tGT045bGdnOHl3dmc?oc=5",
-        "publisher": "沖縄タイムス社"
-      }
-    ],
-    "updatedAt": "19/11/2026 21:59 UTC",
-    "collectedAtIso": "2026-11-19T21:59:20.923075+00:00"
-  },
-  {
-    "id": "osint-2026111921-7",
-    "name": "Lực lượng Phòng vệ có thể tiến hành huấn luyện bắn tên lửa ở Ấn Độ; Ấn Độ và Nhật Bản đồng ý 2 cộng 2 - Asahi ",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "朝日新聞",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (朝日新聞): Lực lượng Phòng vệ có thể tiến hành huấn luyện bắn tên lửa ở Ấn Độ; Ấn Độ và Nhật Bản đồng ý 2 cộng 2 - Asahi Shimbun",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "朝日新聞",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PRnFsQnJ6THBfRVpnY0Y3aDNldlRXRjR0S016Mnd4eEpoMU44RkdjbUJXMHJ2MWU4dzlvRDBZcF84Z3lHMFZNSkFxRmkwQkJSekowZTFkQjVlTWxtT05mVGdJQUUySkU?oc=5",
-    "articles": [
-      {
-        "title": "Lực lượng Phòng vệ có thể tiến hành huấn luyện bắn tên lửa ở Ấn Độ; Ấn Độ và Nhật Bản đồng ý 2 cộng 2 - Asahi Shimbun",
-        "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1PRnFsQnJ6THBfRVpnY0Y3aDNldlRXRjR0S016Mnd4eEpoMU44RkdjbUJXMHJ2MWU4dzlvRDBZcF84Z3lHMFZNSkFxRmkwQkJSekowZTFkQjVlTWxtT05mVGdJQUUySkU?oc=5",
-        "publisher": "朝日新聞"
-      }
-    ],
-    "updatedAt": "19/11/2026 21:59 UTC",
-    "collectedAtIso": "2026-11-19T21:59:20.923075+00:00"
-  },
-  {
-    "id": "osint-2026111921-2",
-    "name": "Triển khai quân đội dưới sự chỉ đạo của cảnh sát Hokkaido đảm nhận hoạt động an ninh | Sư đoàn 2 - Defense Dai",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "防衛日報デジタル",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (防衛日報デジタル): Triển khai quân đội dưới sự chỉ đạo của cảnh sát Hokkaido đảm nhận hoạt động an ninh | Sư đoàn 2 - Defense Daily Digital",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "防衛日報デジタル",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41cU9zMWtuQUJ5UnNQQkg2eXJOUG44LUQ0VE9RRzA0RkdRRTltNFN1S01LTHJIZDBGX05CVDJoWWo2dWVZYkFrVDhFTTlEci1lUFBscEprTi0tZw?oc=5",
-    "articles": [
-      {
-        "title": "Triển khai quân đội dưới sự chỉ đạo của cảnh sát Hokkaido đảm nhận hoạt động an ninh | Sư đoàn 2 - Defense Daily Digital",
-        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE41cU9zMWtuQUJ5UnNQQkg2eXJOUG44LUQ0VE9RRzA0RkdRRTltNFN1S01LTHJIZDBGX05CVDJoWWo2dWVZYkFrVDhFTTlEci1lUFBscEprTi0tZw?oc=5",
-        "publisher": "防衛日報デジタル"
-      }
-    ],
-    "updatedAt": "19/11/2026 21:59 UTC",
-    "collectedAtIso": "2026-11-19T21:59:20.923075+00:00"
-  },
-  {
-    "id": "osint-2026111921-5",
-    "name": "Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập chiến kiềm chế Triều Tiên: International : Financial Daily - Financial Daily",
-    "dates": "Ghi nhận: 17/11/2026",
-    "status": "Đang diễn ra",
-    "location": "재경일보",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (재경일보): Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập chiến kiềm chế Triều Tiên: International : Financial Daily - Financial Daily",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "재경일보",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xcVNxUjFfVmVYU1BueTB3NjZta2owbmMtaUhUbno0NEJIOVpZX3NfbmtGclZkVjVIUktKRTVwZWVNSHIyT3hMeGVLM0s2SVlweFlvWUZNSDZTaFdOWEdZb01n?oc=5",
-    "articles": [
-      {
-        "title": "Ông Lavrov: Hàn Quốc, Mỹ và Nhật Bản tập chiến kiềm chế Triều Tiên: International : Financial Daily - Financial Daily",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9xcVNxUjFfVmVYU1BueTB3NjZta2owbmMtaUhUbno0NEJIOVpZX3NfbmtGclZkVjVIUktKRTVwZWVNSHIyT3hMeGVLM0s2SVlweFlvWUZNSDZTaFdOWEdZb01n?oc=5",
-        "publisher": "재경일보"
-      }
-    ],
-    "updatedAt": "19/11/2026 21:59 UTC",
-    "collectedAtIso": "2026-11-19T21:59:20.923075+00:00"
   }
 ]
