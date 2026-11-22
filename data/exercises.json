@@ -1,5 +1,35 @@
 [
   {
+    "id": "osint-2026112201-7",
+    "name": "Lực lượng Phòng vệ Mặt đất Nhật Bản và Lục quân Anh tiến hành cuộc tập trận chung lần thứ 7 tại Hokkaido. Bài học từ cuộ",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "ｄメニューニュース",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (ｄメニューニュース): Lực lượng Phòng vệ Mặt đất Nhật Bản và Lục quân Anh tiến hành cuộc tập trận chung lần thứ 7 tại Hokkaido. Bài học từ cuộc xung đột Falkland, có liên quan trực tiếp đến tình hình khẩn cấp ở Đài Loan, là gì?... - Tin tức dmenu",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "ｄメニューニュース",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJeDdLcDJnRVhablUxSzg0VDZYWTVhN29ob19yM0NYR29Tb2RvY2dSb25mbVY1UEtlQ0ZrZFQwM05fTExndmRtTlV2ZWZqbTRvdjlCbzdERTF4MjQ1eW5BOVAyTzNicTZhMFlxX1F6WGlCZ9IBd0FVX3lxTE5aT3RDRmg5cFpJMlVwZW94OUtWbldrYmt5Y0REMnd1T2RIQ1MzajB4NU5mY3ZnYkdBekxheWlaVDd6R0JNa2QzUVZrU3BZSERrMTdzUy1xaHhUZ3JXVlpYV1BwVHZxUUtsRjBEMGdkSUZHQS1JSFYw?oc=5",
+    "articles": [
+      {
+        "title": "Lực lượng Phòng vệ Mặt đất Nhật Bản và Lục quân Anh tiến hành cuộc tập trận chung lần thứ 7 tại Hokkaido. Bài học từ cuộc xung đột Falkland, có liên quan trực tiếp đến tình hình khẩn cấp ở Đài Loan, là gì?... - Tin tức dmenu",
+        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJeDdLcDJnRVhablUxSzg0VDZYWTVhN29ob19yM0NYR29Tb2RvY2dSb25mbVY1UEtlQ0ZrZFQwM05fTExndmRtTlV2ZWZqbTRvdjlCbzdERTF4MjQ1eW5BOVAyTzNicTZhMFlxX1F6WGlCZ9IBd0FVX3lxTE5aT3RDRmg5cFpJMlVwZW94OUtWbldrYmt5Y0REMnd1T2RIQ1MzajB4NU5mY3ZnYkdBekxheWlaVDd6R0JNa2QzUVZrU3BZSERrMTdzUy1xaHhUZ3JXVlpYV1BwVHZxUUtsRjBEMGdkSUZHQS1JSFYw?oc=5",
+        "publisher": "ｄメニューニュース"
+      }
+    ],
+    "updatedAt": "22/11/2026 01:55 UTC",
+    "collectedAtIso": "2026-11-22T01:55:59.752404+00:00",
+    "publishedAtIso": "2026-11-22T00:03:00+00:00"
+  },
+  {
     "id": "osint-2026112120-3",
     "name": "Tổng thư ký NATO: NATO sẽ bảo vệ từng tấc đất của Ba Lan - Đài Tiếng nói Mỹ",
     "dates": "Ghi nhận: 21/11/2026",
@@ -240,6 +270,36 @@
     "publishedAtIso": "2026-11-21T07:36:00+00:00"
   },
   {
+    "id": "osint-2026112201-1",
+    "name": "[Tin tức Trung Quốc] Cuộc tập trận chung của lực lượng đa quốc gia \"Liên minh ý chí\" hỗ trợ Ukraine tiếp tục diễn ra tại",
+    "dates": "Ghi nhận: 21/11/2026",
+    "status": "Đang diễn ra",
+    "location": "央视网",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (央视网): [Tin tức Trung Quốc] Cuộc tập trận chung của lực lượng đa quốc gia \"Liên minh ý chí\" hỗ trợ Ukraine tiếp tục diễn ra tại Ba Lan - CCTV.com",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "央视网",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MN1NKcktDeEZPa2Q2bnZpUUFTVGJGeUYtOERmUGMxWnQ5b2NqeWZDLW83WXRwWThEdlIwUm94a0NSYm9vTWxtUUVFRkdvTTBpOG91ZEJiNHRaWDdBOHE3Nkt0Y0FTQUFKNE9zQnIyWDltMFczNEE?oc=5",
+    "articles": [
+      {
+        "title": "[Tin tức Trung Quốc] Cuộc tập trận chung của lực lượng đa quốc gia \"Liên minh ý chí\" hỗ trợ Ukraine tiếp tục diễn ra tại Ba Lan - CCTV.com",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9MN1NKcktDeEZPa2Q2bnZpUUFTVGJGeUYtOERmUGMxWnQ5b2NqeWZDLW83WXRwWThEdlIwUm94a0NSYm9vTWxtUUVFRkdvTTBpOG91ZEJiNHRaWDdBOHE3Nkt0Y0FTQUFKNE9zQnIyWDltMFczNEE?oc=5",
+        "publisher": "央视网"
+      }
+    ],
+    "updatedAt": "22/11/2026 01:55 UTC",
+    "collectedAtIso": "2026-11-22T01:55:59.752404+00:00",
+    "publishedAtIso": "2026-11-21T04:42:00+00:00"
+  },
+  {
     "id": "osint-2026112112-4",
     "name": "Cuộc tập trận chung Nhật Bản - Pháp chống du kích được công khai, máy bay không người lái tấn công không được sử dụng - ",
     "dates": "Ghi nhận: 21/11/2026",
@@ -478,6 +538,36 @@
     "updatedAt": "20/11/2026 21:41 UTC",
     "collectedAtIso": "2026-11-20T21:41:36.156182+00:00",
     "publishedAtIso": "2026-11-20T15:40:45+00:00"
+  },
+  {
+    "id": "osint-2026112201-turkishmilitarytak",
+    "name": "Quân đội Thổ Nhĩ Kỳ tham gia các cuộc tập trận của NATO tại 2 khu vực | Daily Sabah - Daily Sabah",
+    "dates": "Ghi nhận: 20/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Daily Sabah",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Daily Sabah): Quân đội Thổ Nhĩ Kỳ tham gia các cuộc tập trận của NATO tại 2 khu vực | Daily Sabah - Daily Sabah",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Daily Sabah",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTEx0VHhqN0tfOVRLV01qWmZmaS1rV0RYb0gtSkZ4Qi1Bd0hGRXNLVS13eERBekg2cWtZX1RTZ3BSWG1VSjJfN2FsVUVkVkhPZktaUTM3MGYzdHVvX3Y4aE9OWGg1WmZQVmJfLTdsa0QzczNSVGRpR2VrZkNvNWhZS18zM0VxblpiRFlpblF5dUR0UU5PcEpUX1BWRTdBTVZLdHfSAacBQVVfeXFMTVQ3dUx1VEtyVGxJTFB0YjNscjFYYndLSzRpOUlPNUlMS2tGeHdkbDlxQTMtVjZlOU43X0tVcUpRVHh6VnZCNzhGM0UwdXhyMThmNklYc2tScDVrckJVV3Zhb0x5c3NXaXpRWWM3TlNWOEhQVS14cmRCZ0J3WDkwZHE2TE1vZUZ4ZjcwWkhKZkJPcDRmR09CVzBmMklxbFhINXJaOXJMUms?oc=5",
+    "articles": [
+      {
+        "title": "Quân đội Thổ Nhĩ Kỳ tham gia các cuộc tập trận của NATO tại 2 khu vực | Daily Sabah - Daily Sabah",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTEx0VHhqN0tfOVRLV01qWmZmaS1rV0RYb0gtSkZ4Qi1Bd0hGRXNLVS13eERBekg2cWtZX1RTZ3BSWG1VSjJfN2FsVUVkVkhPZktaUTM3MGYzdHVvX3Y4aE9OWGg1WmZQVmJfLTdsa0QzczNSVGRpR2VrZkNvNWhZS18zM0VxblpiRFlpblF5dUR0UU5PcEpUX1BWRTdBTVZLdHfSAacBQVVfeXFMTVQ3dUx1VEtyVGxJTFB0YjNscjFYYndLSzRpOUlPNUlMS2tGeHdkbDlxQTMtVjZlOU43X0tVcUpRVHh6VnZCNzhGM0UwdXhyMThmNklYc2tScDVrckJVV3Zhb0x5c3NXaXpRWWM3TlNWOEhQVS14cmRCZ0J3WDkwZHE2TE1vZUZ4ZjcwWkhKZkJPcDRmR09CVzBmMklxbFhINXJaOXJMUms?oc=5",
+        "publisher": "Daily Sabah"
+      }
+    ],
+    "updatedAt": "22/11/2026 01:55 UTC",
+    "collectedAtIso": "2026-11-22T01:55:59.752404+00:00",
+    "publishedAtIso": "2026-11-20T12:14:00+00:00"
   },
   {
     "id": "osint-2026112021-turkishmilitarytak",
@@ -1674,93 +1764,6 @@
         "title": "Bộ Tư lệnh Trung ương Mỹ xác nhận tàu USS Theodore Roosevelt đến Trung Đông - Đài Tiếng nói Mỹ",
         "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPTzBUOTMtVWlTM3ZtdEE1eUoxaHUtTHY5R0VCUHlNRUxJdnQtQXh1UFI5aU9JMmQ3QTdEYjVFTlBHWnlBN3dZTUYzeU5mcUc4cnlJU01pZVc1YTVRS2s4U3lXdmtPSTA4QWI5QkxKbXVaUlhuaVBhaEp1VEd1SWlUZHFabnR6c3lLeHhjTFRCejJLajI4MC1YLW1QM1VsZnc2RUZkTHRQRVFEV3I3RGFRdlVvbFVlaG50d0k1Y9IBvwFBVV95cUxQQ2wzS0NGVTBUU1otM1lPbXdIX2hDYzU1R1poeXk5dXBnakh0VjhjWmxpeHE3UGtkT2JlYzZIdW9hcFVubHFIRUh2V3BZeVFiM1o1TTBDYnN2S0MxVTBXWTM2WkJwVUpMZnV1UUpYeFE2S0tESWF5alhFSnhVOWpiLXp4UjhXY0NmS3R0NDVBbDFfaDhfLUltQnI0VFRncG1qR0Etb1NSY2xHTGRreWFmbDJzRzBlVTJmaEFBMUdjdw?oc=5",
         "publisher": "美国之音"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-7",
-    "name": "Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản",
-    "dates": "Ghi nhận: 18/11/2026",
-    "status": "Đang diễn ra",
-    "location": "朝鮮日報中文版",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (朝鮮日報中文版): Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "朝鮮日報中文版",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTWZHUEExVmc4NXp5SjVLWGh4dkdHOE5LM3U2c2NDNzNQQWdHZ2llaVR3cjZvTWNOMGktckp1MFZyZF9qTUhwTzlyZWE3RW5MMjBmeFlHY2ZpNFEyc0RVN19jVDhXcHVhVTlDV2xtNGZBYTZrUTJYbUZMenJmMno2WGpQUVVfR3hndHQ0OERkaFdUdw?oc=5",
-    "articles": [
-      {
-        "title": "Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
-        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNTWZHUEExVmc4NXp5SjVLWGh4dkdHOE5LM3U2c2NDNzNQQWdHZ2llaVR3cjZvTWNOMGktckp1MFZyZF9qTUhwTzlyZWE3RW5MMjBmeFlHY2ZpNFEyc0RVN19jVDhXcHVhVTlDV2xtNGZBYTZrUTJYbUZMenJmMno2WGpQUVVfR3hndHQ0OERkaFdUdw?oc=5",
-        "publisher": "朝鮮日報中文版"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-qungtrmboan",
-    "name": "Quảng Trị đảm bảo an toàn trong huấn luyện, diễn tập - Trung tâm Nội dung số và Truyền thông",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Trung tâm Nội dung số và Truyền thông",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Trung tâm Nội dung số và Truyền thông): Quảng Trị đảm bảo an toàn trong huấn luyện, diễn tập - Trung tâm Nội dung số và Truyền thông",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Trung tâm Nội dung số và Truyền thông",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORXhYYzZwQkZ2N0E4NnNjVTdmRUR5MUhKbkdJdGJHYkNxdF9JWWVJbkNibFFGLWYzV1JtVjVTaGhaWHJoa1JVS2ptQXV5MVpPRmVxdzN0TmozSHBFUnE2T2Y0N1VzakVkTldiRVhhbHhRQ3BzeThKbXAxQVgtNVU1ekN4QURXNlZIY3Q0eGlwX3RtMUpwMDVLeDlGX2o4MXRN?oc=5",
-    "articles": [
-      {
-        "title": "Quảng Trị đảm bảo an toàn trong huấn luyện, diễn tập - Trung tâm Nội dung số và Truyền thông",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxORXhYYzZwQkZ2N0E4NnNjVTdmRUR5MUhKbkdJdGJHYkNxdF9JWWVJbkNibFFGLWYzV1JtVjVTaGhaWHJoa1JVS2ptQXV5MVpPRmVxdzN0TmozSHBFUnE2T2Y0N1VzakVkTldiRVhhbHhRQ3BzeThKbXAxQVgtNVU1ekN4QURXNlZIY3Q0eGlwX3RtMUpwMDVLeDlGX2o4MXRN?oc=5",
-        "publisher": "Trung tâm Nội dung số và Truyền thông"
-      }
-    ],
-    "updatedAt": "19/11/2026 14:27 UTC",
-    "collectedAtIso": "2026-11-19T14:27:17.132690+00:00"
-  },
-  {
-    "id": "osint-2026111914-ccnvchtrng",
-    "name": "Các đơn vị chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Báo Quân đội nhân dân",
-    "dates": "Ghi nhận: 19/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Quân đội nhân dân",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Quân đội nhân dân): Các đơn vị chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Báo Quân đội nhân dân",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu và cơ động lực lượng liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần - kỹ thuật chiến dịch"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Quân đội nhân dân",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVF9PeHJvZ2lFdGQ0NUJaQ2VjSVFpZW5iUVpCVnhMbjVmcGl5cldHSlZibzhaX3FXNTgwRTdGVjBFazNZeHlSYkIwczlLYnhhY2RwZjBsQUd1MC1YR3hNUExwTWRGT2NxVkhnbXZydkFZZjV5RXlkaG9VUjBvbVpldjloZS1rQXhaUXlrNGlnRWFGU0xKZjBBNF90U2JXSGhkUFBFOVBDX2M0TkZCcFkyTzlkTDgzcHpF?oc=5",
-    "articles": [
-      {
-        "title": "Các đơn vị chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Báo Quân đội nhân dân",
-        "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNVF9PeHJvZ2lFdGQ0NUJaQ2VjSVFpZW5iUVpCVnhMbjVmcGl5cldHSlZibzhaX3FXNTgwRTdGVjBFazNZeHlSYkIwczlLYnhhY2RwZjBsQUd1MC1YR3hNUExwTWRGT2NxVkhnbXZydkFZZjV5RXlkaG9VUjBvbVpldjloZS1rQXhaUXlrNGlnRWFGU0xKZjBBNF90U2JXSGhkUFBFOVBDX2M0TkZCcFkyTzlkTDgzcHpF?oc=5",
-        "publisher": "Báo Quân đội nhân dân"
       }
     ],
     "updatedAt": "19/11/2026 14:27 UTC",
