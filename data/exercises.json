@@ -450,6 +450,36 @@
     "publishedAtIso": "2026-11-24T07:46:06+00:00"
   },
   {
+    "id": "osint-2026112423-indianandmalaysian",
+    "name": "Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ấn Độ, Malaysia",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "news.webindia123.com",
+    "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523794.html",
+    "articles": [
+      {
+        "title": "Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+        "url": "https://news.webindia123.com/news/Articles/World/20261124/4523794.html",
+        "publisher": "news.webindia123.com"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:50 UTC",
+    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
+    "publishedAtIso": "2026-11-24T07:45:00+00:00"
+  },
+  {
     "id": "osint-2026112417-9",
     "name": "Bộ trưởng Bộ Quốc phòng Koizumi tổ chức họp báo bao gồm Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Ấn Độ và lịch trình Hội",
     "dates": "Ghi nhận: 24/11/2026",
@@ -568,6 +598,66 @@
     "updatedAt": "24/11/2026 17:05 UTC",
     "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
     "publishedAtIso": "2026-11-24T07:11:06+00:00"
+  },
+  {
+    "id": "osint-2026112423-indiamalaysiajoi",
+    "name": "India - Malaysia joint military exercise Harimau Shakti 2026 focuses on drone warfare",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ấn Độ, Malaysia",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): India - Malaysia joint military exercise Harimau Shakti 2026 focuses on drone warfare",
+    "drills": [
+      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện và chế áp UAV (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "news.webindia123.com",
+    "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523738.html",
+    "articles": [
+      {
+        "title": "India - Malaysia joint military exercise Harimau Shakti 2026 focuses on drone warfare",
+        "url": "https://news.webindia123.com/news/Articles/World/20261124/4523738.html",
+        "publisher": "news.webindia123.com"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:50 UTC",
+    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
+    "publishedAtIso": "2026-11-24T06:30:00+00:00"
+  },
+  {
+    "id": "osint-2026112423-indiasrilankaco",
+    "name": "India - Sri Lanka conduct joint military exercise Mitra Shakti 2026 in Maduru Oya",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ấn Độ",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): India - Sri Lanka conduct joint military exercise Mitra Shakti 2026 in Maduru Oya",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "news.webindia123.com",
+    "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523745.html",
+    "articles": [
+      {
+        "title": "India - Sri Lanka conduct joint military exercise Mitra Shakti 2026 in Maduru Oya",
+        "url": "https://news.webindia123.com/news/Articles/World/20261124/4523745.html",
+        "publisher": "news.webindia123.com"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:50 UTC",
+    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
+    "publishedAtIso": "2026-11-24T06:30:00+00:00"
   },
   {
     "id": "osint-2026112417-pmtariqueheadsto",
@@ -718,6 +808,36 @@
     "updatedAt": "24/11/2026 04:40 UTC",
     "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
     "publishedAtIso": "2026-11-24T03:32:41+00:00"
+  },
+  {
+    "id": "osint-2026112423-jointexerciseshi",
+    "name": "Joint exercises , high - level visits reflect deepening of India - US defence ties",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ấn Độ",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (dailyexcelsior.com): Joint exercises , high - level visits reflect deepening of India - US defence ties",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "dailyexcelsior.com",
+    "sourceUrl": "https://www.dailyexcelsior.com/joint-exercises-high-level-visits-reflect-deepening-of-india-us-defence-ties/",
+    "articles": [
+      {
+        "title": "Joint exercises , high - level visits reflect deepening of India - US defence ties",
+        "url": "https://www.dailyexcelsior.com/joint-exercises-high-level-visits-reflect-deepening-of-india-us-defence-ties/",
+        "publisher": "dailyexcelsior.com"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:50 UTC",
+    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
+    "publishedAtIso": "2026-11-24T03:30:00+00:00"
   },
   {
     "id": "osint-2026112404-kadiz",
@@ -1588,6 +1708,36 @@
     "updatedAt": "23/11/2026 19:55 UTC",
     "collectedAtIso": "2026-11-23T19:55:55.328523+00:00",
     "publishedAtIso": "2026-11-22T21:05:17+00:00"
+  },
+  {
+    "id": "osint-2026112423-drones",
+    "name": "Drones - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σ",
+    "dates": "Ghi nhận: 22/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (huffingtonpost.gr): Drones - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σύγχρονο πόλεμο »",
+    "drills": [
+      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện và chế áp UAV (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "huffingtonpost.gr",
+    "sourceUrl": "https://www.huffingtonpost.gr/diethnes/ai-germanikos-stratos/",
+    "articles": [
+      {
+        "title": "Drones - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σύγχρονο πόλεμο »",
+        "url": "https://www.huffingtonpost.gr/diethnes/ai-germanikos-stratos/",
+        "publisher": "huffingtonpost.gr"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:50 UTC",
+    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
+    "publishedAtIso": "2026-11-22T19:00:00+00:00"
   },
   {
     "id": "osint-2026112223-tankerincidentinv",
