@@ -12,8 +12,84 @@ RSS_QUERIES = [
     ("ja", "JP", "共同訓練 自衛隊 when:3d"),
     ("ko", "KR", "연합훈련 국방부 when:3d"),
 ]
-VI_RE = re.compile(r"[ăđơưạảấầẩẫậắằẳẵặẹẻẽếềểễệỉịọỏốồổỗộớờởỡợụủứừửữựỳỷỹ]", re.I)
+VI_RE = re.compile(r"[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹ]", re.I)
 CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
+
+VENUES = [
+    ("Eo biển Luzon", r"\bluzon strait\b|eo biển luzon|吕宋海峡"),
+    ("Biển Đông", r"\bsouth china sea\b|\bwest philippine sea\b|biển đông|南海"),
+    ("Eo biển Đài Loan", r"\btaiwan strait\b|eo biển đài loan|台湾海峡"),
+    ("Biển Hoa Đông", r"\beast china sea\b|biển hoa đông|东海|東シナ海"),
+    ("Biển Nhật Bản", r"\bsea of japan\b|\beast sea\b|biển nhật bản|日本海|동해"),
+    ("Biển Hoàng Hải", r"\byellow sea\b|hoàng hải|黄海|서해"),
+    ("Biển Philippines", r"\bphilippine sea\b|biển philippines|フィリピン海"),
+    ("Biển Baltic", r"\bbaltic sea\b|\bbaltic\b|biển baltic"),
+    ("Biển Đen", r"\bblack sea\b|biển đen"),
+    ("Biển Đỏ", r"\bred sea\b|biển đỏ"),
+    ("Biển Bắc", r"\bnorth sea\b|biển bắc"),
+    ("Địa Trung Hải", r"\bmediterranean\b|địa trung hải"),
+    ("Vịnh Ba Tư", r"\bpersian gulf\b|\barabian gulf\b|vịnh ba tư"),
+    ("Eo biển Hormuz", r"\bstrait of hormuz\b|\bhormuz\b|eo biển hormuz"),
+    ("Eo biển Malacca", r"\bstrait of malacca\b|\bmalacca\b|eo biển malacca"),
+    ("Bán đảo Triều Tiên", r"\bkorean peninsula\b|bán đảo triều tiên|한반도|朝鮮半島"),
+    ("Okinawa", r"\bokinawa\b|沖縄"),
+    ("Kyushu", r"\bkyushu\b|九州"),
+    ("Hokkaido", r"\bhokkaido\b|北海道"),
+    ("Guam", r"\bguam\b|グアム"),
+    ("Hawaii", r"\bhawaii\b"),
+    ("Alaska", r"\balaska\b"),
+    ("Bắc Cực", r"\barctic\b|bắc cực"),
+    ("Ấn Độ Dương", r"\bindian ocean\b|ấn độ dương"),
+    ("Thái Bình Dương", r"\bpacific ocean\b|\bindo-pacific\b|\bwestern pacific\b|thái bình dương|太平洋"),
+    ("Vịnh Bengal", r"\bbay of bengal\b|vịnh bengal"),
+    ("Biển Ả Rập", r"\barabian sea\b|biển ả rập"),
+    ("Batanes", r"\bbatanes\b"),
+    ("Palawan", r"\bpalawan\b"),
+    ("Subic", r"\bsubic\b"),
+]
+
+COUNTRIES = [
+    ("Philippines", r"\bphilippines?\b|\bphilippine\b|\bmanila\b|菲律宾|フィリピン|필리핀"),
+    ("Việt Nam", r"\bvietnam\b|\bvietnamese\b|việt nam|quân khu\s*\d|越南|ベトナム|베트남"),
+    ("Mỹ", r"\bunited states\b|\bu\.s\.a?\b|\bu\.s\.\b|\bus navy\b|\bus army\b|\bus marine|\bus air force\b|\busaf\b|\busmc\b|\bamerican\b|\bpentagon\b|\bmỹ\b|\bhoa kỳ\b|美国|米国|米軍|미국|미군"),
+    ("Trung Quốc", r"\bchina\b|\bchinese\b|\bpla\b|\bplan\b|trung quốc|中国|解放军|중국"),
+    ("Nhật Bản", r"\bjapan\b|\bjapanese\b|\bjsdf\b|\bjmsdf\b|\bjasdf\b|nhật bản|日本|自衛隊|일본|자위대"),
+    ("Hàn Quốc", r"\bsouth korea\b|\brok\b|hàn quốc|韩国|韓国|한국|국방부"),
+    ("Triều Tiên", r"\bnorth korea\b|\bdprk\b|triều tiên|朝鲜|北朝鮮|북한"),
+    ("Đài Loan", r"\btaiwan\b|\btaiwanese\b|đài loan|台湾|대만"),
+    ("Úc", r"\baustralia\b|\baustralian\b|\badf\b|\búc\b|澳大利亚|オーストラリア|호주"),
+    ("Ấn Độ", r"\bindia\b|\bindian\b|ấn độ|印度|インド|인도"),
+    ("Nga", r"\brussia\b|\brussian\b|\bnga\b|俄罗斯|ロシア|러시아"),
+    ("Ukraine", r"\bukraine\b|\bukrainian\b|ukraina"),
+    ("Anh", r"\bunited kingdom\b|\bbritain\b|\bbritish\b|\broyal navy\b|\braf\b|\b(?:quân đội|hải quân|không quân|tàu chiến|nước)\s+anh\b|英国|영국"),
+    ("Pháp", r"\bfrance\b|\bfrench\b|\bpháp\b|法国|フランス|프랑스"),
+    ("Đức", r"\bgermany\b|\bgerman\b|\bbundeswehr\b|\bđức\b|德国|ドイツ|독일"),
+    ("Ba Lan", r"\bpoland\b|\bpolish\b|ba lan|波兰|폴란드"),
+    ("Ý", r"\bitaly\b|\bitalian\b|\b(?:hải quân|quân đội|nước)\s+ý\b|意大利|イタリア"),
+    ("Canada", r"\bcanada\b|\bcanadian\b|加拿大|カナダ|캐나다"),
+    ("Na Uy", r"\bnorway\b|\bnorwegian\b|na uy"),
+    ("Thụy Điển", r"\bsweden\b|\bswedish\b|thụy điển"),
+    ("Phần Lan", r"\bfinland\b|\bfinnish\b|phần lan"),
+    ("Đan Mạch", r"\bdenmark\b|\bdanish\b|đan mạch"),
+    ("Hà Lan", r"\bnetherlands\b|\bdutch\b|hà lan"),
+    ("Thổ Nhĩ Kỳ", r"\bturkey\b|\btürkiye\b|\bturkish\b|thổ nhĩ kỳ"),
+    ("Hy Lạp", r"\bgreece\b|\bgreek\b|hy lạp"),
+    ("Romania", r"\bromania\b|\bromanian\b"),
+    ("Estonia", r"\bestonia\b|\bestonian\b"),
+    ("Latvia", r"\blatvia\b|\blatvian\b"),
+    ("Lithuania", r"\blithuania\b|\blithuanian\b"),
+    ("Thái Lan", r"\bthailand\b|\bthai\b|thái lan|泰国|タイ|태국"),
+    ("Indonesia", r"\bindonesia\b|\bindonesian\b|印度尼西亚|インドネシア"),
+    ("Malaysia", r"\bmalaysia\b|\bmalaysian\b|马来西亚|マレーシア"),
+    ("Singapore", r"\bsingapore\b|\bsingaporean\b|新加坡|シンガポール"),
+    ("Iran", r"\biran\b|\biranian\b|伊朗|イラン|이란"),
+    ("Israel", r"\bisrael\b|\bisraeli\b|\bidf\b|以色列|イスラエル|이스라엘"),
+    ("Pakistan", r"\bpakistan\b|\bpakistani\b"),
+    ("New Zealand", r"\bnew zealand\b"),
+    ("Ả Rập Xê Út", r"\bsaudi arabia\b|\bsaudi\b|ả rập xê út"),
+    ("Ai Cập", r"\begypt\b|\begyptian\b|ai cập"),
+]
+
 def http_get(url, timeout=15):
     req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"})
     with urllib.request.urlopen(req, timeout=timeout) as r:
@@ -73,6 +149,64 @@ def parse_dt(item):
             except Exception: pass
     return None
 
+def clean_headline(text, source=""):
+    t = (text or "").strip()
+    if source:
+        t = re.sub(r"\s*[-–|]\s*" + re.escape(source.strip()) + r"\s*$", "", t, flags=re.I)
+    t = re.sub(r"\s+[-–|]\s+[A-Z0-9][A-Za-z0-9\s.&']{1,35}$", "", t)
+    return t.strip()
+
+def extract_troops(text):
+    if not text:
+        return 0
+    m = re.search(r"(\d+(?:[.,]\d+)?)\s*(?:vạn|万)\s*(?:quân|binh|lính|người|士兵|兵力|人)", text, re.I)
+    if m:
+        try: return int(float(m.group(1).replace(",", ".")) * 10000)
+        except Exception: pass
+    m = re.search(r"(\d{1,3}(?:[.,]\d{3})+|\d{3,6})\s*(?:\+?\s*)?(?:troops|soldiers|personnel|sailors|marines|airmen|service\s*members|quân\s*nhân|quân|binh\s*sĩ|chiến\s*sĩ|lính|名士兵|人|명)", text, re.I)
+    if m:
+        digits = re.sub(r"[.,]", "", m.group(1))
+        try:
+            val = int(digits)
+            if 20 <= val <= 500000:
+                return val
+        except Exception:
+            pass
+    return 0
+
+def extract_location_and_nations(text_orig, text_vi, reg, source=""):
+    combined = f"{clean_headline(text_orig, source)} {clean_headline(text_vi, source)}"
+    venues = []
+    country_text = combined
+    for name, pat in VENUES:
+        if re.search(pat, combined, re.I):
+            venues.append(name)
+            country_text = re.sub(pat, " ", country_text, flags=re.I)
+    countries = [name for name, pat in COUNTRIES if re.search(pat, country_text, re.I)]
+    venues = list(dict.fromkeys(venues))
+    countries = list(dict.fromkeys(countries))
+    if venues and countries:
+        extra = [c for c in countries if c.lower() not in venues[0].lower()]
+        loc = f"{', '.join(venues[:2])} ({', '.join(extra[:3])})" if extra else ", ".join(venues[:2])
+    elif venues:
+        loc = ", ".join(venues[:2])
+    elif countries:
+        loc = ", ".join(countries[:3])
+    else:
+        loc = f"Khu vực {reg}"
+    m_nat = re.search(r"\b(\d{1,2})\s*(?:nations?|countries|allies|quốc gia|nước|国|개국)\b", combined, re.I)
+    if m_nat and 1 <= int(m_nat.group(1)) <= 50:
+        nations_count = int(m_nat.group(1))
+    elif countries:
+        nations_count = len(countries)
+    elif re.search(r"\btrilateral\b|ba bên|3 nước|3 quốc gia|三国|삼국", combined, re.I):
+        nations_count = 3
+    elif re.search(r"\bbilateral\b|song phương|hai nước|2 nước|两国", combined, re.I):
+        nations_count = 2
+    else:
+        nations_count = 0
+    return loc, nations_count
+
 def fetch_rss():
     res = []
     for hl, gl, q in RSS_QUERIES:
@@ -103,6 +237,7 @@ def infer(title, lang):
         d, dl, dr = "Đa miền", "Tác chiến Đa miền (OSINT)", ["Hiệp đồng chỉ huy tham mưu liên quân", "Thực binh bắn đạn thật và bảo đảm hậu cần"]
     reg = "Việt Nam & Đông Nam Á" if (lang == "vi" or any(k in t for k in ["việt nam", "quân khu", "biển đông"])) else ("Châu Âu & Bắc Đại Tây Dương" if any(k in t for k in ["nato", "europe", "baltic", "poland", "ukraine", "arctic"]) else "Ấn Độ Dương - Thái Bình Dương")
     return d, dl, dr, reg
+
 def main():
     os.makedirs(os.path.dirname(DATA_FILE), exist_ok=True)
     now = datetime.now(timezone.utc)
@@ -125,6 +260,19 @@ def main():
                     item["purpose"] = f"Tin tức tự động dịch & cập nhật ({item.get('sourceTitle', 'OSINT')}): {vn}"
                     if isinstance(item.get("articles"), list) and item["articles"]:
                         item["articles"][0]["title"] = vn
+            if str(item.get("id", "")).startswith("osint-"):
+                src = item.get("sourceTitle", "")
+                reg = item.get("region", "Ấn Độ Dương - Thái Bình Dương")
+                loc, n_cnt = extract_location_and_nations(item.get("name", ""), item.get("purpose", ""), reg, src)
+                tr = extract_troops(f"{item.get('name', '')} {item.get('purpose', '')}")
+                if not item.get("location") or item.get("location") == src or "news" in str(item.get("location", "")).lower():
+                    item["location"] = loc
+                if item.get("troops") == 1500 and tr == 0:
+                    item["troops"] = 0
+                elif tr > 0:
+                    item["troops"] = tr
+                if item.get("nationsCount") == 2 or not item.get("nationsCount"):
+                    item["nationsCount"] = n_cnt
             fresh.append(item)
     urls = {i.get("sourceUrl") for i in fresh}
     titles = {i.get("name", "").lower() for i in fresh}
@@ -140,21 +288,23 @@ def main():
         vn = to_vi(art["title"], art["lang"])
         if vn.lower() in titles: continue
         d, dl, dr, reg = infer(art["title"] + " " + vn, art["lang"])
+        loc, n_cnt = extract_location_and_nations(art["title"], vn, reg, art["source"])
+        tr = extract_troops(f"{art['title']} {vn}")
         slug = re.sub(r"[^a-zA-Z0-9]", "", art["title"][:20]).lower() or str(added)
         fresh.insert(0, {
             "id": f"osint-{now.strftime('%Y%m%d%H')}-{slug}",
             "name": vn[:120],
             "dates": f"Ghi nhận: {pub_dt.strftime('%d/%m/%Y')}",
             "status": "Đang diễn ra",
-            "location": art["source"],
+            "location": loc,
             "region": reg,
             "domain": d,
             "domainLabel": dl,
             "purpose": f"Tin tức tự động dịch & cập nhật ({art['source']}): {vn}",
             "drills": dr,
             "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-            "troops": 1500,
-            "nationsCount": 2,
+            "troops": tr,
+            "nationsCount": n_cnt,
             "sourceTitle": art["source"],
             "sourceUrl": art["url"],
             "articles": [{"title": vn, "url": art["url"], "publisher": art["source"]}],
