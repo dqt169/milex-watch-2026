@@ -30,6 +30,36 @@
     "publishedAtIso": "2026-11-24T15:17:00+00:00"
   },
   {
+    "id": "osint-2026112417-usmarinestojoinf",
+    "name": "Thủy quân lục chiến Hoa Kỳ tham gia tập trận cùng lực lượng Phần Lan và Estonia ở Biển Baltic - The Defense Post",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "The Defense Post",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Defense Post): Thủy quân lục chiến Hoa Kỳ tham gia tập trận cùng lực lượng Phần Lan và Estonia ở Biển Baltic - The Defense Post",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "The Defense Post",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyWlFfb2FNUWJzd1hrN05hUnlWMDBMYUxzOW5wcVN3bTFHVm1uMV9UWkJlcVV3aHpidl9INDZPa19oYU84LXdqRlNEa1F6c0N4SWY4eVpIcjhlMzhvVDVIblJZVjdGNnFCTDlOLWtBTnZiUVlvR1HSAXtBVV95cUxPZDZqMS1tbGphMVVfTGJFbkp0VnMybnlKRVhaVFk4aklqcW5TS2tTZ2xXNDM2UFdNTGxGOE5RS3I0X0V0TTVyWEZuZDdfbGhuSFh2aXRFMHNsUGxzc0lUU0dPUjBvZ3dPa1A0S0RiMFFSTDVDRVhQZ1ltUms?oc=5",
+    "articles": [
+      {
+        "title": "Thủy quân lục chiến Hoa Kỳ tham gia tập trận cùng lực lượng Phần Lan và Estonia ở Biển Baltic - The Defense Post",
+        "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyWlFfb2FNUWJzd1hrN05hUnlWMDBMYUxzOW5wcVN3bTFHVm1uMV9UWkJlcVV3aHpidl9INDZPa19oYU84LXdqRlNEa1F6c0N4SWY4eVpIcjhlMzhvVDVIblJZVjdGNnFCTDlOLWtBTnZiUVlvR1HSAXtBVV95cUxPZDZqMS1tbGphMVVfTGJFbkp0VnMybnlKRVhaVFk4aklqcW5TS2tTZ2xXNDM2UFdNTGxGOE5RS3I0X0V0TTVyWEZuZDdfbGhuSFh2aXRFMHNsUGxzc0lUU0dPUjBvZ3dPa1A0S0RiMFFSTDVDRVhQZ1ltUms?oc=5",
+        "publisher": "The Defense Post"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T14:19:48+00:00"
+  },
+  {
     "id": "osint-2026112417-pminswarnadwipto",
     "name": "Thủ tướng đến Swarnadwip để chứng kiến ​​cuộc tập trận chung - Banglanews24",
     "dates": "Ghi nhận: 24/11/2026",
@@ -90,6 +120,66 @@
     "publishedAtIso": "2026-11-24T10:45:17+00:00"
   },
   {
+    "id": "osint-2026112417-quntrittrinkh",
+    "name": "Quán triệt, triển khai nhiệm vụ diễn tập tác chiến cấp xã năm 2026 - Báo và Phát thanh, Truyền hình Lạng Sơn - Baolangso",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Baolangson.vn",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Baolangson.vn): Quán triệt, triển khai nhiệm vụ diễn tập tác chiến cấp xã năm 2026 - Báo và Phát thanh, Truyền hình Lạng Sơn - Baolangson.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Baolangson.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkRLd3NiWTVTMFdPTTB1WjB3M2wxeHZaWUdXbGxoSzJMemp1RkxmdTFNbGgyWmFBYl9sSFZwUEFLY2tneldhNlcwNjJrWE12dzVzemVSQmxaOTZxbDJBZV9GaEdyR2VxSDdRRDNsWWF5LWdjQXJQVVdNV1E5bHRSMFJick5Ca0s4OHJnNXFCdG5lM1hwYWFTVWNwME9EUEtiRlc2TXkxcTFhbHB5ZDVwVmZGaTNLNlNmb24zUjdVSVZuUQ?oc=5",
+    "articles": [
+      {
+        "title": "Quán triệt, triển khai nhiệm vụ diễn tập tác chiến cấp xã năm 2026 - Báo và Phát thanh, Truyền hình Lạng Sơn - Baolangson.vn",
+        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkRLd3NiWTVTMFdPTTB1WjB3M2wxeHZaWUdXbGxoSzJMemp1RkxmdTFNbGgyWmFBYl9sSFZwUEFLY2tneldhNlcwNjJrWE12dzVzemVSQmxaOTZxbDJBZV9GaEdyR2VxSDdRRDNsWWF5LWdjQXJQVVdNV1E5bHRSMFJick5Ca0s4OHJnNXFCdG5lM1hwYWFTVWNwME9EUEtiRlc2TXkxcTFhbHB5ZDVwVmZGaTNLNlNmb24zUjdVSVZuUQ?oc=5",
+        "publisher": "Baolangson.vn"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T10:38:54+00:00"
+  },
+  {
+    "id": "osint-2026112417-c2",
+    "name": "Sự cố máy bay vận tải C-2 của Lực lượng phòng vệ trên không không thể đổi hướng trên đường lăn Sân bay Miyako tham gia c",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "TBS NEWS DIG",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (TBS NEWS DIG): Sự cố máy bay vận tải C-2 của Lực lượng phòng vệ trên không không thể đổi hướng trên đường lăn Sân bay Miyako tham gia cuộc tập trận chung Nhật-Mỹ - TBS NEWS DIG",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "TBS NEWS DIG",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XTHAyaVdCcXJvWVlBSllydUwtWWJlamFzdFh3RDV1S2pKcjFoNDUwekFkUDJQUm81ZUVpSGNKbGRvbUpuTXV3T3dFdTk4N3JKQl9NOGxZb2Q5YU1hVmI0?oc=5",
+    "articles": [
+      {
+        "title": "Sự cố máy bay vận tải C-2 của Lực lượng phòng vệ trên không không thể đổi hướng trên đường lăn Sân bay Miyako tham gia cuộc tập trận chung Nhật-Mỹ - TBS NEWS DIG",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XTHAyaVdCcXJvWVlBSllydUwtWWJlamFzdFh3RDV1S2pKcjFoNDUwekFkUDJQUm81ZUVpSGNKbGRvbUpuTXV3T3dFdTk4N3JKQl9NOGxZb2Q5YU1hVmI0?oc=5",
+        "publisher": "TBS NEWS DIG"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T09:58:00+00:00"
+  },
+  {
     "id": "osint-2026112417-3202",
     "name": "Ba tàu hải quân Trung Quốc tới Campuchia tham gia tập trận chung “Rồng vàng-2026” - Campuchia Daily",
     "dates": "Ghi nhận: 24/11/2026",
@@ -120,6 +210,36 @@
     "publishedAtIso": "2026-11-24T09:00:55+00:00"
   },
   {
+    "id": "osint-2026112417-noroomathomewhy",
+    "name": "Không còn chỗ ở nhà: tại sao Nhật Bản tập trận tên lửa trên đất Ấn Độ - South China Morning Post",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "South China Morning Post",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (South China Morning Post): Không còn chỗ ở nhà: tại sao Nhật Bản tập trận tên lửa trên đất Ấn Độ - South China Morning Post",
+    "drills": [
+      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện và chế áp UAV (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "South China Morning Post",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeS1tODQ4Z1dCczR2Nk1HQV9iS3VGZnh6T25HOEpWZ2JVNFdrMTUtSDFKUnVuVjg3Q29tTml2c2ptdklFNVI2eTNYMGlkR2c0OTd3S3lOaUFnMXZROVk1ZTFYNTNITVNKSWVCMGRnYmVydUU2YXFERnJCTl9UNm42UXZlZTdfY2hJc25QMENRWUtUQVlMOWlzek9pcHg0Mmx2UHFMcVhB0gGmAUFVX3lxTFBENm45QzBxU011RU01TmVFUWFKcTFKY1JYQXdmejFuU3l4QXp3eW42c3ZVQmtMY1ZKekxCWWlQdDBtbEE5bGlkT2VSeFdKR0dxVm5qblJ6UDUtRmVwUm9sZjkydmJtWnh2aER1M2U5WDBsS2RuMTdJVnVSMlB6TFhRZ0tVZ1RYQnIyWjF6WV9MbFU0eVpyME5OWkR6TnZDay1USWhyZWc?oc=5",
+    "articles": [
+      {
+        "title": "Không còn chỗ ở nhà: tại sao Nhật Bản tập trận tên lửa trên đất Ấn Độ - South China Morning Post",
+        "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeS1tODQ4Z1dCczR2Nk1HQV9iS3VGZnh6T25HOEpWZ2JVNFdrMTUtSDFKUnVuVjg3Q29tTml2c2ptdklFNVI2eTNYMGlkR2c0OTd3S3lOaUFnMXZROVk1ZTFYNTNITVNKSWVCMGRnYmVydUU2YXFERnJCTl9UNm42UXZlZTdfY2hJc25QMENRWUtUQVlMOWlzek9pcHg0Mmx2UHFMcVhB0gGmAUFVX3lxTFBENm45QzBxU011RU01TmVFUWFKcTFKY1JYQXdmejFuU3l4QXp3eW42c3ZVQmtMY1ZKekxCWWlQdDBtbEE5bGlkT2VSeFdKR0dxVm5qblJ6UDUtRmVwUm9sZjkydmJtWnh2aER1M2U5WDBsS2RuMTdJVnVSMlB6TFhRZ0tVZ1RYQnIyWjF6WV9MbFU0eVpyME5OWkR6TnZDay1USWhyZWc?oc=5",
+        "publisher": "South China Morning Post"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T09:00:10+00:00"
+  },
+  {
     "id": "osint-2026112417-cambodiachinatoh",
     "name": "Campuchia, Trung Quốc tổ chức tập trận Rồng Vàng vào cuối tháng 11 - Kiripost",
     "dates": "Ghi nhận: 24/11/2026",
@@ -148,6 +268,66 @@
     "updatedAt": "24/11/2026 17:05 UTC",
     "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
     "publishedAtIso": "2026-11-24T08:30:59+00:00"
+  },
+  {
+    "id": "osint-2026112417-6",
+    "name": "Máy bay quân sự Nga tiếp cận không phận Ulleungdo... Chính phủ mời tùy viên quân sự Nga phản đối - Kyunghyang Shinmun",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "경향신문",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (경향신문): Máy bay quân sự Nga tiếp cận không phận Ulleungdo... Chính phủ mời tùy viên quân sự Nga phản đối - Kyunghyang Shinmun",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "경향신문",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zMGpEcGItRk5GdVRJZXJTT1plZWFXb2RxaFFzZDZWNmFRekhVakR5S3ExcF9ZR0g4OWpYQ2FmWkdUOHQ3NUJBd0tvV3lXU3BQZlUxSUttb0hVd19zXzlr0gFfQVVfeXFMTTMwakRwYi1GTkZ1VEllclNPWmVlYVdvZHFoUXNkNlY2YVF6SFVqRHlLcTFwX1lHSDg5alhDYWZaR1Q4dDc1QkF3S29XeVdTcFBmVTFJS21vSFV3X3NfOWs?oc=5",
+    "articles": [
+      {
+        "title": "Máy bay quân sự Nga tiếp cận không phận Ulleungdo... Chính phủ mời tùy viên quân sự Nga phản đối - Kyunghyang Shinmun",
+        "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zMGpEcGItRk5GdVRJZXJTT1plZWFXb2RxaFFzZDZWNmFRekhVakR5S3ExcF9ZR0g4OWpYQ2FmWkdUOHQ3NUJBd0tvV3lXU3BQZlUxSUttb0hVd19zXzlr0gFfQVVfeXFMTTMwakRwYi1GTkZ1VEllclNPWmVlYVdvZHFoUXNkNlY2YVF6SFVqRHlLcTFwX1lHSDg5alhDYWZaR1Q4dDc1QkF3S29XeVdTcFBmVTFJS21vSFV3X3NfOWs?oc=5",
+        "publisher": "경향신문"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T07:59:00+00:00"
+  },
+  {
+    "id": "osint-2026112417-5",
+    "name": "[Chẩn đoán an ninh Đông Bắc Á ④] Sự gần gũi quân sự Trung-Nga... Áp lực kép lên an ninh trên Bán đảo Triều Tiên - OBC Ne",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "OBC 뉴스",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (OBC 뉴스): [Chẩn đoán an ninh Đông Bắc Á ④] Sự gần gũi quân sự Trung-Nga... Áp lực kép lên an ninh trên Bán đảo Triều Tiên - OBC News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "OBC 뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84T1ZrWlU0bzVPTGxKYWRvWTJPQmRYcERaMWdVVktHS2xneEtCekdhT19SYWhqLWlOakpDNFBkSkZIZzZraDlFOUthcUd4bjJvMnRrRVMwVnJHMzVpREt3Wnh1dW96YUxENkE?oc=5",
+    "articles": [
+      {
+        "title": "[Chẩn đoán an ninh Đông Bắc Á ④] Sự gần gũi quân sự Trung-Nga... Áp lực kép lên an ninh trên Bán đảo Triều Tiên - OBC News",
+        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84T1ZrWlU0bzVPTGxKYWRvWTJPQmRYcERaMWdVVktHS2xneEtCekdhT19SYWhqLWlOakpDNFBkSkZIZzZraDlFOUthcUd4bjJvMnRrRVMwVnJHMzVpREt3Wnh1dW96YUxENkE?oc=5",
+        "publisher": "OBC 뉴스"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T07:46:06+00:00"
   },
   {
     "id": "osint-2026112417-9",
@@ -390,6 +570,36 @@
     "publishedAtIso": "2026-11-24T03:14:23+00:00"
   },
   {
+    "id": "osint-2026112417-7",
+    "name": "Máy bay quân sự Nga suýt xâm phạm không phận... \"Tùy viên quân sự Nga được cử đến\" của Bộ Quốc phòng tức giận - JooAng I",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "중앙일보",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (중앙일보): Máy bay quân sự Nga suýt xâm phạm không phận... \"Tùy viên quân sự Nga được cử đến\" của Bộ Quốc phòng tức giận - JooAng Ilbo",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "중앙일보",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcGVSVHVPcEthZnBGX3VYQ1NsUURvSEV0XzZDYTE5NEh2alZNRE1VVnI4Y2NMQzVDSWp3T3J3TFpmSDduMFEyRTg4c1NzUHpKZDdhQkFB?oc=5",
+    "articles": [
+      {
+        "title": "Máy bay quân sự Nga suýt xâm phạm không phận... \"Tùy viên quân sự Nga được cử đến\" của Bộ Quốc phòng tức giận - JooAng Ilbo",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcGVSVHVPcEthZnBGX3VYQ1NsUURvSEV0XzZDYTE5NEh2alZNRE1VVnI4Y2NMQzVDSWp3T3J3TFpmSDduMFEyRTg4c1NzUHpKZDdhQkFB?oc=5",
+        "publisher": "중앙일보"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T03:03:37+00:00"
+  },
+  {
     "id": "osint-2026112404-9",
     "name": "Bộ Quốc phòng triệu tập đại diện Nga sau khi máy bay quân sự Nga tiếp cận không phận đảo Ulleungdo... Dự kiến sẽ phản đố",
     "dates": "Ghi nhận: 24/11/2026",
@@ -418,6 +628,36 @@
     "updatedAt": "24/11/2026 04:40 UTC",
     "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
     "publishedAtIso": "2026-11-24T02:13:18+00:00"
+  },
+  {
+    "id": "osint-2026112417-8",
+    "name": "Máy bay quân sự Nga tiến vào vùng nhận dạng phòng không Biển Đông...Súng Ulleung trong tình trạng báo động - SPN Seoul B",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "SPN 서울평양뉴스",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (SPN 서울평양뉴스): Máy bay quân sự Nga tiến vào vùng nhận dạng phòng không Biển Đông...Súng Ulleung trong tình trạng báo động - SPN Seoul Bình Nhưỡng News",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "SPN 서울평양뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBONjJmUzRzakpxZkV5VWozOWhKWGpaUFdnekNlRmNBcDNLNTVveDRqNDI1cExpRXRDZk5SZUpPTXpzLWZnUlNDTFA4WjN4alBENnd5blIzQ0JEeUgwYUcxWkl5aU5kY1dsZjlZ?oc=5",
+    "articles": [
+      {
+        "title": "Máy bay quân sự Nga tiến vào vùng nhận dạng phòng không Biển Đông...Súng Ulleung trong tình trạng báo động - SPN Seoul Bình Nhưỡng News",
+        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBONjJmUzRzakpxZkV5VWozOWhKWGpaUFdnekNlRmNBcDNLNTVveDRqNDI1cExpRXRDZk5SZUpPTXpzLWZnUlNDTFA4WjN4alBENnd5blIzQ0JEeUgwYUcxWkl5aU5kY1dsZjlZ?oc=5",
+        "publisher": "SPN 서울평양뉴스"
+      }
+    ],
+    "updatedAt": "24/11/2026 17:32 UTC",
+    "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
+    "publishedAtIso": "2026-11-24T00:07:45+00:00"
   },
   {
     "id": "osint-2026112417-qunkhu3kimtra",
@@ -1558,245 +1798,5 @@
     "updatedAt": "22/11/2026 09:30 UTC",
     "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
     "publishedAtIso": "2026-11-22T08:09:00+00:00"
-  },
-  {
-    "id": "osint-2026112217-bbinh8ncnato",
-    "name": "Bộ binh 8 nước NATO diễn tập vượt sông ở Litva, tiêm kích Đức yểm trợ - Báo Tin tức và Dân tộc - TTXVN",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Báo Tin tức và Dân tộc - TTXVN",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Tin tức và Dân tộc - TTXVN): Bộ binh 8 nước NATO diễn tập vượt sông ở Litva, tiêm kích Đức yểm trợ - Báo Tin tức và Dân tộc - TTXVN",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Tin tức và Dân tộc - TTXVN",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM3VTSFZwT0tkaXlMZTlJMU5ha0ptckxkbldVMHBnZlF0N0lfazdxUHNSMlV2MWVUVGhULWhvU05uWU5la2RTSUZzS21sVG9zWEhVS25Hb3hKNlhLd3p4SG41TXQxNTRUOHNHbmtSdjBwR28zRzhEcXNVdzVKWWhBT3hPbC1iY0lxVDdjMnVrY0RjWVFTZVpuRnhkQUlkbWEyRmwtMkxRWnRqdw?oc=5",
-    "articles": [
-      {
-        "title": "Bộ binh 8 nước NATO diễn tập vượt sông ở Litva, tiêm kích Đức yểm trợ - Báo Tin tức và Dân tộc - TTXVN",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOM3VTSFZwT0tkaXlMZTlJMU5ha0ptckxkbldVMHBnZlF0N0lfazdxUHNSMlV2MWVUVGhULWhvU05uWU5la2RTSUZzS21sVG9zWEhVS25Hb3hKNlhLd3p4SG41TXQxNTRUOHNHbmtSdjBwR28zRzhEcXNVdzVKWWhBT3hPbC1iY0lxVDdjMnVrY0RjWVFTZVpuRnhkQUlkbWEyRmwtMkxRWnRqdw?oc=5",
-        "publisher": "Báo Tin tức và Dân tộc - TTXVN"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T07:28:48+00:00"
-  },
-  {
-    "id": "osint-2026112209-chinasdrillsexpos",
-    "name": "Cuộc tập trận của Trung Quốc phơi bày cái giá phải trả nếu Đài Loan không hành động - Đài Loan News",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Taiwan News",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Taiwan News): Cuộc tập trận của Trung Quốc phơi bày cái giá phải trả nếu Đài Loan không hành động - Đài Loan News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Taiwan News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lOHA4bVBxcFZSWXBTMndjaDdNaDl0eGtPYUt2UkpfN0lsWlZNSUJ4T05fVW9LNkd2SUR6UWhZUmx5akJiVndNaFY2TjJEUF9ka1dsSExESjk?oc=5",
-    "articles": [
-      {
-        "title": "Cuộc tập trận của Trung Quốc phơi bày cái giá phải trả nếu Đài Loan không hành động - Đài Loan News",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9lOHA4bVBxcFZSWXBTMndjaDdNaDl0eGtPYUt2UkpfN0lsWlZNSUJ4T05fVW9LNkd2SUR6UWhZUmx5akJiVndNaFY2TjJEUF9ka1dsSExESjk?oc=5",
-        "publisher": "Taiwan News"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T05:15:00+00:00"
-  },
-  {
-    "id": "osint-2026112209-afptestsairnaval",
-    "name": "AFP kiểm tra khả năng phòng không, hải quân trong cuộc tập trận phía bắc Luzon Bởi Darryl John Esguerra MANILA – Lực lượ",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Facebook",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Facebook): AFP kiểm tra khả năng phòng không, hải quân trong cuộc tập trận phía bắc Luzon Bởi Darryl John Esguerra MANILA – Lực lượng vũ trang Philippines (AFP) đã kiểm tra khả năng phòng không và hải quân của mình ở phía bắc Luzon như một phần của Cuộc tập trận chung AFP (AJEX) DAGI kéo dài 10 ngày - Facebook",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Facebook",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYVdfT2x6STZqVkhPY1J2VDVQeDhSclp5QUV4NGhMTWlIYU4wMUNQVVdVdkZfRlRMaVNwTFZfYjU0dXBCTEpndHBwNGR2bHUxTkdlODNqLWZfV1Nna2tRTW1zbW5QenFKRGxJRWY1MmJuMVI2NmpnZ1RwbFdFd01idUVoemZMRWVlRHJVclBVbjdPbFBwTWtLMFZ2Z201eXdfSzM2MVQyU0N4QmU2QjdBUWItZDZxSzFoRnI2MER3eVlBNU45bnJ1T1lNeXZKbUNwS3NJdQ?oc=5",
-    "articles": [
-      {
-        "title": "AFP kiểm tra khả năng phòng không, hải quân trong cuộc tập trận phía bắc Luzon Bởi Darryl John Esguerra MANILA – Lực lượng vũ trang Philippines (AFP) đã kiểm tra khả năng phòng không và hải quân của mình ở phía bắc Luzon như một phần của Cuộc tập trận chung AFP (AJEX) DAGI kéo dài 10 ngày - Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPYVdfT2x6STZqVkhPY1J2VDVQeDhSclp5QUV4NGhMTWlIYU4wMUNQVVdVdkZfRlRMaVNwTFZfYjU0dXBCTEpndHBwNGR2bHUxTkdlODNqLWZfV1Nna2tRTW1zbW5QenFKRGxJRWY1MmJuMVI2NmpnZ1RwbFdFd01idUVoemZMRWVlRHJVclBVbjdPbFBwTWtLMFZ2Z201eXdfSzM2MVQyU0N4QmU2QjdBUWItZDZxSzFoRnI2MER3eVlBNU45bnJ1T1lNeXZKbUNwS3NJdQ?oc=5",
-        "publisher": "Facebook"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T04:34:47+00:00"
-  },
-  {
-    "id": "osint-2026112209-92",
-    "name": "Đó là lý do tàu Trung Quốc có thể ở trong lãnh hải quần đảo Senkaku trong 92 giờ...Điểm yếu của “biển Nhật Bản” không ph",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "PRESIDENT Online（プレジデントオンライン）",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (PRESIDENT Online（プレジデントオンライン）): Đó là lý do tàu Trung Quốc có thể ở trong lãnh hải quần đảo Senkaku trong 92 giờ...Điểm yếu của “biển Nhật Bản” không phải điểm yếu của Cảnh sát biển Nhật Bản hay sự sơ suất của Lực lượng Phòng vệ Nhật Bản (Trang 4) - PRESIDENT Online",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "PRESIDENT Online（プレジデントオンライン）",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IdWFJb29PejlOWEIzeENFMk52MVRDeExrczVQSVVFZmZmbzhJNlJVcG5YN3FibGlrRFdPUmo1T21RNE9LOWZBQldUY3J3aFJTYllIUWxETWI?oc=5",
-    "articles": [
-      {
-        "title": "Đó là lý do tàu Trung Quốc có thể ở trong lãnh hải quần đảo Senkaku trong 92 giờ...Điểm yếu của “biển Nhật Bản” không phải điểm yếu của Cảnh sát biển Nhật Bản hay sự sơ suất của Lực lượng Phòng vệ Nhật Bản (Trang 4) - PRESIDENT Online",
-        "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9IdWFJb29PejlOWEIzeENFMk52MVRDeExrczVQSVVFZmZmbzhJNlJVcG5YN3FibGlrRFdPUmo1T21RNE9LOWZBQldUY3J3aFJTYllIUWxETWI?oc=5",
-        "publisher": "PRESIDENT Online（プレジデントオンライン）"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T02:00:00+00:00"
-  },
-  {
-    "id": "osint-2026112209-australianewzeala",
-    "name": "Hải quân Úc, New Zealand và Hoa Kỳ tăng cường khả năng tác chiến mìn trong cuộc tập trận Dugong - Đánh giá Á-Âu",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Eurasia Review",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Eurasia Review): Hải quân Úc, New Zealand và Hoa Kỳ tăng cường khả năng tác chiến mìn trong cuộc tập trận Dugong - Đánh giá Á-Âu",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Eurasia Review",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkF6c3VjTE9kcl9qblhmektLR2xsX1diWmZKMTIxOFk5OUdiNnJmZXk1M1Q2eEc1QnNVZVJfbHRLNnN3LUphQVhqMWlBT2d4enY2eU52eWRPZnhRMi1OcHVYcjc1NlZ6YWItZ2tUN1c3MEl4WlFiWGJ4ZWdOMWdranRhQnpKSUU3SXdOaXFYVm15b2k3MGRiQ05jRXhXS01vc1lHU0JRVGwxLTRabHR4M1o0S2hYTFV2YVpTc0lHT3NuQQ?oc=5",
-    "articles": [
-      {
-        "title": "Hải quân Úc, New Zealand và Hoa Kỳ tăng cường khả năng tác chiến mìn trong cuộc tập trận Dugong - Đánh giá Á-Âu",
-        "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORkF6c3VjTE9kcl9qblhmektLR2xsX1diWmZKMTIxOFk5OUdiNnJmZXk1M1Q2eEc1QnNVZVJfbHRLNnN3LUphQVhqMWlBT2d4enY2eU52eWRPZnhRMi1OcHVYcjc1NlZ6YWItZ2tUN1c3MEl4WlFiWGJ4ZWdOMWdranRhQnpKSUU3SXdOaXFYVm15b2k3MGRiQ05jRXhXS01vc1lHU0JRVGwxLTRabHR4M1o0S2hYTFV2YVpTc0lHT3NuQQ?oc=5",
-        "publisher": "Eurasia Review"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T01:17:18+00:00"
-  },
-  {
-    "id": "osint-2026112319-7",
-    "name": "Lực lượng Phòng vệ Mặt đất và Quân đội Anh tổ chức cuộc tập trận chung lần thứ bảy ở Hokkaido. Bài học từ Chiến tranh Fa",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "ｄメニューニュース",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (ｄメニューニュース): Lực lượng Phòng vệ Mặt đất và Quân đội Anh tổ chức cuộc tập trận chung lần thứ bảy ở Hokkaido. Bài học từ Chiến tranh Falklands có liên quan trực tiếp đến tình trạng khẩn cấp ở Đài Loan là gì? - Tin tức dMenu",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "ｄメニューニュース",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90UThSX2tyS2RZZjg2Q1lUZU9tcEZuLV9uZ25kSWRJMnNvZkZuSk5TS1ZWVXJTX1VmWkM5anBiLXpCa3FpZ2xnenpnU2NEazY1VGE4OEdIV1h5Q2gwdU1XeVhoQ29QaGpCVTlPVUEyYkVMUVFNUmVtOEcwRdIBd0FVX3lxTE5aT3RDRmg5cFpJMlVwZW94OUtWbldrYmt5Y0REMnd1T2RIQ1MzajB4NU5mY3ZnYkdBekxheWlaVDd6R0JNa2QzUVZrU3BZSERrMTdzUy1xaHhUZ3JXVlpYV1BwVHZxUUtsRjBEMGdkSUZHQS1JSFYw?oc=5",
-    "articles": [
-      {
-        "title": "Lực lượng Phòng vệ Mặt đất và Quân đội Anh tổ chức cuộc tập trận chung lần thứ bảy ở Hokkaido. Bài học từ Chiến tranh Falklands có liên quan trực tiếp đến tình trạng khẩn cấp ở Đài Loan là gì? - Tin tức dMenu",
-        "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE90UThSX2tyS2RZZjg2Q1lUZU9tcEZuLV9uZ25kSWRJMnNvZkZuSk5TS1ZWVXJTX1VmWkM5anBiLXpCa3FpZ2xnenpnU2NEazY1VGE4OEdIV1h5Q2gwdU1XeVhoQ29QaGpCVTlPVUEyYkVMUVFNUmVtOEcwRdIBd0FVX3lxTE5aT3RDRmg5cFpJMlVwZW94OUtWbldrYmt5Y0REMnd1T2RIQ1MzajB4NU5mY3ZnYkdBekxheWlaVDd6R0JNa2QzUVZrU3BZSERrMTdzUy1xaHhUZ3JXVlpYV1BwVHZxUUtsRjBEMGdkSUZHQS1JSFYw?oc=5",
-        "publisher": "ｄメニューニュース"
-      }
-    ],
-    "updatedAt": "23/11/2026 19:55 UTC",
-    "collectedAtIso": "2026-11-23T19:55:55.328523+00:00",
-    "publishedAtIso": "2026-11-22T00:03:00+00:00"
-  },
-  {
-    "id": "osint-2026112209-7",
-    "name": "GSDF và Quân đội Anh tổ chức cuộc tập trận chung lần thứ 7 tại Hokkaido - Bài học từ Chiến tranh Falklands có liên quan ",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Infoseek",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Infoseek): GSDF và Quân đội Anh tổ chức cuộc tập trận chung lần thứ 7 tại Hokkaido - Bài học từ Chiến tranh Falklands có liên quan trực tiếp đến tình trạng khẩn cấp ở Đài Loan là gì? - Tìm kiếm thông tin",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Infoseek",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hVTZhLU5ITWp2M2twTEpqeTRzQVBneXlVT1REYVdjZWtqS2k2RmtZSTFOUmNMNnRVTTBZNXVaaUJ6enZFWldJdWxRUFJyLW9ZMVVWd0h2c3gxc25zZEo4RXRva2x3TjhIcWh30gFrQVVfeXFMT2FVNmEtTkhNanYza3BMSmp5NHNBUGd5eVVPVERhV2Nla2pLaTZGa1lJMU5SY0w2dFVNMFk1dVppQnp6dkVaV0l1bFFQUnItb1kxVVZ3SHZzeDFzbnNkSjhFdG9rbHdOOEhxaHc?oc=5",
-    "articles": [
-      {
-        "title": "GSDF và Quân đội Anh tổ chức cuộc tập trận chung lần thứ 7 tại Hokkaido - Bài học từ Chiến tranh Falklands có liên quan trực tiếp đến tình trạng khẩn cấp ở Đài Loan là gì? - Tìm kiếm thông tin",
-        "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9hVTZhLU5ITWp2M2twTEpqeTRzQVBneXlVT1REYVdjZWtqS2k2RmtZSTFOUmNMNnRVTTBZNXVaaUJ6enZFWldJdWxRUFJyLW9ZMVVWd0h2c3gxc25zZEo4RXRva2x3TjhIcWh30gFrQVVfeXFMT2FVNmEtTkhNanYza3BMSmp5NHNBUGd5eVVPVERhV2Nla2pLaTZGa1lJMU5SY0w2dFVNMFk1dVppQnp6dkVaV0l1bFFQUnItb1kxVVZ3SHZzeDFzbnNkSjhFdG9rbHdOOEhxaHc?oc=5",
-        "publisher": "Infoseek"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T00:03:00+00:00"
-  },
-  {
-    "id": "osint-2026112201-7",
-    "name": "Lực lượng Phòng vệ Mặt đất Nhật Bản và Lục quân Anh tiến hành cuộc tập trận chung lần thứ 7 tại Hokkaido. Bài học từ cuộ",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "ｄメニューニュース",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (ｄメニューニュース): Lực lượng Phòng vệ Mặt đất Nhật Bản và Lục quân Anh tiến hành cuộc tập trận chung lần thứ 7 tại Hokkaido. Bài học từ cuộc xung đột Falkland, có liên quan trực tiếp đến tình hình khẩn cấp ở Đài Loan, là gì?... - Tin tức dmenu",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "ｄメニューニュース",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJeDdLcDJnRVhablUxSzg0VDZYWTVhN29ob19yM0NYR29Tb2RvY2dSb25mbVY1UEtlQ0ZrZFQwM05fTExndmRtTlV2ZWZqbTRvdjlCbzdERTF4MjQ1eW5BOVAyTzNicTZhMFlxX1F6WGlCZ9IBd0FVX3lxTE5aT3RDRmg5cFpJMlVwZW94OUtWbldrYmt5Y0REMnd1T2RIQ1MzajB4NU5mY3ZnYkdBekxheWlaVDd6R0JNa2QzUVZrU3BZSERrMTdzUy1xaHhUZ3JXVlpYV1BwVHZxUUtsRjBEMGdkSUZHQS1JSFYw?oc=5",
-    "articles": [
-      {
-        "title": "Lực lượng Phòng vệ Mặt đất Nhật Bản và Lục quân Anh tiến hành cuộc tập trận chung lần thứ 7 tại Hokkaido. Bài học từ cuộc xung đột Falkland, có liên quan trực tiếp đến tình hình khẩn cấp ở Đài Loan, là gì?... - Tin tức dmenu",
-        "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBJeDdLcDJnRVhablUxSzg0VDZYWTVhN29ob19yM0NYR29Tb2RvY2dSb25mbVY1UEtlQ0ZrZFQwM05fTExndmRtTlV2ZWZqbTRvdjlCbzdERTF4MjQ1eW5BOVAyTzNicTZhMFlxX1F6WGlCZ9IBd0FVX3lxTE5aT3RDRmg5cFpJMlVwZW94OUtWbldrYmt5Y0REMnd1T2RIQ1MzajB4NU5mY3ZnYkdBekxheWlaVDd6R0JNa2QzUVZrU3BZSERrMTdzUy1xaHhUZ3JXVlpYV1BwVHZxUUtsRjBEMGdkSUZHQS1JSFYw?oc=5",
-        "publisher": "ｄメニューニュース"
-      }
-    ],
-    "updatedAt": "22/11/2026 01:55 UTC",
-    "collectedAtIso": "2026-11-22T01:55:59.752404+00:00",
-    "publishedAtIso": "2026-11-22T00:03:00+00:00"
   }
 ]
