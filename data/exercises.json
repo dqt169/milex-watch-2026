@@ -525,7 +525,7 @@
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
     "troops": 0,
-    "nationsCount": 2,
+    "nationsCount": 1,
     "sourceTitle": "Chosunbiz",
     "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlctMmFQcjBVOGNJVC1KT3ZaazdjWmxZWmY4Q3RDbGw0aWVFX1RUMVhoR2dQUnB5NElfcUtrOEdMZ3FGdHV6WEliXzFvMV9ycXlDVnd0aHpKd3F0cml5SHFMNnN4Tkp6U1pHM29HSGhJbEZoMklrSVgzQ0dXOHEzcXVMMNIBlwFBVV95cUxQSjNkMkg0SnF1aGtzb3dfZG5fV3V6RmMzcTNQVlY3OGZiVl93ZGlaTmtNbDhBMTVNckRncTJpWjFMNnFJVGpkbHJ1QU44OEZZNVZzUk5HQ1lkb09fZEVZR3JmbFg0ZzFWRE5FbU9RaXpfT2lxVVBOQ25kM01XY29SWTMwNDJtSEhQVEFkYVhlQVJqZ3dMMDlF?oc=5",
     "articles": [
@@ -808,6 +808,36 @@
     "updatedAt": "24/11/2026 04:40 UTC",
     "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
     "publishedAtIso": "2026-11-24T02:13:18+00:00"
+  },
+  {
+    "id": "osint-2026112423-kimtracngtcch",
+    "name": "Kiểm tra công tác chuẩn bị diễn tập Vòm phòng không bền vững tại Bộ Tư lệnh Thủ đô Hà Nội - quocphongthudo.vn",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (quocphongthudo.vn): Kiểm tra công tác chuẩn bị diễn tập Vòm phòng không bền vững tại Bộ Tư lệnh Thủ đô Hà Nội - quocphongthudo.vn",
+    "drills": [
+      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện và chế áp UAV (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "quocphongthudo.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNamlHSXM3UUh3R3Jlel9IcXJCS2xHMm42c2pVbU9oS2VILWYtU3FzdGtIVFpFcUwzdkd5VjRXWDE4VHBhZHUxZUduNFMwOGRSM3d4Q3p0UXFpRFF0TUdUdzhXX19zdTk5cmVJR1ZjZFBaaVVNOGxGTkc3cG5QSENEMEMtcXp3NVZNd0J2alo1Yk5mNWVCY0VTYkxKa2FZcUEyYTJFWjkwTm1MVGhuVm1md0pjTlJqbGZYQ1lhWVNIMF9iMXd0cFcwVE95QzBGazhiUGlBU2dlSEVJZXQ1WjRmRWdKM0tldlgyQmc?oc=5",
+    "articles": [
+      {
+        "title": "Kiểm tra công tác chuẩn bị diễn tập Vòm phòng không bền vững tại Bộ Tư lệnh Thủ đô Hà Nội - quocphongthudo.vn",
+        "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNamlHSXM3UUh3R3Jlel9IcXJCS2xHMm42c2pVbU9oS2VILWYtU3FzdGtIVFpFcUwzdkd5VjRXWDE4VHBhZHUxZUduNFMwOGRSM3d4Q3p0UXFpRFF0TUdUdzhXX19zdTk5cmVJR1ZjZFBaaVVNOGxGTkc3cG5QSENEMEMtcXp3NVZNd0J2alo1Yk5mNWVCY0VTYkxKa2FZcUEyYTJFWjkwTm1MVGhuVm1md0pjTlJqbGZYQ1lhWVNIMF9iMXd0cFcwVE95QzBGazhiUGlBU2dlSEVJZXQ1WjRmRWdKM0tldlgyQmc?oc=5",
+        "publisher": "quocphongthudo.vn"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:26 UTC",
+    "collectedAtIso": "2026-11-24T23:26:49.200183+00:00",
+    "publishedAtIso": "2026-11-24T00:52:27+00:00"
   },
   {
     "id": "osint-2026112417-8",
@@ -1768,35 +1798,5 @@
     "updatedAt": "22/11/2026 23:20 UTC",
     "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
     "publishedAtIso": "2026-11-22T12:31:30+00:00"
-  },
-  {
-    "id": "osint-2026112217-6",
-    "name": "Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Mỹ, Canada",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "연합뉴스",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQtIBYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQg?oc=5",
-    "articles": [
-      {
-        "title": "Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQtIBYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQg?oc=5",
-        "publisher": "연합뉴스"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T11:12:28+00:00"
   }
 ]
