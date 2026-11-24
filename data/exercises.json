@@ -1,5 +1,95 @@
 [
   {
+    "id": "osint-2026112423-philippineforcestr",
+    "name": "Lực lượng Philippines huấn luyện để bảo vệ eo biển Luzon bằng các tàu chiến, tên lửa BrahMos - USNI News",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "USNI News",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (USNI News): Lực lượng Philippines huấn luyện để bảo vệ eo biển Luzon bằng các tàu chiến, tên lửa BrahMos - USNI News",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "USNI News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOTBtX2ZpZjZWd0lIUDg5Vml2TDQxeGdVb3NQZDd0T2tqejVXUEZVaGFROVRQTEFyLTZYVHpQcGh3X19Dd3JLRnVodWZMZmxYb1BPREJ5aHg3dktUMG5kc0p1ZEhrb2NvYUNaaURWWTN2c2RsYmJBUVBWbXlCRTR5T1Y1anlyU2t4NE5OeEs3RjRtNXNENW9IeDl6U25tRm9weDdacG1yeXhwT05DeDBj?oc=5",
+    "articles": [
+      {
+        "title": "Lực lượng Philippines huấn luyện để bảo vệ eo biển Luzon bằng các tàu chiến, tên lửa BrahMos - USNI News",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOTBtX2ZpZjZWd0lIUDg5Vml2TDQxeGdVb3NQZDd0T2tqejVXUEZVaGFROVRQTEFyLTZYVHpQcGh3X19Dd3JLRnVodWZMZmxYb1BPREJ5aHg3dktUMG5kc0p1ZEhrb2NvYUNaaURWWTN2c2RsYmJBUVBWbXlCRTR5T1Y1anlyU2t4NE5OeEs3RjRtNXNENW9IeDl6U25tRm9weDdacG1yeXhwT05DeDBj?oc=5",
+        "publisher": "USNI News"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:11 UTC",
+    "collectedAtIso": "2026-11-24T23:11:22.919963+00:00",
+    "publishedAtIso": "2026-11-24T18:47:00+00:00"
+  },
+  {
+    "id": "osint-2026112423-2",
+    "name": "Cảnh báo công khai bất thường của Anh về hành vi phá hoại của Nga đối với các công ty hỗ trợ Ukraine - Yonhap News",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "연합뉴스",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Cảnh báo công khai bất thường của Anh về hành vi phá hoại của Nga đối với các công ty hỗ trợ Ukraine - Yonhap News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "연합뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoMEVlY1FOSlZYeDRQbV95cVNhMjVRMVFSQjRSMXF4NHRqVXRNMWZBeXliTjFmSTlUNlU2SjIyZ3VRbTQ2S0cyWmllOUwwSzlxR1BXRXdkeVFxYzDSAWBBVV95cUxOVk1wQ1l5eU53VW1ralRna0xYM0hpNUNFdjN4bXJ1VWk1dXJCWDNtUFRTbml0YkJScDhqSjN0ZEdndzZJOTQ3ek1mX1BMQTNFUmR0MkdmSVp3VDM2eW0xRkQ?oc=5",
+    "articles": [
+      {
+        "title": "Cảnh báo công khai bất thường của Anh về hành vi phá hoại của Nga đối với các công ty hỗ trợ Ukraine - Yonhap News",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoMEVlY1FOSlZYeDRQbV95cVNhMjVRMVFSQjRSMXF4NHRqVXRNMWZBeXliTjFmSTlUNlU2SjIyZ3VRbTQ2S0cyWmllOUwwSzlxR1BXRXdkeVFxYzDSAWBBVV95cUxOVk1wQ1l5eU53VW1ralRna0xYM0hpNUNFdjN4bXJ1VWk1dXJCWDNtUFRTbml0YkJScDhqSjN0ZEdndzZJOTQ3ek1mX1BMQTNFUmR0MkdmSVp3VDM2eW0xRkQ?oc=5",
+        "publisher": "연합뉴스"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:11 UTC",
+    "collectedAtIso": "2026-11-24T23:11:22.919963+00:00",
+    "publishedAtIso": "2026-11-24T17:56:28+00:00"
+  },
+  {
+    "id": "osint-2026112423-jtsplforcesdrill",
+    "name": "Cuộc diễn tập của lực lượng đặc nhiệm chung cho thấy sự sẵn sàng về quân sự: Thủ tướng - Daily Observer",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Daily Observer",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Daily Observer): Cuộc diễn tập của lực lượng đặc nhiệm chung cho thấy sự sẵn sàng về quân sự: Thủ tướng - Daily Observer",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 1500,
+    "nationsCount": 2,
+    "sourceTitle": "Daily Observer",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE56cU1oMEVVUHdITjBDOUt5ZXV3SFZzVTlVUXhsRk03TmVPbEs2ZVZoSW5TSHJld3FwR1hpcXlQRXQ1Zmo1UzBrX3Rn?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc diễn tập của lực lượng đặc nhiệm chung cho thấy sự sẵn sàng về quân sự: Thủ tướng - Daily Observer",
+        "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE56cU1oMEVVUHdITjBDOUt5ZXV3SFZzVTlVUXhsRk03TmVPbEs2ZVZoSW5TSHJld3FwR1hpcXlQRXQ1Zmo1UzBrX3Rn?oc=5",
+        "publisher": "Daily Observer"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:11 UTC",
+    "collectedAtIso": "2026-11-24T23:11:22.919963+00:00",
+    "publishedAtIso": "2026-11-24T17:54:59+00:00"
+  },
+  {
     "id": "osint-2026112417-phnganphongbi",
     "name": "Phường An Phong: Biểu dương 24 tập thể và cá nhân có thành tích trong công tác quốc phòng, quân sự và phong trào Quyết t",
     "dates": "Ghi nhận: 24/11/2026",
@@ -1708,95 +1798,5 @@
     "updatedAt": "22/11/2026 17:39 UTC",
     "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
     "publishedAtIso": "2026-11-22T08:28:51+00:00"
-  },
-  {
-    "id": "osint-2026112209-6",
-    "name": "Bất ổn giữa Hàn Quốc và Mỹ?... “Chính phủ Hàn Quốc phải ngay lập tức thiết lập mối quan hệ mới với Quốc hội Hoa Kỳ” - Da",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "세상을 바꾸는 시민언론 민들레",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (세상을 바꾸는 시민언론 민들레): Bất ổn giữa Hàn Quốc và Mỹ?... “Chính phủ Hàn Quốc phải ngay lập tức thiết lập mối quan hệ mới với Quốc hội Hoa Kỳ” - Dandelion, một phương tiện truyền thông công dân làm thay đổi thế giới",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "세상을 바꾸는 시민언론 민들레",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NR2o4c2VBN3l5dUMzdnVvUUh3LS1tbTcxcGtLeWpEVFZ4aFZheFZsWWpmbUxmSUhwTTBZdHVyRzQ3Rms0OEdPOUtJU2VYcXNUUFNqOTk1QkFIQy1jTUZ3MXM2VGNVdzlhYUNMdg?oc=5",
-    "articles": [
-      {
-        "title": "Bất ổn giữa Hàn Quốc và Mỹ?... “Chính phủ Hàn Quốc phải ngay lập tức thiết lập mối quan hệ mới với Quốc hội Hoa Kỳ” - Dandelion, một phương tiện truyền thông công dân làm thay đổi thế giới",
-        "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5NR2o4c2VBN3l5dUMzdnVvUUh3LS1tbTcxcGtLeWpEVFZ4aFZheFZsWWpmbUxmSUhwTTBZdHVyRzQ3Rms0OEdPOUtJU2VYcXNUUFNqOTk1QkFIQy1jTUZ3MXM2VGNVdzlhYUNMdg?oc=5",
-        "publisher": "세상을 바꾸는 시민언론 민들레"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T08:16:22+00:00"
-  },
-  {
-    "id": "osint-2026112306-7",
-    "name": "Những người chỉ trích Hàn Quốc vì sợ quân đội Mỹ rút khỏi Hàn Quốc - OhmyNews",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "OhmyNews",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (OhmyNews): Những người chỉ trích Hàn Quốc vì sợ quân đội Mỹ rút khỏi Hàn Quốc - OhmyNews",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "OhmyNews",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uWXdvOWFfVEdieFlIZGZ2NUQ4V3JoUXQyZ0MzclI4Y2dwRHVZTFpkUklySWk1ZzJQM0xqbnFHbk1zSUVVSG1ESHhMOW0tVlhIWC0ybnczMlJ4ZVlUWGNaMXEzal9uYzBKUzBaYkc1Q1lyS1N6?oc=5",
-    "articles": [
-      {
-        "title": "Những người chỉ trích Hàn Quốc vì sợ quân đội Mỹ rút khỏi Hàn Quốc - OhmyNews",
-        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE9uWXdvOWFfVEdieFlIZGZ2NUQ4V3JoUXQyZ0MzclI4Y2dwRHVZTFpkUklySWk1ZzJQM0xqbnFHbk1zSUVVSG1ESHhMOW0tVlhIWC0ybnczMlJ4ZVlUWGNaMXEzal9uYzBKUzBaYkc1Q1lyS1N6?oc=5",
-        "publisher": "OhmyNews"
-      }
-    ],
-    "updatedAt": "23/11/2026 06:14 UTC",
-    "collectedAtIso": "2026-11-23T06:14:53.789935+00:00",
-    "publishedAtIso": "2026-11-22T08:09:00+00:00"
-  },
-  {
-    "id": "osint-2026112209-5",
-    "name": "Người dân mắng Triều Tiên vì sợ quân Mỹ rút lui - OhmyNews",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "OhmyNews",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (OhmyNews): Người dân mắng Triều Tiên vì sợ quân Mỹ rút lui - OhmyNews",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "OhmyNews",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xZDA1S3hvWFhkMVNaUWdWZGZ5TWg0YjN3QnI2eVdOY19CQ1gwNmk3bG54bWZsRnFETE1wYWlUa3BmQkVmOEd3OXcwM0IxdEtyYmtrQnpFQXBKcUFrek51QzZGYjhROUFzRVNUY3dQOFkzeVRPTmtv?oc=5",
-    "articles": [
-      {
-        "title": "Người dân mắng Triều Tiên vì sợ quân Mỹ rút lui - OhmyNews",
-        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE8xZDA1S3hvWFhkMVNaUWdWZGZ5TWg0YjN3QnI2eVdOY19CQ1gwNmk3bG54bWZsRnFETE1wYWlUa3BmQkVmOEd3OXcwM0IxdEtyYmtrQnpFQXBKcUFrek51QzZGYjhROUFzRVNUY3dQOFkzeVRPTmtv?oc=5",
-        "publisher": "OhmyNews"
-      }
-    ],
-    "updatedAt": "22/11/2026 09:30 UTC",
-    "collectedAtIso": "2026-11-22T09:30:27.767548+00:00",
-    "publishedAtIso": "2026-11-22T08:09:00+00:00"
   }
 ]
