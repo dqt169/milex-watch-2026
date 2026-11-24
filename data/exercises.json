@@ -4,7 +4,7 @@
     "name": "Lực lượng Philippines huấn luyện để bảo vệ eo biển Luzon bằng các tàu chiến, tên lửa BrahMos - USNI News",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "USNI News",
+    "location": "Eo biển Luzon (Philippines)",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -14,8 +14,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "USNI News",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPOTBtX2ZpZjZWd0lIUDg5Vml2TDQxeGdVb3NQZDd0T2tqejVXUEZVaGFROVRQTEFyLTZYVHpQcGh3X19Dd3JLRnVodWZMZmxYb1BPREJ5aHg3dktUMG5kc0p1ZEhrb2NvYUNaaURWWTN2c2RsYmJBUVBWbXlCRTR5T1Y1anlyU2t4NE5OeEs3RjRtNXNENW9IeDl6U25tRm9weDdacG1yeXhwT05DeDBj?oc=5",
     "articles": [
@@ -34,7 +34,7 @@
     "name": "Cảnh báo công khai bất thường của Anh về hành vi phá hoại của Nga đối với các công ty hỗ trợ Ukraine - Yonhap News",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "연합뉴스",
+    "location": "Nga, Ukraine",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -44,7 +44,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "연합뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBoMEVlY1FOSlZYeDRQbV95cVNhMjVRMVFSQjRSMXF4NHRqVXRNMWZBeXliTjFmSTlUNlU2SjIyZ3VRbTQ2S0cyWmllOUwwSzlxR1BXRXdkeVFxYzDSAWBBVV95cUxOVk1wQ1l5eU53VW1ralRna0xYM0hpNUNFdjN4bXJ1VWk1dXJCWDNtUFRTbml0YkJScDhqSjN0ZEdndzZJOTQ3ek1mX1BMQTNFUmR0MkdmSVp3VDM2eW0xRkQ?oc=5",
@@ -64,7 +64,7 @@
     "name": "Cuộc diễn tập của lực lượng đặc nhiệm chung cho thấy sự sẵn sàng về quân sự: Thủ tướng - Daily Observer",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Daily Observer",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -74,8 +74,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Daily Observer",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE56cU1oMEVVUHdITjBDOUt5ZXV3SFZzVTlVUXhsRk03TmVPbEs2ZVZoSW5TSHJld3FwR1hpcXlQRXQ1Zmo1UzBrX3Rn?oc=5",
     "articles": [
@@ -90,11 +90,41 @@
     "publishedAtIso": "2026-11-24T17:54:59+00:00"
   },
   {
+    "id": "osint-2026112423-2",
+    "name": "Hợp tác quốc phòng Nhật Bản - Pháp mở rộng ra vũ trụ, các nhà lãnh đạo hàng đầu tuyên bố về việc huấn luyện máy bay chiế",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Nhật Bản, Pháp",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (山陽新聞): Hợp tác quốc phòng Nhật Bản - Pháp mở rộng ra vũ trụ, các nhà lãnh đạo hàng đầu tuyên bố về việc huấn luyện máy bay chiến đấu - Báo Sanyo",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "山陽新聞",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4VHVONmJzdS1sVEIyWlUtSmcxUkQyN1pmcnVQdk00ME9hb3lEX3pZaF9VNExuQk5UM05nWGZOclFVR1h6Y2poM3pSYUZOUjQ0UllGczV6a2pORklyeklfRFdzc0E4LWxabkx1SWdCTWNKcG1K?oc=5",
+    "articles": [
+      {
+        "title": "Hợp tác quốc phòng Nhật Bản - Pháp mở rộng ra vũ trụ, các nhà lãnh đạo hàng đầu tuyên bố về việc huấn luyện máy bay chiến đấu - Báo Sanyo",
+        "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTFB4VHVONmJzdS1sVEIyWlUtSmcxUkQyN1pmcnVQdk00ME9hb3lEX3pZaF9VNExuQk5UM05nWGZOclFVR1h6Y2poM3pSYUZOUjQ0UllGczV6a2pORklyeklfRFdzc0E4LWxabkx1SWdCTWNKcG1K?oc=5",
+        "publisher": "山陽新聞"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:23 UTC",
+    "collectedAtIso": "2026-11-24T23:23:12.077470+00:00",
+    "publishedAtIso": "2026-11-24T16:25:09+00:00"
+  },
+  {
     "id": "osint-2026112417-phnganphongbi",
     "name": "Phường An Phong: Biểu dương 24 tập thể và cá nhân có thành tích trong công tác quốc phòng, quân sự và phong trào Quyết t",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "An ninh Hải Phòng",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -104,8 +134,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "An ninh Hải Phòng",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNNC15bVhTT0VpOTlmejBMd2FYalRWLTNvdTRkTjBaNVhIQzJJY1k0NEtzVnNQWEpHakdmOFk4WlhIb0tOOTNfZHhJckVkbFI4N3dCSEdUbWJHcHoxc1ZVekNwaU1MSDFxQVBTT240UFRSM1kyZ1ZNaWJjN2lhdnNjclRTSTRUT0FIUWVoYVAxejh4Uy14ck1ldUlYZHk5V2kwUUlLTjhCekpDZUtwQ3NFa09IX1k0N1FjandmRzR2TlAxVnF1a3JmWjBBNHdZOWp0VHJGZVpTNjNTVGYzY0w5eVZWM3FhM2REM3pNSmVvNV8?oc=5",
     "articles": [
@@ -124,7 +154,7 @@
     "name": "Thủy quân lục chiến Hoa Kỳ tham gia tập trận cùng lực lượng Phần Lan và Estonia ở Biển Baltic - The Defense Post",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "The Defense Post",
+    "location": "Biển Baltic (Mỹ, Phần Lan, Estonia)",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -134,8 +164,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 3,
     "sourceTitle": "The Defense Post",
     "sourceUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTFAyWlFfb2FNUWJzd1hrN05hUnlWMDBMYUxzOW5wcVN3bTFHVm1uMV9UWkJlcVV3aHpidl9INDZPa19oYU84LXdqRlNEa1F6c0N4SWY4eVpIcjhlMzhvVDVIblJZVjdGNnFCTDlOLWtBTnZiUVlvR1HSAXtBVV95cUxPZDZqMS1tbGphMVVfTGJFbkp0VnMybnlKRVhaVFk4aklqcW5TS2tTZ2xXNDM2UFdNTGxGOE5RS3I0X0V0TTVyWEZuZDdfbGhuSFh2aXRFMHNsUGxzc0lUU0dPUjBvZ3dPa1A0S0RiMFFSTDVDRVhQZ1ltUms?oc=5",
     "articles": [
@@ -154,7 +184,7 @@
     "name": "Thủ tướng đến Swarnadwip để chứng kiến ​​cuộc tập trận chung - Banglanews24",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Banglanews24",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -164,8 +194,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Banglanews24",
     "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5MRWMwa2gyM0dFTzZuTTRHUC1XTktHYVpUUmhTRjlSUTZnQjNaOE04eUdYeXhiZXJWbTBWdkFsMFlyd3gxMjNWR3pta2JldUtvNHlaY2lhamJFWG9yV2ZzRFBKTUdKenc1T1Nz?oc=5",
     "articles": [
@@ -184,7 +214,7 @@
     "name": "Campuchia - Trung Quốc sẽ tập trận quy mô lớn trên bộ, trên biển và trên không - Cổng thông tin đài tiếng nói Việt Nam",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Cổng thông tin đài tiếng nói Việt Nam",
+    "location": "Việt Nam, Trung Quốc",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -194,7 +224,7 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "Cổng thông tin đài tiếng nói Việt Nam",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOSTJrbjJFcUxjLXRWT3ZHaDdsZXVjeEpjWDVUbWowOWRxa1hGNmhVTE4xbEgySE9QclJNcVl0TmpzdExFYVBsTkQyY2hKdjVzVUpGQVByVHZJbWh1MW9ZQmwyX3JXUkp3bUZWVTlZaU5jMkNBR2VGdjVWTGVDd1BuYUtoa0pBSDFLZHJMU0gyaDNPcTZ3c2g5QUNNTEYtbjVYMXpUaWRtUjMzZGlo?oc=5",
@@ -214,7 +244,7 @@
     "name": "Quán triệt, triển khai nhiệm vụ diễn tập tác chiến cấp xã năm 2026 - Báo và Phát thanh, Truyền hình Lạng Sơn - Baolangso",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Baolangson.vn",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -224,8 +254,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Baolangson.vn",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNUkRLd3NiWTVTMFdPTTB1WjB3M2wxeHZaWUdXbGxoSzJMemp1RkxmdTFNbGgyWmFBYl9sSFZwUEFLY2tneldhNlcwNjJrWE12dzVzemVSQmxaOTZxbDJBZV9GaEdyR2VxSDdRRDNsWWF5LWdjQXJQVVdNV1E5bHRSMFJick5Ca0s4OHJnNXFCdG5lM1hwYWFTVWNwME9EUEtiRlc2TXkxcTFhbHB5ZDVwVmZGaTNLNlNmb24zUjdVSVZuUQ?oc=5",
     "articles": [
@@ -244,7 +274,7 @@
     "name": "Sự cố máy bay vận tải C-2 của Lực lượng phòng vệ trên không không thể đổi hướng trên đường lăn Sân bay Miyako tham gia c",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "TBS NEWS DIG",
+    "location": "Mỹ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -254,8 +284,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "TBS NEWS DIG",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9XTHAyaVdCcXJvWVlBSllydUwtWWJlamFzdFh3RDV1S2pKcjFoNDUwekFkUDJQUm81ZUVpSGNKbGRvbUpuTXV3T3dFdTk4N3JKQl9NOGxZb2Q5YU1hVmI0?oc=5",
     "articles": [
@@ -274,7 +304,7 @@
     "name": "Ba tàu hải quân Trung Quốc tới Campuchia tham gia tập trận chung “Rồng vàng-2026” - Campuchia Daily",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "柬华日报",
+    "location": "Trung Quốc",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -284,8 +314,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "柬华日报",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9FWGpIWnF3ZzA2dlRwTVAtem9VejZGLVpUdTNaMEU5RWN5MHRlMzlZdHF6OTMyU3ZoSTNpZ2o4ZEs3Q3BLYW51Q1doSHByalgteXcwMjRxaw?oc=5",
     "articles": [
@@ -304,7 +334,7 @@
     "name": "Không còn chỗ ở nhà: tại sao Nhật Bản tập trận tên lửa trên đất Ấn Độ - South China Morning Post",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "South China Morning Post",
+    "location": "Trung Quốc, Nhật Bản, Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Phòng không",
     "domainLabel": "Phòng không & Chống UAV",
@@ -314,8 +344,8 @@
       "Phát hiện và chế áp UAV (Counter-UAS)"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 3,
     "sourceTitle": "South China Morning Post",
     "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPeS1tODQ4Z1dCczR2Nk1HQV9iS3VGZnh6T25HOEpWZ2JVNFdrMTUtSDFKUnVuVjg3Q29tTml2c2ptdklFNVI2eTNYMGlkR2c0OTd3S3lOaUFnMXZROVk1ZTFYNTNITVNKSWVCMGRnYmVydUU2YXFERnJCTl9UNm42UXZlZTdfY2hJc25QMENRWUtUQVlMOWlzek9pcHg0Mmx2UHFMcVhB0gGmAUFVX3lxTFBENm45QzBxU011RU01TmVFUWFKcTFKY1JYQXdmejFuU3l4QXp3eW42c3ZVQmtMY1ZKekxCWWlQdDBtbEE5bGlkT2VSeFdKR0dxVm5qblJ6UDUtRmVwUm9sZjkydmJtWnh2aER1M2U5WDBsS2RuMTdJVnVSMlB6TFhRZ0tVZ1RYQnIyWjF6WV9MbFU0eVpyME5OWkR6TnZDay1USWhyZWc?oc=5",
     "articles": [
@@ -334,7 +364,7 @@
     "name": "Campuchia, Trung Quốc tổ chức tập trận Rồng Vàng vào cuối tháng 11 - Kiripost",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Kiripost",
+    "location": "Trung Quốc",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -344,8 +374,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Kiripost",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdXliYWN5elViTGlVTnZaQ184eW8zMC16c3hvWHRSV2tFN2NfOUZUU3ZSaHlHUjZqcWprSzZPYlM4cEY2cnJySnFMVFZnWGZ6Z1ljSEpEbW1XNGxTcnEzY2V5czRwVjVRUGZxTjNrdnJlaFpueW9WRURWZzl2Y291MElzRGY3c08wYXZKYWRkR2lJcHRmUVh0blJWZVFJbGtXM2c?oc=5",
     "articles": [
@@ -364,7 +394,7 @@
     "name": "Máy bay quân sự Nga tiếp cận không phận Ulleungdo... Chính phủ mời tùy viên quân sự Nga phản đối - Kyunghyang Shinmun",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "경향신문",
+    "location": "Nga",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -374,8 +404,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "경향신문",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE0zMGpEcGItRk5GdVRJZXJTT1plZWFXb2RxaFFzZDZWNmFRekhVakR5S3ExcF9ZR0g4OWpYQ2FmWkdUOHQ3NUJBd0tvV3lXU3BQZlUxSUttb0hVd19zXzlr0gFfQVVfeXFMTTMwakRwYi1GTkZ1VEllclNPWmVlYVdvZHFoUXNkNlY2YVF6SFVqRHlLcTFwX1lHSDg5alhDYWZaR1Q4dDc1QkF3S29XeVdTcFBmVTFJS21vSFV3X3NfOWs?oc=5",
     "articles": [
@@ -394,7 +424,7 @@
     "name": "[Chẩn đoán an ninh Đông Bắc Á ④] Sự gần gũi quân sự Trung-Nga... Áp lực kép lên an ninh trên Bán đảo Triều Tiên - OBC Ne",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "OBC 뉴스",
+    "location": "Bán đảo Triều Tiên (Nga)",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -404,8 +434,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "OBC 뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE84T1ZrWlU0bzVPTGxKYWRvWTJPQmRYcERaMWdVVktHS2xneEtCekdhT19SYWhqLWlOakpDNFBkSkZIZzZraDlFOUthcUd4bjJvMnRrRVMwVnJHMzVpREt3Wnh1dW96YUxENkE?oc=5",
     "articles": [
@@ -424,7 +454,7 @@
     "name": "Bộ trưởng Bộ Quốc phòng Koizumi tổ chức họp báo bao gồm Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Ấn Độ và lịch trình Hội",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "J ディフェンス ニュース",
+    "location": "Nhật Bản, Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -434,7 +464,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "J ディフェンス ニュース",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tRVRQdVNzLVNYd1o5eFJHdFBWWGtVZjdYa2ctSWt6V1ViMzFmTWt6SV9iNGlYX0l6MXdYaEhXUVZuV3JfZFJZdnpwci1odHpjcmo5eU1ub0d5ajlU?oc=5",
@@ -450,11 +480,71 @@
     "publishedAtIso": "2026-11-24T07:30:00+00:00"
   },
   {
+    "id": "osint-2026112423-phnglngvntri",
+    "name": "Phường Lương Văn Tri hoàn thành xuất sắc diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Baolangson.vn",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Baolangson.vn): Phường Lương Văn Tri hoàn thành xuất sắc diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Baolangson.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Baolangson.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHhJeDF0YkRlMVZFOGI0dXZMczg5RzBCQkhsaUZhblBOTHAyczZtSVJJRm1jTFpuaUVGUnFUem91ZDBNZUJtd19CM1FJWXA0WVhlbmFpUldaSUVIRmJKNXYxdlpMNXJUVXhrcXQ4TUdZYVEzU1FxMTJpZGpWbzc5MDIzVFo0SjFKYU9IcEdMOUNzamVkSVVaR1hMLXZwa09MVmp3MG5USTZKbmFwQ1RBZlo1Zl80Vm9JaGphYkRpNWxKZVhvU1E?oc=5",
+    "articles": [
+      {
+        "title": "Phường Lương Văn Tri hoàn thành xuất sắc diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Baolangson.vn",
+        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHhJeDF0YkRlMVZFOGI0dXZMczg5RzBCQkhsaUZhblBOTHAyczZtSVJJRm1jTFpuaUVGUnFUem91ZDBNZUJtd19CM1FJWXA0WVhlbmFpUldaSUVIRmJKNXYxdlpMNXJUVXhrcXQ4TUdZYVEzU1FxMTJpZGpWbzc5MDIzVFo0SjFKYU9IcEdMOUNzamVkSVVaR1hMLXZwa09MVmp3MG5USTZKbmFwQ1RBZlo1Zl80Vm9JaGphYkRpNWxKZVhvU1E?oc=5",
+        "publisher": "Baolangson.vn"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:23 UTC",
+    "collectedAtIso": "2026-11-24T23:23:12.077470+00:00",
+    "publishedAtIso": "2026-11-24T07:27:35+00:00"
+  },
+  {
+    "id": "osint-2026112423-5",
+    "name": "Bộ Quốc phòng triệu tập và phản đối tùy viên quân sự Nga về việc \"bay sát không phận đảo Ulleungdo\" - Chosunbiz",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Hàn Quốc, Nga",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Chosunbiz): Bộ Quốc phòng triệu tập và phản đối tùy viên quân sự Nga về việc \"bay sát không phận đảo Ulleungdo\" - Chosunbiz",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "Chosunbiz",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlctMmFQcjBVOGNJVC1KT3ZaazdjWmxZWmY4Q3RDbGw0aWVFX1RUMVhoR2dQUnB5NElfcUtrOEdMZ3FGdHV6WEliXzFvMV9ycXlDVnd0aHpKd3F0cml5SHFMNnN4Tkp6U1pHM29HSGhJbEZoMklrSVgzQ0dXOHEzcXVMMNIBlwFBVV95cUxQSjNkMkg0SnF1aGtzb3dfZG5fV3V6RmMzcTNQVlY3OGZiVl93ZGlaTmtNbDhBMTVNckRncTJpWjFMNnFJVGpkbHJ1QU44OEZZNVZzUk5HQ1lkb09fZEVZR3JmbFg0ZzFWRE5FbU9RaXpfT2lxVVBOQ25kM01XY29SWTMwNDJtSEhQVEFkYVhlQVJqZ3dMMDlF?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Quốc phòng triệu tập và phản đối tùy viên quân sự Nga về việc \"bay sát không phận đảo Ulleungdo\" - Chosunbiz",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlctMmFQcjBVOGNJVC1KT3ZaazdjWmxZWmY4Q3RDbGw0aWVFX1RUMVhoR2dQUnB5NElfcUtrOEdMZ3FGdHV6WEliXzFvMV9ycXlDVnd0aHpKd3F0cml5SHFMNnN4Tkp6U1pHM29HSGhJbEZoMklrSVgzQ0dXOHEzcXVMMNIBlwFBVV95cUxQSjNkMkg0SnF1aGtzb3dfZG5fV3V6RmMzcTNQVlY3OGZiVl93ZGlaTmtNbDhBMTVNckRncTJpWjFMNnFJVGpkbHJ1QU44OEZZNVZzUk5HQ1lkb09fZEVZR3JmbFg0ZzFWRE5FbU9RaXpfT2lxVVBOQ25kM01XY29SWTMwNDJtSEhQVEFkYVhlQVJqZ3dMMDlF?oc=5",
+        "publisher": "Chosunbiz"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:23 UTC",
+    "collectedAtIso": "2026-11-24T23:23:12.077470+00:00",
+    "publishedAtIso": "2026-11-24T07:27:00+00:00"
+  },
+  {
     "id": "osint-2026112417-cambodiaandchinat",
     "name": "Campuchia và Trung Quốc khởi động cuộc tập trận Rồng Vàng 15 ngày - Khmer Times",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Khmer Times",
+    "location": "Trung Quốc",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -464,8 +554,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Khmer Times",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGxqYjJXeWs4UGszbVFaZjhRbmxjcW10QVg1WTNMSlhvRlE4RE5LUENCNU05MGNsbmhsaVhZWi1SQ29XaUQ5TXBOYkl1dHJkTmVXenlYb1BEcGV0cjk4elMtU3ZlVEdveUowMWlseDhBSHBqX3lDNHozblFKQzlGZmY1V3hqZE5RdEZqTGJVVUJ6MkE1aTZwVzRCVFFMU0NJQ3poZUFycVRsckk?oc=5",
     "articles": [
@@ -484,7 +574,7 @@
     "name": "Thủ tướng Tarique tới Swarnadwip để tham gia cuộc tập trận quân sự chung - https://www.businesstimes-bd.com/",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "https://www.businesstimes-bd.com/",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -494,8 +584,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "https://www.businesstimes-bd.com/",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FUnp3b3hLN1Q3YTlpNWpkYXQ2N2dMeVBCMjdBc1VRdzdmTW9ERjN0Wk5zQjVnNEh3Y0ZheWF1dll4UDNkUjFjbkJvMDVHRXl6ZlN1UVFFY1ZWb1U?oc=5",
     "articles": [
@@ -514,7 +604,7 @@
     "name": "Cuộc tập trận “Rồng Vàng” giữa Campuchia và Trung Quốc sẽ bắt đầu vào ngày mai và quy mô sẽ được mở rộng. Tàu chiến Trun",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "柬中時報",
+    "location": "Trung Quốc",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -524,8 +614,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "柬中時報",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Jam1Sc1gxaDR2ZFFEdEswYXlncHo5TTFYYjBDRDQ2SXdtVGdfMlczQ2tqaXhnVlg3OXBrRVV0d0ZZbFcwREww?oc=5",
     "articles": [
@@ -544,7 +634,7 @@
     "name": "Thủ tướng thăm Swarna Dwip hôm nay để quan sát cuộc diễn tập quân sự chung - RTV News",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "RTV News",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -554,8 +644,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "RTV News",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yMXZPY1FuRUQxOWkybEl0SlZYblVEVkFqeEoybjFmQlNwcjBUdlNyT25RckktUm5ydWNydm5mV2pCc3I3OVA3LXFEeXhndkxTcFpEME4zajV4aVU?oc=5",
     "articles": [
@@ -574,7 +664,7 @@
     "name": "Tarique Rahman sẽ thị sát cuộc diễn tập quân sự đặc biệt vào hôm nay - Bangladesh Post",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Bangladesh Post",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -584,8 +674,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Bangladesh Post",
     "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTU1OV3VZTlM1MWFkSVFoR09zdXNxYVRHUG1sM2lteWNDQkVVOUtCTExna0I0dFJ3cEo2U2pGR3hOTFp4TE1mWUk1cW1oZ1lORWV1WEN5ejFlS19BV29pNXdsYUZVQXJzQkE1VGlVVDd3cThwNlhaUDNsSUJFNjVrTlhOeFEzZVJUQ3NZcmtiSWVNN2VRX3p3OVF3?oc=5",
     "articles": [
@@ -604,7 +694,7 @@
     "name": "Diễn tập liên hợp chống khủng bố giữa lực lượng Bộ đội Biên phòng hai nước Việt Nam - Trung Quốc - Báo Biên phòng",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Biên phòng",
+    "location": "Việt Nam, Trung Quốc",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -614,7 +704,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "Báo Biên phòng",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnRGS2tHMmNhNWdmQXM4OThVQ29JSGpvdGNiMjFiMVBOcDZPd1dfNXdsV00zUmZEelRpTTRaVVBva1BodWtWTGVkb1oxcW9sNEg2ampETWNOVnNHb01VOEpYYTBwZVozRVhuX3hoamk4X3VTZTV2T2FGWjBzTVFFcURldXV6cjRXU2JvbDhzVzRZZHFaTmxIbjEtcmdOck5CWTJrR1FieTd6TU9EMTlWcFY5Q2JLWndIV0c3R1pJQXBCVkVMS1o5Unk3Umt4eVp3ZTFiS3hn?oc=5",
@@ -634,7 +724,7 @@
     "name": "Sau khi máy bay quân sự Nga xâm nhập vào Vùng nhận dạng phòng không Hàn Quốc (KADIZ) ở Biển Nhật Bản rồi rời đi... Đâu l",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "BBC",
+    "location": "Biển Nhật Bản (Hàn Quốc, Nga)",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -644,7 +734,7 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "BBC",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bGdOWFVxRndweFdxOG1YMjBHa2xNWFVGamUxSmo4ZkpzWm5qTUFjLWZRcHJ1a1NzQjV3VXVUQVlxRjRLLUF6RzhlenhTaEl4OGM4c3FPcFAtVkFBaW1TNTdZONIBY0FVX3lxTE05bGdOWFVxRndweFdxOG1YMjBHa2xNWFVGamUxSmo4ZkpzWm5qTUFjLWZRcHJ1a1NzQjV3VXVUQVlxRjRLLUF6RzhlenhTaEl4OGM4c3FPcFAtVkFBaW1TNTdZOA?oc=5",
@@ -664,7 +754,7 @@
     "name": "Máy bay quân sự Nga suýt xâm phạm không phận... \"Tùy viên quân sự Nga được cử đến\" của Bộ Quốc phòng tức giận - JooAng I",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "중앙일보",
+    "location": "Nga",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -674,8 +764,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "중앙일보",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFBlcGVSVHVPcEthZnBGX3VYQ1NsUURvSEV0XzZDYTE5NEh2alZNRE1VVnI4Y2NMQzVDSWp3T3J3TFpmSDduMFEyRTg4c1NzUHpKZDdhQkFB?oc=5",
     "articles": [
@@ -694,7 +784,7 @@
     "name": "Bộ Quốc phòng triệu tập đại diện Nga sau khi máy bay quân sự Nga tiếp cận không phận đảo Ulleungdo... Dự kiến sẽ phản đố",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "아주경제",
+    "location": "Nga",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -704,8 +794,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "아주경제",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFB0b3RUZnRwcjJlcXBSQTJibEx5RlVGMzFweTI4LW1PajRTVGYzVHFwdkpfZ2xEckVBYVhVNmo0aEt4WTl6eDdHS1N6ZXM2WkdxamVfSWVock0zUdIBWEFVX3lxTE1ubzRJRjE3bE54VTRPbE9xVExxb291Z054RHIteVZ3R3gyekNyejZLRW9zcmxpcmVNM2tQZW9vTjFTaDg0RUdGZTJ5Mm10TXZ3LWJnX3psYzk?oc=5",
     "articles": [
@@ -724,7 +814,7 @@
     "name": "Máy bay quân sự Nga tiến vào vùng nhận dạng phòng không Biển Đông...Súng Ulleung trong tình trạng báo động - SPN Seoul B",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "SPN 서울평양뉴스",
+    "location": "Biển Đông (Nga)",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -734,8 +824,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "SPN 서울평양뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBONjJmUzRzakpxZkV5VWozOWhKWGpaUFdnekNlRmNBcDNLNTVveDRqNDI1cExpRXRDZk5SZUpPTXpzLWZnUlNDTFA4WjN4alBENnd5blIzQ0JEeUgwYUcxWkl5aU5kY1dsZjlZ?oc=5",
     "articles": [
@@ -754,7 +844,7 @@
     "name": "Quân khu 3: Kiểm tra công tác chuẩn bị tham gia diễn tập vòm phòng không bền vững - BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
-    "location": "BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
+    "location": "Việt Nam",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Phòng không",
     "domainLabel": "Phòng không & Chống UAV",
@@ -764,8 +854,8 @@
       "Phát hiện và chế áp UAV (Counter-UAS)"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "BỘ CHỈ HUY QUÂN SỰ TỈNH HƯNG YÊN",
     "sourceUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQQUJZd1YxVHZkSDlZWTJXUlBNdXhfc21idlZXY0ttLS1Gbjh6dzY1cVRxOFBoQnNqTmFzXzRucEF5ZkdtdTlzUllJQ1ZxclJjWjR6ai0xd0thM0ZidWhsNzBvaUwxblNKZUVodTZWekE3YndQaDhvQnI5WUl1TVBNYXZkNGpmRmxDSzA1dFlEUGl0VjViVGFZQndkTWFiSWhnYVNuTmpsY285eTZTN0dzYzUtT01neG4xTEVEcHkzNA?oc=5",
     "articles": [
@@ -784,7 +874,7 @@
     "name": "LLVT tỉnh Tây Ninh: Rèn quân cho “trận đánh lớn” - Báo Quân đội nhân dân",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Quân đội nhân dân",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -794,8 +884,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Báo Quân đội nhân dân",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQa09DenJFVy1nREVGYlpUNGxuc2h0YkUxMjROMHFGZ3hMUUg2OE5UMWd5ZFlWdXlaUTc1dGhIQVgwRmpsWGVPTFRlTkhlOUNha1JFcHZsMFptaTNRYW4xdTVxVGNCaXY1MXVkVjFNb2F4bmxMaDFhamM4Q3VBc0dkOG4xaTI5c05ndEc0NXRUNzFWcnF2anc?oc=5",
     "articles": [
@@ -814,7 +904,7 @@
     "name": "\"Dù sao thì cũng ồn ào đến mức không chịu nổi\" Căn cứ không quân Komatsu của Lực lượng Phòng vệ Trên không Nhật Bản, ngư",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "中日新聞Web",
+    "location": "Nhật Bản",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Phòng không",
     "domainLabel": "Phòng không & Chống UAV",
@@ -824,8 +914,8 @@
       "Phát hiện và chế áp UAV (Counter-UAS)"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "中日新聞Web",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE91QVN2ZnVUTk9YYVozcXM2TV9XM0ZGUnhnLWdsbEhBTFZSbVkzTnNVUDBYSHduZWx3dWotaXozZjVrS2dDT3VhdGFpREt0RjlRUFZRdg?oc=5",
     "articles": [
@@ -844,7 +934,7 @@
     "name": "Số lượng các cuộc tập trận chung gia tăng thúc đẩy động lực quan hệ Ấn Độ-Mỹ quan hệ quốc phòng - FlipItMoney",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "FlipItMoney",
+    "location": "Mỹ, Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -854,7 +944,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "FlipItMoney",
     "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOelNEZW5wOWdpbnBiN2pmdENmSDlNYm82YVFtcG5GZXFLandOalNOOVN0WmZOOWlHMFdTWkFrN2tOeXhmN1dMX2RTSEpqdWMyNGREdVRjNlRwdnpNWUx1bnNPSWNqekV4WXhFSW9rOGMwTU15MTZJbkkta2FKUmN3dE1EazRiVXBMY2JlT2RIakstR2tGXzN3X3RXVm0ydw?oc=5",
@@ -874,7 +964,7 @@
     "name": "Thủy quân lục chiến trinh sát tham gia cuộc tập trận hải quân Phần Lan, các cuộc tập trận hải quân của NATO ở vùng Balti",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "USNI News",
+    "location": "Biển Baltic (Phần Lan)",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -884,8 +974,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "USNI News",
     "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPbDJmb1BJMG90NTg5Qml6X0FLS3dJNVhFRW1RT1diS24ybmNWR29jV3Z1UF9nVjl4MjlzdXMwNm9ObEh2WE5FUEdDamhEREJIcXluLUhhb0lITVViWUZHRVl4cGxxNkZLMUVoLTlPbFlMbTd3UVUwWWlQdWw2RHZZSm1aYm1mVnRNa2RNRlM3Z3dMZkJzek4zdTZKaEdiUG1r?oc=5",
     "articles": [
@@ -904,7 +994,7 @@
     "name": "Bộ Chỉ huy Quân sự tỉnh Đồng Tháp tiếp nhận nhiệm vụ Cụm trưởng Cụm thi đua năm 2027 - Báo Đồng Tháp",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Đồng Tháp",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -914,8 +1004,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Báo Đồng Tháp",
     "sourceUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQNVEyY1owV21qeDNHd0VZRjBnZ0dmVkRpa1FqcXZYOUhKbEVkTVhtZHJwaTJuT3gwYmZJcEtYOWt4bm0zZGZOMTlvd2FLZjBady1TQ3gwZW4zN0lOWnlNSnZOLWd1VFNTVzRKV2I3TUVYZDFINTN3WVFLUTVBM0s1UVAwOU05TjhoUmx5X05tOG1TSnlnMFk4Z012a01EOEdoY2M2N05GWjFqVWJHcEd3WFVsVFVzbzVlaUEwbg?oc=5",
     "articles": [
@@ -934,7 +1024,7 @@
     "name": "Tỉnh Tây Ninh sẵn sàng diễn tập khu vực phòng thủ năm 2026 - Quân Khu 7 Online",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Quân Khu 7 Online",
+    "location": "Việt Nam",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -944,8 +1034,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Quân Khu 7 Online",
     "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORmFtUWs5QWRUQ2NkOVg2Y0NZVTNXV0xOa2s5TEplRDZlNzBVR1dNYkFRNEp4cU1tWVJyX2xQWHU1S0tIYzJKS3czd1VKX0ZYUllqemIyczc0QlZ0UTBGbVIzbDZmQ2oyTmJhZzNoTjNXVW5hZGhaLWtLR0ltbkZZeGVvNWU5LUdWYWQ2VTcwYzd1dWtVeGJ0b0hrVDZBUS1YVjJqbWNOMTU0WDlG?oc=5",
     "articles": [
@@ -960,11 +1050,41 @@
     "publishedAtIso": "2026-11-23T13:05:00+00:00"
   },
   {
+    "id": "osint-2026112423-xsngrayhonth",
+    "name": "Xã Sông Ray hoàn thành diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Công an thành phố Đồng Nai): Xã Sông Ray hoàn thành diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Công an thành phố Đồng Nai",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQU9lWkxHZ3p3ODMzQWR0UDhzTHhlTkNEWFpFTkNxbGRCVk0wQUhydUlhNFFzUWZKVzZVeTdLeTRselFYekVqcnRuWlo0VFMtb2dyZVhYaDFaUjFyWHNPR3lPRUJ5YjE0VGJ4M0xQMWtaM2Ryd19zbjFFSFNwRGc?oc=5",
+    "articles": [
+      {
+        "title": "Xã Sông Ray hoàn thành diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1MQU9lWkxHZ3p3ODMzQWR0UDhzTHhlTkNEWFpFTkNxbGRCVk0wQUhydUlhNFFzUWZKVzZVeTdLeTRselFYekVqcnRuWlo0VFMtb2dyZVhYaDFaUjFyWHNPR3lPRUJ5YjE0VGJ4M0xQMWtaM2Ryd19zbjFFSFNwRGc?oc=5",
+        "publisher": "Công an thành phố Đồng Nai"
+      }
+    ],
+    "updatedAt": "24/11/2026 23:23 UTC",
+    "collectedAtIso": "2026-11-24T23:23:12.077470+00:00",
+    "publishedAtIso": "2026-11-23T11:24:27+00:00"
+  },
+  {
     "id": "osint-2026112319-cnganxakiaho",
     "name": "Công an xã Đa Kia hoàn thành tốt nhiệm vụ diễn tập khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Công an thành phố Đồng Nai",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -974,8 +1094,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Công an thành phố Đồng Nai",
     "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tYnN2ZjhUVUVjQ3RZeHptcEd3U01iOC1ZWHdJYllSeDJOWjhuaHdYVHRzY1pDcXFYV3Rrd2lndmVNN1lGdC05OHZsRG9TOVNuZHo1WGJ5eE9vNWJxU1N0TEc4cDlmSllxSTlxcll6RG1zejZGbmx2VHAxa0tlZm8?oc=5",
     "articles": [
@@ -994,7 +1114,7 @@
     "name": "Từ thỏa thuận vũ khí đến tập trận, Ấn Độ và Mỹ tăng cường quan hệ quốc phòng như thế nào vào năm 2026 - The Times of Ind",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "The Times of India",
+    "location": "Mỹ, Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1004,7 +1124,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "The Times of India",
     "sourceUrl": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxOYnRzTEF2NmY1QmdQdHljTnNROE1iaE9wR1hyeFFXTE12RkMtR3FaY0dfcXoyNzNLeVE5WjJSN1oxRm5BTFBpdDE0MlM3UDhPTUxXWjE4NDZnN2JhRlR4SGhsQmVMTnAyYUJZMGxlM196OVNYSjRyRGxwT3VlXzRPSTFBcTJ0NjZmc1UtdWxBR3JaS0JEY3IzbzlncG53eGVlOTFQbmFmTFBoSE9VbnJLZW1DWWkzWEt3SVV4ZFIyRl9IeWtHTnJYMkpWZDFIaEg2ZWFZNjZfVmktZVh1OEZ1VWtDd09OOTVZRzVlTmxXYm3SAfYBQVVfeXFMTm5LMmk2NzJ3alpnUFVnSVBWZ0VpNDhKdXBhMXRtdG5obFhUNkxlZjU3dmlpUnIwankxRDYzQVpvcElxRUQxR0FjME9YWjVjUU1YbVNlcFVvZXZNNVV0SmZBOXUzb3prdDUxLVJJVlI4dDgwQXVZbWstTmNsdU1oZ3o4cG9ScFRNUmIxUTZENFBSUzZKWm9Mdkh0eFRlSll4RHg1bWNiRERWelpNdk5CUERoWk5VLXh5bTVXUGc0aWcyQW0ySWxRVUxxaTlIdzZ3Zlpscm9NbnNkYUNFRVFwSDRjQURGZUtFNjVEOXhSVE5JbXBBcGtB?oc=5",
@@ -1024,7 +1144,7 @@
     "name": "7 trực thăng diễn tập mang cờ chào mừng Triển lãm Quốc phòng 2026 - Báo Tin tức và Dân tộc - TTXVN",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Tin tức và Dân tộc - TTXVN",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1034,8 +1154,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Báo Tin tức và Dân tộc - TTXVN",
     "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRDRSVU8xOWV6T3psbVo0N09wYkZqTUg5N2NUOEFwcFh5cUhZQUxsbjdhRWlRMHBMdWtJTXBHU1F6dlJ6ZEVHdm5uRW1WRklGeVVKSUtKMG5YdThZSEdMdlI2cUdEb3dReWtveFo1RzBwZC14RTZFSjBPSnBuY0pWaDFibXlGWVpiWVJnMnV2Vk5RSWlyb1FBak9LU0IzM3l3anpKaERR?oc=5",
     "articles": [
@@ -1054,7 +1174,7 @@
     "name": "Trực thăng kéo cờ, cùng UAV diễn tập bay chào mừng triển lãm quốc phòng - Tin tức 24h",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Tin tức 24h",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1064,8 +1184,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Tin tức 24h",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQdFdwT01uUF9rMTZ0X0YwdWRYRW9WTjFQVkNHOXBRZDVqeUJQbkdxSHV1eExybDBVa2J5QmRZWngyTm1FcldaZmdRYTV2Slo3LTN0YUtscTQ5V0x5eFoxTDh1XzVPazlmSk9EWlE2b20zbTE2RjA2ZGdrTnY0dkVOVVJEWjNSWkZjTjBRZ0pITFRqT1BtZDNIWGxDZFlqVE9SMXFoVG56WFhhRlJDallNVFFIZzVmYWMtOTBYM2puem1fTDhyMWN4Tg?oc=5",
     "articles": [
@@ -1084,7 +1204,7 @@
     "name": "Cảnh sát tỉnh Okama và Lực lượng phòng vệ tiến hành huấn luyện chung trong trường hợp xảy ra tấn công khủng bố - Sanyo S",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "山陽新聞",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1094,8 +1214,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "山陽新聞",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5IenRtYzdHTmRXLUp0QURHSzNJQXBXRWVFd1preldNSFlLRHQ3NE9rRnJsUUhjTVJRbVgxYUh3RUpEbVlNZVBuNU5fdnRKdzVHZGc?oc=5",
     "articles": [
@@ -1114,7 +1234,7 @@
     "name": "An toàn của các quân nhân là ưu tiên hàng đầu của ông Kang Shin-cheol… Lực lượng Cheonghae cụ thể hóa nguyên tắc không c",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "아주경제",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1124,8 +1244,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "아주경제",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBjQWFhaTlFSG5sRFVmMmtkT3NiTS1zS2p3YjNUWW9td1kxSnk0M0xIN1VxXzRSM0FDMUxzMjlPdHhZRy03bEU1bkt6NDBjWHh1WWVEMW0zNGppd9IBWEFVX3lxTFBFb2JkRUpldHlkckdESGVjMW9yR0pDakNnc21LbmxGYzBBTTBqZ1dBZWRIbkhJUkwyRDJPbUUzMTFvNWIxSmZaallubFlaZExnZUdjSjJiX0o?oc=5",
     "articles": [
@@ -1144,7 +1264,7 @@
     "name": "Cuộc tập trận quân sự của Ấn Độ, một chiếc xe tăng cán chết hai binh sĩ - Phoenixnet",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "凤凰网",
+    "location": "Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1154,8 +1274,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "凤凰网",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9CbThLaWlWWTFkbjhDYkJSNFRHUkt6aHVhRTUwb1h2RlFKcXBsYk1uUzh6TVhLb2JCdHd0UDJxN0NRd1NLRy14Q3RVZ2Y?oc=5",
     "articles": [
@@ -1174,7 +1294,7 @@
     "name": "Gắn diễn tập với nghiên cứu, nâng cao khả năng phòng ngự bờ biển - Vietnam.vn",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Vietnam.vn",
+    "location": "Việt Nam",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -1184,8 +1304,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Vietnam.vn",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPOElxUHkzUWVIcnJLSmdnSExpZTBNcXB4cUIxRzBSWFprWWZRQm9kVkE1VHc1NVhPbHA5QktnZXZqMUc4RDg1dGlhaEszdGZhOHhoWjJTWmR1X1o2U29vVDctZXh0aDlNYzZNZFJPT3NUcXE2Q3BGRkhHUUUtVXJpM1VoaTBfcXlmM3R2SnV5TQ?oc=5",
     "articles": [
@@ -1204,7 +1324,7 @@
     "name": "Đức thử nghiệm vũ khí không người lái và công nghệ AI tại Lithuania - Báo Thanh Hóa",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Thanh Hóa",
+    "location": "Đức, Lithuania",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1214,7 +1334,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "Báo Thanh Hóa",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQTzJjSDlIcjJxZ0ZjWjExYTllOWU5Y1Q4MXlMN0w1UTVTdWd0aVlXZjJycTBqeEI2aENDUTVBWTFHN0xkZTRHd2VWUGpjSUNPWEFtSmM1NUJNWnV2QjdoTGwwd2FvcXB2dGlWQ3RlelpxNE5IZmhwSHRSQWd1NXhyNi1XUUdRMmZOS1dYYVk5VVhodTZwNUlNa01zcFJTWXF5UF9F?oc=5",
@@ -1234,7 +1354,7 @@
     "name": "Báo động vang lên! Tên lửa Nga rơi xuống Ba Lan, trúng cuộc tập trận chung đa quốc gia, NATO đưa ra cảnh báo rõ ràng - S",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Sohu",
+    "location": "Nga, Ba Lan",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1244,7 +1364,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "Sohu",
     "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPWTJEb1diREdYMFlsWUxxQmZKMG1IR3RiQWZ0N1ZXdFRRRlA0Y3N2azVKYWk0cU4yOVZZOVozYWFOMjhDT3Y3QmxoU0o5NjJOTDE3YjVLVWJFeHFST0R5blNDNFhoWmY2XzAyc1E3aFJsVFFUWGdxeW5WNi16NDYwajVTYWtSdEgyNHlsZw?oc=5",
@@ -1264,7 +1384,7 @@
     "name": "[Shorts] Máy bay F-35 của Hà Lan thực hiện bài tập hạ cánh trên đường cao tốc ở Phần Lan - Yonhap News",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "연합뉴스",
+    "location": "Phần Lan, Hà Lan",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1274,7 +1394,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "연합뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9CUUFuc29weE9jOHZyQnEzSTZjQkR4NDJJWHp3b2dGWFBaTEFMUUhKYmJDRE9Nd0hSbDI3UGx5SEFrdDhNUDYtbFh3SThGbENDMDdNd2RzM1dvVzV1U0hZd9IBYEFVX3lxTE9CUUFuc29weE9jOHZyQnEzSTZjQkR4NDJJWHp3b2dGWFBaTEFMUUhKYmJDRE9Nd0hSbDI3UGx5SEFrdDhNUDYtbFh3SThGbENDMDdNd2RzM1dvVzV1U0hZdw?oc=5",
@@ -1294,7 +1414,7 @@
     "name": "[Video] Máy bay F-35 của Hà Lan hạ cánh trên đường cao tốc ở Phần Lan...\"Giảm sự phụ thuộc vào căn cứ\" - Yonhap News",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "연합뉴스",
+    "location": "Phần Lan, Hà Lan",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1304,7 +1424,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "연합뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9GT1NrdndiblU3dlBGWDJUOGJ0TUpCVVl6OVdWM3FyNnpFeTcwcUVXLUpzNGRPVVU5TWVXQ2xVY1VyblF5XzJERG42d05wd1pBS0o1dTFmbTZncEIxVXpKM9IBYEFVX3lxTE9GT1NrdndiblU3dlBGWDJUOGJ0TUpCVVl6OVdWM3FyNnpFeTcwcUVXLUpzNGRPVVU5TWVXQ2xVY1VyblF5XzJERG42d05wd1pBS0o1dTFmbTZncEIxVXpKMw?oc=5",
@@ -1324,7 +1444,7 @@
     "name": "Lực lượng vũ trang Philippines (AFP) thử nghiệm năng lực phòng thủ trên không và trên biển trong các cuộc tập trận ở miề",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
-    "location": "Philippine News Agency",
+    "location": "Philippines",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -1334,8 +1454,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Philippine News Agency",
     "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFqNUF1bnhjaEhkTkZCZEJaQ3ZJWHotU2toakpHamY0TldOS1FBakhDY1NPN0lDWnljSi1QR1hlZEd1NDdfVTRDeFFtOWJZdVJKQ18wTFVXc2h4SkZlVUgtVF9VLXg5c0FLUDc1cVEyRWVNS3V2cW1TcWRvWlJqcDlpVzZ2R3dJWDNNczJQQWc2cWNUYml6SG44ak0?oc=5",
     "articles": [
@@ -1354,7 +1474,7 @@
     "name": "Sức mạnh từ cuộc diễn tập - Báo Quân đội nhân dân",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Quân đội nhân dân",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1364,8 +1484,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Báo Quân đội nhân dân",
     "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVlFnRms1OEVUWXFlczZ0QVBmMnBndkx1VHZ2UDh4S0xkcHIyeTVhU0xiN0ZreHNYSDZGaDlUU1hPLU9sUmxrNHhaQkt0LUhTWHQtSm1GNi1BY2VpRnZKbkRFcEYyUE1haEJOQXMyaklZb2RITmUyYU5tN1NhSC1jNTZZM29SbmtpZjhEdlAzbVdiaWVO?oc=5",
     "articles": [
@@ -1384,7 +1504,7 @@
     "name": "Gắn diễn tập với nghiên cứu, nâng cao khả năng phòng ngự bờ biển - Báo Lâm Đồng",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Báo Lâm Đồng",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -1394,8 +1514,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Báo Lâm Đồng",
     "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHppalhaWkpiOGI1ZVpIX2Z1NWVjV3YzQ0lxdjhWalEzWEZUeTFRN2w4WGxtZm9wMVRCSk9KVnNEMU40VXNVbTZIU2VueHBhV1prV2U5VlBOcFJGVTlBalZzSktDbE9XSHhRNXJkeFd2aTNmY0JfblZDcGh5VEY2Rl9jSkhTZVRKcWEyeDhzVnRoVFYtZjBiY0dqNkhkQQ?oc=5",
     "articles": [
@@ -1414,7 +1534,7 @@
     "name": "Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Baolangson.vn",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1424,8 +1544,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Baolangson.vn",
     "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXhsdWJVenBlQ01QNDRpZzBzYlFERmVCXzE3TVltaFhoYmhkWDFJaldzWmdndjB6WVQwSzZJX0g2ZVl5ZFowR2ZsU29qQnVvdGNLUER1dFF4MC16bnpSRnJkYlUxLUFEYmtObmFBU0ctZTVMSHI1ZHN2YkpBMW9jTmptbDJYc19FWG9fQVhiYWVOYWlkb2M3RDg0THdmaGo2RkppLXFBbEpTWklQMUxKSjhvRl8?oc=5",
     "articles": [
@@ -1444,7 +1564,7 @@
     "name": "Sự cố tàu chở dầu \"liên quan đến lực lượng quân sự\" được báo cáo ở eo biển Hormuz - Euronews.com",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Euronews.com",
+    "location": "Eo biển Hormuz",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -1454,8 +1574,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "Euronews.com",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm96RExBbGw0OERZX1lMWGxhczRYS00yOXR6Rlg0XzJ0VHk2bEhZVHVFNmFRYllVUjZvZUhqYzFQSnNULTNhRjNhcE5IOXFNQmFOU2RlZlRZYWxrUnVZbWJrWGEyQWF6T1Z4MUUweHVKTmsyNnMtSS1KeHhxeWdoUWlZYU03eUR0X242RVdjNUp5dnU1R3hXRmNwOV94Nkx5UGtySXZMVnV2QQ?oc=5",
     "articles": [
@@ -1474,7 +1594,7 @@
     "name": "Quân khu 1 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Baolangson.vn",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Baolangson.vn",
+    "location": "Việt Nam",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1484,8 +1604,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Baolangson.vn",
     "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWV9GdDJvRVduYlVHbEZpd2FKaFFhM2puWjhmdlF3R0RLOTV1LWczNGlFS1VaV21Yd3g1eEZYWjR6Uk1wOUVmVm84dGNRSWxQcDlIWVhjR1ZHWHpubHFLQXpYZ1ZEbldsdGpQVDc3TGN3TjA3TWcxWGN1aWVIaG9TaE1mZlRXM2s3UGRZc253Z0ZYdFZYd0d1VlBQTHlUS05Kd09ZYVM3UkgtcktOWFc5bGJoa0sxTmRINHQ1TlpR?oc=5",
     "articles": [
@@ -1504,7 +1624,7 @@
     "name": "11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trườn",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "金十数据",
+    "location": "Ukraine, Ba Lan",
     "region": "Châu Âu & Bắc Đại Tây Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1514,8 +1634,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 11,
     "sourceTitle": "金十数据",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
     "articles": [
@@ -1534,7 +1654,7 @@
     "name": "Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Vietnam.vn",
+    "location": "Việt Nam",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1544,8 +1664,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 1,
     "sourceTitle": "Vietnam.vn",
     "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzAwbHdqb0JHNFRyRmE3TFRuQnE5WElSMHZaYnFQUDlSSUZVMlgya1dTYkF0aDZmbDUxWnl1VV9vck1TRXI1bDNLVlQxdkRiZzA5NWRpTzVlaDJYbUwtTjRBREY1cTRWcTByVFFNZGI1R0NRRV9PcGZ6RzB5SzR3S0NpSVZEYkRadWUwdURPVzI1c3NiaF83Y2owbDM?oc=5",
     "articles": [
@@ -1564,7 +1684,7 @@
     "name": "Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "WANA News Agency",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -1574,8 +1694,8 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "WANA News Agency",
     "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzlXenJFTE9pY29lSExkREdsR3ZIQjg3ZHdVS2ZOM01CNmFXZkZwNVNoSkJ2X0YzUFJ6TDNuTEYtbjVSNmNCVE5OSE5MemNjR2Jkb0liZ3NOV3ozUXM1R3REdG5oLWRVendES1ZERU4xbndvdEpKT0VKLXF0elpoVg?oc=5",
     "articles": [
@@ -1594,7 +1714,7 @@
     "name": "Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin h",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "Global Times",
+    "location": "Việt Nam, Trung Quốc",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Hải quân",
     "domainLabel": "Hải quân & Chống ngầm",
@@ -1604,7 +1724,7 @@
       "Bảo đảm an ninh hàng hải và bắn đạn thật"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "Global Times",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03VG5TdWYyYTNUSEFjaEg4NkpTckMteWFSMjlZbGl2WFZ3UXNFWE9iYk5MWmlTM2NNQXd4VzhoSjNBd1p6NkUzaDBvVkU3ZGVUWEpOQm1RSEJmOHBfVVlfd1NB?oc=5",
@@ -1624,7 +1744,7 @@
     "name": "“Mục đích và giới hạn mở rộng sứ mệnh của Đơn vị Cheonghae phải được làm rõ… những lo ngại cần được xóa tan” - Yonhap Ne",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "연합뉴스",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1634,8 +1754,8 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
+    "troops": 0,
+    "nationsCount": 0,
     "sourceTitle": "연합뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FcWxmOThkMXhOeUdsb2NWRjhCX0RxUUJjSkNtVThuaDhxY1pBN283Y0ZWdFBNMXY2MVUzYno3a0kwQjNFLWk3M1Y5RThRNmhSbWdrandDZlhiOVFobkVadtIBYEFVX3lxTE9FcWxmOThkMXhOeUdsb2NWRjhCX0RxUUJjSkNtVThuaDhxY1pBN283Y0ZWdFBNMXY2MVUzYno3a0kwQjNFLWk3M1Y5RThRNmhSbWdrandDZlhiOVFobkVadg?oc=5",
     "articles": [
@@ -1654,7 +1774,7 @@
     "name": "Bộ Quốc phòng Hoa Kỳ ra lệnh hạn chế tiếp xúc xã hội và không chính thức với quân đội Canada - Yonhap News",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
-    "location": "연합뉴스",
+    "location": "Mỹ, Canada",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
@@ -1664,7 +1784,7 @@
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
+    "troops": 0,
     "nationsCount": 2,
     "sourceTitle": "연합뉴스",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQtIBYEFVX3lxTE5UcmR5b1RlU0FvRmtNNUdYaV9wcFpwNnAza2ZxMjVPbkZudXVGTkhuTW9wOGs2V1UyMWV0a0FXS0VoazRQUDZla2xuR0Flbi0xWnFoYzVYWHhPWXZ3VFlDQg?oc=5",
@@ -1678,125 +1798,5 @@
     "updatedAt": "22/11/2026 17:39 UTC",
     "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
     "publishedAtIso": "2026-11-22T11:12:28+00:00"
-  },
-  {
-    "id": "osint-2026112217-avideoreleasedby",
-    "name": "Một đoạn video do Bộ chỉ huy Hải quân Tây Mindanao (NCWM) của Hải quân Philippines (PN) công bố cho thấy tàu khu trục gi",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Facebook",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Facebook): Một đoạn video do Bộ chỉ huy Hải quân Tây Mindanao (NCWM) của Hải quân Philippines (PN) công bố cho thấy tàu khu trục giám sát FS Vendémiaire (F-734) của Hải quân Pháp đi cùng với tàu khu trục mang tên lửa dẫn đường BRP Diego Silang (FFG-7) của Hải quân Philippines - Facebook",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Facebook",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYWpaSndyRDFrR0g0T0RBSk05WEFjcFZIRXdBNGV5M2ljaGlsNzlwaFFVeUl3d1NmQ2FkT01uUE1Ld0JFaXk2d3VwVFFEbXFEMnFDRWh3MkVKNTNhdTBULVh5Mk5veE96aVhXT3FsNWZqdGNhVWdlYVFDY2RQenNIQmlYWXFBQnBvcnVZQWtzSjNxNWxHdHlwa1lpNW1DU0NxMS1la0JHUk5RTHJpckN5UEdjcVkyV2FOUGdVald0Y1VDdldTWEFfNUx3Ym50QU5tY0NjRnZDVl81T3RY?oc=5",
-    "articles": [
-      {
-        "title": "Một đoạn video do Bộ chỉ huy Hải quân Tây Mindanao (NCWM) của Hải quân Philippines (PN) công bố cho thấy tàu khu trục giám sát FS Vendémiaire (F-734) của Hải quân Pháp đi cùng với tàu khu trục mang tên lửa dẫn đường BRP Diego Silang (FFG-7) của Hải quân Philippines - Facebook",
-        "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNYWpaSndyRDFrR0g0T0RBSk05WEFjcFZIRXdBNGV5M2ljaGlsNzlwaFFVeUl3d1NmQ2FkT01uUE1Ld0JFaXk2d3VwVFFEbXFEMnFDRWh3MkVKNTNhdTBULVh5Mk5veE96aVhXT3FsNWZqdGNhVWdlYVFDY2RQenNIQmlYWXFBQnBvcnVZQWtzSjNxNWxHdHlwa1lpNW1DU0NxMS1la0JHUk5RTHJpckN5UEdjcVkyV2FOUGdVald0Y1VDdldTWEFfNUx3Ym50QU5tY0NjRnZDVl81T3RY?oc=5",
-        "publisher": "Facebook"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T10:00:31+00:00"
-  },
-  {
-    "id": "osint-2026112223-tptrungcaonht",
-    "name": "Tập trung cao nhất để cuộc diễn tập khu vực phòng thủ tỉnh Hà Tĩnh thành công, an toàn tuyệt đối - Cổng thông tin điện t",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Cổng thông tin điện tử tỉnh Hà Tĩnh): Tập trung cao nhất để cuộc diễn tập khu vực phòng thủ tỉnh Hà Tĩnh thành công, an toàn tuyệt đối - Cổng thông tin điện tử tỉnh Hà Tĩnh",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Cổng thông tin điện tử tỉnh Hà Tĩnh",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTlE4cFE4RzJaN0dCWlEtZ2V0ZHlKa1lrMW53Y3J4aXY0aXlvYVhZRGdQaFVyT0cwLVhyT0JtRWNUN3BLZG82S0E0X2dqX256RXJhRlNlRy1kZW1sS3o0Y3lxTm1XUTZSRmtteVVMaVpOcDhBZ3RoMXN5VzBJSHVRbXNTb2FXcEkwb0xrOHQ0cHREZEJtXzNOb2d0bVFtLWRoVjVGYzhweVkxNUhDU09yMFdmdi11Mk1oTVdmYzlBQV8yNkpkQ0o5Nw?oc=5",
-    "articles": [
-      {
-        "title": "Tập trung cao nhất để cuộc diễn tập khu vực phòng thủ tỉnh Hà Tĩnh thành công, an toàn tuyệt đối - Cổng thông tin điện tử tỉnh Hà Tĩnh",
-        "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQTlE4cFE4RzJaN0dCWlEtZ2V0ZHlKa1lrMW53Y3J4aXY0aXlvYVhZRGdQaFVyT0cwLVhyT0JtRWNUN3BLZG82S0E0X2dqX256RXJhRlNlRy1kZW1sS3o0Y3lxTm1XUTZSRmtteVVMaVpOcDhBZ3RoMXN5VzBJSHVRbXNTb2FXcEkwb0xrOHQ0cHREZEJtXzNOb2d0bVFtLWRoVjVGYzhweVkxNUhDU09yMFdmdi11Mk1oTVdmYzlBQV8yNkpkQ0o5Nw?oc=5",
-        "publisher": "Cổng thông tin điện tử tỉnh Hà Tĩnh"
-      }
-    ],
-    "updatedAt": "22/11/2026 23:20 UTC",
-    "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
-    "publishedAtIso": "2026-11-22T09:44:15+00:00"
-  },
-  {
-    "id": "osint-2026112404-mr",
-    "name": "Tàu quét mìn của Mỹ cập cảng Hososhima, thành phố Hyūga (MRT Miyazaki Broadcasting) - Yahoo! News",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Yahoo!ニュース",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Yahoo!ニュース): Tàu quét mìn của Mỹ cập cảng Hososhima, thành phố Hyūga (MRT Miyazaki Broadcasting) - Yahoo! News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "Yahoo!ニュース",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84MDhfaDh2V2FYSi1tSGFrVE1MR3JLRlJVOEdvYmJaYVVoeVBPcTAzd2dKb0cwUWVXRWlBUjVMNWpSdWt5dV9sYlh1WU9KeGZKVmZ2NEpHMndZRlYxalFpRE1pSnVMU2JaMy1tdC1WNFNTRjNkYmVuOHZ0ZzlBZTg?oc=5",
-    "articles": [
-      {
-        "title": "Tàu quét mìn của Mỹ cập cảng Hososhima, thành phố Hyūga (MRT Miyazaki Broadcasting) - Yahoo! News",
-        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84MDhfaDh2V2FYSi1tSGFrVE1MR3JLRlJVOEdvYmJaYVVoeVBPcTAzd2dKb0cwUWVXRWlBUjVMNWpSdWt5dV9sYlh1WU9KeGZKVmZ2NEpHMndZRlYxalFpRE1pSnVMU2JaMy1tdC1WNFNTRjNkYmVuOHZ0ZzlBZTg?oc=5",
-        "publisher": "Yahoo!ニュース"
-      }
-    ],
-    "updatedAt": "24/11/2026 04:40 UTC",
-    "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
-    "publishedAtIso": "2026-11-22T09:38:12+00:00"
-  },
-  {
-    "id": "osint-2026112217-5",
-    "name": "Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "朝鮮日報中文版",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (朝鮮日報中文版): Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 1500,
-    "nationsCount": 2,
-    "sourceTitle": "朝鮮日報中文版",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTQzNTZTR25nTGFUd2NOYkRYRVNTcjdJVzd5aTNQN1NPUEpYSkJBR1pSRi1fSktEOGZfdGU1TkF5c3JaYkNlNlRSR1JQV1pfejM5NUdBaVMtMXdpUzh5MmFrbTZfMTdTY092WjEtZGtqREF5VXN3dDdVTkVfOVB3bzZkYm5pN1hWRjl3UWh3WkhnRl9sSURCQXFZb0djT09u?oc=5",
-    "articles": [
-      {
-        "title": "Trước cuộc tập trận chung Mỹ-Nhật, Triều Tiên chỉ yêu cầu Nhật Bản \"không hành động hấp tấp\" - Chosun Ilbo bản Trung",
-        "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPWTQzNTZTR25nTGFUd2NOYkRYRVNTcjdJVzd5aTNQN1NPUEpYSkJBR1pSRi1fSktEOGZfdGU1TkF5c3JaYkNlNlRSR1JQV1pfejM5NUdBaVMtMXdpUzh5MmFrbTZfMTdTY092WjEtZGtqREF5VXN3dDdVTkVfOVB3bzZkYm5pN1hWRjl3UWh3WkhnRl9sSURCQXFZb0djT09u?oc=5",
-        "publisher": "朝鮮日報中文版"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T08:28:51+00:00"
   }
 ]
