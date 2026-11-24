@@ -1091,8 +1091,15 @@ jobs:
     }
 
     async function fetchRepoExercisesJson() {
-      try {
-        const res = await fetch("./data/exercises.json?t=" + Date.now());
+      const ts = Date.now();
+      const rawHost = "raw.githubusercontent.com";
+      const urls = [
+        `https://${rawHost}/dqt169/milex-watch-2026/main/data/exercises.json?t=${ts}`,
+         `./data/exercises.json?t=${ts}`
+       ];
+       for (const url of urls) {
+         try {
+        const res = await fetch(url, { cache: "no-store" });
         if (res.ok) {
           const arr = await res.json();
           if (Array.isArray(arr) && arr.length > 0) {
@@ -1100,6 +1107,7 @@ jobs:
           }
         }
       } catch (e) {}
+       }
       return [];
     }
 
