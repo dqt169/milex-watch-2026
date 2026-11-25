@@ -297,7 +297,7 @@ def fetch_rss():
                         print(f"[WARN] Direct RSS ({name}): {e}")
         except Exception as e:
             print(f"[WARN] Direct RSS sources load: {e}")
-            return res
+        return res
 
 def fetch_gdelt():
     res = []
@@ -372,7 +372,7 @@ def main():
     urls = {i.get("sourceUrl") for i in fresh}
     titles = {i.get("name", "").lower() for i in fresh}
     added = 0
-    for art in fetch_rss() + fetch_gdelt():
+    for art in (fetch_rss() or []) + (fetch_gdelt() or []):
         if art["url"] in urls: continue
         try:
             if "T" in art["pubDate"] and "+" in art["pubDate"]:
