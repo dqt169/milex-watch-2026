@@ -15,7 +15,7 @@
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
     "troops": 0,
-    "nationsCount": 2,
+    "nationsCount": 1,
     "sourceTitle": "디지털투데이",
     "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GUjRJNm9OR3dTajJVNGwtVmdiSGdlWF9RYzVlUGNYN25vUFB1ZW1xSk5KT0pjdTJ5NzRlQklaSFdETTI0SnNUdU1QaXJLZ0l0dURtMjBVT3NxNkZCZ3hfQkhXSkdDOUljZklMejZ1aGhxdlU?oc=5",
     "articles": [
@@ -615,7 +615,7 @@
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
     "troops": 0,
-    "nationsCount": 2,
+    "nationsCount": 3,
     "sourceTitle": "The Japan Times",
     "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFRiMzM4VkpWejQ5VFFnd0NCOWJ3SkE4bTEzVE9yNGRxU2tNT0pGdkNZYTRDMERobVQ0eWNGTHM1cmVNTWRWZlI0RHhaazY1WTU2YmtxUVkzS0NTS0YxemxoaVhXT05aR1JwMmdzZFcxNGJvSVlBZVJrdWxlR2h4UnJHam13dXpmQmhqZ0Q5TTItUQ?oc=5",
     "articles": [
@@ -1951,14 +1951,14 @@
   },
   {
     "id": "osint-2026112500-lclngmtihn",
-    "name": "Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - 연합뉴스",
+    "name": "Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - Yonhap N",
     "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
     "location": "Mỹ, Nhật Bản, Hàn Quốc",
     "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - 연합뉴스",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - Yonhap News",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
@@ -1970,7 +1970,7 @@
     "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDbUpOQS02SWFYRl9KQmM4aElwa0xZTmZiNnViMGlMX3ZYWHc2S1pQWDEyR01OYWlnaWdTWE5xZXpraTZzeGJYeDlhUkxadEc3aFRHNVp0YzkxZw?oc=5",
     "articles": [
       {
-        "title": "Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - 연합뉴스",
+        "title": "Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - Yonhap News",
         "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDbUpOQS02SWFYRl9KQmM4aElwa0xZTmZiNnViMGlMX3ZYWHc2S1pQWDEyR01OYWlnaWdTWE5xZXpraTZzeGJYeDlhUkxadEc3aFRHNVp0YzkxZw?oc=5",
         "publisher": "연합뉴스"
       }
@@ -1978,6 +1978,36 @@
     "updatedAt": "25/11/2026 00:29 UTC",
     "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
     "publishedAtIso": "2026-11-23T08:02:11+00:00"
+  },
+  {
+    "id": "osint-2026112500-11",
+    "name": "11 quốc gia châu Âu tổ chức cuộc tập trận chung tại Ba Lan để chuẩn bị cho việc triển khai quân đội sau chiến tranh ở Uk",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ukraine, Ba Lan",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (金十数据): 11 quốc gia châu Âu tổ chức cuộc tập trận chung tại Ba Lan để chuẩn bị cho việc triển khai quân đội sau chiến tranh ở Ukraine - Tham khảo thị trường - Dữ liệu Golden Ten",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 11,
+    "sourceTitle": "金十数据",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
+    "articles": [
+      {
+        "title": "11 quốc gia châu Âu tổ chức cuộc tập trận chung tại Ba Lan để chuẩn bị cho việc triển khai quân đội sau chiến tranh ở Ukraine - Tham khảo thị trường - Dữ liệu Golden Ten",
+        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
+        "publisher": "金十数据"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:51 UTC",
+    "collectedAtIso": "2026-11-25T00:51:18.816237+00:00",
+    "publishedAtIso": "2026-11-23T06:53:27+00:00"
   },
   {
     "id": "osint-2026112500-cankoreashighsta",
@@ -2368,35 +2398,5 @@
     "updatedAt": "25/11/2026 00:29 UTC",
     "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
     "publishedAtIso": "2026-11-23T00:12:44+00:00"
-  },
-  {
-    "id": "osint-2026112500-nkoreaskimsays",
-    "name": "Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là",
-    "dates": "Ghi nhận: 23/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Triều Tiên",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là để tự vệ - The Korea Herald",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "The Korea Herald",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5lUG1zTkwtakVRSlRRZzAtd044TzYzZzg2NER3MXBiVXgtUDBtMTFVbHBPVUN1R3RWTmdkR3NZekpEdmFhSE9xSWJXSC1ieHFMeE9BeVBmMA?oc=5",
-    "articles": [
-      {
-        "title": "Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là để tự vệ - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5lUG1zTkwtakVRSlRRZzAtd044TzYzZzg2NER3MXBiVXgtUDBtMTFVbHBPVUN1R3RWTmdkR3NZekpEdmFhSE9xSWJXSC1ieHFMeE9BeVBmMA?oc=5",
-        "publisher": "The Korea Herald"
-      }
-    ],
-    "updatedAt": "25/11/2026 00:29 UTC",
-    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
-    "publishedAtIso": "2026-11-23T00:05:41+00:00"
   }
 ]
