@@ -930,6 +930,36 @@
     "publishedAtIso": "2026-11-24T06:30:00+00:00"
   },
   {
+    "id": "osint-2026112502-whatisrussiasigna",
+    "name": "Nga báo hiệu điều gì khi liên tục bay quân sự gần Triều Tiên? - Báo Hàn Quốc",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Hàn Quốc, Triều Tiên, Nga",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Nga báo hiệu điều gì khi liên tục bay quân sự gần Triều Tiên? - Báo Hàn Quốc",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 3,
+    "sourceTitle": "The Korea Herald",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PMFdlZVhqTDNoYVgxV0RVMkVVTlpSN0tJbHVfSENKdkdCODhNTGo4SnZDbTFKWnkweHl1c2VReFVOeVNpME1VOWxWWFRvX192bE5ZMnhzMA?oc=5",
+    "articles": [
+      {
+        "title": "Nga báo hiệu điều gì khi liên tục bay quân sự gần Triều Tiên? - Báo Hàn Quốc",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PMFdlZVhqTDNoYVgxV0RVMkVVTlpSN0tJbHVfSENKdkdCODhNTGo4SnZDbTFKWnkweHl1c2VReFVOeVNpME1VOWxWWFRvX192bE5ZMnhzMA?oc=5",
+        "publisher": "The Korea Herald"
+      }
+    ],
+    "updatedAt": "25/11/2026 02:22 UTC",
+    "collectedAtIso": "2026-11-25T02:22:50.431996+00:00",
+    "publishedAtIso": "2026-11-24T06:06:34+00:00"
+  },
+  {
     "id": "osint-2026112417-pmtariqueheadsto",
     "name": "Thủ tướng Tarique tới Swarnadwip để tham gia cuộc tập trận quân sự chung - https://www.businesstimes-bd.com/",
     "dates": "Ghi nhận: 24/11/2026",
@@ -1800,6 +1830,36 @@
     "publishedAtIso": "2026-11-23T09:35:00+00:00"
   },
   {
+    "id": "osint-2026112502-japanstamagotchid",
+    "name": "Đồ chơi thú cưng kỹ thuật số Tamagotchi của Nhật Bản kỷ niệm 30 năm - The Japan Times",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Nhật Bản",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Japan Times): Đồ chơi thú cưng kỹ thuật số Tamagotchi của Nhật Bản kỷ niệm 30 năm - The Japan Times",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "The Japan Times",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSWcxVm1CUk5fSDJnX2t2YUJFeGs4SmVtT1pCNnRTUFVvd2IxTGVIeXgtS2o3OGg2eHQtTU1URFNLeWJLVGdWX2QtNHVTUmQtMXJJdWZjeE5FNmV5anNkVTBNSlJWWGluYi1JWFZ4bDBCZ1hHRDRjMmM5VFYwT0NFaUZVNA?oc=5",
+    "articles": [
+      {
+        "title": "Đồ chơi thú cưng kỹ thuật số Tamagotchi của Nhật Bản kỷ niệm 30 năm - The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOSWcxVm1CUk5fSDJnX2t2YUJFeGs4SmVtT1pCNnRTUFVvd2IxTGVIeXgtS2o3OGg2eHQtTU1URFNLeWJLVGdWX2QtNHVTUmQtMXJJdWZjeE5FNmV5anNkVTBNSlJWWGluYi1JWFZ4bDBCZ1hHRDRjMmM5VFYwT0NFaUZVNA?oc=5",
+        "publisher": "The Japan Times"
+      }
+    ],
+    "updatedAt": "25/11/2026 02:22 UTC",
+    "collectedAtIso": "2026-11-25T02:22:50.431996+00:00",
+    "publishedAtIso": "2026-11-23T09:18:00+00:00"
+  },
+  {
     "id": "osint-2026112319-7trcthngdint",
     "name": "7 trực thăng diễn tập mang cờ chào mừng Triển lãm Quốc phòng 2026 - Báo Tin tức và Dân tộc - TTXVN",
     "dates": "Ghi nhận: 23/11/2026",
@@ -2338,65 +2398,5 @@
     "updatedAt": "23/11/2026 06:14 UTC",
     "collectedAtIso": "2026-11-23T06:14:53.789935+00:00",
     "publishedAtIso": "2026-11-23T01:55:31+00:00"
-  },
-  {
-    "id": "osint-2026112306-afptestsairnaval",
-    "name": "Lực lượng vũ trang Philippines (AFP) thử nghiệm năng lực phòng thủ trên không và trên biển trong các cuộc tập trận ở miề",
-    "dates": "Ghi nhận: 23/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Philippines",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Philippine News Agency): Lực lượng vũ trang Philippines (AFP) thử nghiệm năng lực phòng thủ trên không và trên biển trong các cuộc tập trận ở miền Bắc Luzon - Hãng thông tấn Philippines",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "Philippine News Agency",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFqNUF1bnhjaEhkTkZCZEJaQ3ZJWHotU2toakpHamY0TldOS1FBakhDY1NPN0lDWnljSi1QR1hlZEd1NDdfVTRDeFFtOWJZdVJKQ18wTFVXc2h4SkZlVUgtVF9VLXg5c0FLUDc1cVEyRWVNS3V2cW1TcWRvWlJqcDlpVzZ2R3dJWDNNczJQQWc2cWNUYml6SG44ak0?oc=5",
-    "articles": [
-      {
-        "title": "Lực lượng vũ trang Philippines (AFP) thử nghiệm năng lực phòng thủ trên không và trên biển trong các cuộc tập trận ở miền Bắc Luzon - Hãng thông tấn Philippines",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOZmFqNUF1bnhjaEhkTkZCZEJaQ3ZJWHotU2toakpHamY0TldOS1FBakhDY1NPN0lDWnljSi1QR1hlZEd1NDdfVTRDeFFtOWJZdVJKQ18wTFVXc2h4SkZlVUgtVF9VLXg5c0FLUDc1cVEyRWVNS3V2cW1TcWRvWlJqcDlpVzZ2R3dJWDNNczJQQWc2cWNUYml6SG44ak0?oc=5",
-        "publisher": "Philippine News Agency"
-      }
-    ],
-    "updatedAt": "23/11/2026 06:14 UTC",
-    "collectedAtIso": "2026-11-23T06:14:53.789935+00:00",
-    "publishedAtIso": "2026-11-23T01:07:00+00:00"
-  },
-  {
-    "id": "osint-2026112500-yoochoonsikimf",
-    "name": "[Yoo Choon-sik] Lời khuyên của IMF về chính sách tài khóa - The Korea Herald",
-    "dates": "Ghi nhận: 23/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): [Yoo Choon-sik] Lời khuyên của IMF về chính sách tài khóa - The Korea Herald",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "The Korea Herald",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtQUt2NndBV3J3T0hfVWtEbDlDcHpOMElMYi0tSXh1dUpKVFlhNWd5REdKMnpfOGh3NW9JMk5UVDlIMTdxRVpBMTZGX2V1T0psY19jbHVjMA?oc=5",
-    "articles": [
-      {
-        "title": "[Yoo Choon-sik] Lời khuyên của IMF về chính sách tài khóa - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtQUt2NndBV3J3T0hfVWtEbDlDcHpOMElMYi0tSXh1dUpKVFlhNWd5REdKMnpfOGh3NW9JMk5UVDlIMTdxRVpBMTZGX2V1T0psY19jbHVjMA?oc=5",
-        "publisher": "The Korea Herald"
-      }
-    ],
-    "updatedAt": "25/11/2026 00:29 UTC",
-    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
-    "publishedAtIso": "2026-11-23T00:12:44+00:00"
   }
 ]
