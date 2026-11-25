@@ -1,5 +1,35 @@
 [
   {
+    "id": "osint-2026112500-7",
+    "name": "Cuộc chiến được chuẩn bị trong không gian ảo… Mỹ nâng cao trình độ huấn luyện quân sự AI ở Ấn Độ Dương - Thái Bình Dương",
+    "dates": "Ghi nhận: 25/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ấn Độ Dương, Thái Bình Dương (Mỹ)",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (디지털투데이): Cuộc chiến được chuẩn bị trong không gian ảo… Mỹ nâng cao trình độ huấn luyện quân sự AI ở Ấn Độ Dương - Thái Bình Dương - Digital Today",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "디지털투데이",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GUjRJNm9OR3dTajJVNGwtVmdiSGdlWF9RYzVlUGNYN25vUFB1ZW1xSk5KT0pjdTJ5NzRlQklaSFdETTI0SnNUdU1QaXJLZ0l0dURtMjBVT3NxNkZCZ3hfQkhXSkdDOUljZklMejZ1aGhxdlU?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc chiến được chuẩn bị trong không gian ảo… Mỹ nâng cao trình độ huấn luyện quân sự AI ở Ấn Độ Dương - Thái Bình Dương - Digital Today",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE5GUjRJNm9OR3dTajJVNGwtVmdiSGdlWF9RYzVlUGNYN25vUFB1ZW1xSk5KT0pjdTJ5NzRlQklaSFdETTI0SnNUdU1QaXJLZ0l0dURtMjBVT3NxNkZCZ3hfQkhXSkdDOUljZklMejZ1aGhxdlU?oc=5",
+        "publisher": "디지털투데이"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-25T00:10:18+00:00"
+  },
+  {
     "id": "osint-2026112500-wheretowatchwwes",
     "name": "Nơi xem WWE's Survivor Series: WarGames: Time, match card, more - ESPN",
     "dates": "Ghi nhận: 24/11/2026",
@@ -285,7 +315,7 @@
     ],
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
     "troops": 0,
-    "nationsCount": 0,
+    "nationsCount": 1,
     "sourceTitle": "Báo Hải quân Việt Nam",
     "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzlCNW9hSWxhc0RqYVFCbkRHSUttcEFQU2xUb1lHTVk0VE1xTVg0aEl0ejA0bWdMcTk0TFhDaDdKZlIzLTN6dG1IbXI0YjdJSXVNQ1RSQng4bkpPd3ZBa2xFOWtHTnl2bnpWUEI0YnJSVnh6c3ZSUU1UWmM3am9zUFVJNm5nOXJ2ZjlJT2pTUDk0RzlBOGdrcjFWUVA5MlVCV1E?oc=5",
     "articles": [
@@ -568,6 +598,36 @@
     "updatedAt": "24/11/2026 17:32 UTC",
     "collectedAtIso": "2026-11-24T17:32:56.719696+00:00",
     "publishedAtIso": "2026-11-24T09:00:10+00:00"
+  },
+  {
+    "id": "osint-2026112500-takaichimovesupic",
+    "name": "Takaichi đẩy nhanh việc hỗ trợ tài chính cho ICC trong cuộc họp đầu tiên với chủ tịch tòa án kể từ khi Mỹ áp đặt các biệ",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Mỹ, Pháp",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Japan Times): Takaichi đẩy nhanh việc hỗ trợ tài chính cho ICC trong cuộc họp đầu tiên với chủ tịch tòa án kể từ khi Mỹ áp đặt các biện pháp trừng phạt - The Japan Times",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "The Japan Times",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFRiMzM4VkpWejQ5VFFnd0NCOWJ3SkE4bTEzVE9yNGRxU2tNT0pGdkNZYTRDMERobVQ0eWNGTHM1cmVNTWRWZlI0RHhaazY1WTU2YmtxUVkzS0NTS0YxemxoaVhXT05aR1JwMmdzZFcxNGJvSVlBZVJrdWxlR2h4UnJHam13dXpmQmhqZ0Q5TTItUQ?oc=5",
+    "articles": [
+      {
+        "title": "Takaichi đẩy nhanh việc hỗ trợ tài chính cho ICC trong cuộc họp đầu tiên với chủ tịch tòa án kể từ khi Mỹ áp đặt các biện pháp trừng phạt - The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOZFRiMzM4VkpWejQ5VFFnd0NCOWJ3SkE4bTEzVE9yNGRxU2tNT0pGdkNZYTRDMERobVQ0eWNGTHM1cmVNTWRWZlI0RHhaazY1WTU2YmtxUVkzS0NTS0YxemxoaVhXT05aR1JwMmdzZFcxNGJvSVlBZVJrdWxlR2h4UnJHam13dXpmQmhqZ0Q5TTItUQ?oc=5",
+        "publisher": "The Japan Times"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-24T08:37:00+00:00"
   },
   {
     "id": "osint-2026112417-cambodiachinatoh",
@@ -898,6 +958,96 @@
     "updatedAt": "24/11/2026 17:05 UTC",
     "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
     "publishedAtIso": "2026-11-24T06:02:19+00:00"
+  },
+  {
+    "id": "osint-2026112500-justiceministernom",
+    "name": "Ứng cử viên Bộ trưởng Tư pháp từ chối loại trừ khả năng rút lại các cáo buộc đối với ông Lee - The Korea Herald",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Pháp",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Ứng cử viên Bộ trưởng Tư pháp từ chối loại trừ khả năng rút lại các cáo buộc đối với ông Lee - The Korea Herald",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "The Korea Herald",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85N2l1clVRbEFzdHVYN0N4eWtHRlBQUDYtSGRIM0d0UVRyMVpLYmdoOTdncF83OTJReUhsVVN3ZU4teW5MU2hCUVNkcGk2WXpuSlBTZkFLVQ?oc=5",
+    "articles": [
+      {
+        "title": "Ứng cử viên Bộ trưởng Tư pháp từ chối loại trừ khả năng rút lại các cáo buộc đối với ông Lee - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85N2l1clVRbEFzdHVYN0N4eWtHRlBQUDYtSGRIM0d0UVRyMVpLYmdoOTdncF83OTJReUhsVVN3ZU4teW5MU2hCUVNkcGk2WXpuSlBTZkFLVQ?oc=5",
+        "publisher": "The Korea Herald"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-24T06:00:44+00:00"
+  },
+  {
+    "id": "osint-2026112500-1463",
+    "name": "146 sĩ quan mới của Không quân được bổ nhiệm... Ba thế hệ gia đình quân nhân và số quân nhân thứ ba trở thành đề tài nón",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Phòng không",
+    "domainLabel": "Phòng không & Chống UAV",
+    "purpose": "Tin tức tự động dịch & cập nhật (신아일보): 146 sĩ quan mới của Không quân được bổ nhiệm... Ba thế hệ gia đình quân nhân và số quân nhân thứ ba trở thành đề tài nóng - Báo Sina",
+    "drills": [
+      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
+      "Phát hiện và chế áp UAV (Counter-UAS)"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 146,
+    "nationsCount": 0,
+    "sourceTitle": "신아일보",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZZGkzcjlBak9UNmNNa2lZbDlaV0VtbU1CelRuUWhTLXRSUlQxMjhxOGJzcDkxYXFRbGg1XzFwbS11ZXA5OFZubVZ6OWM3b2Z0OEVQUWFkV2FLdmJBMGNxeXVYZWZiX3pvdDhSaF83TFo?oc=5",
+    "articles": [
+      {
+        "title": "146 sĩ quan mới của Không quân được bổ nhiệm... Ba thế hệ gia đình quân nhân và số quân nhân thứ ba trở thành đề tài nóng - Báo Sina",
+        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZZGkzcjlBak9UNmNNa2lZbDlaV0VtbU1CelRuUWhTLXRSUlQxMjhxOGJzcDkxYXFRbGg1XzFwbS11ZXA5OFZubVZ6OWM3b2Z0OEVQUWFkV2FLdmJBMGNxeXVYZWZiX3pvdDhSaF83TFo?oc=5",
+        "publisher": "신아일보"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-24T05:51:54+00:00"
+  },
+  {
+    "id": "osint-2026112500-poscogroupcomplete",
+    "name": "Tập đoàn Posco hoàn tất việc mua lại mỏ khí đá phiến của Hoa Kỳ - The Korea Herald",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Mỹ",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Tập đoàn Posco hoàn tất việc mua lại mỏ khí đá phiến của Hoa Kỳ - The Korea Herald",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "The Korea Herald",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSWTc5NVpFbnZ6NGxOTW5Kb1JEbjFwNkYzOG5TRDRzaUE4T21PRndKdmREUVVsMTR4UHVyaVo5a3BjNjZzSmdMR1NPaDIyLUNCMWdoX1NiMA?oc=5",
+    "articles": [
+      {
+        "title": "Tập đoàn Posco hoàn tất việc mua lại mỏ khí đá phiến của Hoa Kỳ - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSWTc5NVpFbnZ6NGxOTW5Kb1JEbjFwNkYzOG5TRDRzaUE4T21PRndKdmREUVVsMTR4UHVyaVo5a3BjNjZzSmdMR1NPaDIyLUNCMWdoX1NiMA?oc=5",
+        "publisher": "The Korea Herald"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-24T05:35:24+00:00"
   },
   {
     "id": "osint-2026112500-yle",
@@ -1800,6 +1950,66 @@
     "publishedAtIso": "2026-11-23T08:27:12+00:00"
   },
   {
+    "id": "osint-2026112500-lclngmtihn",
+    "name": "Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - 연합뉴스",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Mỹ, Nhật Bản, Hàn Quốc",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - 연합뉴스",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 3,
+    "sourceTitle": "연합뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDbUpOQS02SWFYRl9KQmM4aElwa0xZTmZiNnViMGlMX3ZYWHc2S1pQWDEyR01OYWlnaWdTWE5xZXpraTZzeGJYeDlhUkxadEc3aFRHNVp0YzkxZw?oc=5",
+    "articles": [
+      {
+        "title": "Lực lượng Mỹ tại Hàn Quốc triển khai trực thăng Apache, Blackhawk tham gia diễn tập bắn đạn thật tại Nhật Bản - 연합뉴스",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBDbUpOQS02SWFYRl9KQmM4aElwa0xZTmZiNnViMGlMX3ZYWHc2S1pQWDEyR01OYWlnaWdTWE5xZXpraTZzeGJYeDlhUkxadEc3aFRHNVp0YzkxZw?oc=5",
+        "publisher": "연합뉴스"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-23T08:02:11+00:00"
+  },
+  {
+    "id": "osint-2026112500-cankoreashighsta",
+    "name": "Liệu kỳ thi Suneung đầy cam go của Hàn Quốc có thể tồn tại trong kỷ nguyên AI? - The Korea Herald",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Hàn Quốc",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Liệu kỳ thi Suneung đầy cam go của Hàn Quốc có thể tồn tại trong kỷ nguyên AI? - The Korea Herald",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "The Korea Herald",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hZ3MyMm9uTnNsOGZCc0NDMk9xdXRKMnZPY2JOQ1NPaWIxYXRHZmVNRU5wY3NweFNnQ0tBajJJeDRja0ttT1lralFad0FQQnNwc09pN0JhOA?oc=5",
+    "articles": [
+      {
+        "title": "Liệu kỳ thi Suneung đầy cam go của Hàn Quốc có thể tồn tại trong kỷ nguyên AI? - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9hZ3MyMm9uTnNsOGZCc0NDMk9xdXRKMnZPY2JOQ1NPaWIxYXRHZmVNRU5wY3NweFNnQ0tBajJJeDRja0ttT1lralFad0FQQnNwc09pN0JhOA?oc=5",
+        "publisher": "The Korea Herald"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-23T06:23:25+00:00"
+  },
+  {
     "id": "osint-2026112306-8",
     "name": "An toàn của các quân nhân là ưu tiên hàng đầu của ông Kang Shin-cheol… Lực lượng Cheonghae cụ thể hóa nguyên tắc không c",
     "dates": "Ghi nhận: 23/11/2026",
@@ -1828,6 +2038,36 @@
     "updatedAt": "23/11/2026 06:14 UTC",
     "collectedAtIso": "2026-11-23T06:14:53.789935+00:00",
     "publishedAtIso": "2026-11-23T05:53:00+00:00"
+  },
+  {
+    "id": "osint-2026112500-antgroupbetsonsi",
+    "name": "Ant Group đặt cược vào Simplexity để phát triển mạnh trong cuộc đua robot hình người của Trung Quốc - The Japan Times",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Trung Quốc",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Japan Times): Ant Group đặt cược vào Simplexity để phát triển mạnh trong cuộc đua robot hình người của Trung Quốc - The Japan Times",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "The Japan Times",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYkR0WDlmazBBTWVCc293VlZGV0JicV9UVDZ2UFdhU2c3bDZwUk1OUEJ2R1h5S1pGM3N0dWRMd1FxQVJ5Rm5EckltcURyd21mNE83b2dsVU1aYi1TUjZsZ0lRUnlfOTVxZUZFSXE5Xy1vMVRpOXF1WWQxS1diNHJMS0VucW94STFpaVZEdTZ1ZXBsTmtQ?oc=5",
+    "articles": [
+      {
+        "title": "Ant Group đặt cược vào Simplexity để phát triển mạnh trong cuộc đua robot hình người của Trung Quốc - The Japan Times",
+        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQYkR0WDlmazBBTWVCc293VlZGV0JicV9UVDZ2UFdhU2c3bDZwUk1OUEJ2R1h5S1pGM3N0dWRMd1FxQVJ5Rm5EckltcURyd21mNE83b2dsVU1aYi1TUjZsZ0lRUnlfOTVxZUZFSXE5Xy1vMVRpOXF1WWQxS1diNHJMS0VucW94STFpaVZEdTZ1ZXBsTmtQ?oc=5",
+        "publisher": "The Japan Times"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-23T05:15:00+00:00"
   },
   {
     "id": "osint-2026112306-3",
@@ -2010,6 +2250,36 @@
     "publishedAtIso": "2026-11-23T02:12:42+00:00"
   },
   {
+    "id": "osint-2026112500-leadnkoreaski",
+    "name": "(TIÊU ĐIỂM) Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cườ",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Triều Tiên",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Yonhap News Agency): (TIÊU ĐIỂM) Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là để tự vệ - Hãng thông tấn Yonhap",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "Yonhap News Agency",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44ZWlGclAxX0VLRzJzRmNQTWVzN3o5bzFTVkcxT3REeW8ybmtHcHByNE5vaFBsdFdPYkRRMlFuZmpjTmNqQzVJYnZQTVJBeWFaVEp5SlJtbVJ5UQ?oc=5",
+    "articles": [
+      {
+        "title": "(TIÊU ĐIỂM) Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là để tự vệ - Hãng thông tấn Yonhap",
+        "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE44ZWlGclAxX0VLRzJzRmNQTWVzN3o5bzFTVkcxT3REeW8ybmtHcHByNE5vaFBsdFdPYkRRMlFuZmpjTmNqQzVJYnZQTVJBeWFaVEp5SlJtbVJ5UQ?oc=5",
+        "publisher": "Yonhap News Agency"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-23T02:02:21+00:00"
+  },
+  {
     "id": "osint-2026112306-f35",
     "name": "[Video] Máy bay F-35 của Hà Lan hạ cánh trên đường cao tốc ở Phần Lan...\"Giảm sự phụ thuộc vào căn cứ\" - Yonhap News",
     "dates": "Ghi nhận: 23/11/2026",
@@ -2070,165 +2340,45 @@
     "publishedAtIso": "2026-11-23T01:07:00+00:00"
   },
   {
-    "id": "osint-2026112223-scmnhtcucdi",
-    "name": "Sức mạnh từ cuộc diễn tập - Báo Quân đội nhân dân",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Việt Nam & Đông Nam Á",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Quân đội nhân dân): Sức mạnh từ cuộc diễn tập - Báo Quân đội nhân dân",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "Báo Quân đội nhân dân",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVlFnRms1OEVUWXFlczZ0QVBmMnBndkx1VHZ2UDh4S0xkcHIyeTVhU0xiN0ZreHNYSDZGaDlUU1hPLU9sUmxrNHhaQkt0LUhTWHQtSm1GNi1BY2VpRnZKbkRFcEYyUE1haEJOQXMyaklZb2RITmUyYU5tN1NhSC1jNTZZM29SbmtpZjhEdlAzbVdiaWVO?oc=5",
-    "articles": [
-      {
-        "title": "Sức mạnh từ cuộc diễn tập - Báo Quân đội nhân dân",
-        "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQVlFnRms1OEVUWXFlczZ0QVBmMnBndkx1VHZ2UDh4S0xkcHIyeTVhU0xiN0ZreHNYSDZGaDlUU1hPLU9sUmxrNHhaQkt0LUhTWHQtSm1GNi1BY2VpRnZKbkRFcEYyUE1haEJOQXMyaklZb2RITmUyYU5tN1NhSC1jNTZZM29SbmtpZjhEdlAzbVdiaWVO?oc=5",
-        "publisher": "Báo Quân đội nhân dân"
-      }
-    ],
-    "updatedAt": "22/11/2026 23:20 UTC",
-    "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
-    "publishedAtIso": "2026-11-22T22:51:01+00:00"
-  },
-  {
-    "id": "osint-2026112223-gndintpvingh",
-    "name": "Gắn diễn tập với nghiên cứu, nâng cao khả năng phòng ngự bờ biển - Báo Lâm Đồng",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Việt Nam & Đông Nam Á",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Lâm Đồng): Gắn diễn tập với nghiên cứu, nâng cao khả năng phòng ngự bờ biển - Báo Lâm Đồng",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "Báo Lâm Đồng",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHppalhaWkpiOGI1ZVpIX2Z1NWVjV3YzQ0lxdjhWalEzWEZUeTFRN2w4WGxtZm9wMVRCSk9KVnNEMU40VXNVbTZIU2VueHBhV1prV2U5VlBOcFJGVTlBalZzSktDbE9XSHhRNXJkeFd2aTNmY0JfblZDcGh5VEY2Rl9jSkhTZVRKcWEyeDhzVnRoVFYtZjBiY0dqNkhkQQ?oc=5",
-    "articles": [
-      {
-        "title": "Gắn diễn tập với nghiên cứu, nâng cao khả năng phòng ngự bờ biển - Báo Lâm Đồng",
-        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxPWHppalhaWkpiOGI1ZVpIX2Z1NWVjV3YzQ0lxdjhWalEzWEZUeTFRN2w4WGxtZm9wMVRCSk9KVnNEMU40VXNVbTZIU2VueHBhV1prV2U5VlBOcFJGVTlBalZzSktDbE9XSHhRNXJkeFd2aTNmY0JfblZDcGh5VEY2Rl9jSkhTZVRKcWEyeDhzVnRoVFYtZjBiY0dqNkhkQQ?oc=5",
-        "publisher": "Báo Lâm Đồng"
-      }
-    ],
-    "updatedAt": "22/11/2026 23:20 UTC",
-    "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
-    "publishedAtIso": "2026-11-22T22:02:01+00:00"
-  },
-  {
-    "id": "osint-2026112319-bchhuyqunst",
-    "name": "Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Việt Nam & Đông Nam Á",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Baolangson.vn): Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "Baolangson.vn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXhsdWJVenBlQ01QNDRpZzBzYlFERmVCXzE3TVltaFhoYmhkWDFJaldzWmdndjB6WVQwSzZJX0g2ZVl5ZFowR2ZsU29qQnVvdGNLUER1dFF4MC16bnpSRnJkYlUxLUFEYmtObmFBU0ctZTVMSHI1ZHN2YkpBMW9jTmptbDJYc19FWG9fQVhiYWVOYWlkb2M3RDg0THdmaGo2RkppLXFBbEpTWklQMUxKSjhvRl8?oc=5",
-    "articles": [
-      {
-        "title": "Bộ Chỉ huy Quân sự tỉnh rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập - Baolangson.vn",
-        "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNTXhsdWJVenBlQ01QNDRpZzBzYlFERmVCXzE3TVltaFhoYmhkWDFJaldzWmdndjB6WVQwSzZJX0g2ZVl5ZFowR2ZsU29qQnVvdGNLUER1dFF4MC16bnpSRnJkYlUxLUFEYmtObmFBU0ctZTVMSHI1ZHN2YkpBMW9jTmptbDJYc19FWG9fQVhiYWVOYWlkb2M3RDg0THdmaGo2RkppLXFBbEpTWklQMUxKSjhvRl8?oc=5",
-        "publisher": "Baolangson.vn"
-      }
-    ],
-    "updatedAt": "23/11/2026 19:55 UTC",
-    "collectedAtIso": "2026-11-23T19:55:55.328523+00:00",
-    "publishedAtIso": "2026-11-22T21:05:17+00:00"
-  },
-  {
-    "id": "osint-2026112423-drones",
-    "name": "Máy bay không người lái - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απα",
-    "dates": "Ghi nhận: 22/11/2026",
+    "id": "osint-2026112500-yoochoonsikimf",
+    "name": "[Yoo Choon-sik] Lời khuyên của IMF về chính sách tài khóa - The Korea Herald",
+    "dates": "Ghi nhận: 23/11/2026",
     "status": "Đang diễn ra",
     "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Phòng không",
-    "domainLabel": "Phòng không & Chống UAV",
-    "purpose": "Tin tức tự động dịch & cập nhật (huffingtonpost.gr): Máy bay không người lái - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σ",
-    "drills": [
-      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
-      "Phát hiện và chế áp UAV (Counter-UAS)"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "huffingtonpost.gr",
-    "sourceUrl": "https://www.huffingtonpost.gr/diethnes/ai-germanikos-stratos/",
-    "articles": [
-      {
-        "title": "Máy bay không người lái - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σ",
-        "url": "https://www.huffingtonpost.gr/diethnes/ai-germanikos-stratos/",
-        "publisher": "huffingtonpost.gr"
-      }
-    ],
-    "updatedAt": "24/11/2026 23:50 UTC",
-    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
-    "publishedAtIso": "2026-11-22T19:00:00+00:00"
-  },
-  {
-    "id": "osint-2026112223-tankerincidentinv",
-    "name": "Sự cố tàu chở dầu \"liên quan đến lực lượng quân sự\" được báo cáo ở eo biển Hormuz - Euronews.com",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Eo biển Hormuz",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Euronews.com): Sự cố tàu chở dầu \"liên quan đến lực lượng quân sự\" được báo cáo ở eo biển Hormuz - Euronews.com",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "Euronews.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm96RExBbGw0OERZX1lMWGxhczRYS00yOXR6Rlg0XzJ0VHk2bEhZVHVFNmFRYllVUjZvZUhqYzFQSnNULTNhRjNhcE5IOXFNQmFOU2RlZlRZYWxrUnVZbWJrWGEyQWF6T1Z4MUUweHVKTmsyNnMtSS1KeHhxeWdoUWlZYU03eUR0X242RVdjNUp5dnU1R3hXRmNwOV94Nkx5UGtySXZMVnV2QQ?oc=5",
-    "articles": [
-      {
-        "title": "Sự cố tàu chở dầu \"liên quan đến lực lượng quân sự\" được báo cáo ở eo biển Hormuz - Euronews.com",
-        "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQm96RExBbGw0OERZX1lMWGxhczRYS00yOXR6Rlg0XzJ0VHk2bEhZVHVFNmFRYllVUjZvZUhqYzFQSnNULTNhRjNhcE5IOXFNQmFOU2RlZlRZYWxrUnVZbWJrWGEyQWF6T1Z4MUUweHVKTmsyNnMtSS1KeHhxeWdoUWlZYU03eUR0X242RVdjNUp5dnU1R3hXRmNwOV94Nkx5UGtySXZMVnV2QQ?oc=5",
-        "publisher": "Euronews.com"
-      }
-    ],
-    "updatedAt": "22/11/2026 23:20 UTC",
-    "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
-    "publishedAtIso": "2026-11-22T18:07:13+00:00"
-  },
-  {
-    "id": "osint-2026112223-qunkhu1rtkinh",
-    "name": "Quân khu 1 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Baolangson.vn",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Việt Nam",
-    "region": "Việt Nam & Đông Nam Á",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Baolangson.vn): Quân khu 1 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Baolangson.vn",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): [Yoo Choon-sik] Lời khuyên của IMF về chính sách tài khóa - The Korea Herald",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "The Korea Herald",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtQUt2NndBV3J3T0hfVWtEbDlDcHpOMElMYi0tSXh1dUpKVFlhNWd5REdKMnpfOGh3NW9JMk5UVDlIMTdxRVpBMTZGX2V1T0psY19jbHVjMA?oc=5",
+    "articles": [
+      {
+        "title": "[Yoo Choon-sik] Lời khuyên của IMF về chính sách tài khóa - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBtQUt2NndBV3J3T0hfVWtEbDlDcHpOMElMYi0tSXh1dUpKVFlhNWd5REdKMnpfOGh3NW9JMk5UVDlIMTdxRVpBMTZGX2V1T0psY19jbHVjMA?oc=5",
+        "publisher": "The Korea Herald"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-23T00:12:44+00:00"
+  },
+  {
+    "id": "osint-2026112500-nkoreaskimsays",
+    "name": "Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Triều Tiên",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là để tự vệ - The Korea Herald",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
@@ -2236,167 +2386,17 @@
     "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
     "troops": 0,
     "nationsCount": 1,
-    "sourceTitle": "Baolangson.vn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWV9GdDJvRVduYlVHbEZpd2FKaFFhM2puWjhmdlF3R0RLOTV1LWczNGlFS1VaV21Yd3g1eEZYWjR6Uk1wOUVmVm84dGNRSWxQcDlIWVhjR1ZHWHpubHFLQXpYZ1ZEbldsdGpQVDc3TGN3TjA3TWcxWGN1aWVIaG9TaE1mZlRXM2s3UGRZc253Z0ZYdFZYd0d1VlBQTHlUS05Kd09ZYVM3UkgtcktOWFc5bGJoa0sxTmRINHQ1TlpR?oc=5",
+    "sourceTitle": "The Korea Herald",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5lUG1zTkwtakVRSlRRZzAtd044TzYzZzg2NER3MXBiVXgtUDBtMTFVbHBPVUN1R3RWTmdkR3NZekpEdmFhSE9xSWJXSC1ieHFMeE9BeVBmMA?oc=5",
     "articles": [
       {
-        "title": "Quân khu 1 rút kinh nghiệm công tác bảo đảm an toàn trong huấn luyện, diễn tập năm 2026 - Baolangson.vn",
-        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPWV9GdDJvRVduYlVHbEZpd2FKaFFhM2puWjhmdlF3R0RLOTV1LWczNGlFS1VaV21Yd3g1eEZYWjR6Uk1wOUVmVm84dGNRSWxQcDlIWVhjR1ZHWHpubHFLQXpYZ1ZEbldsdGpQVDc3TGN3TjA3TWcxWGN1aWVIaG9TaE1mZlRXM2s3UGRZc253Z0ZYdFZYd0d1VlBQTHlUS05Kd09ZYVM3UkgtcktOWFc5bGJoa0sxTmRINHQ1TlpR?oc=5",
-        "publisher": "Baolangson.vn"
+        "title": "Ông Kim của Triều Tiên cho biết Bình Nhưỡng không tìm cách thống trị khu vực, đồng thời bảo vệ việc tăng cường vũ khí là để tự vệ - The Korea Herald",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5lUG1zTkwtakVRSlRRZzAtd044TzYzZzg2NER3MXBiVXgtUDBtMTFVbHBPVUN1R3RWTmdkR3NZekpEdmFhSE9xSWJXSC1ieHFMeE9BeVBmMA?oc=5",
+        "publisher": "The Korea Herald"
       }
     ],
-    "updatedAt": "22/11/2026 23:20 UTC",
-    "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
-    "publishedAtIso": "2026-11-22T17:21:34+00:00"
-  },
-  {
-    "id": "osint-2026112319-11",
-    "name": "11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trườn",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Ukraine, Ba Lan",
-    "region": "Châu Âu & Bắc Đại Tây Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (金十数据): 11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trường - Dữ liệu Golden Ten",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 11,
-    "sourceTitle": "金十数据",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
-    "articles": [
-      {
-        "title": "11 nước châu Âu tổ chức tập trận chung ở Ba Lan chuẩn bị triển khai quân sau chiến tranh ở Ukraine - Tham khảo thị trường - Dữ liệu Golden Ten",
-        "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE8xcFRIU2NLUFhqUlp5TFdvQ0J4azVIdHd4RVRYa0V0eXRyTE50WW1NMXd1VXhEckkzNjR0YTdRRW53XzRiaGdHNzRoeXdFd2M?oc=5",
-        "publisher": "金十数据"
-      }
-    ],
-    "updatedAt": "23/11/2026 19:55 UTC",
-    "collectedAtIso": "2026-11-23T19:55:55.328523+00:00",
-    "publishedAtIso": "2026-11-22T15:11:05+00:00"
-  },
-  {
-    "id": "osint-2026112217-bchqstnhlaich",
-    "name": "Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Việt Nam",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Vietnam.vn): Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "Vietnam.vn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzAwbHdqb0JHNFRyRmE3TFRuQnE5WElSMHZaYnFQUDlSSUZVMlgya1dTYkF0aDZmbDUxWnl1VV9vck1TRXI1bDNLVlQxdkRiZzA5NWRpTzVlaDJYbUwtTjRBREY1cTRWcTByVFFNZGI1R0NRRV9PcGZ6RzB5SzR3S0NpSVZEYkRadWUwdURPVzI1c3NiaF83Y2owbDM?oc=5",
-    "articles": [
-      {
-        "title": "Bộ CHQS tỉnh Lai Châu chú trọng bảo đảm an toàn trong huấn luyện, diễn tập - Vietnam.vn",
-        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZzAwbHdqb0JHNFRyRmE3TFRuQnE5WElSMHZaYnFQUDlSSUZVMlgya1dTYkF0aDZmbDUxWnl1VV9vck1TRXI1bDNLVlQxdkRiZzA5NWRpTzVlaDJYbUwtTjRBREY1cTRWcTByVFFNZGI1R0NRRV9PcGZ6RzB5SzR3S0NpSVZEYkRadWUwdURPVzI1c3NiaF83Y2owbDM?oc=5",
-        "publisher": "Vietnam.vn"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T14:31:46+00:00"
-  },
-  {
-    "id": "osint-2026112217-howdoesanavalblo",
-    "name": "Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (WANA News Agency): Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "WANA News Agency",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzlXenJFTE9pY29lSExkREdsR3ZIQjg3ZHdVS2ZOM01CNmFXZkZwNVNoSkJ2X0YzUFJ6TDNuTEYtbjVSNmNCVE5OSE5MemNjR2Jkb0liZ3NOV3ozUXM1R3REdG5oLWRVendES1ZERU4xbndvdEpKT0VKLXF0elpoVg?oc=5",
-    "articles": [
-      {
-        "title": "Cuộc phong tỏa hải quân hoạt động như thế nào và nó có thể bị phá vỡ như thế nào? - Thông tấn xã WANA",
-        "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQNzlXenJFTE9pY29lSExkREdsR3ZIQjg3ZHdVS2ZOM01CNmFXZkZwNVNoSkJ2X0YzUFJ6TDNuTEYtbjVSNmNCVE5OSE5MemNjR2Jkb0liZ3NOV3ozUXM1R3REdG5oLWRVendES1ZERU4xbndvdEpKT0VKLXF0elpoVg?oc=5",
-        "publisher": "WANA News Agency"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T13:01:41+00:00"
-  },
-  {
-    "id": "osint-2026112217-chinesevietnamese",
-    "name": "Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin h",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Việt Nam, Trung Quốc",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (Global Times): Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin hàng hải và kiểm soát rủi ro: chuyên gia - Global Times",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "Global Times",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03VG5TdWYyYTNUSEFjaEg4NkpTckMteWFSMjlZbGl2WFZ3UXNFWE9iYk5MWmlTM2NNQXd4VzhoSjNBd1p6NkUzaDBvVkU3ZGVUWEpOQm1RSEJmOHBfVVlfd1NB?oc=5",
-    "articles": [
-      {
-        "title": "Hải quân Trung Quốc và Việt Nam hoàn thành cuộc tuần tra chung lần thứ 41 ở Vịnh Bắc Bộ; động thái tăng cường niềm tin hàng hải và kiểm soát rủi ro: chuyên gia - Global Times",
-        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE03VG5TdWYyYTNUSEFjaEg4NkpTckMteWFSMjlZbGl2WFZ3UXNFWE9iYk5MWmlTM2NNQXd4VzhoSjNBd1p6NkUzaDBvVkU3ZGVUWEpOQm1RSEJmOHBfVVlfd1NB?oc=5",
-        "publisher": "Global Times"
-      }
-    ],
-    "updatedAt": "22/11/2026 17:39 UTC",
-    "collectedAtIso": "2026-11-22T17:39:24.617695+00:00",
-    "publishedAtIso": "2026-11-22T12:47:00+00:00"
-  },
-  {
-    "id": "osint-2026112223-6",
-    "name": "“Mục đích và giới hạn mở rộng sứ mệnh của Đơn vị Cheonghae phải được làm rõ… những lo ngại cần được xóa tan” - Yonhap Ne",
-    "dates": "Ghi nhận: 22/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): “Mục đích và giới hạn mở rộng sứ mệnh của Đơn vị Cheonghae phải được làm rõ… những lo ngại cần được xóa tan” - Yonhap News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "연합뉴스",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FcWxmOThkMXhOeUdsb2NWRjhCX0RxUUJjSkNtVThuaDhxY1pBN283Y0ZWdFBNMXY2MVUzYno3a0kwQjNFLWk3M1Y5RThRNmhSbWdrandDZlhiOVFobkVadtIBYEFVX3lxTE9FcWxmOThkMXhOeUdsb2NWRjhCX0RxUUJjSkNtVThuaDhxY1pBN283Y0ZWdFBNMXY2MVUzYno3a0kwQjNFLWk3M1Y5RThRNmhSbWdrandDZlhiOVFobkVadg?oc=5",
-    "articles": [
-      {
-        "title": "“Mục đích và giới hạn mở rộng sứ mệnh của Đơn vị Cheonghae phải được làm rõ… những lo ngại cần được xóa tan” - Yonhap News",
-        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE9FcWxmOThkMXhOeUdsb2NWRjhCX0RxUUJjSkNtVThuaDhxY1pBN283Y0ZWdFBNMXY2MVUzYno3a0kwQjNFLWk3M1Y5RThRNmhSbWdrandDZlhiOVFobkVadtIBYEFVX3lxTE9FcWxmOThkMXhOeUdsb2NWRjhCX0RxUUJjSkNtVThuaDhxY1pBN283Y0ZWdFBNMXY2MVUzYno3a0kwQjNFLWk3M1Y5RThRNmhSbWdrandDZlhiOVFobkVadg?oc=5",
-        "publisher": "연합뉴스"
-      }
-    ],
-    "updatedAt": "22/11/2026 23:20 UTC",
-    "collectedAtIso": "2026-11-22T23:20:32.929683+00:00",
-    "publishedAtIso": "2026-11-22T12:31:30+00:00"
+    "updatedAt": "25/11/2026 00:29 UTC",
+    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
+    "publishedAtIso": "2026-11-23T00:05:41+00:00"
   }
 ]
