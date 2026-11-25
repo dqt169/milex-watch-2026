@@ -4,6 +4,7 @@ from datetime import datetime, timedelta, timezone
 from email.utils import parsedate_to_datetime
 
 DATA_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "exercises.json")
+SOURCES_FILE = os.path.join(os.path.dirname(__file__), "..", "data", "sources.json")
 MAX_AGE_DAYS = 3
 RSS_QUERIES = [
     ("en", "US", '"military exercise" OR "military drill" OR "joint naval drill" OR "live-fire drill" OR "wargames" when:3d'),
@@ -12,8 +13,6 @@ RSS_QUERIES = [
     ("zh-CN", "CN", "联合军演 OR 军事演习 OR 实弹演习 when:3d"),
     ("ja", "JP", "共同訓練 OR 軍事演習 自衛隊 when:3d"),
     ("ko", "KR", "연합훈련 OR 군사훈련 국방부 when:3d"),
-    ("en", "US", "(site:nato.int OR site:shape.nato.int OR site:pacom.mil OR site:war.gov OR site:defense.gov OR site:grosswald.org OR site:navalinstitute.com.au) (exercise OR drill) when:3d"),
-    ("en", "US", '(site:qdnd.vn OR site:mod.gov.cn OR site:81.cn OR site:focustaiwan.tw OR site:mod.go.jp OR site:japantimes.co.jp OR site:mnd.go.kr OR site:yna.co.kr OR site:koreaherald.com) (exercise OR drill OR "diễn tập" OR 演习 OR 訓練 OR 훈련) when:3d'),
 ]
 VI_RE = re.compile(r"[àáạảãâầấậẩẫăằắặẳẵèéẹẻẽêềếệểễìíịỉĩòóọỏõôồốộổỗơờớợởỡùúụủũưừứựửữỳýỵỷỹ]", re.I)
 CJK_RE = re.compile(r"[\u3040-\u30ff\u3400-\u4dbf\u4e00-\u9fff\uac00-\ud7af]")
@@ -213,9 +212,43 @@ def extract_location_and_nations(text_orig, text_vi, reg, source=""):
         nations_count = 0
     return loc, nations_count
 
+def load_dynamic_source_queries():
+    if not os.path.exists(SOURCES_FILE):
+        return []
+    try:
+        with open(SOURCES_FILE, encoding="utf-8") as f:
+            sources = json.load(f)
+    except Exception as e:
+        print(f"[WARN] Failed to load {SOURCES_FILE}: {e}")
+        return []
+    if not isinstance(sources, list):
+        return []
+    domains = []
+    seen = set()
+    for src in sources:
+        if not isinstance(src, dict) or not src.get("enabled"):
+            continue
+        url = (src.get("url") or "").strip()
+        if not url:
+            continue
+        host = urllib.parse.urlparse(url).netloc.lower()
+        if host.startswith("www."):
+            host = host[4:]
+        if not host or host == "api.gdeltproject.org" or host in seen:
+            continue
+        seen.add(host)
+        domains.append(host)
+    queries = []
+    for i in range(0, len(domains), 7):
+        chunk = domains[i:i + 7]
+        site_expr = " OR ".join(f"site:{d}" for d in chunk)
+        q = f'({site_expr}) (exercise OR drill OR "diễn tập" OR 演习 OR 訓練 OR 훈련 OR учение OR учения) when:3d'
+        queries.append(("en", "US", q))
+    return queries
+
 def fetch_rss():
     res = []
-    for hl, gl, q in RSS_QUERIES:
+    for hl, gl, q in RSS_QUERIES + load_dynamic_source_queries():
         u = f"https://news.google.com/rss/search?q={urllib.parse.quote(q)}&hl={hl}&gl={gl}&ceid={gl}:{hl}"
         try:
             root = ET.fromstring(http_get(u, 12))
@@ -229,7 +262,42 @@ def fetch_rss():
                     res.append({"title": t, "url": l, "pubDate": p, "source": sn, "lang": hl})
         except Exception as e:
             print(f"[WARN] RSS ({hl}): {e}")
-    return res
+    if os.path.exists(SOURCES_FILE):
+        try:
+            with open(SOURCES_FILE, encoding="utf-8") as f:
+                sources = json.load(f)
+            if isinstance(sources, list):
+                for src in sources:
+                    if not isinstance(src, dict) or not src.get("enabled"):
+                        continue
+                    url = (src.get("url") or "").strip()
+                    low = url.lower()
+                    if not url or not any(tok in low for tok in ("/rss", "/feed", ".xml", ".atom")):
+                        continue
+                    name = (src.get("name") or urllib.parse.urlparse(url).netloc or "RSS").strip()
+                    try:
+                        root = ET.fromstring(http_get(url, 12))
+                        items = root.findall(".//item")[:5]
+                        if items:
+                            for it in items:
+                                t = (it.findtext("title") or "").strip()
+                                l = (it.findtext("link") or "").strip()
+                                p = (it.findtext("pubDate") or "").strip()
+                                if t and l:
+                                    res.append({"title": t, "url": l, "pubDate": p, "source": name, "lang": "auto"})
+                        else:
+                            for it in root.findall(".//{http://www.w3.org/2005/Atom}entry")[:5]:
+                                t = (it.findtext("{http://www.w3.org/2005/Atom}title") or "").strip()
+                                l_el = it.find("{http://www.w3.org/2005/Atom}link")
+                                l = ((l_el.attrib.get("href") if l_el is not None else "") or "").strip()
+                                p = (it.findtext("{http://www.w3.org/2005/Atom}updated") or it.findtext("{http://www.w3.org/2005/Atom}published") or "").strip()
+                                if t and l:
+                                    res.append({"title": t, "url": l, "pubDate": p, "source": name, "lang": "auto"})
+                    except Exception as e:
+                        print(f"[WARN] Direct RSS ({name}): {e}")
+        except Exception as e:
+            print(f"[WARN] Direct RSS sources load: {e}")
+            return res
 
 def fetch_gdelt():
     res = []
