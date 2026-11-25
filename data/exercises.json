@@ -1,5 +1,65 @@
 [
   {
+    "id": "osint-2026112500-wheretowatchwwes",
+    "name": "Nơi xem WWE's Survivor Series: WarGames: Time, match card, more - ESPN",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (ESPN): Nơi xem WWE's Survivor Series: WarGames: Time, match card, more - ESPN",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "ESPN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVzdaaU00bzRDWXl2d3NVN0hmT3hhOUhWU0twQThCME0ydUhxdlQ3NXJMaWpfMmFzWWd0b20zNmpEYTVFZEFQR1VGTXFiQW9IN252RVZ0ank1TUtSZ29VZDJ4bHRkUDIycDJtcG1xMlVadmt3Vk1QZXdoQ2Y4U25tRlBFRkdLNGh0V0tyQzZn?oc=5",
+    "articles": [
+      {
+        "title": "Nơi xem WWE's Survivor Series: WarGames: Time, match card, more - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOVzdaaU00bzRDWXl2d3NVN0hmT3hhOUhWU0twQThCME0ydUhxdlQ3NXJMaWpfMmFzWWd0b20zNmpEYTVFZEFQR1VGTXFiQW9IN252RVZ0ank1TUtSZ29VZDJ4bHRkUDIycDJtcG1xMlVadmt3Vk1QZXdoQ2Y4U25tRlBFRkdLNGh0V0tyQzZn?oc=5",
+        "publisher": "ESPN"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T22:40:00+00:00"
+  },
+  {
+    "id": "osint-2026112500-wwesurvivorseries",
+    "name": "WWE Survivor Series: WarGames 2026 — Ngày, Thẻ trận đấu, Thời gian bắt đầu và Tin tức - Netflix",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Netflix): WWE Survivor Series: WarGames 2026 — Ngày, Thẻ trận đấu, Thời gian bắt đầu và Tin tức - Netflix",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Netflix",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVFFV1lqaVJRUVE3SklEejlqOEZwRWJ5b2U3NmpDaTFRMnJsOVMwSlBDb3d3YnNoczl4MWNjSl8zTnV3OHF5OFluVE85OXlLMEJEMUlYNWQ4bVpSTmx5eGZ4X0hRMFJjZlVNRW9ZSXctSEwyc05BcXRfY0puNWJROEhUTVlVMDVUWktudF9ZYjZlNGN6WGZvczkybw?oc=5",
+    "articles": [
+      {
+        "title": "WWE Survivor Series: WarGames 2026 — Ngày, Thẻ trận đấu, Thời gian bắt đầu và Tin tức - Netflix",
+        "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOLVFFV1lqaVJRUVE3SklEejlqOEZwRWJ5b2U3NmpDaTFRMnJsOVMwSlBDb3d3YnNoczl4MWNjSl8zTnV3OHF5OFluVE85OXlLMEJEMUlYNWQ4bVpSTmx5eGZ4X0hRMFJjZlVNRW9ZSXctSEwyc05BcXRfY0puNWJROEhUTVlVMDVUWktudF9ZYjZlNGN6WGZvczkybw?oc=5",
+        "publisher": "Netflix"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T21:42:14+00:00"
+  },
+  {
     "id": "osint-2026112423-philippineforcestr",
     "name": "Lực lượng Philippines huấn luyện để bảo vệ eo biển Luzon bằng các tàu chiến, tên lửa BrahMos - USNI News",
     "dates": "Ghi nhận: 24/11/2026",
@@ -28,6 +88,66 @@
     "updatedAt": "24/11/2026 23:11 UTC",
     "collectedAtIso": "2026-11-24T23:11:22.919963+00:00",
     "publishedAtIso": "2026-11-24T18:47:00+00:00"
+  },
+  {
+    "id": "osint-2026112500-wwesurvivorseries",
+    "name": "Thẻ trận đầy đủ của WWE Survivor Series 2026, thời gian bắt đầu, thể lệ, cách xem WarGames PLE thứ Bảy - Yahoo Sports",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Yahoo Sports): Thẻ trận đầy đủ của WWE Survivor Series 2026, thời gian bắt đầu, thể lệ, cách xem WarGames PLE thứ Bảy - Yahoo Sports",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Yahoo Sports",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOanNyOHBVQUNZbEg0QkN4V1pxelBLQ0ktYm5oYnBlREMwZFJRQ1hmcVI0X3lzaGVobmVVUXZ4cnFpTU5fYmw3WFpTU1FIdXZsZlR5TlVUSkM0QXFzOF81X0JZeENIZDdIOEp0Z1BkamJONjhHQ2g3Y0VtTmtmNjhYVS0ybGxPcFV1LThYZ2o1Szh2T2FPM2tPMld0dkQ2R2RyUFJndjVtQkNGTVFEWXRZRmFOdjlJNHlBUVBMaE45ZzlnMnBIWTFray1QRzN4MElSbk9fakhQVUVCV3V0bmVFWjhrZUJDQQ?oc=5",
+    "articles": [
+      {
+        "title": "Thẻ trận đầy đủ của WWE Survivor Series 2026, thời gian bắt đầu, thể lệ, cách xem WarGames PLE thứ Bảy - Yahoo Sports",
+        "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxOanNyOHBVQUNZbEg0QkN4V1pxelBLQ0ktYm5oYnBlREMwZFJRQ1hmcVI0X3lzaGVobmVVUXZ4cnFpTU5fYmw3WFpTU1FIdXZsZlR5TlVUSkM0QXFzOF81X0JZeENIZDdIOEp0Z1BkamJONjhHQ2g3Y0VtTmtmNjhYVS0ybGxPcFV1LThYZ2o1Szh2T2FPM2tPMld0dkQ2R2RyUFJndjVtQkNGTVFEWXRZRmFOdjlJNHlBUVBMaE45ZzlnMnBIWTFray1QRzN4MElSbk9fakhQVUVCV3V0bmVFWjhrZUJDQQ?oc=5",
+        "publisher": "Yahoo Sports"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T18:35:11+00:00"
+  },
+  {
+    "id": "osint-2026112500-17",
+    "name": "Hợp tác quốc phòng Nhật-Pháp mở rộng ra vũ trụ; lãnh đạo công bố huấn luyện máy bay chiến đấu - Sanyo Shimbun",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Pháp",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (山陽新聞): Hợp tác quốc phòng Nhật-Pháp mở rộng ra vũ trụ; lãnh đạo công bố huấn luyện máy bay chiến đấu - Sanyo Shimbun",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "山陽新聞",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sSW5aZURQajR4OFprdnRyeElmN0otR2wtekxQRm42ZkVLZDVDQlJvX2Q5V19OOHhiTGtXTHpUUGM5YUNFWWxoWm1VMVRMTzhoOGtBOV9Paml0ZUl1R3RTR1A3UQ?oc=5",
+    "articles": [
+      {
+        "title": "Hợp tác quốc phòng Nhật-Pháp mở rộng ra vũ trụ; lãnh đạo công bố huấn luyện máy bay chiến đấu - Sanyo Shimbun",
+        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9sSW5aZURQajR4OFprdnRyeElmN0otR2wtekxQRm42ZkVLZDVDQlJvX2Q5V19OOHhiTGtXTHpUUGM5YUNFWWxoWm1VMVRMTzhoOGtBOV9Paml0ZUl1R3RTR1A3UQ?oc=5",
+        "publisher": "山陽新聞"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T18:34:22+00:00"
   },
   {
     "id": "osint-2026112423-2",
@@ -150,6 +270,36 @@
     "publishedAtIso": "2026-11-24T15:17:00+00:00"
   },
   {
+    "id": "osint-2026112500-lon162honth",
+    "name": "Lữ đoàn 162 hoàn thành tốt nhiệm vụ quân sự, quốc phòng năm 2026 - Báo Hải quân Việt Nam",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (Báo Hải quân Việt Nam): Lữ đoàn 162 hoàn thành tốt nhiệm vụ quân sự, quốc phòng năm 2026 - Báo Hải quân Việt Nam",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Báo Hải quân Việt Nam",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzlCNW9hSWxhc0RqYVFCbkRHSUttcEFQU2xUb1lHTVk0VE1xTVg0aEl0ejA0bWdMcTk0TFhDaDdKZlIzLTN6dG1IbXI0YjdJSXVNQ1RSQng4bkpPd3ZBa2xFOWtHTnl2bnpWUEI0YnJSVnh6c3ZSUU1UWmM3am9zUFVJNm5nOXJ2ZjlJT2pTUDk0RzlBOGdrcjFWUVA5MlVCV1E?oc=5",
+    "articles": [
+      {
+        "title": "Lữ đoàn 162 hoàn thành tốt nhiệm vụ quân sự, quốc phòng năm 2026 - Báo Hải quân Việt Nam",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPbzlCNW9hSWxhc0RqYVFCbkRHSUttcEFQU2xUb1lHTVk0VE1xTVg0aEl0ejA0bWdMcTk0TFhDaDdKZlIzLTN6dG1IbXI0YjdJSXVNQ1RSQng4bkpPd3ZBa2xFOWtHTnl2bnpWUEI0YnJSVnh6c3ZSUU1UWmM3am9zUFVJNm5nOXJ2ZjlJT2pTUDk0RzlBOGdrcjFWUVA5MlVCV1E?oc=5",
+        "publisher": "Báo Hải quân Việt Nam"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T15:05:17+00:00"
+  },
+  {
     "id": "osint-2026112417-usmarinestojoinf",
     "name": "Thủy quân lục chiến Hoa Kỳ tham gia tập trận cùng lực lượng Phần Lan và Estonia ở Biển Baltic - The Defense Post",
     "dates": "Ghi nhận: 24/11/2026",
@@ -180,6 +330,36 @@
     "publishedAtIso": "2026-11-24T14:19:48+00:00"
   },
   {
+    "id": "osint-2026112500-themilitaryexercis",
+    "name": "Cuộc tập trận quân sự tái lập an ninh châu Âu - Quỹ Carnegie vì hòa bình quốc tế",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Châu Âu & Bắc Đại Tây Dương",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Carnegie Endowment for International Peace): Cuộc tập trận quân sự tái lập an ninh châu Âu - Quỹ Carnegie vì hòa bình quốc tế",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Carnegie Endowment for International Peace",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMnVtTG9uZkxUOG1DQl9KbHoyX3dXWDR4aFpCczRFWkFMcmxTV1dlUmVfZUhxUXFwMDl4NGlCTXpLc19HT1VIalJMT3JhRkdla0lRTzUyTVJBYWU3UUR0dlhyVUozbGpOR1Z2YkxIMXJsOVFtY1VVa0NBR0lCeWRZa2xtU21NSGlidW9jdjAyampJeXlVdzdOaE1LdzBvdzlvWjU3M2ltaVRKbEo0Snkw?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc tập trận quân sự tái lập an ninh châu Âu - Quỹ Carnegie vì hòa bình quốc tế",
+        "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQMnVtTG9uZkxUOG1DQl9KbHoyX3dXWDR4aFpCczRFWkFMcmxTV1dlUmVfZUhxUXFwMDl4NGlCTXpLc19HT1VIalJMT3JhRkdla0lRTzUyTVJBYWU3UUR0dlhyVUozbGpOR1Z2YkxIMXJsOVFtY1VVa0NBR0lCeWRZa2xtU21NSGlidW9jdjAyampJeXlVdzdOaE1LdzBvdzlvWjU3M2ltaVRKbEo0Snkw?oc=5",
+        "publisher": "Carnegie Endowment for International Peace"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T13:31:30+00:00"
+  },
+  {
     "id": "osint-2026112417-pminswarnadwipto",
     "name": "Thủ tướng đến Swarnadwip để chứng kiến ​​cuộc tập trận chung - Banglanews24",
     "dates": "Ghi nhận: 24/11/2026",
@@ -208,6 +388,36 @@
     "updatedAt": "24/11/2026 17:05 UTC",
     "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
     "publishedAtIso": "2026-11-24T12:28:52+00:00"
+  },
+  {
+    "id": "osint-2026112500-ericssonprovides5g",
+    "name": "Ericsson cung cấp 5G cho cuộc tập trận quân sự của Tây Ban Nha - Light Reading",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Light Reading): Ericsson cung cấp 5G cho cuộc tập trận quân sự của Tây Ban Nha - Light Reading",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Light Reading",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUmpEZ3AzTG5RZXlIci12TDlKanVKWTF6RlEtalBNMldyVmpLaDRXYjB4YTctZmVLSkVzNEdNQU00UUxQNEE1ODM0ZUhqNmZXS1I2Q0tLOEdoUEMwU1lwcUtUNTRVcy1aV2xQTV9LM3VjRk4xTFZ5X3NoRGdrb1JLRjNTMjJucnE3Mk9CX19oTmdXdw?oc=5",
+    "articles": [
+      {
+        "title": "Ericsson cung cấp 5G cho cuộc tập trận quân sự của Tây Ban Nha - Light Reading",
+        "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPUmpEZ3AzTG5RZXlIci12TDlKanVKWTF6RlEtalBNMldyVmpLaDRXYjB4YTctZmVLSkVzNEdNQU00UUxQNEE1ODM0ZUhqNmZXS1I2Q0tLOEdoUEMwU1lwcUtUNTRVcy1aV2xQTV9LM3VjRk4xTFZ5X3NoRGdrb1JLRjNTMjJucnE3Mk9CX19oTmdXdw?oc=5",
+        "publisher": "Light Reading"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T12:17:09+00:00"
   },
   {
     "id": "osint-2026112417-campuchiatrungqu",
@@ -451,14 +661,14 @@
   },
   {
     "id": "osint-2026112423-indianandmalaysian",
-    "name": "Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+    "name": "Quân đội Ấn Độ và Malaysia diễn tập phản công chung - IED trong cuộc tập trận Harimau Shakti 2026",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
     "location": "Ấn Độ, Malaysia",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Quân đội Ấn Độ và Malaysia diễn tập phản công chung - IED trong cuộc tập trận Harimau Shakti 2026",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
@@ -470,7 +680,7 @@
     "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523794.html",
     "articles": [
       {
-        "title": "Indian and Malaysian armies hold joint counter - IED drill during exercise Harimau Shakti 2026",
+        "title": "Quân đội Ấn Độ và Malaysia diễn tập phản công chung - IED trong cuộc tập trận Harimau Shakti 2026",
         "url": "https://news.webindia123.com/news/Articles/World/20261124/4523794.html",
         "publisher": "news.webindia123.com"
       }
@@ -601,14 +811,14 @@
   },
   {
     "id": "osint-2026112423-indiamalaysiajoi",
-    "name": "India - Malaysia joint military exercise Harimau Shakti 2026 focuses on drone warfare",
+    "name": "Cuộc tập trận chung Ấn Độ - Malaysia Harimau Shakti 2026 tập trung vào chiến tranh máy bay không người lái",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
     "location": "Ấn Độ, Malaysia",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Phòng không",
     "domainLabel": "Phòng không & Chống UAV",
-    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): India - Malaysia joint military exercise Harimau Shakti 2026 focuses on drone warfare",
+    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Cuộc tập trận chung Ấn Độ - Malaysia Harimau Shakti 2026 tập trung vào chiến tranh máy bay không người lái",
     "drills": [
       "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
       "Phát hiện và chế áp UAV (Counter-UAS)"
@@ -620,7 +830,7 @@
     "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523738.html",
     "articles": [
       {
-        "title": "India - Malaysia joint military exercise Harimau Shakti 2026 focuses on drone warfare",
+        "title": "Cuộc tập trận chung Ấn Độ - Malaysia Harimau Shakti 2026 tập trung vào chiến tranh máy bay không người lái",
         "url": "https://news.webindia123.com/news/Articles/World/20261124/4523738.html",
         "publisher": "news.webindia123.com"
       }
@@ -631,14 +841,14 @@
   },
   {
     "id": "osint-2026112423-indiasrilankaco",
-    "name": "India - Sri Lanka conduct joint military exercise Mitra Shakti 2026 in Maduru Oya",
+    "name": "Ấn Độ - Sri Lanka tiến hành cuộc tập trận chung Mitra Shakti 2026 ở Maduru Oya",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
     "location": "Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): India - Sri Lanka conduct joint military exercise Mitra Shakti 2026 in Maduru Oya",
+    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Ấn Độ - Sri Lanka tiến hành cuộc tập trận chung Mitra Shakti 2026 ở Maduru Oya",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
@@ -650,7 +860,7 @@
     "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523745.html",
     "articles": [
       {
-        "title": "India - Sri Lanka conduct joint military exercise Mitra Shakti 2026 in Maduru Oya",
+        "title": "Ấn Độ - Sri Lanka tiến hành cuộc tập trận chung Mitra Shakti 2026 ở Maduru Oya",
         "url": "https://news.webindia123.com/news/Articles/World/20261124/4523745.html",
         "publisher": "news.webindia123.com"
       }
@@ -688,6 +898,36 @@
     "updatedAt": "24/11/2026 17:05 UTC",
     "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
     "publishedAtIso": "2026-11-24T06:02:19+00:00"
+  },
+  {
+    "id": "osint-2026112500-yle",
+    "name": "Yle: Nga tăng cường thị trấn quân sự Kamenka gần biên giới với Phần Lan - DW.com",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Nga, Phần Lan",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (DW.com): Yle: Nga tăng cường thị trấn quân sự Kamenka gần biên giới với Phần Lan - DW.com",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "DW.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VfbURJOTVmUThubEU4UzVycTNMM3ZZZExwVk81cFdUNWd0RmZVTEpxRk13NXE4b2xJU2o2NEpLTmRybXZZNkdHTXBTaHBBdGl0YkZWZHAtSHZJcHBIZlBNOTNzT1BWcDRBUFBNT2o4eUtIdXlZU3hOYnBMMXEzbWVFc290Q25QaUJUSGE5QUk5UXk0YTFQMS1zYnhubWpaWGfSAaIBQVVfeXFMTTFUVWQ2WUVSVGI2RnZLMHRKdjhkSm5YWnh2MjB1S3czRE10b3JKUzQ2Qm9CZk1Qeko5SXZVSXVFNlY5MnBabEhXNm1MSnFMaW1hQnN6c1RvOG1RUDdNREt5dU50QXlMUmsydmotYUdTLW5feWRHR1Y4MnU5SW9zbWV1V1d0ZGJnaFA4ZXV4ZHRzbGhTcEpLdE1pWE9iakJoOUx3?oc=5",
+    "articles": [
+      {
+        "title": "Yle: Nga tăng cường thị trấn quân sự Kamenka gần biên giới với Phần Lan - DW.com",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VfbURJOTVmUThubEU4UzVycTNMM3ZZZExwVk81cFdUNWd0RmZVTEpxRk13NXE4b2xJU2o2NEpLTmRybXZZNkdHTXBTaHBBdGl0YkZWZHAtSHZJcHBIZlBNOTNzT1BWcDRBUFBNT2o4eUtIdXlZU3hOYnBMMXEzbWVFc290Q25QaUJUSGE5QUk5UXk0YTFQMS1zYnhubWpaWGfSAaIBQVVfeXFMTTFUVWQ2WUVSVGI2RnZLMHRKdjhkSm5YWnh2MjB1S3czRE10b3JKUzQ2Qm9CZk1Qeko5SXZVSXVFNlY5MnBabEhXNm1MSnFMaW1hQnN6c1RvOG1RUDdNREt5dU50QXlMUmsydmotYUdTLW5feWRHR1Y4MnU5SW9zbWV1V1d0ZGJnaFA4ZXV4ZHRzbGhTcEpLdE1pWE9iakJoOUx3?oc=5",
+        "publisher": "DW.com"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-24T05:15:28+00:00"
   },
   {
     "id": "osint-2026112417-8",
@@ -811,14 +1051,14 @@
   },
   {
     "id": "osint-2026112423-jointexerciseshi",
-    "name": "Joint exercises , high - level visits reflect deepening of India - US defence ties",
+    "name": "Các cuộc tập trận chung, các chuyến thăm cấp cao phản ánh mối quan hệ quốc phòng Ấn Độ - Mỹ ngày càng sâu sắc",
     "dates": "Ghi nhận: 24/11/2026",
     "status": "Đang diễn ra",
     "location": "Ấn Độ",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Đa miền",
     "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (dailyexcelsior.com): Joint exercises , high - level visits reflect deepening of India - US defence ties",
+    "purpose": "Tin tức tự động dịch & cập nhật (dailyexcelsior.com): Các cuộc tập trận chung, các chuyến thăm cấp cao phản ánh mối quan hệ quốc phòng Ấn Độ - Mỹ ngày càng sâu sắc",
     "drills": [
       "Hiệp đồng chỉ huy tham mưu liên quân",
       "Thực binh bắn đạn thật và bảo đảm hậu cần"
@@ -830,7 +1070,7 @@
     "sourceUrl": "https://www.dailyexcelsior.com/joint-exercises-high-level-visits-reflect-deepening-of-india-us-defence-ties/",
     "articles": [
       {
-        "title": "Joint exercises , high - level visits reflect deepening of India - US defence ties",
+        "title": "Các cuộc tập trận chung, các chuyến thăm cấp cao phản ánh mối quan hệ quốc phòng Ấn Độ - Mỹ ngày càng sâu sắc",
         "url": "https://www.dailyexcelsior.com/joint-exercises-high-level-visits-reflect-deepening-of-india-us-defence-ties/",
         "publisher": "dailyexcelsior.com"
       }
@@ -1140,6 +1380,66 @@
     "publishedAtIso": "2026-11-23T18:22:00+00:00"
   },
   {
+    "id": "osint-2026112500-trt",
+    "name": "TRT ở Nga - Azerbaijan và Uzbekistan đang tổ chức cuộc tập trận chung - TRT Russian.",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Nga",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (TRT Russian.): TRT ở Nga - Azerbaijan và Uzbekistan đang tổ chức cuộc tập trận chung - TRT Russian.",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "TRT Russian.",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hazVHTFUwVmFBWXJyR3FHa1NOcS04Njd4SGpJMlBnYmlWaHhxRUFjaVFMNmMwZmZBR2U0RzVOQTdWa25HV2xVTU1wVVM4M1RZdFRNd2NIOENCTm8?oc=5",
+    "articles": [
+      {
+        "title": "TRT ở Nga - Azerbaijan và Uzbekistan đang tổ chức cuộc tập trận chung - TRT Russian.",
+        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5hazVHTFUwVmFBWXJyR3FHa1NOcS04Njd4SGpJMlBnYmlWaHhxRUFjaVFMNmMwZmZBR2U0RzVOQTdWa25HV2xVTU1wVVM4M1RZdFRNd2NIOENCTm8?oc=5",
+        "publisher": "TRT Russian."
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T17:48:55+00:00"
+  },
+  {
+    "id": "osint-2026112500-12",
+    "name": "Lực lượng cứu hộ từ Kalmykia và vùng Rostov tiến hành diễn tập chung - Tin tức thảo nguyên",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Châu Âu & Bắc Đại Tây Dương",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Степные вести): Lực lượng cứu hộ từ Kalmykia và vùng Rostov tiến hành diễn tập chung - Tin tức thảo nguyên",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Степные вести",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9YRGlGZTN1Nk14Vk1Gcl9NcGphUENnYW8wNFpHbHE4aXNJeGJjel94UUxBckZvS0duUDVFNThIV1g2eWo4Y1dZ?oc=5",
+    "articles": [
+      {
+        "title": "Lực lượng cứu hộ từ Kalmykia và vùng Rostov tiến hành diễn tập chung - Tin tức thảo nguyên",
+        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9YRGlGZTN1Nk14Vk1Gcl9NcGphUENnYW8wNFpHbHE4aXNJeGJjel94UUxBckZvS0duUDVFNThIV1g2eWo4Y1dZ?oc=5",
+        "publisher": "Степные вести"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T16:43:03+00:00"
+  },
+  {
     "id": "osint-2026112319-bchhuyqunst",
     "name": "Bộ Chỉ huy Quân sự tỉnh Đồng Tháp tiếp nhận nhiệm vụ Cụm trưởng Cụm thi đua năm 2027 - Báo Đồng Tháp",
     "dates": "Ghi nhận: 23/11/2026",
@@ -1200,6 +1500,36 @@
     "publishedAtIso": "2026-11-23T13:05:00+00:00"
   },
   {
+    "id": "osint-2026112500-pikne",
+    "name": "Diễn tập quân sự Pikne 2026 ở Estonia: NATO diễn tập từ 23/11 đến 11/12 - báo Metro Moscow",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Estonia",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Газета Metro Москва): Diễn tập quân sự Pikne 2026 ở Estonia: NATO diễn tập từ 23/11 đến 11/12 - báo Metro Moscow",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "Газета Metro Москва",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdU1BS3pUVWxrb2FmMG45S0ZXdFdaaHdrcnA2OG5HMHM0UzN3dFBBSXZsWnV1S2I5d2tab2pqYXlnNnJDZFFBeWFEWGxiUm0yQzJUVklmbUFUQU9qRFRfa043ZWVIODRvZ29CUE02V2FHckk3S2pLZnRsNXF1RnRvUk1JdlFHM1E5N1AtanZpZDRyTmszOFFQVlNFRjFzV0FMbUE?oc=5",
+    "articles": [
+      {
+        "title": "Diễn tập quân sự Pikne 2026 ở Estonia: NATO diễn tập từ 23/11 đến 11/12 - báo Metro Moscow",
+        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPdU1BS3pUVWxrb2FmMG45S0ZXdFdaaHdrcnA2OG5HMHM0UzN3dFBBSXZsWnV1S2I5d2tab2pqYXlnNnJDZFFBeWFEWGxiUm0yQzJUVklmbUFUQU9qRFRfa043ZWVIODRvZ29CUE02V2FHckk3S2pLZnRsNXF1RnRvUk1JdlFHM1E5N1AtanZpZDRyTmszOFFQVlNFRjFzV0FMbUE?oc=5",
+        "publisher": "Газета Metro Москва"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T11:56:01+00:00"
+  },
+  {
     "id": "osint-2026112423-xsngrayhonth",
     "name": "Xã Sông Ray hoàn thành diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
     "dates": "Ghi nhận: 23/11/2026",
@@ -1258,6 +1588,36 @@
     "updatedAt": "23/11/2026 19:55 UTC",
     "collectedAtIso": "2026-11-23T19:55:55.328523+00:00",
     "publishedAtIso": "2026-11-23T10:00:46+00:00"
+  },
+  {
+    "id": "osint-2026112500-42",
+    "name": "Bộ Quốc phòng Moldova đề xuất huấn luyện quân sự lên tới 42 ngày - Mezha.net",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Hàn Quốc",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Mezha.net): Bộ Quốc phòng Moldova đề xuất huấn luyện quân sự lên tới 42 ngày - Mezha.net",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "Mezha.net",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORVoyVVVYajRvLXNCdFE2WlNQeTBKZXRKZWlMV25UQWdYcDBsX0hweS1ob20ya2hCakJjdjV5Rmk5bXlYZzJoWFRIVGRRNUEzRU1fR3RCU1RZUVNRQWdfN1JRRDVoWFBEbHgtNFBzTnVKTWYtbzN5MjJkbmRUM2hrNXNMZzdmeG5WY0F2YVp3TUtxb0ZSLV9HTkZ0NWI?oc=5",
+    "articles": [
+      {
+        "title": "Bộ Quốc phòng Moldova đề xuất huấn luyện quân sự lên tới 42 ngày - Mezha.net",
+        "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORVoyVVVYajRvLXNCdFE2WlNQeTBKZXRKZWlMV25UQWdYcDBsX0hweS1ob20ya2hCakJjdjV5Rmk5bXlYZzJoWFRIVGRRNUEzRU1fR3RCU1RZUVNRQWdfN1JRRDVoWFBEbHgtNFBzTnVKTWYtbzN5MjJkbmRUM2hrNXNMZzdmeG5WY0F2YVp3TUtxb0ZSLV9HTkZ0NWI?oc=5",
+        "publisher": "Mezha.net"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T09:49:00+00:00"
   },
   {
     "id": "osint-2026112319-fromweaponsdealst",
@@ -1350,6 +1710,66 @@
     "publishedAtIso": "2026-11-23T09:00:00+00:00"
   },
   {
+    "id": "osint-2026112500-11",
+    "name": "Các cuộc tập trận quân sự có bắn súng đang diễn ra tại sân tập ở Vorontsovka - Yeisk Info",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Châu Âu & Bắc Đại Tây Dương",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Ейск Инфо): Các cuộc tập trận quân sự có bắn súng đang diễn ra tại sân tập ở Vorontsovka - Yeisk Info",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Ейск Инфо",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNODBNT1NSNllLY284UEhvRE9pVkFIZ25pTlZzczRSNC1iUHJkOWhGbXAtaThxLXA3WWhxWGI1N256Q0xiR3lkYjZ5b3hmcnlxTU1xclE1bzhkdFhETHBuX3R2LVBVYnBBeUR5N1JGM3NqWkhHQ0NTbTRpR0RTTmxIR09SRTU5WXl6VmU5bFpJRG0zWnVvYTdpSkVTZG5JZw?oc=5",
+    "articles": [
+      {
+        "title": "Các cuộc tập trận quân sự có bắn súng đang diễn ra tại sân tập ở Vorontsovka - Yeisk Info",
+        "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNODBNT1NSNllLY284UEhvRE9pVkFIZ25pTlZzczRSNC1iUHJkOWhGbXAtaThxLXA3WWhxWGI1N256Q0xiR3lkYjZ5b3hmcnlxTU1xclE1bzhkdFhETHBuX3R2LVBVYnBBeUR5N1JGM3NqWkhHQ0NTbTRpR0RTTmxIR09SRTU5WXl6VmU5bFpJRG0zWnVvYTdpSkVTZG5JZw?oc=5",
+        "publisher": "Ейск Инфо"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T08:47:28+00:00"
+  },
+  {
+    "id": "osint-2026112500-funeco",
+    "name": "Tàu đổ bộ lớp Albion - Funeco",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Funeco): Tàu đổ bộ lớp Albion - Funeco",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Funeco",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ad2U0ZVRFWUhKQ2NJS3RkOUVEdVUwWkxfZXRVNDRZWUdTbmVrai1teVNHRDRJTHhNQUNpRXlIYlIzX2dJMWZ5ZDBVNDhPRk1nLXJfSDJHc1VWWWI0QXVRYURzQTA2UkVSUG0zdFRFZy1IbDJFdm5j?oc=5",
+    "articles": [
+      {
+        "title": "Tàu đổ bộ lớp Albion - Funeco",
+        "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9ad2U0ZVRFWUhKQ2NJS3RkOUVEdVUwWkxfZXRVNDRZWUdTbmVrai1teVNHRDRJTHhNQUNpRXlIYlIzX2dJMWZ5ZDBVNDhPRk1nLXJfSDJHc1VWWWI0QXVRYURzQTA2UkVSUG0zdFRFZy1IbDJFdm5j?oc=5",
+        "publisher": "Funeco"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T08:29:36+00:00"
+  },
+  {
     "id": "osint-2026112319-8",
     "name": "Cảnh sát tỉnh Okama và Lực lượng phòng vệ tiến hành huấn luyện chung trong trường hợp xảy ra tấn công khủng bố - Sanyo S",
     "dates": "Ghi nhận: 23/11/2026",
@@ -1438,6 +1858,36 @@
     "updatedAt": "23/11/2026 06:14 UTC",
     "collectedAtIso": "2026-11-23T06:14:53.789935+00:00",
     "publishedAtIso": "2026-11-23T04:26:26+00:00"
+  },
+  {
+    "id": "osint-2026112500-dintpkhuvcph",
+    "name": "Diễn tập khu vực phòng thủ dân sự xã Hương Mỹ năm 2026 - Vietnam.vn",
+    "dates": "Ghi nhận: 23/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Mỹ",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Vietnam.vn): Diễn tập khu vực phòng thủ dân sự xã Hương Mỹ năm 2026 - Vietnam.vn",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "Vietnam.vn",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWU1rcGtScEQyQVdXMEVpWmpLMmVtVU9Vbl9GZXdlclpJYTFwUE4temdiandEZjA1QVN6NHpaOVdMY2JVRDl4R2wxUGVqMG1GQWQ4LW9OOTgyanNpUm82M1czZ0p4M0Z5YURyMkl5WjE2OWNvZnNBZUdJNkdjN1M4Qy01QQ?oc=5",
+    "articles": [
+      {
+        "title": "Diễn tập khu vực phòng thủ dân sự xã Hương Mỹ năm 2026 - Vietnam.vn",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQWU1rcGtScEQyQVdXMEVpWmpLMmVtVU9Vbl9GZXdlclpJYTFwUE4temdiandEZjA1QVN6NHpaOVdMY2JVRDl4R2wxUGVqMG1GQWQ4LW9OOTgyanNpUm82M1czZ0p4M0Z5YURyMkl5WjE2OWNvZnNBZUdJNkdjN1M4Qy01QQ?oc=5",
+        "publisher": "Vietnam.vn"
+      }
+    ],
+    "updatedAt": "25/11/2026 00:10 UTC",
+    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
+    "publishedAtIso": "2026-11-23T03:53:23+00:00"
   },
   {
     "id": "osint-2026112306-gndintpvingh",
@@ -1711,14 +2161,14 @@
   },
   {
     "id": "osint-2026112423-drones",
-    "name": "Drones - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σ",
+    "name": "Máy bay không người lái - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απα",
     "dates": "Ghi nhận: 22/11/2026",
     "status": "Đang diễn ra",
     "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
     "region": "Ấn Độ Dương - Thái Bình Dương",
     "domain": "Phòng không",
     "domainLabel": "Phòng không & Chống UAV",
-    "purpose": "Tin tức tự động dịch & cập nhật (huffingtonpost.gr): Drones - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σύγχρονο πόλεμο »",
+    "purpose": "Tin tức tự động dịch & cập nhật (huffingtonpost.gr): Máy bay không người lái - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σ",
     "drills": [
       "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
       "Phát hiện và chế áp UAV (Counter-UAS)"
@@ -1730,7 +2180,7 @@
     "sourceUrl": "https://www.huffingtonpost.gr/diethnes/ai-germanikos-stratos/",
     "articles": [
       {
-        "title": "Drones - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σύγχρονο πόλεμο »",
+        "title": "Máy bay không người lái - καμικάζι , AI και 5 . 000 στρατιώτες : Οι δοκιμές του γερμανικού στρατού στη Λιθουανία - « Απαραίτητα για τον σ",
         "url": "https://www.huffingtonpost.gr/diethnes/ai-germanikos-stratos/",
         "publisher": "huffingtonpost.gr"
       }
