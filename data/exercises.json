@@ -1,5 +1,364 @@
 [
   {
+    "id": "osint-2026112618-lithuaniagermanymi",
+    "name": "Cuộc tập trận quân sự Đức Lithuania - WV News",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Đức, Lithuania",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (WV News): Cuộc tập trận quân sự Đức Lithuania - WV News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "WV News",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeVFfclBEVUNaalh2cTZ0UXNPaW5aQkVwVGk3M0ZUMXdRc0dRNXJhbFJ1MWt0UWxJWnQ2NzN3eW51ak9jTVdyRDBlN25RZk1oWTFDWGQwdnM1bkxtQmxFclJJdFExNlVzUk1BamRJcTRlZnhvUGxiMkg1UXVjMTdvd1Z3MV9xTkM1dHZNRU16VXVKUzdXY0djVWoxaVpvaFJhb1pGUHlvNndIeThYYkRBUmtDdjQ2bzNZT3hoM2hn?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc tập trận quân sự Đức Lithuania - WV News",
+        "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQeVFfclBEVUNaalh2cTZ0UXNPaW5aQkVwVGk3M0ZUMXdRc0dRNXJhbFJ1MWt0UWxJWnQ2NzN3eW51ak9jTVdyRDBlN25RZk1oWTFDWGQwdnM1bkxtQmxFclJJdFExNlVzUk1BamRJcTRlZnhvUGxiMkg1UXVjMTdvd1Z3MV9xTkM1dHZNRU16VXVKUzdXY0djVWoxaVpvaFJhb1pGUHlvNndIeThYYkRBUmtDdjQ2bzNZT3hoM2hn?oc=5",
+        "publisher": "WV News"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T17:08:02+00:00"
+  },
+  {
+    "id": "osint-2026112618-lithuaniagermanymi",
+    "name": "Cuộc tập trận quân sự Đức Litva - Chronicleonline.com",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Đức, Lithuania",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (chronicleonline.com): Cuộc tập trận quân sự Đức Litva - Chronicleonline.com",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "chronicleonline.com",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTXNaaDF2ZzltR2dOX2gyTVFYWHZ2U096ckFTTGwtSF9wZTkxa3J3SEpZdDRoc2YtUE96SUIwNmdhYjVxMHRLMjlCMUt5YkNpalFCY0RVLVlyNGJ5ZWdiRzBzMXMycW5sU2pzbExhbEFQRXNSOENmQUZFVFZoWW9iTFBCMk44VVRXZjF1VzBPM21QaGhxZVFGUXFCQ3JSbHBuRTJJSk01NXp3cG13SjVSeTh5aUlBVVllREk4N0FrV255X01h?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc tập trận quân sự Đức Litva - Chronicleonline.com",
+        "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPTXNaaDF2ZzltR2dOX2gyTVFYWHZ2U096ckFTTGwtSF9wZTkxa3J3SEpZdDRoc2YtUE96SUIwNmdhYjVxMHRLMjlCMUt5YkNpalFCY0RVLVlyNGJ5ZWdiRzBzMXMycW5sU2pzbExhbEFQRXNSOENmQUZFVFZoWW9iTFBCMk44VVRXZjF1VzBPM21QaGhxZVFGUXFCQ3JSbHBuRTJJSk01NXp3cG13SjVSeTh5aUlBVVllREk4N0FrV255X01h?oc=5",
+        "publisher": "chronicleonline.com"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T16:26:05+00:00"
+  },
+  {
+    "id": "osint-2026112618-7",
+    "name": "Diễn tập triển khai ở Ukraine: cuộc tập trận quân sự đầu tiên của Liên minh Tình nguyện viên diễn ra như thế nào? - RFI",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ukraine",
+    "region": "Châu Âu & Bắc Đại Tây Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (RFI): Diễn tập triển khai ở Ukraine: cuộc tập trận quân sự đầu tiên của Liên minh Tình nguyện viên diễn ra như thế nào? - RFI",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "RFI",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMi9AVBVV95cUxQclBsbEZwdmRKc1l6NnByNHQ1TmozVkh1Y1FTWjc0TFRxaGhnOTBJT19jNHZkUjdNS1V0bXdWSHkwYVUxeUlFSHYycUl6bmhFRjJ2WkpkMEg2Z2hsS2ZzejFBVTdvZW53WTZfdXkwNjRjUEMzTW1YWEFVUTgtZXZPcmExSmZXdkJzZUJXZzcwTDhOaFphWVhadW5zd2ZrUE5ka1hhVzFheVQ0akU1WDkzeldpRXEybnJmTGJfRjdKYUZjVURnTHZubHBwTzFhV09RalNaM1NnMk5Yc2kxTXUxcE1RLUhZYXlkUk9SNy1ybU54TElNY0stSHdIbHlTRnlsYUdGRTdDTEh0eHRhZnl4S0pHOG5rOFVuU0MtQ0hNdkplYThuejdvVmlxTk56OUF0RXJhRDktSkFoeF9PdTNKMmsxQ1JQY2lrc0NzVmRJYjBYNk9OSk5kVkJFdUp5MHlxSERZUjJqMGhZdGVEaDNWaWtRMXBzN0xIdGk5eVUwck9SNUo0YTFUWFNqNGxTYU02YURQenVnT3pmeUJLczRZSzQ2VkdhdVNZaWRHcjRnalh5ajdoakVhMUdvbUNuQnp0cDYtQUVRZzNvQmFEQjhBc0VqUk5rS2E5cGx6ZU1pb01aUllhNGdvOUlobWV6YVBCQ1VENnVmak1oRVFwcjNLR3psaWViV0NNZk5PaHRVX2ctdHZSa0xielMxaVRzbzVMYVk5cG11ZGpwMzF0bFo4eEI4dFhUM0czWlhpOVlveTl3cklfQWJrREhINS1aUFJsT0RIZUlaUW9UNmdSeGh0ZlZ3dTF2S0xzSEhUclFwVHcyb1BNelFjS2hJWDVfV0czd0hBamN5RGUtb2hmOUtuZGFwVk53ZFk4bUtUMW5VY01Xc2prak01QUl5dVRYeEVqNTI1cTBaSEpJU2ZIQzNGMkdibE55MU9Qc3FmZVhkUGRfWW92SndKNlFySXNTbHFlQXlaRWNkNHh5NEtKaDZhdGVvS3g?oc=5",
+    "articles": [
+      {
+        "title": "Diễn tập triển khai ở Ukraine: cuộc tập trận quân sự đầu tiên của Liên minh Tình nguyện viên diễn ra như thế nào? - RFI",
+        "url": "https://news.google.com/rss/articles/CBMi9AVBVV95cUxQclBsbEZwdmRKc1l6NnByNHQ1TmozVkh1Y1FTWjc0TFRxaGhnOTBJT19jNHZkUjdNS1V0bXdWSHkwYVUxeUlFSHYycUl6bmhFRjJ2WkpkMEg2Z2hsS2ZzejFBVTdvZW53WTZfdXkwNjRjUEMzTW1YWEFVUTgtZXZPcmExSmZXdkJzZUJXZzcwTDhOaFphWVhadW5zd2ZrUE5ka1hhVzFheVQ0akU1WDkzeldpRXEybnJmTGJfRjdKYUZjVURnTHZubHBwTzFhV09RalNaM1NnMk5Yc2kxTXUxcE1RLUhZYXlkUk9SNy1ybU54TElNY0stSHdIbHlTRnlsYUdGRTdDTEh0eHRhZnl4S0pHOG5rOFVuU0MtQ0hNdkplYThuejdvVmlxTk56OUF0RXJhRDktSkFoeF9PdTNKMmsxQ1JQY2lrc0NzVmRJYjBYNk9OSk5kVkJFdUp5MHlxSERZUjJqMGhZdGVEaDNWaWtRMXBzN0xIdGk5eVUwck9SNUo0YTFUWFNqNGxTYU02YURQenVnT3pmeUJLczRZSzQ2VkdhdVNZaWRHcjRnalh5ajdoakVhMUdvbUNuQnp0cDYtQUVRZzNvQmFEQjhBc0VqUk5rS2E5cGx6ZU1pb01aUllhNGdvOUlobWV6YVBCQ1VENnVmak1oRVFwcjNLR3psaWViV0NNZk5PaHRVX2ctdHZSa0xielMxaVRzbzVMYVk5cG11ZGpwMzF0bFo4eEI4dFhUM0czWlhpOVlveTl3cklfQWJrREhINS1aUFJsT0RIZUlaUW9UNmdSeGh0ZlZ3dTF2S0xzSEhUclFwVHcyb1BNelFjS2hJWDVfV0czd0hBamN5RGUtb2hmOUtuZGFwVk53ZFk4bUtUMW5VY01Xc2prak01QUl5dVRYeEVqNTI1cTBaSEpJU2ZIQzNGMkdibE55MU9Qc3FmZVhkUGRfWW92SndKNlFySXNTbHFlQXlaRWNkNHh5NEtKaDZhdGVvS3g?oc=5",
+        "publisher": "RFI"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T16:12:11+00:00"
+  },
+  {
+    "id": "osint-2026112618-behindthescenesof",
+    "name": "Hậu trường của Survivor Series: Hình ảnh đội WarGames - WWE",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (WWE): Hậu trường của Survivor Series: Hình ảnh đội WarGames - WWE",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "WWE",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbURaT1VSVzNsYi1ENVNRdlNYTGdfYkNVR3dYVWhGR3RKQ2tiYTlBMzMwcDIydm9sNWNYc3ZzVjBNT1NQUmFFODhRMHk5MUk4b25DSFdqSzlFOFM5N25TOE1ZOG9xdklEZzJHWWtvUEtOYUxfMC1wd0p6RGJCYXFsUk9iY1lkMmJtYlE4dg?oc=5",
+    "articles": [
+      {
+        "title": "Hậu trường của Survivor Series: Hình ảnh đội WarGames - WWE",
+        "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPbURaT1VSVzNsYi1ENVNRdlNYTGdfYkNVR3dYVWhGR3RKQ2tiYTlBMzMwcDIydm9sNWNYc3ZzVjBNT1NQUmFFODhRMHk5MUk4b25DSFdqSzlFOFM5N25TOE1ZOG9xdklEZzJHWWtvUEtOYUxfMC1wd0p6RGJCYXFsUk9iY1lkMmJtYlE4dg?oc=5",
+        "publisher": "WWE"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T15:35:05+00:00"
+  },
+  {
+    "id": "osint-2026112618-250",
+    "name": "Cuộc tập trận chung Singapore-Ấn Độ kết thúc với khoảng 250 binh sĩ tham gia huấn luyện chiến đấu trong rừng - 8world",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Ấn Độ, Singapore",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (8world): Cuộc tập trận chung Singapore-Ấn Độ kết thúc với khoảng 250 binh sĩ tham gia huấn luyện chiến đấu trong rừng - 8world",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 250,
+    "nationsCount": 2,
+    "sourceTitle": "8world",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mMXVFOE9OTVI4X0ViZ0JNbkE2alZkWWVJVzBTUV8xYk52OEs3UVJVY1V6OWpSdXd6cGhiY0c2U25HNkZWbDduak85a2hIcjZvb1Z3b3ZxOHp1UDZ1bk1pbGdCQ2dSY19oRjFKT015S1pBTTA?oc=5",
+    "articles": [
+      {
+        "title": "Cuộc tập trận chung Singapore-Ấn Độ kết thúc với khoảng 250 binh sĩ tham gia huấn luyện chiến đấu trong rừng - 8world",
+        "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE9mMXVFOE9OTVI4X0ViZ0JNbkE2alZkWWVJVzBTUV8xYk52OEs3UVJVY1V6OWpSdXd6cGhiY0c2U25HNkZWbDduak85a2hIcjZvb1Z3b3ZxOHp1UDZ1bk1pbGdCQ2dSY19oRjFKT015S1pBTTA?oc=5",
+        "publisher": "8world"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T13:44:49+00:00"
+  },
+  {
+    "id": "osint-2026112618-14",
+    "name": "Tôi đã xuất ngũ nhưng phải quay lại quân đội? Chuyện gì đã xảy ra với việc Anh gửi thư cho 100.000 quân nhân dự bị để “c",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (서울경제): Tôi đã xuất ngũ nhưng phải quay lại quân đội? Chuyện gì đã xảy ra với việc Anh gửi thư cho 100.000 quân nhân dự bị để “chuẩn bị nhập ngũ” - Seoul Economic Daily",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 100000,
+    "nationsCount": 0,
+    "sourceTitle": "서울경제",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15WFhlMWVDN2xXNmdhc2VwN1p5UG9oanhUdkxMcEdDZGp4d29uZGY4bTNBaWR2WHNDVTRyU0hYWGtxVG82U1pUSksxRUtTNEhDdVHSAVNBVV95cUxOcG5iTXRuNVJYRk9MTnFNcEJwa3k1MUR0RVBkeVZDZ1ZkQTZZSTdmbXU1bXhPODR6QVVSUDA4ZmYzOXV4VlZ3ZURWQXBRcmpWTTZWVQ?oc=5",
+    "articles": [
+      {
+        "title": "Tôi đã xuất ngũ nhưng phải quay lại quân đội? Chuyện gì đã xảy ra với việc Anh gửi thư cho 100.000 quân nhân dự bị để “chuẩn bị nhập ngũ” - Seoul Economic Daily",
+        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE15WFhlMWVDN2xXNmdhc2VwN1p5UG9oanhUdkxMcEdDZGp4d29uZGY4bTNBaWR2WHNDVTRyU0hYWGtxVG82U1pUSksxRUtTNEhDdVHSAVNBVV95cUxOcG5iTXRuNVJYRk9MTnFNcEJwa3k1MUR0RVBkeVZDZ1ZkQTZZSTdmbXU1bXhPODR6QVVSUDA4ZmYzOXV4VlZ3ZURWQXBRcmpWTTZWVQ?oc=5",
+        "publisher": "서울경제"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T13:41:36+00:00"
+  },
+  {
+    "id": "osint-2026112618-6",
+    "name": "Nga và Việt Nam tổ chức diễn tập chung phát hiện và ứng phó tấn công mạng - SecPost",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Việt Nam, Nga",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Tác chiến mạng",
+    "domainLabel": "Tác chiến mạng (Cyber)",
+    "purpose": "Tin tức tự động dịch & cập nhật (SecPost): Nga và Việt Nam tổ chức diễn tập chung phát hiện và ứng phó tấn công mạng - SecPost",
+    "drills": [
+      "Bảo vệ hạ tầng chỉ huy và ứng phó tấn công mạng"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "SecPost",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMTI2M3JTc1J2UVJlcC03MzROR1dVR0hTZzRfY1JzT2pIdFJGNTJJUGU0UW9pVUNycGFIUDZiRUlaR1YxUEJMUTZEci03MF9XS3hMNTdRdklxcE85S3pPSHgyMlBIWllkWS1va25jYXNiVUY3NFRaTUlIZ0I2VHBXYXFFOGRVSHJqYi1mOTNtb0I3STNqb2h5RmtXa2JqMURhaHppaG1KNA?oc=5",
+    "articles": [
+      {
+        "title": "Nga và Việt Nam tổ chức diễn tập chung phát hiện và ứng phó tấn công mạng - SecPost",
+        "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMTI2M3JTc1J2UVJlcC03MzROR1dVR0hTZzRfY1JzT2pIdFJGNTJJUGU0UW9pVUNycGFIUDZiRUlaR1YxUEJMUTZEci03MF9XS3hMNTdRdklxcE85S3pPSHgyMlBIWllkWS1va25jYXNiVUY3NFRaTUlIZ0I2VHBXYXFFOGRVSHJqYi1mOTNtb0I3STNqb2h5RmtXa2JqMURhaHppaG1KNA?oc=5",
+        "publisher": "SecPost"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T12:57:39+00:00"
+  },
+  {
+    "id": "osint-2026112618-13",
+    "name": "“Chuẩn bị triệu tập”… Anh lần đầu tiên gửi thư cho 100.000 quân dự bị kể từ Chiến tranh Lạnh - Báo Doanh nghiệp Maeil",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Anh",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (매일경제): “Chuẩn bị triệu tập”… Anh lần đầu tiên gửi thư cho 100.000 quân dự bị kể từ Chiến tranh Lạnh - Báo Doanh nghiệp Maeil",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 100000,
+    "nationsCount": 1,
+    "sourceTitle": "매일경제",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FczByMlZodC14cGlqb2tmQ09hWGZXTlFNd0Z5al9Ed3czelIxZDk4ZEl2aVRUcHVkMGtJckQ5WjNfeWlmb2c?oc=5",
+    "articles": [
+      {
+        "title": "“Chuẩn bị triệu tập”… Anh lần đầu tiên gửi thư cho 100.000 quân dự bị kể từ Chiến tranh Lạnh - Báo Doanh nghiệp Maeil",
+        "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9FczByMlZodC14cGlqb2tmQ09hWGZXTlFNd0Z5al9Ed3czelIxZDk4ZEl2aVRUcHVkMGtJckQ5WjNfeWlmb2c?oc=5",
+        "publisher": "매일경제"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T12:54:42+00:00"
+  },
+  {
+    "id": "osint-2026112618-wwesurvivorseries",
+    "name": "WWE Survivor Series 2026: Các số liệu thống kê và cốt truyện chính cần biết trước WarGames - ESPN",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (ESPN): WWE Survivor Series 2026: Các số liệu thống kê và cốt truyện chính cần biết trước WarGames - ESPN",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "ESPN",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNmRwam9saHZfYTlCMHJaQ0dIbmJwd29nencxRk9SMUVpSXFyM2V2UUJwX01vRm9zcHVwWm1kbm1ueE9BcUR0TVVBT0FETWVCYTctaVczVTlsRjMtaVJ5eVFiOFhoaWxRYVh6UnNiQlJyOG1ERUFmT1d1Q1JYNlBNUEFuV2lreUk?oc=5",
+    "articles": [
+      {
+        "title": "WWE Survivor Series 2026: Các số liệu thống kê và cốt truyện chính cần biết trước WarGames - ESPN",
+        "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQNmRwam9saHZfYTlCMHJaQ0dIbmJwd29nencxRk9SMUVpSXFyM2V2UUJwX01vRm9zcHVwWm1kbm1ueE9BcUR0TVVBT0FETWVCYTctaVczVTlsRjMtaVJ5eVFiOFhoaWxRYVh6UnNiQlJyOG1ERUFmT1d1Q1JYNlBNUEFuV2lreUk?oc=5",
+        "publisher": "ESPN"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T12:49:00+00:00"
+  },
+  {
+    "id": "osint-2026112618-10",
+    "name": "Anh kêu gọi 100.000 lực lượng dự bị “chuẩn bị huy động thời chiến”… Lần đầu tiên kể từ Chiến tranh Lạnh - Money Today - ",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (머니투데이): Anh kêu gọi 100.000 lực lượng dự bị “chuẩn bị huy động thời chiến”… Lần đầu tiên kể từ Chiến tranh Lạnh - Money Today - Money Today",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "머니투데이",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLUWY1RzRjU3pjdlFlQVd6SFlma1F2Ri1OUlp2RGFvNkJ1OVZzVEFyU0hjR2hTVVQ3VzdqRHpobEVzQjFQMXozYnhPTFJRcFNMeFBkSkk4dnRaT2d4OVJWYnZWcDhnOE52ZVV4ckxn0gFuQVVfeXFMUEtRZjVHNGNTemN2UWVBV3pIWWZrUXZGLU5SWnZEYW82QnU5VnNUQXJTSGNHaFNVVDdXN2pEemhsRXNCMVAxejNieE9MUlFwU0x4UGRKSTh2dFpPZ3g5UlZidlZwOGc4TnZlVXhyTGc?oc=5",
+    "articles": [
+      {
+        "title": "Anh kêu gọi 100.000 lực lượng dự bị “chuẩn bị huy động thời chiến”… Lần đầu tiên kể từ Chiến tranh Lạnh - Money Today - Money Today",
+        "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBLUWY1RzRjU3pjdlFlQVd6SFlma1F2Ri1OUlp2RGFvNkJ1OVZzVEFyU0hjR2hTVVQ3VzdqRHpobEVzQjFQMXozYnhPTFJRcFNMeFBkSkk4dnRaT2d4OVJWYnZWcDhnOE52ZVV4ckxn0gFuQVVfeXFMUEtRZjVHNGNTemN2UWVBV3pIWWZrUXZGLU5SWnZEYW82QnU5VnNUQXJTSGNHaFNVVDdXN2pEemhsRXNCMVAxejNieE9MUlFwU0x4UGRKSTh2dFpPZ3g5UlZidlZwOGc4TnZlVXhyTGc?oc=5",
+        "publisher": "머니투데이"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T12:03:20+00:00"
+  },
+  {
+    "id": "osint-2026112618-10",
+    "name": "Anh, 100.000 quân dự bị \"chuẩn bị nhập ngũ\"... Lần đầu tiên sau Chiến tranh Lạnh - Yonhap News",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Anh",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (연합뉴스): Anh, 100.000 quân dự bị \"chuẩn bị nhập ngũ\"... Lần đầu tiên sau Chiến tranh Lạnh - Yonhap News",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 100000,
+    "nationsCount": 1,
+    "sourceTitle": "연합뉴스",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDV2hMbUlWbmJMSjUwYjNia0Y1enItdnVtWkU5NmJ5YTVBajFENU4yelUxTEpqMWdjbFhhOXNrMUN5Wjlmdjd4YXlLNVVYaGFVaW9fWjZJY2dKeUxBNm1HS9IBYEFVX3lxTFBDV2hMbUlWbmJMSjUwYjNia0Y1enItdnVtWkU5NmJ5YTVBajFENU4yelUxTEpqMWdjbFhhOXNrMUN5Wjlmdjd4YXlLNVVYaGFVaW9fWjZJY2dKeUxBNm1HSw?oc=5",
+    "articles": [
+      {
+        "title": "Anh, 100.000 quân dự bị \"chuẩn bị nhập ngũ\"... Lần đầu tiên sau Chiến tranh Lạnh - Yonhap News",
+        "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBDV2hMbUlWbmJMSjUwYjNia0Y1enItdnVtWkU5NmJ5YTVBajFENU4yelUxTEpqMWdjbFhhOXNrMUN5Wjlmdjd4YXlLNVVYaGFVaW9fWjZJY2dKeUxBNm1HS9IBYEFVX3lxTFBDV2hMbUlWbmJMSjUwYjNia0Y1enItdnVtWkU5NmJ5YTVBajFENU4yelUxTEpqMWdjbFhhOXNrMUN5Wjlmdjd4YXlLNVVYaGFVaW9fWjZJY2dKeUxBNm1HSw?oc=5",
+        "publisher": "연합뉴스"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T10:23:58+00:00"
+  },
+  {
+    "id": "osint-2026112618-hnitrinkhaidi",
+    "name": "Hà Nội triển khai diễn tập bắn đạn thật 2026 - Trung tâm Nội dung số và Truyền thông",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Trung tâm Nội dung số và Truyền thông): Hà Nội triển khai diễn tập bắn đạn thật 2026 - Trung tâm Nội dung số và Truyền thông",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Trung tâm Nội dung số và Truyền thông",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVHQzY1U3V1gwQl9tbW10eDBoNzZaZUt3MmJKMmpWUUdBcWNDZmxiQWoyQWpkVno4NEpKaGtTVS1mRm1wTmc3cFF0VDBvR1o2TUlXY1ZhdFU0N3lQc3R0U2ZKT2lxYW1aYnBRT3M3Z3hiZV9yTXVDUnUzVEszc04wYWJ3MFFKWm1rTmRVNnhKOE1KMXczaE5B?oc=5",
+    "articles": [
+      {
+        "title": "Hà Nội triển khai diễn tập bắn đạn thật 2026 - Trung tâm Nội dung số và Truyền thông",
+        "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNVHQzY1U3V1gwQl9tbW10eDBoNzZaZUt3MmJKMmpWUUdBcWNDZmxiQWoyQWpkVno4NEpKaGtTVS1mRm1wTmc3cFF0VDBvR1o2TUlXY1ZhdFU0N3lQc3R0U2ZKT2lxYW1aYnBRT3M3Z3hiZV9yTXVDUnUzVEszc04wYWJ3MFFKWm1rTmRVNnhKOE1KMXczaE5B?oc=5",
+        "publisher": "Trung tâm Nội dung số và Truyền thông"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T08:44:49+00:00"
+  },
+  {
     "id": "osint-2026112608-5",
     "name": "Diễn tập chung về an ninh mạng giữa Nga và Việt Nam - Digital Russia",
     "dates": "Ghi nhận: 26/11/2026",
@@ -27,6 +386,36 @@
     "updatedAt": "26/11/2026 08:10 UTC",
     "collectedAtIso": "2026-11-26T08:10:40.830121+00:00",
     "publishedAtIso": "2026-11-26T07:50:31+00:00"
+  },
+  {
+    "id": "osint-2026112618-2026electionstaipe",
+    "name": "BẦU CỬ NĂM 2026 Các ứng cử viên thị trưởng Đài Bắc hủy bỏ các cuộc biểu tình trong bối cảnh tranh cãi về việc sử dụng đư",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Đài Loan",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Focus Taiwan): BẦU CỬ NĂM 2026 Các ứng cử viên thị trưởng Đài Bắc hủy bỏ các cuộc biểu tình trong bối cảnh tranh cãi về việc sử dụng đường bộ - Tập trung Đài Loan",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "Focus Taiwan",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40TkRjZXdYVHZYeGFMNFYyb3ZGamJUNmpQVXh6S3dYVG1tbGxzb3BGdUZGUF85cFlDRG1FczZCQWxtWThzWm10a09UZEo5amtiM1VPQkduOA?oc=5",
+    "articles": [
+      {
+        "title": "BẦU CỬ NĂM 2026 Các ứng cử viên thị trưởng Đài Bắc hủy bỏ các cuộc biểu tình trong bối cảnh tranh cãi về việc sử dụng đường bộ - Tập trung Đài Loan",
+        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE40TkRjZXdYVHZYeGFMNFYyb3ZGamJUNmpQVXh6S3dYVG1tbGxzb3BGdUZGUF85cFlDRG1FczZCQWxtWThzWm10a09UZEo5amtiM1VPQkduOA?oc=5",
+        "publisher": "Focus Taiwan"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T07:18:00+00:00"
   },
   {
     "id": "osint-2026112608-bthammuqunkhu",
@@ -88,6 +477,36 @@
     "publishedAtIso": "2026-11-26T05:30:00+00:00"
   },
   {
+    "id": "osint-2026112618-3killed16injured",
+    "name": "3 người chết, 16 người bị thương trong vụ 4 phương tiện đâm nhau trên xa lộ Changhua - Focus Taiwan",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Focus Taiwan): 3 người chết, 16 người bị thương trong vụ 4 phương tiện đâm nhau trên xa lộ Changhua - Focus Taiwan",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Focus Taiwan",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xX0tYQWNweUlCanh5YmROZWY5UTZVQmpCcU9fS2xpSlMxUmFYOWxRQnU2MU1jWGY3aGNBOG10OTJnemFlT0lRa2dIZkk1ODJscFptT1Bn?oc=5",
+    "articles": [
+      {
+        "title": "3 người chết, 16 người bị thương trong vụ 4 phương tiện đâm nhau trên xa lộ Changhua - Focus Taiwan",
+        "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE0xX0tYQWNweUlCanh5YmROZWY5UTZVQmpCcU9fS2xpSlMxUmFYOWxRQnU2MU1jWGY3aGNBOG10OTJnemFlT0lRa2dIZkk1ODJscFptT1Bn?oc=5",
+        "publisher": "Focus Taiwan"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T05:18:00+00:00"
+  },
+  {
     "id": "osint-2026112608-6",
     "name": "Cảnh sát tỉnh Okama và Lực lượng phòng vệ tiến hành huấn luyện chung trong trường hợp xảy ra tấn công khủng bố - Sanyo S",
     "dates": "Ghi nhận: 26/11/2026",
@@ -116,6 +535,36 @@
     "updatedAt": "26/11/2026 08:10 UTC",
     "collectedAtIso": "2026-11-26T08:10:40.830121+00:00",
     "publishedAtIso": "2026-11-26T01:24:08+00:00"
+  },
+  {
+    "id": "osint-2026112618-cnganxakiaho",
+    "name": "Công an xã Đa Kia hoàn thành tốt nhiệm vụ diễn tập khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
+    "dates": "Ghi nhận: 26/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Khu vực Việt Nam & Đông Nam Á",
+    "region": "Việt Nam & Đông Nam Á",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (Công an thành phố Đồng Nai): Công an xã Đa Kia hoàn thành tốt nhiệm vụ diễn tập khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "Công an thành phố Đồng Nai",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tYnN2ZjhUVUVjQ3RZeHptcEd3U01iOC1ZWHdJYllSeDJOWjhuaHdYVHRzY1pDcXFYV3Rrd2lndmVNN1lGdC05OHZsRG9TOVNuZHo1WGJ5eE9vNWJxU1N0TEc4cDlmSllxSTlxcll6RG1zejZGbmx2VHAxa0tlZm8?oc=5",
+    "articles": [
+      {
+        "title": "Công an xã Đa Kia hoàn thành tốt nhiệm vụ diễn tập khu vực phòng thủ năm 2026 - Công an thành phố Đồng Nai",
+        "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1tYnN2ZjhUVUVjQ3RZeHptcEd3U01iOC1ZWHdJYllSeDJOWjhuaHdYVHRzY1pDcXFYV3Rrd2lndmVNN1lGdC05OHZsRG9TOVNuZHo1WGJ5eE9vNWJxU1N0TEc4cDlmSllxSTlxcll6RG1zejZGbmx2VHAxa0tlZm8?oc=5",
+        "publisher": "Công an thành phố Đồng Nai"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-26T00:36:52+00:00"
   },
   {
     "id": "osint-2026112608-chinacambodiacond",
@@ -628,6 +1077,36 @@
     "publishedAtIso": "2026-11-25T09:29:30+00:00"
   },
   {
+    "id": "osint-2026112618-10",
+    "name": "Bộ trưởng quốc phòng Nhật Bản và Singapore nhất trí về tầm quan trọng của các tuyến vận tải hàng hải - Shikoku Shimbun",
+    "dates": "Ghi nhận: 25/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Nhật Bản, Singapore",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (四国新聞): Bộ trưởng quốc phòng Nhật Bản và Singapore nhất trí về tầm quan trọng của các tuyến vận tải hàng hải - Shikoku Shimbun",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 2,
+    "sourceTitle": "四国新聞",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcTduRGI1dWxDWlJOQThaQTRmVVZSbEwtWWdnU1RxNjQxNnhkdG1BbkVtWWg3Yi1nOEhZbzhicnEzUzFrZTgtYnVsVkgtZU81alYwcHJJbk9VdEJRWEN0anlCUVVjTEdzWlpsWEpkLTFETW9BU2g2OU12NVV4N0dQZEtfVQ?oc=5",
+    "articles": [
+      {
+        "title": "Bộ trưởng quốc phòng Nhật Bản và Singapore nhất trí về tầm quan trọng của các tuyến vận tải hàng hải - Shikoku Shimbun",
+        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNcTduRGI1dWxDWlJOQThaQTRmVVZSbEwtWWdnU1RxNjQxNnhkdG1BbkVtWWg3Yi1nOEhZbzhicnEzUzFrZTgtYnVsVkgtZU81alYwcHJJbk9VdEJRWEN0anlCUVVjTEdzWlpsWEpkLTFETW9BU2g2OU12NVV4N0dQZEtfVQ?oc=5",
+        "publisher": "四国新聞"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-25T09:29:00+00:00"
+  },
+  {
     "id": "osint-2026112514-3",
     "name": "Campuchia và Trung Quốc bắt đầu tập trận chung - Anadolu Ajansı",
     "dates": "Ghi nhận: 25/11/2026",
@@ -1136,6 +1615,36 @@
     "updatedAt": "25/11/2026 00:10 UTC",
     "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
     "publishedAtIso": "2026-11-24T22:40:00+00:00"
+  },
+  {
+    "id": "osint-2026112618-contractsfornov2",
+    "name": "Hợp đồng cho ngày 24 tháng 11 năm 2026 - Bộ Chiến tranh Hoa Kỳ (.gov)",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Mỹ",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Đa miền",
+    "domainLabel": "Tác chiến Đa miền (OSINT)",
+    "purpose": "Tin tức tự động dịch & cập nhật (U.S. Department of War (.gov)): Hợp đồng cho ngày 24 tháng 11 năm 2026 - Bộ Chiến tranh Hoa Kỳ (.gov)",
+    "drills": [
+      "Hiệp đồng chỉ huy tham mưu liên quân",
+      "Thực binh bắn đạn thật và bảo đảm hậu cần"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 1,
+    "sourceTitle": "U.S. Department of War (.gov)",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaEpEUEdxZWdWYllUWW9WMVlLVm5IUW5GemtUMFdLWUlNcGVGS1k2bm0tdjNUZFUtbE1GdXBBbnllWDRvZnRwSDk5dXV2THRIVzVNM2ZHOG9DT3NycE5uZ0tucVZaVzZrSzFNWDJHTVFxaFBIUF9KYnVSa1ZCV3dwZkNsTE8tUUxMSndDa01jbw?oc=5",
+    "articles": [
+      {
+        "title": "Hợp đồng cho ngày 24 tháng 11 năm 2026 - Bộ Chiến tranh Hoa Kỳ (.gov)",
+        "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOaEpEUEdxZWdWYllUWW9WMVlLVm5IUW5GemtUMFdLWUlNcGVGS1k2bm0tdjNUZFUtbE1GdXBBbnllWDRvZnRwSDk5dXV2THRIVzVNM2ZHOG9DT3NycE5uZ0tucVZaVzZrSzFNWDJHTVFxaFBIUF9KYnVSa1ZCV3dwZkNsTE8tUUxMSndDa01jbw?oc=5",
+        "publisher": "U.S. Department of War (.gov)"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-24T22:37:07+00:00"
   },
   {
     "id": "osint-2026112500-wwesurvivorseries",
@@ -1768,6 +2277,36 @@
     "publishedAtIso": "2026-11-24T08:30:59+00:00"
   },
   {
+    "id": "osint-2026112618-9",
+    "name": "Phản ứng huấn luyện của Cục An ninh và Cứu nạn Cảnh sát biển Nhật Bản - Bộ Quốc phòng",
+    "dates": "Ghi nhận: 24/11/2026",
+    "status": "Đang diễn ra",
+    "location": "Biển Nhật Bản",
+    "region": "Ấn Độ Dương - Thái Bình Dương",
+    "domain": "Hải quân",
+    "domainLabel": "Hải quân & Chống ngầm",
+    "purpose": "Tin tức tự động dịch & cập nhật (防衛省): Phản ứng huấn luyện của Cục An ninh và Cứu nạn Cảnh sát biển Nhật Bản - Bộ Quốc phòng",
+    "drills": [
+      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
+      "Bảo đảm an ninh hàng hải và bắn đạn thật"
+    ],
+    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
+    "troops": 0,
+    "nationsCount": 0,
+    "sourceTitle": "防衛省",
+    "sourceUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9heHZabDdsUGxyTVp6UWpSTDhsb1JKM0owdm5ZZXZBQTlHQWZidVloZjhuZXZIdHM3N1lxTWZ5WHhwaDJyalhzaDVTVUlqTGFfMEdXb2xyVTFSODcxV0hvS3hn?oc=5",
+    "articles": [
+      {
+        "title": "Phản ứng huấn luyện của Cục An ninh và Cứu nạn Cảnh sát biển Nhật Bản - Bộ Quốc phòng",
+        "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE9heHZabDdsUGxyTVp6UWpSTDhsb1JKM0owdm5ZZXZBQTlHQWZidVloZjhuZXZIdHM3N1lxTWZ5WHhwaDJyalhzaDVTVUlqTGFfMEdXb2xyVTFSODcxV0hvS3hn?oc=5",
+        "publisher": "防衛省"
+      }
+    ],
+    "updatedAt": "26/11/2026 18:24 UTC",
+    "collectedAtIso": "2026-11-26T18:24:22.398794+00:00",
+    "publishedAtIso": "2026-11-24T08:00:00+00:00"
+  },
+  {
     "id": "osint-2026112417-6",
     "name": "Máy bay quân sự Nga tiếp cận không phận Ulleungdo... Chính phủ mời tùy viên quân sự Nga phản đối - Kyunghyang Shinmun",
     "dates": "Ghi nhận: 24/11/2026",
@@ -1856,545 +2395,5 @@
     "updatedAt": "24/11/2026 23:50 UTC",
     "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
     "publishedAtIso": "2026-11-24T07:45:00+00:00"
-  },
-  {
-    "id": "osint-2026112417-9",
-    "name": "Bộ trưởng Bộ Quốc phòng Koizumi tổ chức họp báo bao gồm Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Ấn Độ và lịch trình Hội",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Nhật Bản, Ấn Độ",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (J ディフェンス ニュース): Bộ trưởng Bộ Quốc phòng Koizumi tổ chức họp báo bao gồm Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Ấn Độ và lịch trình Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Chile (20/11) - J Defense News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "J ディフェンス ニュース",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tRVRQdVNzLVNYd1o5eFJHdFBWWGtVZjdYa2ctSWt6V1ViMzFmTWt6SV9iNGlYX0l6MXdYaEhXUVZuV3JfZFJZdnpwci1odHpjcmo5eU1ub0d5ajlU?oc=5",
-    "articles": [
-      {
-        "title": "Bộ trưởng Bộ Quốc phòng Koizumi tổ chức họp báo bao gồm Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Ấn Độ và lịch trình Hội nghị Bộ trưởng Quốc phòng Nhật Bản - Chile (20/11) - J Defense News",
-        "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9tRVRQdVNzLVNYd1o5eFJHdFBWWGtVZjdYa2ctSWt6V1ViMzFmTWt6SV9iNGlYX0l6MXdYaEhXUVZuV3JfZFJZdnpwci1odHpjcmo5eU1ub0d5ajlU?oc=5",
-        "publisher": "J ディフェンス ニュース"
-      }
-    ],
-    "updatedAt": "24/11/2026 17:05 UTC",
-    "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
-    "publishedAtIso": "2026-11-24T07:30:00+00:00"
-  },
-  {
-    "id": "osint-2026112423-phnglngvntri",
-    "name": "Phường Lương Văn Tri hoàn thành xuất sắc diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Baolangson.vn",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Việt Nam & Đông Nam Á",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Baolangson.vn): Phường Lương Văn Tri hoàn thành xuất sắc diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Baolangson.vn",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "Baolangson.vn",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHhJeDF0YkRlMVZFOGI0dXZMczg5RzBCQkhsaUZhblBOTHAyczZtSVJJRm1jTFpuaUVGUnFUem91ZDBNZUJtd19CM1FJWXA0WVhlbmFpUldaSUVIRmJKNXYxdlpMNXJUVXhrcXQ4TUdZYVEzU1FxMTJpZGpWbzc5MDIzVFo0SjFKYU9IcEdMOUNzamVkSVVaR1hMLXZwa09MVmp3MG5USTZKbmFwQ1RBZlo1Zl80Vm9JaGphYkRpNWxKZVhvU1E?oc=5",
-    "articles": [
-      {
-        "title": "Phường Lương Văn Tri hoàn thành xuất sắc diễn tập tác chiến trong khu vực phòng thủ năm 2026 - Baolangson.vn",
-        "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQSHhJeDF0YkRlMVZFOGI0dXZMczg5RzBCQkhsaUZhblBOTHAyczZtSVJJRm1jTFpuaUVGUnFUem91ZDBNZUJtd19CM1FJWXA0WVhlbmFpUldaSUVIRmJKNXYxdlpMNXJUVXhrcXQ4TUdZYVEzU1FxMTJpZGpWbzc5MDIzVFo0SjFKYU9IcEdMOUNzamVkSVVaR1hMLXZwa09MVmp3MG5USTZKbmFwQ1RBZlo1Zl80Vm9JaGphYkRpNWxKZVhvU1E?oc=5",
-        "publisher": "Baolangson.vn"
-      }
-    ],
-    "updatedAt": "24/11/2026 23:23 UTC",
-    "collectedAtIso": "2026-11-24T23:23:12.077470+00:00",
-    "publishedAtIso": "2026-11-24T07:27:35+00:00"
-  },
-  {
-    "id": "osint-2026112423-5",
-    "name": "Bộ Quốc phòng triệu tập và phản đối tùy viên quân sự Nga về việc \"bay sát không phận đảo Ulleungdo\" - Chosunbiz",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Hàn Quốc, Nga",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Chosunbiz): Bộ Quốc phòng triệu tập và phản đối tùy viên quân sự Nga về việc \"bay sát không phận đảo Ulleungdo\" - Chosunbiz",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "Chosunbiz",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlctMmFQcjBVOGNJVC1KT3ZaazdjWmxZWmY4Q3RDbGw0aWVFX1RUMVhoR2dQUnB5NElfcUtrOEdMZ3FGdHV6WEliXzFvMV9ycXlDVnd0aHpKd3F0cml5SHFMNnN4Tkp6U1pHM29HSGhJbEZoMklrSVgzQ0dXOHEzcXVMMNIBlwFBVV95cUxQSjNkMkg0SnF1aGtzb3dfZG5fV3V6RmMzcTNQVlY3OGZiVl93ZGlaTmtNbDhBMTVNckRncTJpWjFMNnFJVGpkbHJ1QU44OEZZNVZzUk5HQ1lkb09fZEVZR3JmbFg0ZzFWRE5FbU9RaXpfT2lxVVBOQ25kM01XY29SWTMwNDJtSEhQVEFkYVhlQVJqZ3dMMDlF?oc=5",
-    "articles": [
-      {
-        "title": "Bộ Quốc phòng triệu tập và phản đối tùy viên quân sự Nga về việc \"bay sát không phận đảo Ulleungdo\" - Chosunbiz",
-        "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOQlctMmFQcjBVOGNJVC1KT3ZaazdjWmxZWmY4Q3RDbGw0aWVFX1RUMVhoR2dQUnB5NElfcUtrOEdMZ3FGdHV6WEliXzFvMV9ycXlDVnd0aHpKd3F0cml5SHFMNnN4Tkp6U1pHM29HSGhJbEZoMklrSVgzQ0dXOHEzcXVMMNIBlwFBVV95cUxQSjNkMkg0SnF1aGtzb3dfZG5fV3V6RmMzcTNQVlY3OGZiVl93ZGlaTmtNbDhBMTVNckRncTJpWjFMNnFJVGpkbHJ1QU44OEZZNVZzUk5HQ1lkb09fZEVZR3JmbFg0ZzFWRE5FbU9RaXpfT2lxVVBOQ25kM01XY29SWTMwNDJtSEhQVEFkYVhlQVJqZ3dMMDlF?oc=5",
-        "publisher": "Chosunbiz"
-      }
-    ],
-    "updatedAt": "24/11/2026 23:23 UTC",
-    "collectedAtIso": "2026-11-24T23:23:12.077470+00:00",
-    "publishedAtIso": "2026-11-24T07:27:00+00:00"
-  },
-  {
-    "id": "osint-2026112417-cambodiaandchinat",
-    "name": "Campuchia và Trung Quốc khởi động cuộc tập trận Rồng Vàng 15 ngày - Khmer Times",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Trung Quốc",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Khmer Times): Campuchia và Trung Quốc khởi động cuộc tập trận Rồng Vàng 15 ngày - Khmer Times",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "Khmer Times",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGxqYjJXeWs4UGszbVFaZjhRbmxjcW10QVg1WTNMSlhvRlE4RE5LUENCNU05MGNsbmhsaVhZWi1SQ29XaUQ5TXBOYkl1dHJkTmVXenlYb1BEcGV0cjk4elMtU3ZlVEdveUowMWlseDhBSHBqX3lDNHozblFKQzlGZmY1V3hqZE5RdEZqTGJVVUJ6MkE1aTZwVzRCVFFMU0NJQ3poZUFycVRsckk?oc=5",
-    "articles": [
-      {
-        "title": "Campuchia và Trung Quốc khởi động cuộc tập trận Rồng Vàng 15 ngày - Khmer Times",
-        "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQbGxqYjJXeWs4UGszbVFaZjhRbmxjcW10QVg1WTNMSlhvRlE4RE5LUENCNU05MGNsbmhsaVhZWi1SQ29XaUQ5TXBOYkl1dHJkTmVXenlYb1BEcGV0cjk4elMtU3ZlVEdveUowMWlseDhBSHBqX3lDNHozblFKQzlGZmY1V3hqZE5RdEZqTGJVVUJ6MkE1aTZwVzRCVFFMU0NJQ3poZUFycVRsckk?oc=5",
-        "publisher": "Khmer Times"
-      }
-    ],
-    "updatedAt": "24/11/2026 17:05 UTC",
-    "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
-    "publishedAtIso": "2026-11-24T07:11:06+00:00"
-  },
-  {
-    "id": "osint-2026112423-indiamalaysiajoi",
-    "name": "Cuộc tập trận chung Ấn Độ - Malaysia Harimau Shakti 2026 tập trung vào chiến tranh máy bay không người lái",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Ấn Độ, Malaysia",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Phòng không",
-    "domainLabel": "Phòng không & Chống UAV",
-    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Cuộc tập trận chung Ấn Độ - Malaysia Harimau Shakti 2026 tập trung vào chiến tranh máy bay không người lái",
-    "drills": [
-      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
-      "Phát hiện và chế áp UAV (Counter-UAS)"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "news.webindia123.com",
-    "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523738.html",
-    "articles": [
-      {
-        "title": "Cuộc tập trận chung Ấn Độ - Malaysia Harimau Shakti 2026 tập trung vào chiến tranh máy bay không người lái",
-        "url": "https://news.webindia123.com/news/Articles/World/20261124/4523738.html",
-        "publisher": "news.webindia123.com"
-      }
-    ],
-    "updatedAt": "24/11/2026 23:50 UTC",
-    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
-    "publishedAtIso": "2026-11-24T06:30:00+00:00"
-  },
-  {
-    "id": "osint-2026112423-indiasrilankaco",
-    "name": "Ấn Độ - Sri Lanka tiến hành cuộc tập trận chung Mitra Shakti 2026 ở Maduru Oya",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Ấn Độ",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (news.webindia123.com): Ấn Độ - Sri Lanka tiến hành cuộc tập trận chung Mitra Shakti 2026 ở Maduru Oya",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "news.webindia123.com",
-    "sourceUrl": "https://news.webindia123.com/news/Articles/World/20261124/4523745.html",
-    "articles": [
-      {
-        "title": "Ấn Độ - Sri Lanka tiến hành cuộc tập trận chung Mitra Shakti 2026 ở Maduru Oya",
-        "url": "https://news.webindia123.com/news/Articles/World/20261124/4523745.html",
-        "publisher": "news.webindia123.com"
-      }
-    ],
-    "updatedAt": "24/11/2026 23:50 UTC",
-    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
-    "publishedAtIso": "2026-11-24T06:30:00+00:00"
-  },
-  {
-    "id": "osint-2026112502-whatisrussiasigna",
-    "name": "Nga báo hiệu điều gì khi liên tục bay quân sự gần Triều Tiên? - Báo Hàn Quốc",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Hàn Quốc, Triều Tiên, Nga",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Nga báo hiệu điều gì khi liên tục bay quân sự gần Triều Tiên? - Báo Hàn Quốc",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 3,
-    "sourceTitle": "The Korea Herald",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PMFdlZVhqTDNoYVgxV0RVMkVVTlpSN0tJbHVfSENKdkdCODhNTGo4SnZDbTFKWnkweHl1c2VReFVOeVNpME1VOWxWWFRvX192bE5ZMnhzMA?oc=5",
-    "articles": [
-      {
-        "title": "Nga báo hiệu điều gì khi liên tục bay quân sự gần Triều Tiên? - Báo Hàn Quốc",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9PMFdlZVhqTDNoYVgxV0RVMkVVTlpSN0tJbHVfSENKdkdCODhNTGo4SnZDbTFKWnkweHl1c2VReFVOeVNpME1VOWxWWFRvX192bE5ZMnhzMA?oc=5",
-        "publisher": "The Korea Herald"
-      }
-    ],
-    "updatedAt": "25/11/2026 02:22 UTC",
-    "collectedAtIso": "2026-11-25T02:22:50.431996+00:00",
-    "publishedAtIso": "2026-11-24T06:06:34+00:00"
-  },
-  {
-    "id": "osint-2026112417-pmtariqueheadsto",
-    "name": "Thủ tướng Tarique tới Swarnadwip để tham gia cuộc tập trận quân sự chung - https://www.businesstimes-bd.com/",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (https://www.businesstimes-bd.com/): Thủ tướng Tarique tới Swarnadwip để tham gia cuộc tập trận quân sự chung - https://www.businesstimes-bd.com/",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "https://www.businesstimes-bd.com/",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FUnp3b3hLN1Q3YTlpNWpkYXQ2N2dMeVBCMjdBc1VRdzdmTW9ERjN0Wk5zQjVnNEh3Y0ZheWF1dll4UDNkUjFjbkJvMDVHRXl6ZlN1UVFFY1ZWb1U?oc=5",
-    "articles": [
-      {
-        "title": "Thủ tướng Tarique tới Swarnadwip để tham gia cuộc tập trận quân sự chung - https://www.businesstimes-bd.com/",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5FUnp3b3hLN1Q3YTlpNWpkYXQ2N2dMeVBCMjdBc1VRdzdmTW9ERjN0Wk5zQjVnNEh3Y0ZheWF1dll4UDNkUjFjbkJvMDVHRXl6ZlN1UVFFY1ZWb1U?oc=5",
-        "publisher": "https://www.businesstimes-bd.com/"
-      }
-    ],
-    "updatedAt": "24/11/2026 17:05 UTC",
-    "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
-    "publishedAtIso": "2026-11-24T06:02:19+00:00"
-  },
-  {
-    "id": "osint-2026112500-justiceministernom",
-    "name": "Ứng cử viên Bộ trưởng Tư pháp từ chối loại trừ khả năng rút lại các cáo buộc đối với ông Lee - The Korea Herald",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Pháp",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Ứng cử viên Bộ trưởng Tư pháp từ chối loại trừ khả năng rút lại các cáo buộc đối với ông Lee - The Korea Herald",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "The Korea Herald",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85N2l1clVRbEFzdHVYN0N4eWtHRlBQUDYtSGRIM0d0UVRyMVpLYmdoOTdncF83OTJReUhsVVN3ZU4teW5MU2hCUVNkcGk2WXpuSlBTZkFLVQ?oc=5",
-    "articles": [
-      {
-        "title": "Ứng cử viên Bộ trưởng Tư pháp từ chối loại trừ khả năng rút lại các cáo buộc đối với ông Lee - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE85N2l1clVRbEFzdHVYN0N4eWtHRlBQUDYtSGRIM0d0UVRyMVpLYmdoOTdncF83OTJReUhsVVN3ZU4teW5MU2hCUVNkcGk2WXpuSlBTZkFLVQ?oc=5",
-        "publisher": "The Korea Herald"
-      }
-    ],
-    "updatedAt": "25/11/2026 00:29 UTC",
-    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
-    "publishedAtIso": "2026-11-24T06:00:44+00:00"
-  },
-  {
-    "id": "osint-2026112500-1463",
-    "name": "146 sĩ quan mới của Không quân được bổ nhiệm... Ba thế hệ gia đình quân nhân và số quân nhân thứ ba trở thành đề tài nón",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Phòng không",
-    "domainLabel": "Phòng không & Chống UAV",
-    "purpose": "Tin tức tự động dịch & cập nhật (신아일보): 146 sĩ quan mới của Không quân được bổ nhiệm... Ba thế hệ gia đình quân nhân và số quân nhân thứ ba trở thành đề tài nóng - Báo Sina",
-    "drills": [
-      "Phòng không - phòng thủ tên lửa tích hợp (IAMD)",
-      "Phát hiện và chế áp UAV (Counter-UAS)"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 146,
-    "nationsCount": 0,
-    "sourceTitle": "신아일보",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZZGkzcjlBak9UNmNNa2lZbDlaV0VtbU1CelRuUWhTLXRSUlQxMjhxOGJzcDkxYXFRbGg1XzFwbS11ZXA5OFZubVZ6OWM3b2Z0OEVQUWFkV2FLdmJBMGNxeXVYZWZiX3pvdDhSaF83TFo?oc=5",
-    "articles": [
-      {
-        "title": "146 sĩ quan mới của Không quân được bổ nhiệm... Ba thế hệ gia đình quân nhân và số quân nhân thứ ba trở thành đề tài nóng - Báo Sina",
-        "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1ZZGkzcjlBak9UNmNNa2lZbDlaV0VtbU1CelRuUWhTLXRSUlQxMjhxOGJzcDkxYXFRbGg1XzFwbS11ZXA5OFZubVZ6OWM3b2Z0OEVQUWFkV2FLdmJBMGNxeXVYZWZiX3pvdDhSaF83TFo?oc=5",
-        "publisher": "신아일보"
-      }
-    ],
-    "updatedAt": "25/11/2026 00:29 UTC",
-    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
-    "publishedAtIso": "2026-11-24T05:51:54+00:00"
-  },
-  {
-    "id": "osint-2026112500-poscogroupcomplete",
-    "name": "Tập đoàn Posco hoàn tất việc mua lại mỏ khí đá phiến của Hoa Kỳ - The Korea Herald",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Mỹ",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (The Korea Herald): Tập đoàn Posco hoàn tất việc mua lại mỏ khí đá phiến của Hoa Kỳ - The Korea Herald",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "The Korea Herald",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSWTc5NVpFbnZ6NGxOTW5Kb1JEbjFwNkYzOG5TRDRzaUE4T21PRndKdmREUVVsMTR4UHVyaVo5a3BjNjZzSmdMR1NPaDIyLUNCMWdoX1NiMA?oc=5",
-    "articles": [
-      {
-        "title": "Tập đoàn Posco hoàn tất việc mua lại mỏ khí đá phiến của Hoa Kỳ - The Korea Herald",
-        "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBSWTc5NVpFbnZ6NGxOTW5Kb1JEbjFwNkYzOG5TRDRzaUE4T21PRndKdmREUVVsMTR4UHVyaVo5a3BjNjZzSmdMR1NPaDIyLUNCMWdoX1NiMA?oc=5",
-        "publisher": "The Korea Herald"
-      }
-    ],
-    "updatedAt": "25/11/2026 00:29 UTC",
-    "collectedAtIso": "2026-11-25T00:29:11.512437+00:00",
-    "publishedAtIso": "2026-11-24T05:35:24+00:00"
-  },
-  {
-    "id": "osint-2026112500-yle",
-    "name": "Yle: Nga tăng cường thị trấn quân sự Kamenka gần biên giới với Phần Lan - DW.com",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Nga, Phần Lan",
-    "region": "Châu Âu & Bắc Đại Tây Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (DW.com): Yle: Nga tăng cường thị trấn quân sự Kamenka gần biên giới với Phần Lan - DW.com",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "DW.com",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VfbURJOTVmUThubEU4UzVycTNMM3ZZZExwVk81cFdUNWd0RmZVTEpxRk13NXE4b2xJU2o2NEpLTmRybXZZNkdHTXBTaHBBdGl0YkZWZHAtSHZJcHBIZlBNOTNzT1BWcDRBUFBNT2o4eUtIdXlZU3hOYnBMMXEzbWVFc290Q25QaUJUSGE5QUk5UXk0YTFQMS1zYnhubWpaWGfSAaIBQVVfeXFMTTFUVWQ2WUVSVGI2RnZLMHRKdjhkSm5YWnh2MjB1S3czRE10b3JKUzQ2Qm9CZk1Qeko5SXZVSXVFNlY5MnBabEhXNm1MSnFMaW1hQnN6c1RvOG1RUDdNREt5dU50QXlMUmsydmotYUdTLW5feWRHR1Y4MnU5SW9zbWV1V1d0ZGJnaFA4ZXV4ZHRzbGhTcEpLdE1pWE9iakJoOUx3?oc=5",
-    "articles": [
-      {
-        "title": "Yle: Nga tăng cường thị trấn quân sự Kamenka gần biên giới với Phần Lan - DW.com",
-        "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQT2VfbURJOTVmUThubEU4UzVycTNMM3ZZZExwVk81cFdUNWd0RmZVTEpxRk13NXE4b2xJU2o2NEpLTmRybXZZNkdHTXBTaHBBdGl0YkZWZHAtSHZJcHBIZlBNOTNzT1BWcDRBUFBNT2o4eUtIdXlZU3hOYnBMMXEzbWVFc290Q25QaUJUSGE5QUk5UXk0YTFQMS1zYnhubWpaWGfSAaIBQVVfeXFMTTFUVWQ2WUVSVGI2RnZLMHRKdjhkSm5YWnh2MjB1S3czRE10b3JKUzQ2Qm9CZk1Qeko5SXZVSXVFNlY5MnBabEhXNm1MSnFMaW1hQnN6c1RvOG1RUDdNREt5dU50QXlMUmsydmotYUdTLW5feWRHR1Y4MnU5SW9zbWV1V1d0ZGJnaFA4ZXV4ZHRzbGhTcEpLdE1pWE9iakJoOUx3?oc=5",
-        "publisher": "DW.com"
-      }
-    ],
-    "updatedAt": "25/11/2026 00:10 UTC",
-    "collectedAtIso": "2026-11-25T00:10:12.755259+00:00",
-    "publishedAtIso": "2026-11-24T05:15:28+00:00"
-  },
-  {
-    "id": "osint-2026112417-8",
-    "name": "Cuộc tập trận “Rồng Vàng” giữa Campuchia và Trung Quốc sẽ bắt đầu vào ngày mai và quy mô sẽ được mở rộng. Tàu chiến Trun",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Trung Quốc",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (柬中時報): Cuộc tập trận “Rồng Vàng” giữa Campuchia và Trung Quốc sẽ bắt đầu vào ngày mai và quy mô sẽ được mở rộng. Tàu chiến Trung Quốc sẽ tham gia tập trận - Campuchia-China Times",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "柬中時報",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Jam1Sc1gxaDR2ZFFEdEswYXlncHo5TTFYYjBDRDQ2SXdtVGdfMlczQ2tqaXhnVlg3OXBrRVV0d0ZZbFcwREww?oc=5",
-    "articles": [
-      {
-        "title": "Cuộc tập trận “Rồng Vàng” giữa Campuchia và Trung Quốc sẽ bắt đầu vào ngày mai và quy mô sẽ được mở rộng. Tàu chiến Trung Quốc sẽ tham gia tập trận - Campuchia-China Times",
-        "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE1Jam1Sc1gxaDR2ZFFEdEswYXlncHo5TTFYYjBDRDQ2SXdtVGdfMlczQ2tqaXhnVlg3OXBrRVV0d0ZZbFcwREww?oc=5",
-        "publisher": "柬中時報"
-      }
-    ],
-    "updatedAt": "24/11/2026 17:05 UTC",
-    "collectedAtIso": "2026-11-24T17:05:52.490230+00:00",
-    "publishedAtIso": "2026-11-24T04:07:00+00:00"
-  },
-  {
-    "id": "osint-2026112404-pmvisitsswarnadwi",
-    "name": "Thủ tướng thăm Swarna Dwip hôm nay để quan sát cuộc diễn tập quân sự chung - RTV News",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (RTV News): Thủ tướng thăm Swarna Dwip hôm nay để quan sát cuộc diễn tập quân sự chung - RTV News",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "RTV News",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yMXZPY1FuRUQxOWkybEl0SlZYblVEVkFqeEoybjFmQlNwcjBUdlNyT25RckktUm5ydWNydm5mV2pCc3I3OVA3LXFEeXhndkxTcFpEME4zajV4aVU?oc=5",
-    "articles": [
-      {
-        "title": "Thủ tướng thăm Swarna Dwip hôm nay để quan sát cuộc diễn tập quân sự chung - RTV News",
-        "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE8yMXZPY1FuRUQxOWkybEl0SlZYblVEVkFqeEoybjFmQlNwcjBUdlNyT25RckktUm5ydWNydm5mV2pCc3I3OVA3LXFEeXhndkxTcFpEME4zajV4aVU?oc=5",
-        "publisher": "RTV News"
-      }
-    ],
-    "updatedAt": "24/11/2026 04:40 UTC",
-    "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
-    "publishedAtIso": "2026-11-24T04:03:27+00:00"
-  },
-  {
-    "id": "osint-2026112404-tariquerahmantoin",
-    "name": "Tarique Rahman sẽ thị sát cuộc diễn tập quân sự đặc biệt vào hôm nay - Bangladesh Post",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Khu vực Ấn Độ Dương - Thái Bình Dương",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Bangladesh Post): Tarique Rahman sẽ thị sát cuộc diễn tập quân sự đặc biệt vào hôm nay - Bangladesh Post",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 0,
-    "sourceTitle": "Bangladesh Post",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTU1OV3VZTlM1MWFkSVFoR09zdXNxYVRHUG1sM2lteWNDQkVVOUtCTExna0I0dFJ3cEo2U2pGR3hOTFp4TE1mWUk1cW1oZ1lORWV1WEN5ejFlS19BV29pNXdsYUZVQXJzQkE1VGlVVDd3cThwNlhaUDNsSUJFNjVrTlhOeFEzZVJUQ3NZcmtiSWVNN2VRX3p3OVF3?oc=5",
-    "articles": [
-      {
-        "title": "Tarique Rahman sẽ thị sát cuộc diễn tập quân sự đặc biệt vào hôm nay - Bangladesh Post",
-        "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQTU1OV3VZTlM1MWFkSVFoR09zdXNxYVRHUG1sM2lteWNDQkVVOUtCTExna0I0dFJ3cEo2U2pGR3hOTFp4TE1mWUk1cW1oZ1lORWV1WEN5ejFlS19BV29pNXdsYUZVQXJzQkE1VGlVVDd3cThwNlhaUDNsSUJFNjVrTlhOeFEzZVJUQ3NZcmtiSWVNN2VRX3p3OVF3?oc=5",
-        "publisher": "Bangladesh Post"
-      }
-    ],
-    "updatedAt": "24/11/2026 04:40 UTC",
-    "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
-    "publishedAtIso": "2026-11-24T03:52:02+00:00"
-  },
-  {
-    "id": "osint-2026112404-dintplinhpch",
-    "name": "Diễn tập liên hợp chống khủng bố giữa lực lượng Bộ đội Biên phòng hai nước Việt Nam - Trung Quốc - Báo Biên phòng",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Việt Nam, Trung Quốc",
-    "region": "Việt Nam & Đông Nam Á",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (Báo Biên phòng): Diễn tập liên hợp chống khủng bố giữa lực lượng Bộ đội Biên phòng hai nước Việt Nam - Trung Quốc - Báo Biên phòng",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "Báo Biên phòng",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnRGS2tHMmNhNWdmQXM4OThVQ29JSGpvdGNiMjFiMVBOcDZPd1dfNXdsV00zUmZEelRpTTRaVVBva1BodWtWTGVkb1oxcW9sNEg2ampETWNOVnNHb01VOEpYYTBwZVozRVhuX3hoamk4X3VTZTV2T2FGWjBzTVFFcURldXV6cjRXU2JvbDhzVzRZZHFaTmxIbjEtcmdOck5CWTJrR1FieTd6TU9EMTlWcFY5Q2JLWndIV0c3R1pJQXBCVkVMS1o5Unk3Umt4eVp3ZTFiS3hn?oc=5",
-    "articles": [
-      {
-        "title": "Diễn tập liên hợp chống khủng bố giữa lực lượng Bộ đội Biên phòng hai nước Việt Nam - Trung Quốc - Báo Biên phòng",
-        "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOYnRGS2tHMmNhNWdmQXM4OThVQ29JSGpvdGNiMjFiMVBOcDZPd1dfNXdsV00zUmZEelRpTTRaVVBva1BodWtWTGVkb1oxcW9sNEg2ampETWNOVnNHb01VOEpYYTBwZVozRVhuX3hoamk4X3VTZTV2T2FGWjBzTVFFcURldXV6cjRXU2JvbDhzVzRZZHFaTmxIbjEtcmdOck5CWTJrR1FieTd6TU9EMTlWcFY5Q2JLWndIV0c3R1pJQXBCVkVMS1o5Unk3Umt4eVp3ZTFiS3hn?oc=5",
-        "publisher": "Báo Biên phòng"
-      }
-    ],
-    "updatedAt": "24/11/2026 04:40 UTC",
-    "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
-    "publishedAtIso": "2026-11-24T03:32:41+00:00"
-  },
-  {
-    "id": "osint-2026112423-jointexerciseshi",
-    "name": "Các cuộc tập trận chung, các chuyến thăm cấp cao phản ánh mối quan hệ quốc phòng Ấn Độ - Mỹ ngày càng sâu sắc",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Ấn Độ",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Đa miền",
-    "domainLabel": "Tác chiến Đa miền (OSINT)",
-    "purpose": "Tin tức tự động dịch & cập nhật (dailyexcelsior.com): Các cuộc tập trận chung, các chuyến thăm cấp cao phản ánh mối quan hệ quốc phòng Ấn Độ - Mỹ ngày càng sâu sắc",
-    "drills": [
-      "Hiệp đồng chỉ huy tham mưu liên quân",
-      "Thực binh bắn đạn thật và bảo đảm hậu cần"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 1,
-    "sourceTitle": "dailyexcelsior.com",
-    "sourceUrl": "https://www.dailyexcelsior.com/joint-exercises-high-level-visits-reflect-deepening-of-india-us-defence-ties/",
-    "articles": [
-      {
-        "title": "Các cuộc tập trận chung, các chuyến thăm cấp cao phản ánh mối quan hệ quốc phòng Ấn Độ - Mỹ ngày càng sâu sắc",
-        "url": "https://www.dailyexcelsior.com/joint-exercises-high-level-visits-reflect-deepening-of-india-us-defence-ties/",
-        "publisher": "dailyexcelsior.com"
-      }
-    ],
-    "updatedAt": "24/11/2026 23:50 UTC",
-    "collectedAtIso": "2026-11-24T23:50:02.282812+00:00",
-    "publishedAtIso": "2026-11-24T03:30:00+00:00"
-  },
-  {
-    "id": "osint-2026112404-kadiz",
-    "name": "Sau khi máy bay quân sự Nga xâm nhập vào Vùng nhận dạng phòng không Hàn Quốc (KADIZ) ở Biển Nhật Bản rồi rời đi... Đâu l",
-    "dates": "Ghi nhận: 24/11/2026",
-    "status": "Đang diễn ra",
-    "location": "Biển Nhật Bản (Hàn Quốc, Nga)",
-    "region": "Ấn Độ Dương - Thái Bình Dương",
-    "domain": "Hải quân",
-    "domainLabel": "Hải quân & Chống ngầm",
-    "purpose": "Tin tức tự động dịch & cập nhật (BBC): Sau khi máy bay quân sự Nga xâm nhập vào Vùng nhận dạng phòng không Hàn Quốc (KADIZ) ở Biển Nhật Bản rồi rời đi... Đâu là mục đích của các chuyến bay lặp đi lặp lại? - BBC",
-    "drills": [
-      "Tác chiến biên đội mặt nước và chống ngầm (ASW)",
-      "Bảo đảm an ninh hàng hải và bắn đạn thật"
-    ],
-    "forces": "Lực lượng vũ trang tham gia theo thông cáo báo chí",
-    "troops": 0,
-    "nationsCount": 2,
-    "sourceTitle": "BBC",
-    "sourceUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bGdOWFVxRndweFdxOG1YMjBHa2xNWFVGamUxSmo4ZkpzWm5qTUFjLWZRcHJ1a1NzQjV3VXVUQVlxRjRLLUF6RzhlenhTaEl4OGM4c3FPcFAtVkFBaW1TNTdZONIBY0FVX3lxTE05bGdOWFVxRndweFdxOG1YMjBHa2xNWFVGamUxSmo4ZkpzWm5qTUFjLWZRcHJ1a1NzQjV3VXVUQVlxRjRLLUF6RzhlenhTaEl4OGM4c3FPcFAtVkFBaW1TNTdZOA?oc=5",
-    "articles": [
-      {
-        "title": "Sau khi máy bay quân sự Nga xâm nhập vào Vùng nhận dạng phòng không Hàn Quốc (KADIZ) ở Biển Nhật Bản rồi rời đi... Đâu là mục đích của các chuyến bay lặp đi lặp lại? - BBC",
-        "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE05bGdOWFVxRndweFdxOG1YMjBHa2xNWFVGamUxSmo4ZkpzWm5qTUFjLWZRcHJ1a1NzQjV3VXVUQVlxRjRLLUF6RzhlenhTaEl4OGM4c3FPcFAtVkFBaW1TNTdZONIBY0FVX3lxTE05bGdOWFVxRndweFdxOG1YMjBHa2xNWFVGamUxSmo4ZkpzWm5qTUFjLWZRcHJ1a1NzQjV3VXVUQVlxRjRLLUF6RzhlenhTaEl4OGM4c3FPcFAtVkFBaW1TNTdZOA?oc=5",
-        "publisher": "BBC"
-      }
-    ],
-    "updatedAt": "24/11/2026 04:40 UTC",
-    "collectedAtIso": "2026-11-24T04:40:30.636232+00:00",
-    "publishedAtIso": "2026-11-24T03:14:23+00:00"
   }
 ]
